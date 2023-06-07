@@ -1,0 +1,61 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: MI 250
+email: wash@msu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Introduction to Applied Programming: A course for non-programmers to 
+  introduce them to basic concepts of programming that are useful in careers
+  where most of the time is not spent programming, but some technical 
+  knowledge is useful.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mi250.cas.msu.edu" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: just-the-docs
+
+working: false
+
+defaults:
+  -
+    scope:
+      path: "readings"
+      type: "pages"
+    values:
+      visible: true
+      layout: reading
+      nav_order: 1
+      grand_parent: Schedule
+      title: "Readings"
+  -
+    scope:
+      path: "labs"
+      type: "pages"
+    values:
+      visible: false
+      layout: lab
+      nav_order: 2
+      grand_parent: Schedule
+      title: "Lab"
+  -
+    scope:
+      path: "studios"
+      type: "pages"
+    values:
+      visible: false
+      layout: studio
+      nav_order: 3
+      grand_parent: Schedule
+      title: "Studio"
+  -
+    scope:
+      path: "week"
+      type: "pages"
+    values:
+      layout: week
+      parent: Schedule
+      has_children: true
+      has_toc: false
