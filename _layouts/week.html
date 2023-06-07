@@ -1,0 +1,17 @@
+---
+layout: home
+---
+
+{% assign reading = site.html_pages | where: "layout", "reading" | where: "parent", page.title | first  %}
+{% assign lab = site.html_pages | where: "layout", "lab" | where: "parent", page.title | first %}
+{% assign studio = site.html_pages | where: "layout", "studio" | where: "parent", page.title | first  %}
+
+<h3 class="weekly-readings"> Readings: <a href="{{reading.url | relative_url}}">{{reading.topic}}</a> </h3>
+{% if lab.visible %}
+<h3 class="weekly-lab"> Lab: <a href="{{lab.url | relative_url}}">{{lab.topic}}</a> </h3>
+{% endif %}
+{% if studio.visible %}
+<h3 class="weekly-studio"> Studio: <a href="{{studio.url | relative_url}}">{{studio.topic}}</a> </h3>
+{% endif %}
+
+

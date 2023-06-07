@@ -1,0 +1,14 @@
+---
+layout: home
+---
+
+{% assign lab = site.html_pages | where: "layout", "lab" | where: "parent", page.parent | first %}
+{% assign studio = site.html_pages | where: "layout", "studio" | where: "parent", page.parent | first  %}
+
+<!-- <h3 class="weekly-lab"> Lab: <a href="{{lab.url | relative_url}}">{{lab.topic}}</a> </h3> -->
+<!-- <h3 class="weekly-studio"> Studio: <a href="{{studio.url | relative_url}}">{{studio.topic}}</a> </h3> -->
+
+
+<h1> {{ page.topic }} </h1>
+
+{{ content }}
