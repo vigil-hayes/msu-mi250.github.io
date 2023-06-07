@@ -4,14 +4,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MI 250
-email: wash@msu.edu
+email: geierac@msu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Introduction to Applied Programming: A course for non-programmers to 
   introduce them to basic concepts of programming that are useful in careers
   where most of the time is not spent programming, but some technical 
   knowledge is useful.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mi250.cas.msu.edu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://geieracmsu.github.io/mi250" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
