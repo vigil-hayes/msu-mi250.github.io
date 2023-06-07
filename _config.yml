@@ -15,7 +15,8 @@ url: "https://geieracmsu.github.io/mi250" # the base hostname & protocol for you
 
 # Build settings
 markdown: kramdown
-theme: just-the-docs
+#theme: just-the-docs
+remote_theme: just-the-docs
 
 working: false
 
