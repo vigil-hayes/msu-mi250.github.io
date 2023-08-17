@@ -1,7 +1,6 @@
 ---
-parent: Week 4
+parent: Week 5
 topic: Turtles
-layout: studio
 git: https://gitlab.msu.edu/mi-250/turtles
 nav_exclude: false
 visible: true

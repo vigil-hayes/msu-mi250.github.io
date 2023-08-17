@@ -1,6 +1,6 @@
 ---
 topic: Loops and Variables
-parent: Week 3
+parent: Week 4
 ---
 
 The readings for this week cover three topics.  First, we will learn a bit about loops -- while loops and for loops.

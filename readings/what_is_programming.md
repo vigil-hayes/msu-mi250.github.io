@@ -1,6 +1,8 @@
 ---
 topic: What is programming?
-parent: Week 0
+parent: Week 1
+visible: true
+published: true
 ---
 
 This week, we get starting with our first steps toward programming.  

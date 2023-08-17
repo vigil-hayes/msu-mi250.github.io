@@ -1,9 +1,9 @@
 ---
 topic: Testing 
 git: https://gitlab.msu.edu/mi-250/testing
-published: false
+parent: Week 14
 nav_exclude: true
-visible: false
+visible: true
 ---
 
 ## Install PyTest

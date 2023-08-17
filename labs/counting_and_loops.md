@@ -1,5 +1,5 @@
 ---
-parent: Week 3
+parent: Week 4
 topic: Counting and Loops 
 git: https://gitlab.msu.edu/mi-250/counting-and-loops
 nav_exclude: false

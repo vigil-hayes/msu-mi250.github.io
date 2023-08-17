@@ -1,7 +1,6 @@
 ---
 parent: Week 5
 topic: Country Flag Studio
-layout: lab
 nav_exclude: false
 visible: true
 ---

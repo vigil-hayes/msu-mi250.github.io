@@ -1,9 +1,7 @@
 ---
-parent: Week 1
+parent: Week 2
 topic: Control Flow
 git: https://gitlab.msu.edu/mi-250/control-flow
-layout: studio
-title: Studio
 nav_order: 3
 visible: true
 ---

@@ -1,6 +1,7 @@
 ---
 topic: Creativity
 parent: Final Week
+visible: true
 ---
 
 There are no readings for this week.  However, I would like you to think about and

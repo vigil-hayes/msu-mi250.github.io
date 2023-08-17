@@ -1,6 +1,6 @@
 ---
 topic: Variables 
-parent: Week 1
+parent: Week 2
 ---
 
 

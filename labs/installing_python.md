@@ -1,5 +1,5 @@
 ---
-parent: Week 0
+parent: Week 1
 topic: Getting Started
 git: https://gitlab.msu.edu/mi-250/getting-started
 layout: studio

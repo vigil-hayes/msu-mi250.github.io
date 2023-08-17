@@ -1,5 +1,5 @@
 ---
-parent: Week 2
+parent: Week 3
 topic: Git and GitLab
 git: https://gitlab.msu.edu/mi-250/git-and-gitlab
 nav_exclude: false

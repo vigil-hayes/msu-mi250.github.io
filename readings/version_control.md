@@ -1,6 +1,6 @@
 ---
 topic: Version Control
-parent: Week 2
+parent: Week 3
 ---
 
 The readings / videos for the this week cover a type of technology called "version control" that allows programmers to
