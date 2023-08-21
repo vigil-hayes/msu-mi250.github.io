@@ -601,7 +601,7 @@
   },"100": {
     "doc": "Studio",
     "title": "Submit",
-    "content": "At the end of the class period, please take a screen shot of Eliza working on your computer – preferably showing some of the new responses you’ve added – and submit it on D2L. Other . If for some reason, you cannot download the Eliza program from the gitlab link at the top of the page, you can download it here: . | eliza.py | . ",
+    "content": "At the end of the class period, please take a screen shot of Eliza working on your computer – preferably showing some of the new responses you’ve added – and submit it on D2L. Other . If for some reason, you cannot download the Eliza program from the gitlab link at the top of the page, you can download it here: . (link here) . ",
     "url": "/labs/installing_python.html#submit",
     "relUrl": "/labs/installing_python.html#submit"
   },"101": {
@@ -889,7 +889,7 @@
   },"148": {
     "doc": "Schedule",
     "title": "Course Schedule",
-    "content": ". | Week | Topic / Readings | Lab | Studio | . | Week 1 (Aug 29 / 31) | What is programming? | Intro to Class | Getting Started | . | Week 2 (Sept 5 / 7) | Variables | Control Flow | Choose your own adventure | . | Week 4 (Sept 12 / 14) | Version Control | Git and GitLab | Flash Cards | . | Week 4 (Sept 19 / 21) | Loops and Variables | Counting and Loops | | . | Week 5 (Sept 26 / 28) | Drawing | Turtles | Country Flag Studio | . | Week 6 (Oct 3 / 5) | Lists and Randomness | Using Lists | | . | Week 7 (Oct 10 / 12) | Functions | Drawing with Functions | Speak in Emoji | . | Week 8 (Oct 17 / 19) | Dictionaries | Dictionaries as Data Structures | Secret Message | . | Week 9 (Oct 24 / 26) | Revisiting Functions | NO CLASS - fall break | Tic Tac Toe | . | Week 10 (Oct 31 / Nov 2) | Reading Code | Practice Reading | Hangman | . | Week 11 (Nov 7 / 9) | Files | NO CLASS - election day | Wordcloud | . | Week 12 (Nov 14 / 16) | APIs | Requests and Movies | Movie Cloud | . | Week 13 (Nov 21 / 23) | Modules | Organizing Your Program | Refactor Old Studio | . | Week 14 (Nov 28 / 30) | | Testing | | . | Week 15 (Dec 5 / 7) | Creativity | Adventure Engine | Adventure Engine (cont.) | . ",
+    "content": ". | Week | Topic / Readings | Lab | Studio | . | Week 1 (Aug 29 / 31) | What is programming? | Intro to Class | Getting Started | . | Week 2 (Sept 5 / 7) | Variables | Control Flow | Choose your own adventure | . | Week 3 (Sept 12 / 14) | Version Control | Git and GitLab | Flash Cards | . | Week 4 (Sept 19 / 21) | Loops and Variables | Counting and Loops | | . | Week 5 (Sept 26 / 28) | Drawing | Turtles | Country Flag Studio | . | Week 6 (Oct 3 / 5) | Lists and Randomness | Using Lists | | . | Week 7 (Oct 10 / 12) | Functions | Drawing with Functions | Speak in Emoji | . | Week 8 (Oct 17 / 19) | Dictionaries | Dictionaries as Data Structures | Secret Message | . | Week 9 (Oct 24 / 26) | Revisiting Functions | NO CLASS - fall break | Tic Tac Toe | . | Week 10 (Oct 31 / Nov 2) | Reading Code | Practice Reading | Hangman | . | Week 11 (Nov 7 / 9) | Files | NO CLASS - election day | Wordcloud | . | Week 12 (Nov 14 / 16) | APIs | Requests and Movies | Movie Cloud | . | Week 13 (Nov 21 / 23) | Modules | Organizing Your Program | Refactor Old Studio | . | Week 14 (Nov 28 / 30) | | Testing | | . | Week 15 (Dec 5 / 7) | Creativity | Adventure Engine | Adventure Engine (cont.) | . ",
     "url": "/schedule.html#course-schedule",
     "relUrl": "/schedule.html#course-schedule"
   },"149": {
