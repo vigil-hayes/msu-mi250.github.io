@@ -12,7 +12,7 @@ MI 250 Intro to Applied Programming
 
 Spring 2023
 ---------
-*Instructor*: Professor Rick Wash  
+*Instructor*: Caitlin Geier  
 *Email*: [wash@msu.edu](mailto:wash@msu.edu)  
 *Meets*: Monday and Wednesday, 3:00pm-4:50pm, Holden Hall, room C131.  
 *Office Hours*: Mondays and Wednesdays, by appointment   
