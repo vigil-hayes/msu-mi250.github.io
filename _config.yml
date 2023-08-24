@@ -11,7 +11,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   where most of the time is not spent programming, but some technical 
   knowledge is useful.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://geieracmsu.github.io/mi250" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mi250.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -58,4 +58,12 @@ defaults:
       layout: week
       parent: Schedule
       has_children: true
+      has_toc: false
+  -
+    scope:
+      path: "reference"
+      type: "pages"
+    values:
+      layout: reference
+      has_children: false
       has_toc: false

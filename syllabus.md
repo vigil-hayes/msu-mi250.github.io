@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Syllabus
-nav_order: 1
+nav_order: 2
 ---
 
 MI 250 Intro to Applied Programming
