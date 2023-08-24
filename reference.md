@@ -3,6 +3,7 @@ title: Reference
 layout: home
 has_children: True
 nav_order: 4
+has_toc: true
 ---
 
 # Reference Materials

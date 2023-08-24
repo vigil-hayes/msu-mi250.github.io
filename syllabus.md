@@ -4,400 +4,212 @@ title: Syllabus
 nav_order: 2
 ---
 
-MI 250 Intro to Applied Programming
-=======================================================
-
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-
-Spring 2023
----------
-*Instructor*: Caitlin Geier  
-*Email*: [wash@msu.edu](mailto:wash@msu.edu)  
-*Meets*: Monday and Wednesday, 3:00pm-4:50pm, Holden Hall, room C131.  
-*Office Hours*: Mondays and Wednesdays, by appointment   
---     <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/wash/office-hours-spring-23'});return false;">Schedule a time to meet</a>  
-*Office*: Room 402, Communication Arts and Sciences
-
-*Course Assistant*: Jack Waier  
-*TA Email*: [waierjac@msu.edu](mailto:waierjac@msu.edu)    
-*TA Office Hours*: By email, or by appointment
-
-This course is a synchronous in-person course in Spring 2023; all students meet
-at the same time in a classroom to work together learning to program.  
-
-
-Course Description
-------------------
-
-This course is an undergraduate level first course in computer programming.  The goal of this class is to help students
-become familiar with how we go about telling computers what to do (programming), and understanding how that process
-usually works.  Students will learn enough that they are able to do some programming on their own, and will also have a
-much better understanding of how programming works, what kinds of things computers can and can't do, and how to talk
-with and interact with professional programmers.  All students will be able to learn how to program; this course is not
-just for students with pre-existing skills or aptitute.  Students are not expected to continue on to additional programming
-courses after this; the material in this course is self-contained and useful even without further courses.  This course
-is not appropriate for students who already have programming skills (e.g. previously took CSE 231 or another programming
-course).
-
-Programming is really just the act of trying to get the computer to do what you want it to do; that is, programming a
-computer is telling the computer what to do in a way that the computer can understand and accomplish. Despite being
-"high tech", computers are surprisingly unsophisticated, and it is important to understand how computers think in order
-to get them to do what you want.  That is the goal of this class -- to learn how computers think just enough that you
-can tell them what to do in a way that works.
-
-Computers are one of the most useful general purpose tools we have, and a large number of jobs involve interacting with
-computers in interesting and complicated ways.  This course is designed for students that will need to use computers,
-but who don't want to be come full-time programmers.  We will particularly focus on skills that are useful in media and
-technology jobs, such as user experience design, graphic design, game design, and interactive media production.  But
-really, these skills can be applied to an extremely wide variety of non-programming jobs.
-
-
-Course Structure and Schedule
------------------------------
-
-Thiis course has a weekly structure.  Each week will have a small set of topics and skills that we will be focusing on
-learning.  The goal of this class is to spend most of the class *practicing* these skills, getting better over time.
-The weekly topics do build on each other, so it is important to strive to learn the skills each week so they can
-continue to be applied in future weeks.  
-
-Each week is divided into three parts.  First, outside of class, you will read readings and/or watch videos, to learn
-some vocabulary and basic concepts.  Second, on Mondays, we will spend the time in class doing a "lab": a structured
-exercise designed to help you build a specific set of skills.   Third, on Wednesdays, the class time will be spent doing
-a "studio": a loosely structured, creative activity designed to give you an opportunity to apply the skills you've been
-building to create new and interesting things.
-
-### Part 1: Readings / videos
-I will post a set of readings / videos.  Most will be required; some will be optional.  You will need to read
-and/or watch them, and then write a short summary+question about them. This is a chance to take responsibility for your
-learning; be sure to pause/rewind/rewatch things until you feel like you understand them.  After reading or watching the
-videos, you will need to write up a short summary+question, which is intended to help us (the instructor and TA)
-understand what makes sense and what is confusing.  
-
-Being confused is OK and normal; computers don't think like people do, and trying to think like a computer is weird and
-unnatural. Everyone gets confused (I certainly did when I was learning), but everyone gets confused about different
-things. It is OK to be confused.
-
-Summary: Summarize how you think the core concept of the week works (max 1 paragraph long).  Use words like “because” and be
-sure to include reasons and evidence.   
-
-Question: Ask one question about the topics.   Questions can be a confusion question; if you get confused, point out
-where you were confused (timestamp for video or section of text) and write down your question.   OR, the question can be
-a curiosity; if you were inspired and curious about something and want to learn more, write that question down.  OR, the
-question can be a connection; it can take one of the concepts from week and apply it to some other aspect of your life
-or work.
-
-### Part 2: Lab (Mondays)
-
-Every Monday, we will do a lab exercise.  Labs are structured exercises where you work through a small series of
-problems, trying to get things working.
-
-In lab, you will always be pair programming.  You will be assigned into pair, and will have to work as a pair.  Pair
-programming follows the mantra "2 people, 1 computer".  While pair programming, only one computer should be actively
-used for programing.  The other person’s computer (and phone and tablet) shouldn't be touched.   The two people must
-work together to solve the problem.   After completing each problem, then the two must switch roles; whoever was at the
-keyboard becomes the assistant, and whoever was assisting moves to the keyboard.   
-
-Labs will be graded based on effort (did you work on the lab for the entire class?), on attendance (did you attend the
-whole lab?) and on teamwork (did you help others?)
-
-<!-- and will be graded on a check / check plus / check minus / zero scale. -->
-
-### Part 3: Studio (Wednesdays)
-
-Every Wednesday, we will do a studio exercise.  Studios are less structured exercises where you are given a realistic
-problem or creative goal, and you must try to figure out a way to solve it.  There is no right answer to studios;
-instead, this is an opportunity for you to be creative and use the skills you are developing to get computers to do
-interesting things.
-
-You are required to work in teams in studio. Teams must be at least two people, and no more than 4 people can be in a
-team.  Which team you are on is up to you.  While working on the studio, you are strongly encouraged to work in pair
-programming; I find that you actually get more done when pair programming than when everyone works separately.
-
-Studios are graded solely on attendance and support; since there is no right or wrong answer to studio exercises we are
-not grading whether you accomplish them or not. Studios are open ended tasks; there is no place that signifies when you
-are "done". Students are expected to spend the entire class period working on the studio.
-
-
-Assignments and Grading
------------------------
-
-Each week, students will receive a total of 3 grades: one grade for the summary+question from the readings, one grade
-for the work during the lab, and a grade for participating in the studio.
-
-The question+summary will be graded on a check / check plus / check minus / zero basis. If you complete the the
-assignment by summarizing the ideas and asking a reasonable question, you will earn a check.  If your summary integrates
-across readings / videos or with past weeks,  or if you ask a good question, or are particularly good describing a way
-that you are confused, then you will earn a check plus. If the summary is superficial or overly simple, and if the
-question doesn't help resolve confusion, then you may receive a check minus.  Finally, if the assignment isn't turned in
-or if it is missing either the summary or question, then you will receive a zero for it.  Question+summary assignments
-are due on Monday before class, and can be submitted on D2L by going to Assignments -> Quizzes. Unexcused late
-assignments will not be accepted.
-
-All students who attend and participate in the entire studio will earn a check for the studio.  Students who are
-effective at helping others or are particularly creative and engaged in the studio may receive a check plus for the
-studio; all students should be able to earn a check plus for studio if they try.  Students who leave early or who work
-on other work during studio will receive a check minus for the studio.  Students who do not attend studio or do not
-participate at all will receive a zero.
-
-A check earns nine out of possible 10 points.  A check plus earns the full 10 points.  A check minus earns 7 points.
-
-Labs will also be graded using a check / check plus / check minus. Students must attend labs on time to be eligible for
-a check or a check plus.  In order to leave the lab early, you must complete all of the exercises, and also at least one
-or two of the optional challenges in the lab (and also check with the professor).  Please turn in screenshots of your
-working lab (via D2L) and check your code into GitLab and share the project with the professor and TA (after week 2) to
-receive full credit.
-
-You will not be permitted to get credit for making up missed work. As a class, we will be working together,
-learning from each other and helping each other figure out how to program; as such, making up work outside of class
-misses this benefit.  However, each week of the class builds on prior weeks, so if you miss some of the work, you may
-find it valuable to do it on your own time.  If you know ahead-of-time that you will miss class, please contact the
-instructor.
-
-You will be allowed to drop the lowest four scores for labs or studios during the semester, and also drop two
-summary+question scores.  This effectively allows you miss the equivalent of two weeks of class without penalty.  You
-don't need permission or to explain why you are dropping the assignment; it is OK if things come up in your life (busy
-week, stressful week, sick, etc.) and you need to drop an assignment to help you through it.   If you have circumstances
-that require you to miss or underperform for more than these dropped assignments, then talk to the instructor
-(preferably ahead of time) and we can try to work out something. Excused absences will only apply after dropping these
-lowest scores.
-
-60% of the final grade be based on the labs/studios.  20% will be based on the summary+questions.  And the final 20% is
-the final project.
-
-### Final Project
-
-During the last week of the semester, we will be doing a week-long studio.  This studio will be an interesting exercise
-where you will work in a group and use all of the skills you built during the semester to make a creative, interactive
-computer program.  The work that occurs during this last week will be graded as normal for studios (attendance-based,
-check/check plus/check minus).  
-
-The program you write during this final studio will also be turned in and graded as a final project for the course.  We
-will evaluate how well you were able to use ideas and skills from the course to create something new and interesting.
-This final project will be turned in via GitLab (you will learn how to do this in class), and will be due at the
-normally scheduled finals period. You are welcome to turn in what you have at the end of the last class, or to continue
-working on it after classes are over; its up to you. The grade for this final project will be 20% of your final grade.
-
-The final project will be due during the scheduled final exam period: Wednesday, May 3rd at 7:45pm. However, normally,
-most of the work on this project will be done during class during the final week of the semester.
-
-There are **no exams** in ths course.
-
-Readings
---------
-
-This class does not have a textbook.  However, required readings and videos will be posted to the
-[schedule](/schedule.html) on this website.
-
-You should do the readings *before the class* meeting under which those readings are listed in the schedule of readings
-– that is the day on which the material will be used in class. 
-
-Attendance
-----------
-
-In this class, we work together to learn more about programming. Almost all of the time in class is spent working in
-pairs or teams trying to learn how to get the computer to do what we want it to do.  Because we learn in teams, it is
-important to attend all classes; you can't learn from your teammates if you aren't present, and they can't learn from
-you.  Also, it is similarly important to arrive on time, spend the class time working with your team, and remain for the
-full class period.  Your teammates will appreciate your help, and you will learn best if you spend the time practicing.
-
-If you find yourself having difficulty spending the entire class period working on programming, please talk to the
-instructor about it.  This could be because you find the tasks boring, because you don't get along with teammates, or
-because other things in your life are intruding on class; regardless, talk to the instructor and he will work with you
-to find a productive way forward.
-
-If you arrive late, leave early, or spend a non-trivial amount of time during class on non-class activities, your grade
-for that class period may be reduced.  If there is a reason that you will regularly need to arrive late or leave early,
-please come and talk to the instructor about it; since most of the work in class is done in pairs or teams, this will
-make it difficult for your teammates, and I want to be fair to everyone.
-
-### Absences
-
-Emergencies and other unexpected issues do unfortunately happen. In addition, students may be facing additional
-challenges due to the pandemic. The "drop four" structure for in-class activities is designed to offer
-flexibility to accommodate unexpected absences. In the event of an unexpected absence, students are responsible for
-obtaining information about what they missed from others taking the course.
-
-If you wish to be absent from class to observe a religious holiday, please make arrangements in advance. If you must
-miss a class to participate in an officially-sanctioned athletic game or in a required activity for another course, you
-must provide adequate advanced notice beforehand, such as a team schedule or written authorization from the faculty
-member of the other course or a university administrator. If something else comes up and you need special
-considerations, please contact Dr. Wash to discuss alternative options.
-
-Technology
-----------
-
-You are required to bring a computer to class, and will be required to install appropriate programming tools on the
-computer.  You are required to use your own technology to complete assignments.  If you do not have an appropriate
-laptop computer or if your computer is not able to run the needed software, please talk to the instructor about it. We
-will be learning how to use [Python](http://python.org) and [Git](http://git-scm.org), though you will install and learn
-them during class.
-
-You will be working in pairs and teams, and in particular in lab you will be doing pair programming, which involves two
-people using one computer.  You do NOT have to allow other people to use your computer; it is perfectly OK to ask your
-partner to use their computer when they are driving.  However, you still must do pair programming, which involves one
-person driving, or controlling the computer, while the other person looks at the screen from beside them and provides
-input and help.  This means that other people will be looking at your screen; I suggest closing or minimizing other
-windows and/or temporarily disabling notifications to protect your privacy while you work.
-
-In general, I expect that all technology will be primarily used for class purposes. However, not everyone will be able
-to achieve that goal. It is OK to occasionally use your computers for non-class purposes. However, if that technology
-becomes distracting to others I reserve the right to ask you to stop what you are doing or ask you to leave class while
-you complete what you are doing.
-
-### Spring 2023 Contingency Plans
-
-COVID-19 is again creating uncertainty this semester that could impact the course schedule and deadlines.  For example,
-class sessions may be cancelled due to instructor illness, or the university may go online again.  We will be flexible
-as the need arises.  The schedule and syllabus may need to change.  All announcements will be posted to D2L; please
-watch for such announcements.
-
-MI 250 will always be *synchronous*: we will all meet at the same time every week.  However, for as long as we need to
-meet online, we will be meeting virtually using Zoom to communicate.  On these days, please plan on being somewhere with
-a reasonable Internet connection for the entire time period of the class, and make it somewhere where you can hear your
-teammates talk and can talk yourself on zoom. Also, please devote your attention to class during that time.  
-
-Online participation will only be allowed when the entire university moves online; when we are meeting in person, it is
-not possible to complete the work online.  I have found that hybrid class, with most people in person and a small
-number online, does not work and the online students do not learn the same.
-
-<!--
-### Attending the class online 
-
-When we are online, the most important thing is to find a place where you are comfortable and can sit and work for 2
-hours.  You will be actively working on problems and programming, and will be actively talking to and collaborating with
-classmates.  Be sure you are somewhere where you can hear audio from your classmates, and where you can talk to them. So
-make sure that you have:
-
-* Reliable broadband internet connection
-* Your working computer.  We will install the class tools installed on it (git, python, editor)
-* Are able to listen to audio from your computer
-* Are in a place where it is OK to talk to your computer
-* Have Zoom and Slack installed on your computer, and you are signed up for the Slack workspace for the class, and have
-  Zoom version 5.4 or later
-
-
-#### What class will be like online
-This is a very hands-on course. Students will be practicing the programming methods discussed in the course through
-taking part in team-based activities during class time. There will be little, if any lecturing. Students are expected to
-engage in active participation in the in-class activities. Active participation means paying attention to the
-instructions, actively working with teammates, taking appropriate notes during the exercise, speaking up with ideas and
-thoughts, and treating other people and ideas with respect.
-
-Pair programming is a very important part of the class.  It helps you learn more programming, and learn faster, and it
-reduces the frustration that is inherent in learning programming. Pairs and teams will work remotely.
-
-The main way we will do this is with Zoom.   Initially, when class first starts, everyone will be in one big video
-conference.   I will then create "breakout rooms" where you and your partner can go to work together on the labs. You
-will receive an "invitation" to enter a breakout room through Zoom.
-
-The breakout rooms will just include you and your partner/teammates.  One person can share their screen using Zoom’s
-screen sharing feature, and that person will be the "driver".  The other person can continue being the "navigator",
-watching the coding, talking with the driver about issues, thinking about the exercises, and generally helping out.  You
-can talk with each other normally and work together on programming.  It is a good idea to periodically switch who is
-driving, which can easily be done by stoping screen sharing and having the new driver start screen sharing.
-
-For each class students will join the main Zoom, and at some point during each class session be assigned to a "breakout"
-Zoom room for a team-based in-class activity. If possible, students should turn on video to interact with their peers in
-breakouts; video is optional when the entire class meets together in the main Zoom.
-
-More information about Zoom screen sharing: <https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen>
-and <https://support.zoom.us/hc/en-us/sections/201740106-Screen-Sharing>
-
--->
-
-<!--
-In addition to Zoom, we will use slack at a chat backchannel.  There is a channel —
-[#classroom](https://mi-250.slack.com/archives/CVCFPP8P8) -- where you can chat with everyone in class.  Feel free to
-post questions here and chat with others in class.
--->
-
-<!--
-At any time, if you have a question, you can message Caitlin and I on Zoom or use the "Ask for Help" button in Zoom.
-Then one of us will join your breakout room where we can talk with you and see your screen.   Additionally, we may pop
-in to your breakout rooms occasionally to see how you are doing, answer any minor questions you have, and provide
-coaching as you work.
-
--->
-
-### Course Communication 
-
-All messages and announcements will be posted on D2L; some announcements will also be sent via email to the MSU email
-accounts of students registered in the class. You are expected to be familiar with all information posted on D2L, so
-please check D2L frequently and ensure that notifications are turned on so you are made aware of any posted
-announcements. You are also responsible for being aware of announcements made in class.
-
-
-
-Policies and Procedures
-----------
-
-*Announcements*: I will occasionally post announcements about this course.  Announcements will be posted both to this
-website and to D2L.  Everyone is expected to pay attention and be familiar with these announcements.
-
-*Assignments*: Assignments will be submitted online, either via D2L or via GitLab. Late assignments will not be
-accepted. Of course, if negotiated in advance, reasonable exceptions may be granted by the professor.
-
-*Academic Honesty*: Michigan State University and the Department of Media and Information both have policies about
-academic dishonesty.  Basically, make sure that everything you turn in with your name on it is your own work, and don't
-cheat or lie.  If it feels like cheating, it probably is; if you are unsure please ask.  Students caught cheating or
-plagiarizing will receive a 0 for the assignment and be reported to the university.  Working together with other
-students in this class and other classes, however, is encouraged.  Make sure that everything you turn in with your name
-on it is original work of yours.
-
-For classes that involve complex thinking and no right answers like this, I strongly encourage you to work together and
-ask each other for help. Indeed, this course requires you to work with others.  Often when you have a problem or a
-confusion,  the best place to go for help is your colleagues who are also working on similar issues.  Also, the Internet
-is a fantastic source of information when you are stuck.  Use these resources copiously.  However, make sure that you
-personally write and understand all of the work that you turn in.  Directly copying text that you don't understand from
-the Internet or from others is academically dishonest.
-
-*Accommodations for Disabilities*: Michigan State University is committed to providing equal opportunity for
-participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be
-made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web at
-<http://rcpd.msu.edu>. Once your eligibility for an accommodation has been determined, you will be issued a verified
-individual services accommodation (“VISA”) form. Please present this form to me at the start of the term and/or two
-weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever
-possible.
-
-*Absences*: If you are not feeling well, please consider the health of your classmates and instructors and *do not come
-to class*.  In general, students should follow [MSU's COVID
-guidance](https://msu.edu/together-we-will/_assets/images/covid-what-to-do-may-22-students-v2.pdf) if you are not
-feeling well or test positive for COVID. 
-
-In addition, students who are ill or isolating and must miss class should let Dr. Wash know as soon as possible. The
-course's policy that "drops the lowest scores" is designed to offer flexibility to accommodate unexpected absences and
-difficulty in completing assignments equivalent to missing two weeks of class. If a student’s illness persists for
-longer than two weeks, they should contact Dr. Wash ASAP to discuss potential accommodations and what kind of
-documentation may be necessary.  With approved extenuating circumstances, it is possible to do part of the class work 
-from home for partial credit.
-
-*Grief Absences*: If a student has experienced the death of a family member or someone close
-to them, or is experiencing emotional distress from a similar tragedy, they may request a grief absence. To request a
-grief absence, visit the Grief Absence Request Form found on the RO home page
-( [https://reg.msu.edu/](https://reg.msu.edu/) ) under “Student Resources – Forms – Grief Absence Request Form” OR on
-StuInfo ( [https://stuinfo.msu.edu/](https://stuinfo.msu.edu/) ) under “Academics – Enrollment Information and Services
-– Grief Absence Request Form”. See the grief absence policy for more
-information: [https://reg.msu.edu/roinfo/notices/griefabsence.aspx](https://reg.msu.edu/roinfo/notices/griefabsence.aspx).
-Once your grief absence is approved, we will exempt you from the in-class activities for the approved dates. This means
-those classes won't count towards your grade at all, and also won't count as part of your 4 "dropped grades".
-
-
-*Religious Holidays*: You may make up course work missed to observe a major religious holiday only if you make
-arrangements in advance with the instructor. Absences due to religious holidays, when communicated in advance, will not
-count as one of the dropped scores.
-
-*Required Activity*: To make up course work missed to participate in a university-sanctioned event, you must provide the
-instructor with adequate advance notice and written authorization from a university administrator.
-
-*Technical Assistance*: Asking your peers in class and your instructor is a great source for technical assistance.  This
-is particularly true with the technologies we are learning in class (python, git, etc.).  For MSU-provided technologies,
-you can visit the [MSU Help site](http://help.msu.edu), the [Desire2Learn Help Site](http://help.d2l.msu.edu) or email
-the [MSU IT Service Desk](mailto:ithelp@msu.edu).
-
-*Tolerance and Civility*: MSU strives to build an academic community with living and learning environments that expects
-tolerance of viewpoints and civility toward others, whether at public forums, athletic events, in residential
-communities, classrooms or laboratories. We call upon all who participate in university events to promote tolerance and
-civil behavior and to hold themselves to high standards that reflect the university’s commitment to respect viewpoints
-that may be different from their own. Only by respecting individuals with diverse perspectives and ideas can we build an
-environment of civility that is conducive to advancing knowledge and transforming lives.
+# MI 250: Intro to Applied Programming - Syllabus
+{: .no_toc }
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. Table of Contents
+{:toc}
+</details>
+
+## Fall 2023 Time and Location
+
+Tuesdays and Thursdays, 10:20am-12:10pm  
+Holden Hall C131  
+Synchronous, in person – no hybrid options available
+
+## Instructors
+
+*Instructor:* Caitlin Geier (she/her/hers)  
+*Email:* [geierac@msu.edu](mailto:geierac@msu.edu)  
+*Office hours:* Monday and Tuesday afternoons, by appointment: [book a time](https://outlook.office.com/bookwithme/user/31419b7d578f4dd5996e2c55409b0d0e@msu.edu?anonymous&ep=pcard){:target="_blank"}  
+*Office:* Room 525, Communication Arts and Sciences  
+
+*Course assistant:* Jack Waier  
+*Email:* [waierjac@msu.edu](mailto:geierac@msu.edu)
+
+## Course Description
+
+This course is an undergraduate course aimed at students who have little to no programming experience and who don’t intend to be programmers. There are many roles in the tech industry today which don’t involve programming, but which work alongside programmers. The goals of this course are to teach students enough to be “dangerous” at programming, to learn about computers and programming environments, and to practice skills around talking about programming, co-learning, and collaboration. These skills are incredibly useful not only for programmers, but also for other media and technology roles, such as user experience, graphic design, game design, digital storytelling, and more.
+
+This course is NOT appropriate for students with programming experience; for example, students who have taken CSE 231 or similar courses in the past. This is a required course for multiple majors and minors in media and information, but the requirement can be waived in many cases for students who have taken other programming courses or have demonstrated experience. 
+
+## Required Technology
+
+All students are REQUIRED to bring a laptop computer to class running either MacOS or Windows. Every student will be creating a development environment on their own computer in the first 2 weeks of class. Every student will be required to practice writing and running code on their own computers. If you need a new computer, the [MSU Tech Store](https://techstore.msu.edu/computers-tablets){:target="_blank"} sells both Apple and Windows laptops at discounted prices for students. If your laptop breaks or is temporarily unavailable during the semester, talk with Caitlin about accommodations. MSU also has a [Laptop Loan program](https://msu.co1.qualtrics.com/jfe/form/SV_2mJ4Pi2oXHIBR1s){:target="_blank"} which students who have a temporary need for a laptop can apply for.
+
+All course materials can be found on:
+* The course website (this website, <https://mi250.dev>)
+* D2L ([d2l.msu.edu](https://d2l.msu.edu){:target="_blank"})
+* Gitlab ([gitlab.msu.edu](https://gitlab.msu.edu>){:target="_blank"}) 
+
+You will not be required to purchase any software for this course. The course will be using the Python programming language, Git, and related tools, all of which are open source and/or freely available. You do not need to install anything ahead of time – we will be doing all of that work in class.
+
+## Course Structure
+
+This course has 4 main elements:
+* Homework: reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
+* Labs: set exercises for learning and practicing concepts in programming, done in class with partners (usually on Tuesdays)
+* Studios: open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-4 (usually on Thursdays)
+* Final project: a two week project at the end of the semester started in class and due during the class’s final exam period (10am, Thursday Dec. 14).
+
+**This course does NOT have any quizzes or exams.** Aside from the final project, which students have the option of working on outside of class, all programming work will be done IN CLASS. It’s therefore very important to attend class as much as possible.
+
+### Pair Programming
+Students in this course will practice a concept called pair programming, which originated with programmers at tech companies. Pair programming is based on the idea of “two programmers, one computer:” two programmers work together on the same code using one computer between them. One person is the driver: they are the person using the computer and typing the code. The other person is the observer, or the navigator: they do the bigger picture thinking, look up relevant information, and help spot mistakes. In this class, students will switch roles on a regular basis. Students who participate in pair programming get stuck and frustrated less often than students working by themselves and are also able to practice teamwork and communication – which is why we practice it in this class!
+
+In labs: students will be randomly assigned in pairs at the beginning of class. You’ll likely work with someone different every week. You will practice pair programming for every lab.
+
+In studios: students can choose who they work with and can work in groups no smaller than 2 people and no larger than 4. We encourage you to practice pair programming in whatever way makes sense for your group rather than all working on your own computers. You should be talking with your group members frequently.
+
+## Coursework Expectations and Grading
+
+Grades in this class are mostly based on attending class and making an honest effort to engage with the material, both in and outside of class. The final project is the only work in which students will be graded on the programming skills they’ve developed over the semester. Grades are broken down in this way:
+
+| Homework (summary + question) | 20% |
+| In class exercises (labs and studios) | 60% |
+| Final project | 20% |
+
+Grades will be input on D2L and are calculated continuously – you will always know where your grade stands for the class by looking at D2L. Most all grades (except for the final project) are based on a check / check plus / check minus rubric:
+* **Check = 9/10**. You showed up and did the work. This is the base grade for everybody. (You didn’t do anything wrong if you get a check!)
+* **Check plus = 10/10**. You showed up, did the work, and impressed us: maybe you worked particularly well with your partner that day, or had a particularly insightful question.
+* **Check minus = 7/10**. You showed up, but didn’t honestly engage with the work. Maybe you were late to class with no excuse, or maybe you spent half the class cruising Insta or not talking with your partner or group at all. 
+
+### Turning in work
+
+Work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
+
+### Homework
+
+Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Tuesday). These are under Assignments -> Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. Homework should take you between 30 minutes and 1 hour each week.
+
+All readings and videos are available for free and are linked on the readings page for each week. You will not be required to purchase any textbooks or other materials to complete the homework.
+
+**Summary:** one paragraph max (at least 3 sentences). These will always be guided summaries rather than just repeating facts. There will be a prompt on the readings page for each week which will usually ask you to explain what you’ve learned in your own words and to apply it to your own experiences. If your summary is too short or too long, or doesn’t answer the prompt, you may be marked down for it.
+
+**Question:** one question relating to that week’s topic. The question can be about one of these things: 
+* Confusion: something you didn’t understand and want clarification on
+* Curiosity: something you want to learn more about
+* Connection: apply one of the concepts from the week’s topic to your own life or work (this might be a statement rather than a question; that’s okay)
+
+If your summary + question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Tuesdays, so it’s important to turn them in on time.
+
+### Labs 
+
+Labs will usually be on Tuesdays. Labs cover one or more specific concepts relating to the topic of the week; their goal is to give you a chance to put the concepts in practice. Programming is very hard to learn through reading alone, which is why we practice it in class with partners. Each lab has a series of small, structured exercises that you and your partner will go through together using pair programming. Partners for labs are assigned randomly at the beginning of class.
+
+Labs are graded using the check/check-plus/check-minus system. Grades are based on:
+* Effort (did you work on the lab for the entire class?)
+* Attendance (did you attend the whole class OR did you complete all of the exercises satisfactorily?)
+* Teamwork (did you help others?) 
+
+Labs are NOT graded based on how much you complete or how “good” your code is. 
+
+### Studios
+
+Studios will usually take place on Thursdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-4 people; you can choose who you work with for studios. 
+
+Studios are also graded using the check/check-plus/check-minus system. Grades are based on: 
+* Effort (did you work on the studio for the entire class?)
+* Attendance (did you attend the whole class?)
+* Teamwork (did you collaborate consistently with your group?)
+
+Studios are NOT graded on how “good” your code is or whether everything works as intended at the end of class.
+
+### Final project
+
+The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
+
+Final projects will be graded in two parts:
+* Normal studio requirements – graded based on effort, attendance, and participation during the two class periods in the final week of class
+* The content of the project – graded based on whether the program works as intended, and on a combination of demonstrating programming skills and creativity.
+A rubric for the final project will be released at the beginning of the final week of class.
+
+Final projects are due at the end of the final exam period: 12pm (noon) Thursday, December 14, 2023. **There is no final exam for this class.**
+
+### Extra credit
+
+There will be two extra credit opportunities this semester – a take-home assignment on November 3rd (election day) and an in-class activity on November 21st (the week of Thanksgiving). Each will be worth 5 points.
+
+### Honors option
+
+This course does have an honors option for students in the honors college. If you want to do an honors option, talk with Caitlin within the first two weeks of class.
+
+## Communication Policies
+
+Caitlin and Jack are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom: [book a time](https://outlook.office.com/bookwithme/user/31419b7d578f4dd5996e2c55409b0d0e@msu.edu?anonymous&ep=pcard){:target="_blank"}. If you have questions about anything course-related, please get in touch!
+
+Email policy: we will respond to email within 48 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
+
+### Announcements
+
+Announcements about the course will be posted on D2L. Make sure you have allowed D2L to send announcements to your MSU email. You can also have D2L emails forwarded to different email accounts - see [instructions to do this in the MSU D2L documentation]( https://help.d2l.msu.edu/msu-docs/tools-and-tips/d2l-email-forwarding{:target="_blank"}.
+
+## Attendance / Absence Policy
+
+This class is very heavily based on attendance and participation – it’s very important that you attend class every week as each week’s content builds on the previous week. If you miss too many classes, you WILL fall behind.
+
+It’s also very important to attend the ENTIRE class – arriving late or leaving early means you will have less time to practice coding, and it will make class more difficult for your partner / groupmates for the day. Your grade for the class will be reduced if you are late or leave early.
+
+That said, life happens. **The 4 lowest grades for in class activities (labs and studios) will be dropped, as will the 2 lowest grades for homework.** You can miss up to two weeks of class total without it affecting your grade at all. You do not have to explain why you’re missing class to us. This policy covers the vast majority of absences you might need to take.
+
+### Illness
+
+If you are sick with something contagious (like COVID or the flu), PLEASE PLEASE PLEASE be considerate of your instructors and classmates and STAY HOME! Remember you can miss up to 4 classes with no penalty and no excuse needed. For long-lasting illnesses, see “exceptions” below.
+
+If the instructors are sick, class may be cancelled.
+
+### Exceptions
+
+The "drop 4" policy for in class activities will cover nearly all absences for nearly all students. It is meant to be flexible. If you find yourself needing to miss more classes than that, we will try to work with you to help you to keep up with the class. IF you are beyond 4 absences already AND any of the below circumstances apply, we may be able to exempt you from certain classes or homework. Talk to Caitlin first and foremost!
+
+Note that missing more than two weeks of class will make it harder for you to keep up, and also harder for you to earn good grades because you won’t be able to participate as much in class. If you need to miss extra class, talk with Caitlin or Jack and we will help you determine what you might need to do to keep up with the class. All of the exceptions below will be taken into account if you go beyond 4 absences.
+
+**Adding the class late** – if you added this class to your schedule at the end of the first week of the semester, you may have missed the first graded homework and the first graded in class activity. Talk to Caitlin as soon as possible to catch up on the work, and to be exempted from those activities.
+
+**Illness lasting more than 2 weeks** – COVID is still a thing, and there are all sorts of other illnesses people can have that affect their ability to attend class. Contact Caitlin as soon as possible to discuss potential accommodations and what kind of documentation may be necessary.
+
+**Grief absences** – If you have experienced the death of a family member or someone close to them, or is experiencing emotional distress from a similar tragedy, they may request a grief absence. To request a grief absence, visit the Grief Absence Request Form found on the [Student Information System](https://student.msu.edu/){:target="_blank"} under Resources –> Grief Absence. See the [grief absence policy](https://reg.msu.edu/roinfo/notices/griefabsence.aspx){:target="_blank"} for more information. Once your grief absence is approved, we will exempt you from the in-class activities for the approved dates. This means those classes won’t count towards your grade at all, and also won’t count as part of your 4 dropped grades.
+
+**Religious holidays** – If you wish to be absent from class to observe a religious holiday, please make arrangements in advance. 
+
+**Student athletes** – If you must miss a class to participate in an officially-sanctioned athletic game, you must provide adequate advanced notice beforehand, such as a team schedule or written authorization from the faculty member of the other course or a university administrator.
+
+**Required activity** – If you must miss a class to participate in a university-sanctioned event, you must provide the instructor with adequate advance notice and written authorization from a university administrator.
+
+## Other Policies
+
+### Accommodations for disabilities
+
+Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web at rcpd.msu.edu. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to Caitlin at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.
+
+### Spartan Code of Honor
+
+As a student at MSU, you will be expected to abide by the Spartan Code of Honor Academic Pledge:
+
+“As a Spartan, I will strive to uphold values of the highest ethical standard. I will practice honesty in my work, foster honesty in my peers, and take pride in knowing that honor in ownership is worth more than grades. I will carry these values beyond my time as a student at Michigan State University, continuing the endeavor to build personal integrity in all that I do.”
+
+See the [Spartan handbook](https://spartanexperiences.msu.edu/about/handbook/spartan-code-of-honor-academic-pledge/index.html){:target="_blank"} for more details.
+
+### Academic honesty
+
+Michigan State University and the Department of Media and Information both have policies about academic dishonesty.  Basically, make sure that everything you turn in with your name on it is your own work, and don't cheat or lie. If it feels like cheating, it probably is; if you are unsure please ask. Students caught cheating or plagiarizing will receive a 0 for the assignment and be reported to the university. Working together with other students in this class and other classes, however, is encouraged. Make sure that everything you turn in with your name on it is original work of yours.
+
+For classes that involve complex thinking and no right answers like this, we strongly encourage you to work together and ask each other for help. Indeed, this course requires you to work with others. Often when you have a problem or something confuses you, the best place to go for help is your colleagues who are also working on similar things. The Internet is also a fantastic source of information when you are stuck. Use these resources! However, make sure that you personally write and understand all of the work that you turn in.  Directly copying text that you don't understand from the Internet or from others is academically dishonest.
+
+### Mental health
+
+Mental health concerns or stressful events may lead to diminished academic performance or reduce a student's ability to participate in daily activities. If you’re struggling, we encourage you to seek support. Services are available to assist you with addressing these and other concerns you may be experiencing. You can learn more about the broad range of confidential mental health services available on campus on the [Counseling & Psychiatric Services (CAPS) website](caps.msu.edu){:target="_blank"}.
+
+### Technical assistance
+
+Asking your peers in class and your instructor is a great source for technical assistance.  This
+is particularly true with the technologies we are learning in class (python, git, etc.).  For MSU-provided technologies, you can visit the [MSU Help site](http://help.msu.edu){:target="_blank"}, the [Desire2Learn Help Site](http://help.d2l.msu.edu){:target="_blank"} or email the [MSU IT Service Desk](mailto:ithelp@msu.edu).
+
+### Tolerance and civility
+
+MSU strives to build an academic community with living and learning environments that expects tolerance of viewpoints and civility toward others, whether at public forums, athletic events, in residential communities, classrooms or laboratories. We call upon all who participate in university events to promote tolerance and civil behavior and to hold themselves to high standards that reflect the university’s commitment to respect viewpoints that may be different from their own. Only by respecting individuals with diverse perspectives and ideas can we build an environment of civility that is conducive to advancing knowledge and transforming lives.
