@@ -30,7 +30,8 @@ Synchronous, in person – no hybrid options available
 *Office:* Room 525, Communication Arts and Sciences  
 
 *Course assistant:* Jack Waier  
-*Email:* [waierjac@msu.edu](mailto:geierac@msu.edu)
+*Email:* [waierjac@msu.edu](mailto:geierac@msu.edu)  
+*Office hours:* by appointment - email or talk to after class to find a time
 
 ## Course Description
 
@@ -40,7 +41,9 @@ This course is NOT appropriate for students with programming experience; for exa
 
 ## Required Technology
 
-All students are REQUIRED to bring a laptop computer to class running either MacOS or Windows. Every student will be creating a development environment on their own computer in the first 2 weeks of class. Every student will be required to practice writing and running code on their own computers. If you need a new computer, the [MSU Tech Store](https://techstore.msu.edu/computers-tablets){:target="_blank"} sells both Apple and Windows laptops at discounted prices for students. If your laptop breaks or is temporarily unavailable during the semester, talk with Caitlin about accommodations. MSU also has a [Laptop Loan program](https://msu.co1.qualtrics.com/jfe/form/SV_2mJ4Pi2oXHIBR1s){:target="_blank"} which students who have a temporary need for a laptop can apply for.
+All students are REQUIRED to bring a laptop computer to class running either MacOS or Windows. Linux is not supported in this class. Every student will be creating a development environment on their own computer in the first 2 weeks of class. Every student will be required to practice writing and running code on their own computers. 
+
+If you need a new computer, the [MSU Tech Store](https://techstore.msu.edu/computers-tablets){:target="_blank"} sells both Apple and Windows laptops at discounted prices for students. If your laptop breaks or is temporarily unavailable during the semester, talk with Caitlin about accommodations. MSU also has a [Laptop Loan program](https://msu.co1.qualtrics.com/jfe/form/SV_2mJ4Pi2oXHIBR1s){:target="_blank"} which students who have a temporary need for a laptop can apply for.
 
 All course materials can be found on:
 * The course website (this website, <https://mi250.dev>)
@@ -81,7 +84,7 @@ Grades will be input on D2L and are calculated continuously – you will always 
 
 ### Turning in work
 
-Work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
+In-class work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
 
 ### Homework
 
@@ -107,7 +110,7 @@ Labs are graded using the check/check-plus/check-minus system. Grades are based 
 * Attendance (did you attend the whole class OR did you complete all of the exercises satisfactorily?)
 * Teamwork (did you help others?) 
 
-Labs are NOT graded based on how much you complete or how “good” your code is. 
+Labs are NOT graded based on how much you complete or how "good" your code is. 
 
 ### Studios
 
@@ -118,7 +121,7 @@ Studios are also graded using the check/check-plus/check-minus system. Grades ar
 * Attendance (did you attend the whole class?)
 * Teamwork (did you collaborate consistently with your group?)
 
-Studios are NOT graded on how “good” your code is or whether everything works as intended at the end of class.
+Studios are NOT graded on how "good" your code is or whether everything works as intended at the end of class.
 
 ### Final project
 
@@ -141,9 +144,9 @@ This course does have an honors option for students in the honors college. If yo
 
 ## Communication Policies
 
-Caitlin and Jack are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom: [book a time](https://outlook.office.com/bookwithme/user/31419b7d578f4dd5996e2c55409b0d0e@msu.edu?anonymous&ep=pcard){:target="_blank"}. If you have questions about anything course-related, please get in touch!
+Caitlin and Jack are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom: [book a time](https://outlook.office.com/bookwithme/user/31419b7d578f4dd5996e2c55409b0d0e@msu.edu?anonymous&ep=pcard){:target="_blank"}. Jack can also meet with students outside of class as needed - email him or ask him in class. If you have questions about anything course-related, please get in touch!
 
-Email policy: we will respond to email within 48 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
+Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
 
 ### Announcements
 
@@ -185,7 +188,7 @@ Note that missing more than two weeks of class will make it harder for you to ke
 
 ### Accommodations for disabilities
 
-Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web at rcpd.msu.edu. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to Caitlin at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.
+Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web at [rcpd.msu.edu](https://rcpd.msu.edu){:target="_blank"}. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to Caitlin at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.
 
 ### Spartan Code of Honor
 
@@ -209,6 +212,10 @@ Mental health concerns or stressful events may lead to diminished academic perfo
 
 Asking your peers in class and your instructor is a great source for technical assistance.  This
 is particularly true with the technologies we are learning in class (python, git, etc.).  For MSU-provided technologies, you can visit the [MSU Help site](http://help.msu.edu){:target="_blank"}, the [Desire2Learn Help Site](http://help.d2l.msu.edu){:target="_blank"} or email the [MSU IT Service Desk](mailto:ithelp@msu.edu).
+
+### In-class technology usage
+
+Students are expected to use their laptops in class for in-class work, and should bring their laptops to every class. Smartphone and tablet usage is fine so long as they are being used for class purposes (like taking notes, looking things up, etc). Phone calls in class are prohibited. If you need to make or receive a phone call, step outside of the classroom first. Talking on your phone in class is disrespectful to the instructors and to your classmates and will result in a lower grade for the day.
 
 ### Tolerance and civility
 
