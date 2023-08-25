@@ -52,6 +52,10 @@ All course materials can be found on:
 
 You will not be required to purchase any software for this course. The course will be using the Python programming language, Git, and related tools, all of which are open source and/or freely available. You do not need to install anything ahead of time – we will be doing all of that work in class.
 
+### In-class technology usage
+
+Students are expected to use their laptops in class for in-class work, and should bring their laptops to every class. Smartphone and tablet usage is fine so long as they are being used for class purposes (like taking notes, looking things up, etc). Phone calls in class are prohibited. If you need to make or receive a phone call, step outside of the classroom first. Talking on your phone in class is disrespectful to the instructors and to your classmates and will result in a lower grade for the day.
+
 ## Course Structure
 
 This course has 4 main elements:
@@ -212,10 +216,6 @@ Mental health concerns or stressful events may lead to diminished academic perfo
 
 Asking your peers in class and your instructor is a great source for technical assistance.  This
 is particularly true with the technologies we are learning in class (python, git, etc.).  For MSU-provided technologies, you can visit the [MSU Help site](http://help.msu.edu){:target="_blank"}, the [Desire2Learn Help Site](http://help.d2l.msu.edu){:target="_blank"} or email the [MSU IT Service Desk](mailto:ithelp@msu.edu).
-
-### In-class technology usage
-
-Students are expected to use their laptops in class for in-class work, and should bring their laptops to every class. Smartphone and tablet usage is fine so long as they are being used for class purposes (like taking notes, looking things up, etc). Phone calls in class are prohibited. If you need to make or receive a phone call, step outside of the classroom first. Talking on your phone in class is disrespectful to the instructors and to your classmates and will result in a lower grade for the day.
 
 ### Tolerance and civility
 
