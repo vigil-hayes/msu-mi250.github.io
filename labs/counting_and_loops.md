@@ -2,8 +2,8 @@
 parent: Week 4
 topic: Counting and Loops 
 git: https://gitlab.msu.edu/mi-250/counting-and-loops
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For this lab, we are going to use a git repository like we did for last week.  The first thing you should do is fork

@@ -3,9 +3,8 @@ parent: Week 1
 topic: Getting Started
 git: https://gitlab.msu.edu/mi-250/getting-started
 layout: studio
-title: Studio
-nav_order: 3
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Today we will start with our first lab.  Since we haven't yet done any

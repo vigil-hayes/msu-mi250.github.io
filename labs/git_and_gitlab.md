@@ -2,8 +2,8 @@
 parent: Week 3
 topic: Git and GitLab
 git: https://gitlab.msu.edu/mi-250/git-and-gitlab
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 # Your own git repository

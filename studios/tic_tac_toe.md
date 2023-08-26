@@ -1,8 +1,8 @@
 ---
-parent: Week 9
+parent: Week 10
 topic: Tic Tac Toe
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For the studio today, you are going to make a [game of Tic Tac Toe](https://en.wikipedia.org/wiki/Tic-tac-toe).

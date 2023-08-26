@@ -1,7 +1,8 @@
 ---
 parent: Week 1
 topic: <i>MLK Day; no class</i>
-visible: true
+visible: false
+nav_exclude: true
 published: false
 ---
 

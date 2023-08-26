@@ -1,6 +1,7 @@
 ---
 parent: Week 1
 topic: Intro to Class
+nav_exclude: false
 visible: true
 ---
 

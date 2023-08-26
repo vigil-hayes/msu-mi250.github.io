@@ -1,9 +1,10 @@
 ---
-parent: Week 10
-topic: Practice Reading
+parent: Week 11
+topic: Practice Reading Code
 git: https://gitlab.msu.edu/mi-250/reading-code
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
+layout: studio
 ---
 
 You have spend almost all of the lab and studio sessions writing code for this class.   Writing code is relatively

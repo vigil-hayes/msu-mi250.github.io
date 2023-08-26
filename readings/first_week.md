@@ -1,7 +1,8 @@
 ---
 topic: Course Introduction
 parent: Week 1
-published: false
+nav_exclude: false
+visible: true
 ---
 
 Readings:

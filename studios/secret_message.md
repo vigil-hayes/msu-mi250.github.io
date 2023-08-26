@@ -5,8 +5,9 @@ grand_parent: Schedule
 layout: studio
 nav_order: 3
 topic: Secret Message
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
+published: false
 ---
 
 <!-- TODO: add info about .toupper() and .tolower().  add info about """ -->

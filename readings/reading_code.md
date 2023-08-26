@@ -1,6 +1,6 @@
 ---
 topic: Reading Code
-parent: Week 10
+parent: Week 11
 ---
 
 Please read these readings:

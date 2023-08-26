@@ -3,7 +3,8 @@ topic: Testing
 git: https://gitlab.msu.edu/mi-250/testing
 parent: Week 13
 nav_exclude: true
-visible: true
+visible: false
+published: false
 ---
 
 ## Install PyTest

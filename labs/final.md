@@ -2,8 +2,8 @@
 parent: Final Week
 topic: Adventure Engine
 git: None
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For all of this week, we will be going back to the beginning of this class.  Our very first studio assignment was to

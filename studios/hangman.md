@@ -1,8 +1,9 @@
 ---
 parent: Week 10
 topic: Hangman
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
+published: false
 ---
 
 For the studio today, you are going to make a [hangman game](https://en.wikipedia.org/wiki/Hangman_(game)).  The game

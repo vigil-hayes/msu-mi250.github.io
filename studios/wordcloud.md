@@ -1,8 +1,8 @@
 ---
-parent: Week 11
+parent: Week 12
 topic: Wordcloud
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 A [word cloud](https://en.wikipedia.org/wiki/Tag_cloud) is a way of visualizing some text. If you have some text -- like

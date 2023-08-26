@@ -1,8 +1,8 @@
 ---
-parent: Week 3
+parent: Week 4
 topic: Flash Cards
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Research on how people learn has suggested that, when learning facts, one of the most important things to do is to

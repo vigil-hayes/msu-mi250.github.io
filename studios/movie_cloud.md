@@ -1,8 +1,8 @@
 ---
-parent: Week 12
+parent: Week 14
 topic: Movie Cloud
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For this studio, you should write a program that creates a Movie Cloud.  A movie cloud is a word cloud, but about a

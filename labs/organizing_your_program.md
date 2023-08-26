@@ -1,15 +1,16 @@
 ---
-parent: Week 14
+parent: Week 9
 topic: Organizing Your Program
 git: https://gitlab.msu.edu/mi-250/organizing-code
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
+layout: studio
 ---
 
-## Organizing your Code
+## Organizing your Program
 
 As you begin to write longer and more complex programs, it becomes more important to stay organized as you work.
-Earlier in the semester, you would put all of the code in one file, with no line breaks or other ways of organizing the
+Earlier in the semester, you would put all of the code in one file, with no line breaks or other ways of organizSing the
 code.  Today, we are going to practice a few skills that will make it easier to stay organized.
 
 ### Exercise 1: Refactoring -- Red stripes

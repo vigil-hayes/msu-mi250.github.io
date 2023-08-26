@@ -1,9 +1,9 @@
 ---
-parent: Week 12
+parent: Week 14
 topic: Requests and Movies
 git: https://gitlab.msu.edu/mi-250/using-apis
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 There is a limit to what you can do with python alone.  But the Internet has a wide range of additional services, and

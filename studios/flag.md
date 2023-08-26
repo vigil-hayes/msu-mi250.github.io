@@ -1,8 +1,8 @@
 ---
 parent: Week 5
 topic: Country Flag Studio
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For today, we are going to do a studio instead of the regular Monday lab.

@@ -1,6 +1,6 @@
 ---
 topic: Revisiting Functions
-parent: Week 9
+parent: Week 10
 ---
 
 Please read the following about functions:

@@ -1,8 +1,8 @@
 ---
 parent: Week 2
 topic: Choose your own adventure
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 The goal of today's studio is to write a story, that is printed out using python. But, because python is a programming

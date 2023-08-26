@@ -1,8 +1,8 @@
 ---
 parent: Week 7
 topic: Speak in Emoji
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Emoji are graphical representations of ideas and concepts -- basically, they are pictograms.  It is possible to convey

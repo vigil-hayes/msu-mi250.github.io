@@ -1,8 +1,8 @@
 ---
 parent: Week 4
 topic: <i>No Class</i>
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 published: false
 ---
 

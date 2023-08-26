@@ -1,8 +1,9 @@
 ---
-parent: Week 14
+parent: Week 13
 topic: Refactor Old Studio
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
+layout: lab
 ---
 
 Your goal today is *refactoring*.  The task for today is to go back to one of the previous studios that you did, read
