@@ -59,42 +59,27 @@ Students are expected to use their laptops in class for in-class work, and shoul
 ## Course Structure
 
 This course has 4 main elements:
-* Homework: reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
-* Labs: set exercises for learning and practicing concepts in programming, done in class with partners (usually on Tuesdays)
-* Studios: open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-4 (usually on Thursdays)
-* Final project: a two week project at the end of the semester started in class and due during the class’s final exam period (10am, Thursday Dec. 14).
+* **Homework:** reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
+* **Labs:** set exercises for learning and practicing concepts in programming, done in class with partners (usually on Tuesdays)
+* **Studios:** open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-4 (usually on Thursdays)
+* **Final project:** a two week project at the end of the semester started in class and due during the class’s final exam period (12pm, Thursday Dec. 14).
 
 **This course does NOT have any quizzes or exams.** Aside from the final project, which students have the option of working on outside of class, all programming work will be done IN CLASS. It’s therefore very important to attend class as much as possible.
 
 ### Pair Programming
-Students in this course will practice a concept called pair programming, which originated with programmers at tech companies. Pair programming is based on the idea of “two programmers, one computer:” two programmers work together on the same code using one computer between them. One person is the driver: they are the person using the computer and typing the code. The other person is the observer, or the navigator: they do the bigger picture thinking, look up relevant information, and help spot mistakes. In this class, students will switch roles on a regular basis. Students who participate in pair programming get stuck and frustrated less often than students working by themselves and are also able to practice teamwork and communication – which is why we practice it in this class!
+Students in this course will practice a concept called pair programming, which originated with programmers at tech companies. Pair programming is based on the idea of “two programmers, one computer:” two programmers work together on the same code using one computer between them. One person is the driver: they are the person using the computer and typing the code. The other person is the observer, also known as the navigator: they do the bigger picture thinking, look up relevant information, and help spot mistakes. In this class, students will switch roles on a regular basis. Students who participate in pair programming get stuck and frustrated less often than students working by themselves and are also able to practice teamwork and communication – which is why we practice it in this class!
 
 In labs: students will be randomly assigned in pairs at the beginning of class. You’ll likely work with someone different every week. You will practice pair programming for every lab.
 
 In studios: students can choose who they work with and can work in groups no smaller than 2 people and no larger than 4. We encourage you to practice pair programming in whatever way makes sense for your group rather than all working on your own computers. You should be talking with your group members frequently.
 
-## Coursework Expectations and Grading
-
-Grades in this class are mostly based on attending class and making an honest effort to engage with the material, both in and outside of class. The final project is the only work in which students will be graded on the programming skills they’ve developed over the semester. Grades are broken down in this way:
-
-| Homework (summary + question) | 20% |
-| In class exercises (labs and studios) | 60% |
-| Final project | 20% |
-
-Grades will be input on D2L and are calculated continuously – you will always know where your grade stands for the class by looking at D2L. Most all grades (except for the final project) are based on a check / check plus / check minus rubric:
-* **Check = 9/10**. You showed up and did the work. This is the base grade for everybody. (You didn’t do anything wrong if you get a check!)
-* **Check plus = 10/10**. You showed up, did the work, and impressed us: maybe you worked particularly well with your partner that day, or had a particularly insightful question.
-* **Check minus = 7/10**. You showed up, but didn’t honestly engage with the work. Maybe you were late to class with no excuse, or maybe you spent half the class cruising Insta or not talking with your partner or group at all. 
-
-### Turning in work
-
-In-class work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
+## Coursework
 
 ### Homework
 
-Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Tuesday). These are under Assignments -> Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. Homework should take you between 30 minutes and 1 hour each week.
+Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Tuesday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. Homework should take you between 30 minutes and 1 hour each week.
 
-All readings and videos are available for free and are linked on the readings page for each week. You will not be required to purchase any textbooks or other materials to complete the homework.
+All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<https://mi250.dev/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the homework.
 
 **Summary:** one paragraph max (at least 3 sentences). These will always be guided summaries rather than just repeating facts. There will be a prompt on the readings page for each week which will usually ask you to explain what you’ve learned in your own words and to apply it to your own experiences. If your summary is too short or too long, or doesn’t answer the prompt, you may be marked down for it.
 
@@ -131,20 +116,49 @@ Studios are NOT graded on how "good" your code is or whether everything works as
 
 The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
 
-Final projects will be graded in two parts:
-* Normal studio requirements – graded based on effort, attendance, and participation during the two class periods in the final week of class
-* The content of the project – graded based on whether the program works as intended, and on a combination of demonstrating programming skills and creativity.
-A rubric for the final project will be released at the beginning of the final week of class.
-
 Final projects are due at the end of the final exam period: 12pm (noon) Thursday, December 14, 2023. **There is no final exam for this class.**
+
+### Turning in work
+
+In-class work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
 
 ### Extra credit
 
-There will be two extra credit opportunities this semester – a take-home assignment on November 3rd (election day) and an in-class activity on November 21st (the week of Thanksgiving). Each will be worth 5 points.
+There will be two extra credit opportunities this semester – a take-home assignment on November 3rd (election day) and an in-class activity on November 21st (the week of Thanksgiving).
 
 ### Honors option
 
 This course does have an honors option for students in the honors college. If you want to do an honors option, talk with Caitlin within the first two weeks of class.
+
+## Coursework Expectations and Grading
+
+Grades in this class are mostly based on attending class and making an honest effort to engage with the material, both in and outside of class. The final project is the only work in which students will be graded on the programming skills they’ve developed over the semester. Grades are broken down in this way:
+
+| Homework (summary + question) | 20% |
+| In class exercises (labs and studios) | 60% |
+| Final project | 20% |
+
+Grades will be input on D2L and are calculated continuously – you will always know where your grade stands for the class by looking at D2L. Most all grades (except for the final project) are based on a check / check plus / check minus rubric:
+* **Check = 9/10**. You showed up and did the work. This is the base grade for everybody. (You didn’t do anything wrong if you get a check!)
+* **Check plus = 10/10**. You showed up, did the work, and impressed us: maybe you worked particularly well with your partner that day, or had a particularly insightful question.
+* **Check minus = 7/10**. You showed up, but didn’t honestly engage with the work. Maybe you were late to class with no excuse, or maybe you spent half the class cruising Insta or not talking with your partner or group at all. 
+
+Final projects will be graded in two parts:
+* Normal studio requirements – graded based on effort, attendance, and participation during the two class periods in the final week of class
+* The content of the project – graded based on whether the program works as intended, and on a combination of demonstrating programming skills and creativity.  
+
+A rubric for the final project will be released at the beginning of the final week of class.
+
+### Grading scale
+
+| 90% | 4.0 |
+| 85% | 3.5 |
+| 80% | 3.0 |
+| 75% | 2.5 |
+| 70% | 2.0 |
+| 65% | 1.5 |
+| 60% | 1.0 |
+| Below 60% | 0.0 |
 
 ## Communication Policies
 
@@ -154,7 +168,7 @@ Email policy: we will respond to email within 24 hours on weekdays, or within 72
 
 ### Announcements
 
-Announcements about the course will be posted on D2L. Make sure you have allowed D2L to send announcements to your MSU email. You can also have D2L emails forwarded to different email accounts - see [instructions to do this in the MSU D2L documentation]( https://help.d2l.msu.edu/msu-docs/tools-and-tips/d2l-email-forwarding{:target="_blank"}.
+Announcements about the course will be posted on D2L. Make sure you have allowed D2L to send announcements to your MSU email. You can also have D2L emails forwarded to different email accounts - see [instructions to do this in the MSU D2L documentation]( https://help.d2l.msu.edu/msu-docs/tools-and-tips/d2l-email-forwarding){:target="_blank"}.
 
 ## Attendance / Absence Policy
 
@@ -168,11 +182,13 @@ That said, life happens. **The 4 lowest grades for in class activities (labs and
 
 If you are sick with something contagious (like COVID or the flu), PLEASE PLEASE PLEASE be considerate of your instructors and classmates and STAY HOME! Remember you can miss up to 4 classes with no penalty and no excuse needed. For long-lasting illnesses, see “exceptions” below.
 
-If the instructors are sick, class may be cancelled.
+If you have or think you might have COVID and aren't sure what to do, see [MSU's COVID guidance page](https://msu.edu/together-we-will/covid19-guidance/){:target="_blank"}.
+
+If the instructor is sick, class may be cancelled.
 
 ### Exceptions
 
-The "drop 4" policy for in class activities will cover nearly all absences for nearly all students. It is meant to be flexible. If you find yourself needing to miss more classes than that, we will try to work with you to help you to keep up with the class. IF you are beyond 4 absences already AND any of the below circumstances apply, we may be able to exempt you from certain classes or homework. Talk to Caitlin first and foremost!
+The "drop 4" policy for in class activities will cover nearly all absences for nearly all students. It is meant to be flexible. If you find yourself needing to miss more classes than that, we will try to work with you to help you keep up with the class. IF you are beyond 4 absences already AND any of the below circumstances apply, we may be able to exempt you from certain classes or homework. Talk to Caitlin first and foremost!
 
 Note that missing more than two weeks of class will make it harder for you to keep up, and also harder for you to earn good grades because you won’t be able to participate as much in class. If you need to miss extra class, talk with Caitlin or Jack and we will help you determine what you might need to do to keep up with the class. All of the exceptions below will be taken into account if you go beyond 4 absences.
 
@@ -180,7 +196,7 @@ Note that missing more than two weeks of class will make it harder for you to ke
 
 **Illness lasting more than 2 weeks** – COVID is still a thing, and there are all sorts of other illnesses people can have that affect their ability to attend class. Contact Caitlin as soon as possible to discuss potential accommodations and what kind of documentation may be necessary.
 
-**Grief absences** – If you have experienced the death of a family member or someone close to them, or is experiencing emotional distress from a similar tragedy, they may request a grief absence. To request a grief absence, visit the Grief Absence Request Form found on the [Student Information System](https://student.msu.edu/){:target="_blank"} under Resources –> Grief Absence. See the [grief absence policy](https://reg.msu.edu/roinfo/notices/griefabsence.aspx){:target="_blank"} for more information. Once your grief absence is approved, we will exempt you from the in-class activities for the approved dates. This means those classes won’t count towards your grade at all, and also won’t count as part of your 4 dropped grades.
+**Grief absences** – If you have experienced the death of a family member or someone close to you, or you are experiencing emotional distress from a similar tragedy, you may request a grief absence. To request a grief absence, visit the Grief Absence Request Form found on the [Student Information System](https://student.msu.edu/){:target="_blank"} under Resources –> Grief Absence. See the [grief absence policy](https://reg.msu.edu/roinfo/notices/griefabsence.aspx){:target="_blank"} for more information. Once your grief absence is approved, we will exempt you from the in-class activities for the approved dates. This means those classes won’t count towards your grade at all, and also won’t count as part of your 4 dropped grades.
 
 **Religious holidays** – If you wish to be absent from class to observe a religious holiday, please make arrangements in advance. 
 
@@ -192,7 +208,7 @@ Note that missing more than two weeks of class will make it harder for you to ke
 
 ### Accommodations for disabilities
 
-Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web at [rcpd.msu.edu](https://rcpd.msu.edu){:target="_blank"}. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to Caitlin at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.
+Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web at [rcpd.msu.edu](https://rcpd.msu.edu){:target="_blank"}. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to Caitlin in the first two weeks of the semester and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.
 
 ### Spartan Code of Honor
 
