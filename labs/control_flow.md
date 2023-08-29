@@ -6,92 +6,77 @@ nav_exclude: true
 visible: false
 ---
 
-The first thing you need to do today is to create a copy of the files you'll need for the lab.   These files are in the
-git repository listed above. 
+The first thing you need to do today is to create a copy of the files you'll need for the lab. These files are in the
+git repository linked above. Last week, you only downloaded one file. This week, download the full repository. Find the download button (next to the blue "Clone" button) on the main repository page and choose the ".zip" option. It will download as a .zip folder on your computer.
 
-Most of the labs in the class build on the previous labs. Last week, we learned how to download files from a git
-repository. Rather than repeat the instructions here (and every week going forward), I'm just reminding you that you can
-go to [Lab 0]({% link labs/installing_python.md %}) to find more instructions for downloading files from GitLab.  Note that this weeks files
-are in a different repository on GitLab; that is, the link for this week above is different than the link for last week.
-
-Once you get the repository, you should see these files:
+Once you get the repository on your computer, you should have a folder named 'control-flow-master' with 5 files in it:
 * README.md
+* avengers.py
 * hello.py
 * mad-libs.py
 * mad-libs-input.py
-* avengers.py
 
-The goal of these labs is *practice* -- we will be going through a series of challenges and exercises to try to practice
-usign the skills you learned during the reading and videos from this week.  We will practice skills over and over
+The goal of these labs is to *practice*. Each lab will be a series of exercises and challenge to practice the concepts you were introduced to in the readings/videos for the week. You'll continue practicing the concepts from this lab in the studio this week, and in future labs and studios. Many of the concepts build on each other and can be used in combination with one another. 
 
-As you finish a couple of exercises, ask the professor or TA to come over and look at your solution.
+As with all labs, this lab will be done in pairs. Remember to switch places every so often! Everyone should spend at least part of the class as the driver, and at least part of the class as the navigator.
 
-Also, since today is a lab, remember that we doing pair programming today.  Always work in pairs, with two
-people using one computer.  Every 20 minutes or so I will announce that it is time to swap roles.
+## Print - outputting information
 
-# Print -- our first program 
+You learned a bit about the print statement in the readings this week. You'll be using it a lot this semester; we'll start practicing now.
 
-The first program that almost everyone writes is called "Hello World".   The idea is to create a program that
-communicates with a user by giving them a simple piece of information -- in this case, it says hello.
+### Exercise 1: Hello world 
 
-I've already written a simple version of this program, and its called "hello.py".  The first step is to run this
-program using `python` on Windows or `python3` on Mac:
+The first program that almost everyone writes when they're learning how to program is called "Hello World". The idea is to create a program that communicates with a user by giving them a simple piece of information -- in this case, it says hello.
 
-Windows users:
+I've already written a simple version of this program, and its called "hello.py". First, run this program in command line with:
 ```
 python hello.py
 ```
 
-Mac users:
+Remember to use `python3` if you're on a Mac! If you need a refresher on running Python programs, go back to [Lab 1]({% link labs/installing_python.md %}).
+
+Open up the `hello.py` in your text editor. What does it look like? What do you think `print` does?
+
+### Exercise 2: Say hello to someone
+
+Next we will practice modifying this program. Last week, we opened program files in a text editor, edited them, and then ran them on the command line. We are going to do that again this week; however, this week we are going to be making more careful edits that do more than we did last week.
+
+Have the program, when you run it, say hello to a specific person -- use the name of the person who is the navigator in your pair today. To do this, you want to put the navigator's name into the print statement.  
+
+So if the navigator's name is David Bowie, then the program should print out
 ```
-python3 hello.py
-```
-
-Now, we are going to practice modifying this program. Last week, we opened program files in a text editor, edited them,
-and then ran them on the command line.  We are going to do that again this week; however, this week we are going to be
-making more careful edits that do more than we did last week.
-
-### Exercise 1: Say hello to someone
-
-The first challenge is to have the program, when you run it, say hello to a specific person -- the person who is
-navigator.  To do this, you want to put the navigator's name into the print statement.  
-
-So, if the navigator's name is Andrea Jones, then the program should print out
-```
-Hello Andrea Jones
+Hello David Bowie
 ```
 
-### Exercise 2: Add more information
+### Exercise 3: Add more information
 
-The second challenge is to have this program print out some additional information.  To do this, you'll need to add
-additional print statements. Each print statement prints out one line of output.  You want the program to introduce
-yourself (the driver) to the navigator, so that when the navigator runs the program, they learn more about the driver.
-So, for example, the program could output something like
+Next, have `hello.py` print out some additional information. To do this, you'll need to add additional print statements. Each print statement prints out one line of output. 
+
+You want the program to introduce yourself (the driver) to the navigator, so that when the navigator runs the program, they learn more about the driver. So, for example, the program could output something like:
 
 ```
-Hello Andrea Jones
-I am Rick Wash
+Hello David Bowie
+I am Ziggy Stardust
 and I am a sophomore media and information major.
 
 I enjoy helping people use technology, 
 I hope to become a user experience professional when I graduate.
 ```
 
-To do this, go back to the readings and videos from this week to remind yourself about print statements and how to use
-them.  Make sure that all of this information is not on one line, but instead appears on multiple different lines.
-Also remember that you can print a blank line using `print("")`.
+You can always go back to the [readings and videos from this week]({% link readings/variables.md %}) to remind yourself about print statements and how to use them. Make sure that all of this information is not on one line, but instead appears on multiple different lines. Also remember that you can print a blank line using `print("")`.
 
+### Change places
 
-# Variables -- storing information for later use
+Now might be a good time to switch places with your partner. Before you do, remember to take a screenshot or two of `hello.py` with the changes you made running in command line.
 
-Now that we've had a chance to practice printing out information, let's use variables to change up what we are
-displaying.  To do this, we need to put information into a variable, and then use the print commands to print out
-information that fills in blanks with the contents of a variable.
+## Variables -- storing information for later use
 
-We will start with the file `mad-libs.py`.   The first thing you should do is to run the program.  What does it print
+Now that we've had a chance to practice printing out information, let's use variables to change up what we are displaying.  To do this, we need to put information into a variable, and then use the print commands to print out information that fills in blanks with the contents of a variable.
+
+We will start with the file `mad-libs.py`. The first thing you should do is to run the program.  What does it print
 out?
 
-### Exercise 3: Words
+### Exercise 4: Words
 
 Now open up the file, and notice that at the top of the file, there are some variables.  The name of each variable is a
 prompt, like "verb" or "action". Ask the navigator to come up with new words by reading the prompts and filling in the
@@ -104,7 +89,7 @@ Notice what running the program does -- it stores specific words (in `""` quotes
 variable named `action`.  This is how variables work -- you store something in them, and then python will substitute
 whatever is stored in them as it runs.
 
-### Exercise 4: New Mad-libs
+### Exercise 5: New Mad-libs
 
 Pick a new movie quote.  It can be from any movie you want, though if you like the Guardians of the Galaxy theme, here
 are some of the [memorable quotes](https://www.cbr.com/guardians-galaxy-mcu-best-quotes/).  Add a new print
@@ -137,7 +122,7 @@ says based on what the user inputs.
 
 Next, run it again, and type in different things.  What happens?
 
-### Exercise 5: Update the Mad-Lib
+### Exercise 6: Update the Mad-Lib
 
 The original source of that mad-lib is the song "Down Under" by Men at Work.  Its an old song from the 80's.
 Since I'm old, I like that kind of music.  You might too, or you might not, and that's OK.  For this
@@ -179,7 +164,7 @@ the source code gets printed out; instead, it depends on what the user of the pr
 attention to how things are indented.  Indentation is really important in python.  Indentation controls which lines are
 part of the `if` statement and which ones are not.
 
-### Exercise 6: Try different inputs
+### Exercise 7: Try different inputs
 
 Run the avengers program multiple times.  Give different answers to the prompts.  Try out all three avengers as an
 answer to the first prompt. What happens?
@@ -190,24 +175,24 @@ Also, as you tried things, did anything not work as you expected?  Make a list o
 where it doesn't work the way you expect it to.
 
 
-### Exercise 7: What Happens when Captain America tries?
+### Exercise 8: What Happens when Captain America tries?
 
 Your next challenge is to modify the code.  What happens when Captain America tries to pick up the hammer?  Put some
 print statements in the right place to tell the story of what happens when Captain America tries to pick up the hammer.
 
-### Exercise 8: Lowercase
+### Exercise 9: Lowercase
 
 Right now, if you type in Thor's name or Iron Man's name, it works even if you don't capitalize their names.  But
 Captain America's name has to be capitalized.  Modify the code so that you can use lowercase to type in captain
 america's name.
 
-### Exercise 9: Nicknames
+### Exercise 10: Nicknames
 
 What happens if you just type in "cap" instead of "captain america"?  It doesn't work right.  Let's fix that.  Make it
 so that you can enter in nicknames like "cap" or "tony" and it'll still work.
 
 
-### Exercise 10: Black Widow
+### Exercise 11: Black Widow
 
 Black Widow was also hanging out with the rest of her team.  Let's add her in to the story.  Create a new branch where
 she tries to lift the hammer, and print out what happens when she tries.

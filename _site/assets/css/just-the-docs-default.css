@@ -1671,15 +1671,15 @@ h3,
 
 h4,
 .text-delta {
-  font-size: 14px !important;
-  font-weight: 500;
-  /*text-transform: uppercase;*/
-  font-style: italic;
+  font-size: 11px !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 @media (min-width: 31.25rem) {
   h4,
   .text-delta {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 }
 
