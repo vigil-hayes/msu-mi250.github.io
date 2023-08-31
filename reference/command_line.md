@@ -1,7 +1,7 @@
 ---
 title: Using command line
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 parent: Reference
 nav_order: 3
 has_children: false
