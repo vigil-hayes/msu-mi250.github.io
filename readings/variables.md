@@ -32,6 +32,8 @@ Your question this week, and for most future weeks, can be one of three "types" 
 
 After reading the material, come up with one question. Caitlin will read through the questions before class starts and answer the most interesting ones at the beginning of class.
 
+**NOTE:** You do have to ask a question for it to count. "I have no questions" is not a question. If you can't think of a question, think of a connection instead.
+
 Submit your summary+question on D2L under Quizzes.
 
 
