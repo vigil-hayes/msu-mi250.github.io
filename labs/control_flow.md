@@ -6,10 +6,11 @@ nav_exclude: true
 visible: false
 ---
 
-The first thing you need to do today is to create a copy of the files you'll need for the lab. These files are in the
-git repository linked above. Last week, you only downloaded one file. This week, download the full repository. Find the download button (next to the blue "Clone" button) on the main repository page and choose the ".zip" option. It will download as a .zip folder on your computer.
+The first thing you need to do today is to create a copy of the files you'll need for the lab. These files are in the git repository linked above. Last week, you only downloaded one file. This week, download the full repository. Find the download button (next to the blue "Clone" button) on the main repository page and choose the ".zip" option. It will download as a .zip folder on your computer.
 
-Once you get the repository on your computer, you should have a folder named 'control-flow-master' with 5 files in it:
+Once you get the repository on your computer, you may need to unzip it to be able to work with the files inside. On Windows, right click on the file and choose 'Extract All' - this will create a new folder with the same name. On Mac, double click on the folder and it will do the same thing.
+
+You should have a folder named 'control-flow-master' with 5 files in it:
 * README.md
 * avengers.py
 * hello.py
@@ -41,9 +42,9 @@ Open up the `hello.py` in your text editor. What does it look like? What do you 
 
 Next we will practice modifying this program. Last week, we opened program files in a text editor, edited them, and then ran them on the command line. We are going to do that again this week; however, this week we are going to be making more careful edits that do more than we did last week.
 
-Have the program, when you run it, say hello to a specific person -- use the name of the person who is the navigator in your pair today. To do this, you want to put the navigator's name into the print statement.  
+Have the program, when you run it, say hello to a specific person -- use the name of the person who is the driver in your pair today. To do this, you want to put the drvier's name into the print statement.  
 
-So if the navigator's name is David Bowie, then the program should print out
+So if the driver's name is David Bowie, then the program should print out
 ```
 Hello David Bowie
 ```
@@ -52,14 +53,14 @@ Hello David Bowie
 
 Next, have `hello.py` print out some additional information. To do this, you'll need to add additional print statements. Each print statement prints out one line of output. 
 
-You want the program to introduce yourself (the driver) to the navigator, so that when the navigator runs the program, they learn more about the driver. So, for example, the program could output something like:
+You want the program to introduce the person who is navigating to the driver, so that when the driver runs the program, they learn more about their partner for the lab. So, for example, the program could output something like:
 
 ```
 Hello David Bowie
 I am Ziggy Stardust
 and I am a sophomore media and information major.
 
-I enjoy helping people use technology, 
+I enjoy helping people use technology. 
 I hope to become a user experience professional when I graduate.
 ```
 
@@ -67,89 +68,58 @@ You can always go back to the [readings and videos from this week]({% link readi
 
 ### Change places
 
-Now might be a good time to switch places with your partner. Before you do, remember to take a screenshot or two of `hello.py` with the changes you made running in command line.
+Now is a good time to switch places with your partner. Before you do, remember to take a screenshot or two of `hello.py` with the changes you made running in command line. 
+
+The new driver will need to download the Git repository for today's lab on their computer now - go to the top of this page if you need a refresher on how to do that.
 
 ## Variables -- storing information for later use
 
-Now that we've had a chance to practice printing out information, let's use variables to change up what we are displaying.  To do this, we need to put information into a variable, and then use the print commands to print out information that fills in blanks with the contents of a variable.
+Now that we've had a chance to practice printing out information, let's use variables to change up what we are displaying. To do this, we will first put pieces of information into variables. Then we'll use the print command to print out information that fills in blanks with the contents of a variable.
 
-We will start with the file `mad-libs.py`. The first thing you should do is to run the program.  What does it print
-out?
+We will start with the file `mad-libs.py`. The first thing you should do is to run the program. What does it print out? 
 
 ### Exercise 4: Words
 
-Now open up the file, and notice that at the top of the file, there are some variables.  The name of each variable is a
-prompt, like "verb" or "action". Ask the navigator to come up with new words by reading the prompts and filling in the
-words the navigator comes up with.  
+Now open up the file, and notice that at the top of the file, there are some variables. The name of each variable is a prompt, like "body_part" or "action". Ask the navigator to come up with new words to respond to the prompts by reading the variable names to them. Replace what's in there now with the new words.
 
-Run the program again, and notice what changed.  Why did that happen?
+Run the program again, and notice what changed. Why did that happen?
 
-Notice what running the program does -- it stores specific words (in `""` quotes) into variables like `body_part` and
-`action`.  Then, when it prints out, instead of print out the word `action`, it prints out whatever is stored in the
-variable named `action`.  This is how variables work -- you store something in them, and then python will substitute
-whatever is stored in them as it runs.
+Notice what running the program does -- it stores specific words (in `""` quotes) into variables like `body_part` and `action`.  Then, when it prints out, instead of print out the word `action`, it prints out whatever is stored in the variable named `action`. This is how variables work -- you store something in them, and then python will substitute whatever is stored in them as it runs.
 
 ### Exercise 5: New Mad-libs
 
-Pick a new movie quote.  It can be from any movie you want, though if you like the Guardians of the Galaxy theme, here
-are some of the [memorable quotes](https://www.cbr.com/guardians-galaxy-mcu-best-quotes/).  Add a new print
-statement that prints out the quote.  Then choose a word to replace, and create a variable to hold the word that
-replaces it. Try to get it so that you can change the value of the variable at the top of the file, and it will change
-what is printed out.
+Pick a new movie quote. It can be from any movie you want, though if you like the Guardians of the Galaxy theme, here are some of the [memorable quotes](https://www.imdb.com/title/tt2015381/quotes/){:target="_blank"}. Add a new print statement that prints out the quote. Then choose a word to replace, and create a variable to hold the word that replaces it. Try to get it so that you can change the value of the variable at the top of the file, and it will change what is printed out.
 
+### Change places
 
-# Getting input from users
+This is another good place to switch from driver to navigator, and vice versa. When the next exercise uses a different file, that's often a good time to trade places.
 
-So far, the programs that we have created just do one thing.  Every time we run the program, it does the same thing.
-That's not a bad thing -- some of the most interesting programs do the same thing every time it is run (like calculate
-tomorrows weather, or figure out a prediction, or rendering a 3D movie).  But the most interesting programs are
-interactive -- they ask the user for input, and then change what they do based on what the user does.
+## Getting input from users
 
-Up to this point, the way you made the program do something different was to edit the program.  That is, you were both
-being the programmer (who edits the program) and the user (who tells the program what to do).  Starting now, we are
-going to separate those roles.   You will write a program that asks the user -- which may be you, or it may be other
-people -- for input.  Then the program will do interesting things with that user input.  What this means is that,
-starting now, we are going to be writing programs that are not just for ourselves, but that can also be used by other
-people for their own purposes.  This is one of the most interesting and exciting parts of programming -- that other
-people can take your program and do interesting things with it.
+So far, every time we run the programs we've worked on, they do the same thing. That's not a bad thing -- some of the most interesting programs do the same thing every time they are run (like display tomorrow's weather, or figure out a prediction, or render a 3D movie). But the most interesting programs are interactive -- they ask the user for input, and then change what they do based on what the user does.
+
+Up to this point, the way you made the program do something different was to edit the program. That is, you were both being the programmer (who edits the program) and the user (who tells the program what to do). Starting now, we are going to separate those roles. You will write a program that asks the user -- which may be you, or it may be other people -- for input. Then the program will do interesting things with that user input. What this means is that, starting now, we are going to be writing programs that are not just for ourselves, but that can also be used by other people for their own purposes. This is one of the most interesting and exciting parts of programming -- that other people can take your program and do interesting things with it.
 
 Today, we are going to begin with the simplest way to get user input -- through the keyboard using `input()`.
 
-First, notice that there is a second mad-libs file, `mad-libs-input.py`.   Run that program using `python
-mad-libs-input.py`.  Ask the navigator for words based on the prompts, and enter them into the program as it runs.
-Then observe what comes out.  That's a simple interactive program that asks for input (words), and then changes what it
-says based on what the user inputs.  
+First, notice that there is a second mad-libs file, `mad-libs-input.py`.  Run that program using `python mad-libs-input.py`. Ask the navigator for words based on the prompts, and enter them into the program as it runs. Then observe what comes out. That's a simple interactive program that asks for input (words), and then changes what it says based on what the user inputs.  
 
-Next, run it again, and type in different things.  What happens?
+Next, run it again, and type in different things. What happens?
 
 ### Exercise 6: Update the Mad-Lib
 
-The original source of that mad-lib is the song "Down Under" by Men at Work.  Its an old song from the 80's.
-Since I'm old, I like that kind of music.  You might too, or you might not, and that's OK.  For this
-challenge, change the mad-lib.  Pick a different song that YOU like, and use that song to create the mad-lib.  Feel free
+The original source of that mad-lib is the song "Down Under" by Men at Work. Its an old, goofy, Australian song from the 80's. For this challenge, change the mad-lib. Pick a different song that YOU like, and use that song to create the mad-lib. Feel free
 to edit this file; you don't need to create a whole new program.
 
-Your new mad-lib should ask the user for new types of words.  They should be words that fit into the song you choose,
-not the types of words that I asked for.  Take what the user enters, and have the program store them into variables.
-Then print out the lyrics to your song, replacing key words with words that the user input.
+Your new mad-lib should ask the user for new types of words.  They should be words that fit into the song you choose, not the types of words that I asked for. Take what the user enters and have the program store them into variables. Then print out the lyrics to your song, replacing key words with words that the user inputs.
 
-Notice how you store things.  The code says `variable = input(...)`.   You pick a variable and put it on the left side
-of the equals. Then you put what you want to put into the variable on the right side.  Previously, we put actual words in
-quotation marks -- the quotation marks tell python that we mean those actual words.   In this program, instead of
-putting quotation marks, we use the command `input(...)` to get input from the user.  It prints out whatever we tell it
-to, and then waits for the user to type in something.  Whatever the user types in, it stores into the variable we put on
-the left of the input.
+Notice how you store things. The code says `variable = input("...")`.  You pick a variable and put it on the left side of the equal sign. Then you put what you want to put into the variable on the right side. Previously, we put actual words in quotation marks -- the quotation marks tell Python that we want the words inside to be reproduced as-is. In this program, instead of putting quotation marks, we use the command `input("...")` to get input from the user. It prints out whatever we tell it to and then waits for the user to type in something. Whatever the user types in, it stores into the variable on the left side of the equal sign.
 
-(Question: What happens if you put the `input(...)` command, but don't include `variable =` before it?   Answer: It asks
-the user for input, but then the program immediately forgets what the user typed because it didn't have anywhere to put
-it.)
+(Question: What happens if you put the `input(...)` command, but don't include `variable =` before it? Answer: It asks the user for input, but then the program immediately forgets what the user typed because it didn't have anywhere to store it.)
 
-*Note*: The code for your program -- the file you edit in your text editor -- should not have the actual words in it like it did in
-exercise 4.  Instead, it should just contain instructions to ask the user for words.  That's what programming is --
-giving the computer instructions for what to do.
+*Note*: The code for your program -- the file you edit in your text editor -- should not have the actual words in it like it did in exercise 4. Instead, it should just contain instructions to ask the user for words. 
 
-
-# Not always doing the same thing
+## Not always doing the same thing
 
 Next, we will work on basic conditionals -- using an `if` statement to cause different things to happen in different situations.
 

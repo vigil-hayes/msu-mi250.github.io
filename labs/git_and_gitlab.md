@@ -116,7 +116,7 @@ basically a temporary password for you to use.
 
 Type in your NetID in the "Token Name" field.  Then choose an expiration date that is sometime after May 2023.  It is
 important that you click the "write_repository" checkbox, because that allows this password to access your repositories.
-Then click the "Create personal access token" button. The webapge will reload, and near the top, it will print out a new
+Then click the "Create personal access token" button. The webpage will reload, and near the top, it will print out a new
 "access token" which is basically a randomly generated password for you to use.
 
 **Write down this access token**.  (Or copy-and-paste it somewhere you can find it.)
