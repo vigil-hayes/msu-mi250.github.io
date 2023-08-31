@@ -3,29 +3,31 @@ topic: Version Control
 parent: Week 3
 ---
 
-The readings / videos for the this week cover a type of technology called "version control" that allows programmers to
-keep track of their programs and collaborate with other programmers.  We will be using a specific type of version
-control called "Git" in this class to share programs between pairs.
+From here on out, you'll be using something called version control to collaborate with partners in class and to turn in code. Version control allows programmers to keep track of their code and to collaborate with other programmers more easily. The type of version control we'll be using is called Git. We'll be using it alongsize Gitlab, which is kind of like Google Docs except specifically for storing code. Gitlab is where you'll turn in your code from now on.
 
-### Version Control with Git
-* [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control) (reading)
-* [Git Handbook](https://guides.github.com/introduction/git-handbook/) (reading)
-    * [Saving Changes in Git](https://www.youtube.com/watch?v=Vb0Ghkkc2hk&index=4&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4) (video)
-    * [Pull and Push](https://www.youtube.com/watch?v=-uQHV9GOA0w&index=5&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4) (video)
+**Note:** Some of these readings talk about Github, which we won't be using. We're using Gitlab instead. Gitlab and Github are two different variations on the same thing - they're run by different companies, but they do the same thing, which is allow people to store coding projects in the cloud. We use Gitlab for this class because MSU runs an MSU-specific Gitlab server that all students can use for free.
+
+## Readings
+Some of these readings get in the weeds about using Git - don't worry if you don't understand everything. We'll be practicing in class this week.
+* [What is Version Control?](https://www.atlassian.com/git/tutorials/what-is-version-control){:target="_blank"}
+* [Git Handbook](https://guides.github.com/introduction/git-handbook/){:target="_blank"}
+* [Saving Changes in Git](https://initialcommit.com/blog/saving-changes-in-git){:target="_blank"}
+* [Getting Changes from a Remote Repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository){:target="_blank"}
 
 ---
 
-## Summary + Question
+## Summary
 
-Read the readings and watch the videos.  Doing this will help you begin to understand the concepts we will be working
-with this week.   As you do the readings, I want you to specifically focus on thinking about version control: what it is
-and why do we need it?  Once you've finished the readings, write up a short summary: why do we need version
-control, and how is it different than how I've shared work with group members in the past?
+When writing your summary this week, think about the kinds of tools you've used to collaborate with classmates in the past. What did you read about version control that sounded similar to other tools you've used? What was new to you about it?
 
-Then, write down a question. It can be a point of confusion or a needed clarification about anything in the readings, or
-it can be something interesting that you thought about while you were reading that goes beyond the reading. Or it can be
-an example you thought about, or a connection you made between the concepts here and other parts of your life. But write
-down a good question or example based on what you were thinking about while reading.
+**Summary prompt:** Why do we need version control, and how is it different than how I've shared work with group members in the past?
 
-The summary + question for this week can be submitted on D2L.
+## Question
+
+As per usual, your question can be one of three types:
+* *Confusion*: what didn't you understand in the readings?
+* *Curiousity*: what do you want to know more about?
+* *Connection*: how does this topic connect to your own experiences?
+
+Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
 
