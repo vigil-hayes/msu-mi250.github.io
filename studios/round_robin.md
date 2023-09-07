@@ -5,7 +5,7 @@ nav_exclude: true
 visible: false
 ---
 
-Today's studio is a creative exercise aimed at get you used to sharing code with other people using Git. You'll be practicing what's called round robin storytelling - this is when one person starts a story, then passes it on to the next person who adds to it, and then to the next person, who adds even more, and so on. 
+Today's studio is a creative exercise aimed at get you used to sharing code with other people using Git. You'll be practicing what's called [round robin storytelling](https://en.wikipedia.org/wiki/Round-robin_story){:target="_blank"} - this is when one person starts a story, then passes it on to the next person who adds to it, and then to the next person, who adds even more, and so on. 
 
 You'll be using Git to share code this week - and also to write the story. The first person will start writing the story and building the code around it, then will push it up to GitLab so the next person can pull it down and start writing a new part of the story/program. 
 
