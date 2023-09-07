@@ -26,8 +26,7 @@ The first thing you will do is to **fork** the project. Forking a project means 
 
 To do this, look for the "fork" button on the top right of the project page and click it. It will ask you for a 'namespace': there should be only one option, with your name. Click on that to start the forking process. Forking will take a moment. Once it finishes, then it will take you to the new project. The new project should look almost the same as the original -- it is a copy, after all!  The main difference is if you look at the top, instead of saying "MI-250 / Git and Gitlab", it should say your username now. If it does, then great! It worked!  If not, then ask the instructor or TA for some assistance.   
 
-(Note: sometimes you may get a 404 Error page. That happens when forking is slow.  Just wait a minute and hit
-"refresh" and it usually fixes itself.)
+(Note: sometimes you may get a 404 Error page. That happens when forking is slow.  Just wait a minute and hit "refresh" and it usually fixes itself.)
 
 ### Give other people access to the new project
 
@@ -94,8 +93,8 @@ You should only need to do the access token thing today; after completing this l
 
 Cloning a repository is always done in three steps:
 1. Fork the repository (you will do this for every lab) or create a new repository (for studios)
-2. In command line, use cd to navigate to the place on your computer where you want the repository to live
-3. Use the "git clone" command to clone your repository onto your computer
+2. In command line, use `cd` to navigate to the place on your computer where you want the repository to live
+3. Use the `git clone` command to clone your repository onto your computer
 
 ### Step 1: Forking the repository
 
@@ -161,7 +160,7 @@ git add README.md
 If you've made changes to multiple files and you want them all to be added to the staging area, you can use what's called a modifier. The modifier -a stands for "all":
 
 ```
-git add -a
+git add -A
 ```
 
 If your `git add` command works correctly, then it won't print anything out. It will just give you a new prompt. If it doesn't work, then you'll get an error message.
