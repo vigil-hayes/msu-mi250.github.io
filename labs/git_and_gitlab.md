@@ -30,7 +30,7 @@ To do this, look for the "fork" button on the top right of the project page and 
 
 ### Give other people access to the new project
 
-The first thing you should do after forking a project is to give your partner, Caitlin, and Jack access to the project. To do this, click on settings on the left, and then go to "members". This is the page where you can give other people access. Click on the blue "Invite Members" button on the top right. A window will pop up. Search for your partner in the "username or email address" box -- the easiest way is to search for their MSU NetID. Also search for and add Caitlin (geierac) and Jack (waierjac). Then change the "role permission" to "Maintainer" -- the highest level of permissions. You don't need to add an expiration date. When you're done, click the "Invite" button at the bottom of the window. The three people you added (your partner, Caitlin, and Jack) should show up in the member list.
+The first thing you should do after forking a project is to give your partner, Caitlin, and Jack access to the project. In the menu on the left, find "Manage" and then go to "Members". This is the page where you can give other people access. Click on the blue "Invite Members" button on the top right. A window will pop up. Search for your partner in the "username or email address" box -- the easiest way is to search for their MSU NetID. Also search for and add Caitlin (geierac) and Jack (waierjac). Then change the "role permission" to "Maintainer" -- the highest level of permissions. You don't need to add an expiration date. When you're done, click the "Invite" button at the bottom of the window. The three people you added (your partner, Caitlin, and Jack) should show up in the member list.
 
 ### Make sure your partner can access your forked project
 
@@ -157,13 +157,9 @@ with the `git add` command:
 git add README.md
 ```
 
-If you've made changes to multiple files and you want them all to be added to the staging area, you can use what's called a modifier. The modifier -a stands for "all":
-
-```
-git add -A
-```
-
 If your `git add` command works correctly, then it won't print anything out. It will just give you a new prompt. If it doesn't work, then you'll get an error message.
+
+**Tip:** If you've made changes to multiple files and you want them all to be added to the staging area, you can use what's called a modifier. The modifier -a stands for "all". You can use it like this: `git add -A`
 
 **Note:** On many systems, the filename is case sensitive; so if you get an error message, try to make sure the case is correct.
 

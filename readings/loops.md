@@ -3,40 +3,35 @@ topic: Loops and Variables
 parent: Week 4
 ---
 
-The readings for this week cover three topics.  First, we will learn a bit about loops -- while loops and for loops.
-Second, there is a reading about using strings (text) and working more with them.  And third, there is a little bit
-about generating random numbers in python.
+## Readings
+
+The readings for this week cover three topics.  First, we will learn a bit more about strings and about the print() function, which outputs strings. We've been using both in class already. Second, we'll learn about two kinds of loops -- while loops and for loops. And third, we'll learn a bit about using random numbers in Python.
+
+### Strings and Print()
+
+* [Automate the Boring Stuff, Chapter 6: Manipulating Strings](https://automatetheboringstuff.com/chapter6/){:target="_blank"} -- Stop reading at "Project: Password Locker"
+* [The print() function in Python](https://realpython.com/python-print/){:target="_blank"} -- Stop reading at "Printing Custom Data Types"
 
 ### Loops
-* [Think Python, Chapter 7](http://greenteapress.com/thinkpython2/html/thinkpython2008.html): Iteration
-* [Automate the Boring Stuff, Chapter 2](https://automatetheboringstuff.com/chapter2/) -- Starting with "While Loops"
-  and going to the end
+* [Loops in Python](https://www.geeksforgeeks.org/loops-in-python/){:target="_blank"}
 
-### Strings
+### Randomness
 
-* [Automate the Boring Stuff, Chapter 6](https://automatetheboringstuff.com/chapter6/): Strings.   (Don't need to read
-  "Project: Password Locker")
-* [The print() function in Python](https://realpython.com/python-print/) -- Stop reading at "Printing Custom Data Types"
+* [Random Numbers in Python](https://www.geeksforgeeks.org/random-numbers-in-python/#){:target="_blank"}
 
-### Numbers in Python
-* [Integers and Floats](https://www.youtube.com/watch?v=khKv-8q7YmY) -- (video)
-* [Numbers in Python 3](https://www.youtube.com/watch?v=YJKEqaaSGDs) -- (video)
+## Summary
 
+For the summary this week, focus on loops and randomness. Think about similar things you have encountered before.
 
----
+**Summary prompt:** How would you describe loops and randomness in your own words, and what do you think each thing might be used for in programs?
 
-## Summary + Question
+## Question
 
-Read the readings and watch the videos. Doing this will help you begin to understand the three concepts we will be
-working with this week. Once you’ve finished the readings, write up a short summary of the readings.  What is the most
-interesting part of loops, of strings, and of numbers?
+As per usual, your question can be one of three types:
+* *Confusion*: what didn't you understand in the readings?
+* *Curiousity*: what do you want to know more about?
+* *Connection*: how does this topic connect to your own experiences?
 
-Then, write down a question. It can be a point of confusion or a needed clarification about anything in the readings, or
-it can be something interesting that you thought about while you were reading that goes beyond the reading. Or it can be
-an example you thought about, or a connection you made between the concepts here and other parts of your life. But write
-down a good question or example based on what you were thinking about while reading.
-
-The summary + question for this week can be submitted on D2L.
-
+Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
 
 

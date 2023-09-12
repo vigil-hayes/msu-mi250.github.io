@@ -21,7 +21,7 @@ Working with Git and GitLab allows you to easily share your code with your partn
 
 ## Forking a repository
 
-For every lab, a repository will already exist with code files in it that you will use for lab exercises.
+For every lab, a repository will already exist with code files in it that you will use for lab exercises. You will need to make a copy of it so you can work with the files inside: only one person per pair needs to do this step.
 
 1. On the GitLab repo for the lab, find the Fork button - it should be on the top right of the page. Click it.
 2. It will ask you for a 'namespace': there should be only one option, with your username. If you have multiple options, make sure you choose your username as the name space.
@@ -92,5 +92,21 @@ If multiple people are making changes to a repository at the same time, sometime
 * Always use `git pull` before you start working on a file to make sure you have the most updated version.
 * When you're done working on a file, always add, commit, and push your code to Gitlab.
 * For studios, talk at the beginning of class about how you might split up the work. If it makes sense to have multiple people writing code at the same time, try each using different files to work on small pieces and combining your code into one file later. Keep talking with everyone in your group so that everyone knows what the others are working on and in what files.
+
+### Dealing with conflicts
+
+If two people have edited the same file at the same time, this is where you will likely get a merge conflict when trying to save changes to GitLab. The person experiencing the conflict should follow these steps to merge the changes together:
+1. use `git pull` to make sure all of the latest changes are on your computer
+2. open up the file with the conflict in your text editor. If it's already open, close it and open it again to make sure you're in the latest version of the file.
+3. In the file, you should see conflict markers: these look like `<<<<<<<<< HEAD`, `========`, and `>>>>>>>>`. The code inside the markers is what's in conflict. Edit this code to make sure it's what you and your partner want it to look like. When you're done, *delete the conflict markers* and save the file.
+4. Use add, commit, and push like usual on the file. This should complete the merge.
+
+For more details, see [Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line){:target="_blank"}.
+
+If you've tried to fix the conflict but it's not working, `git restore` and `git reset` are two options to get your repository back in working order. These options will delete any changes you've made since the last commit. If you want to save those changes, create a new file as a temporary place to keep your code and copy and paste your changes into that file. You can move them back in later, once Git is back in order. 
+* `git restore <filename>`: use this if you forgot to pull your partner's changes before starting to make your own changes. This will restore the file to the last time it was committed, which will *undo* any changes made to it.
+* `git reset --hard`: use this if you've tried to commit changes already. This command will reset the local version of your repository to the last commit that went through, and will delete any changes you've made since then.
+
+If you do either of these, make sure to use `git pull` immediately after to make sure the respository is up to date. For more details, see [Git restore and Git reset](https://academind.com/tutorials/git-restore-and-git-reset){:target="_blank"}.
 
 Don't worry if you run into a conflict; Caitlin and Jack are always around to help you resolve them! 
