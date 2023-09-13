@@ -40,13 +40,9 @@ Just because you are making the program doesn't mean that you have to already kn
 
 Also, remember that flash cards work best for **facts** -- things with a right or wrong answer that you need to memorize. They don't really help much with other types of learning, like learning how to write, or how to pronouce words in foreign languages, or how to develop your own style.  
 
-### Print and If
+### Input, if, print
 
-There are many different ways to make flash cards. But at their simplest, they are simply a `print` statement (to
-present the prompt), an `input` statement to ask the user for the response, and an `if` statement to check if it was
-correct.   Start with this simple structure -- `print` -> `input` -> `if`.  If you want to make things more complicated,
-that's OK; start by getting this working and then add complexity.
-
+There are many different ways to make flash cards. But at their simplest, they are an `input` statement to ask the user for the response, and an `if`/`else` statement to check if it was correct. Get the basic pieces working before making it more complex. `question.py` from the lab this week might be useful to look at.
 
 ### Loop until correct
 
