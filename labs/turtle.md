@@ -70,43 +70,51 @@ For the next exercise, create a new program called `names.py`. This program shou
 
 Here is mine:
 
-![rick]({% link img/rick.png %})
+![rick]({% link img/caitlin.png %})
 
 Note: you can change the color of the pen with `pencolor("red")`.
 
-You can also change the font and size if you want to. If you want to try this, look through the turtle documentation (linked at the top of this lab) to figure out how to do it.
+You can also change the font and size if you want to. If you want to try this, look through the turtle documentation (linked at the top of this lab) to figure out how to do it. (Hint: you can add more things inside the `write()` function!)
+
+*Hint:* Remember to add `from turtle import *` to the beginning of your `names.py` program and `done()` to the end.
 
 ## Interactive Drawing!
 
-The program `guestbook.py` is a simple guest book app that prints out a name on the screen. If you run it, it should print my name and move the turtle a bit.
+The program `guestbook.py` is a simple guest book app that prints out a name on the screen using Turtle. If you run it, it should print my name and move the turtle a bit.
 
 ### Exercise 5: Input name from user
 
-The turtle has a function called `textinput()` that allows you to ask the user for a text input, and then saves it to a
-variable. Modify the guestbook program to ask the user for their name, and then print out the user's name on the screen.
+Turtle has a function called `textinput()` that allows you to ask the user for a text input, which you can then save to a variable and use elsewhere. Modify the guestbook program to ask the user for their name, and then write the user's name on the screen using Turtle underneath my name.
 
-`textinput()` causes a window to pop up asking the user for information.  It needs two pieces of information -- the
-title of the window, and the prompt that is displayed to the user.  So, for example, the code:
-```
-name = textinput("Name", "Please enter your name")
-```
-would pop up a window titled "Name" and ask the user to "Please enter your name" and then save whatever they enter into
-the `name` variable.
+`textinput()` works similarly to `input()`, which we've used in the past. But there are two main differences: 
+* Unlike `input()`, which prompts the user in the terminal, `textinput()` causes a window to pop up asking the user for information
+* Also unlike `input()`, `textinput()` needs two pieces of information: the title of the window (text that shows up at the top of the input window), and the prompt that is displayed to the user. 
 
+For example, the code:
+```
+name2 = textinput("Name", "Please enter your name")
+```
+would pop up a window titled "Name" and ask the user to "Please enter your name". Whatever the user enters would be saved into the `name2` variable.
 
 ### Exercise 6: Second Name
 
-Now modify the guest book to ask the user for a second name, and display that second name below the first one.  You'll
-have to move the pen down before writing that second name to make sure the names aren't on top of each other.
+The guestbook should have two names in it now - my name, and then a name captured via `textinput()` underneath it. Now modify the guest book to ask the user for a third name, and display the third name below the second one. You'll have to move the pen down again before writing the third name to make sure the names aren't on top of each other.
 
+*Hint:* you'll likely want to have three different variables at this point, each storing a different name. 
+
+### Exercise 7: Looped Guestbook
+
+Now you should have three names in your guestbook, with the turtle moving between each name. You might have noticed that you had to repeat the move code and the input code to get it to work.
+
+When you see repeated code, that can be a good time to use a loop instead. Put the code that asks for a name, draws it, and then moves the turtle down into a loop so it will keep asking for names and then printing them out, one after the other.
+
+*Hint:* a while loop will probably work better than a for loop for this. Go back to the Guessing Game exercises in [Lab 4]({% link labs/counting_and_loops.md %}) if you need a reminder on how to use while loops. Note you can end the program anytime by closing the Turtle window, so you don't need to worry if the loop is infinite.
 
 ## Seeing Stars
 
-### Exercise 7: Star
+### Exercise 8: Star
 
-Create a new program called `stars.py`.   For this program, write a program that draws a 5 pointed start.  Here's the
-catch:  You must you a `for` loop do draw the star.  If you do it right, the star can be drawn using only 3 lines of
-python code.
+Create a new program called `stars.py`. For this program, write a program that draws a 5 pointed stars. Here's the catch: you must you a `for` loop do draw the star. If you do it right, the star can be drawn using only 3 lines of code.
 
 Note: The angle at a point of a star is 144 degrees.
 
@@ -117,23 +125,17 @@ One finished, it should look like this:
 
 ![star]({% link img/star.png %})
 
+*Hint:* Remember to add `from turtle import *` to the beginning of your `stars.py` program and `done()` to the end.
 
-### Exercise 8: Row of stars
+### Exercise 9: Row of stars
 
-Next, modify your program to use a `for` loop to create a row of 5 stars next to each other.  You should use the same
-code you wrote above to draw a single star, but put it in a loop with some additional code between the stars to move the
-turtle to get ready to draw the next star.
+Next, modify your program to use a `for` loop to create a row of 5 stars next to each other. You should use the same code you wrote above to draw a single star, but put it inside loop with some additional code between the stars to move the turtle to get ready to draw the next star.
 
+### Exercise 10: Fill In the Stars
 
-### Exercise 9: Colored Stars
+Modify your program to fill in the stars with a color. You can specify the fill color using the `color()` command. Use `begin_fill()` when you start drawing to begin filling in the stars, and `end_fill()` when you are done with what you want filled. For this exercise, fill the stars so they're all black (`color("black")`).
 
-Modify your program to fill in the stars with a color.  You can specify the color using the `color()` command.  Use
-`begin_fill()` when you start drawing to begin filling in the stars, and `end_fill()` when you are done with what you
-want filled.  Make the stars brightly colored.   Can you make the stars different colors?
-
-*Note*: For some reason, on Macs, it doesn't actually fill in the center of the
-star.  That's OK for now.  Just get it to fill in as much as you can.   If you
-want to know why or how to fix it, ask Caitlin or me.
+*Note*: For some reason, on Macs, it doesn't actually fill in the center of the star. That's fine!
 
 ![Hollow star, on a Mac]({% link img/star-mac.png %})
 Hollow star, on a Mac
@@ -141,45 +143,50 @@ Hollow star, on a Mac
 ![Filled star, on Windows]({% link img/star-win.png %})
 Filled star, on Windows
 
-### Exercise 10: Looped Guestbook
+### Exercise 11: Brightly Colored Stars
 
-Go back to your guestbook code.  Right now, it should ask for one name, draw it on the screen, then ask for a second
-name, and draw it.
+Black is boring. Make the stars brightly colored. Here's a handy resource for [colors you can use in Turtle](https://trinket.io/docs/colors){:target="_blank"}. 
 
-Put the code for the guestbook into a loop so that multiple people can enter their names, and those names are displayed
-on the screen for everyone to see.
+If you want an even broader range of colors, you can also use HTML color codes, also known as hex codes. Here's a good [color picker](https://htmlcolorcodes.com/){:target="_blank"}.
 
-*Note*: You will need to make sure the turtle moves between names so that they aren't all on top of each other.
+Play around and find a color you and your partner both like, and make all the stars that color. Bonus: can you make the stars multiple colors?
 
+### Exercise 12: Lots of Stars
 
-### Challenge 1: Lots of Stars
+Now that you have the commands to draw a star, let's draw lots of stars. Using nexts for loops, modify your previous program to draw 50 stars in a 10 by 5 grid.
 
-Now that you have the commands to draw a star, let's draw lots of stars.  Using for loops, modify your previous program
-to draw 100 stars in a 10 by 10 grid.
+*Hint:* the command `speed(0)` will speed up the turtle drawing so you don't have to wait as long.
 
-Hint: the command `speed(0)` will speed up the turtle drawing so you don't have to wait as long.
+*Hint 2:* You'll need to move the turtle in between each row of stars so it starts in the right place to draw the next row. 
 
-### Challenge 2: White stars on a Blue Background
+## Challenges
 
-Modify the program to create a blue background, and change the stars to be solid white.  You can set the background
-color using `bgcolor()`, or by drawing a large square and filling it in with the color you want before you draw the
-stars.
+If you finish all of the exercises before the end of class, try at least one of the challenges below.
 
-### Extra Challenge: The US stars
+### Challenge 1: Draw more shapes
 
-Draw the 50 stars in the pattern they appear on the [US Flag](https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States.svg)
+You've drawn a square and a star so far. Use the turtle to draw these shapes as well:
+* Pentagon (5 sides)
+* Hexagon (6 sides)
+* Octagon (8 sides)
 
-### Extra Challenge: The US Flag
+If you aren't sure of the angles you need to turn the turtle in order to draw these shapes, use Google to look it up!
 
-Now that you've got the blue and white stars from the US flag, it shouldn't be too hard to add the red and white
-stripes.   Modify your program to finish drawing the US flag.
+### Challenge 2: Quit the Guestbook
 
-### Extra Challenge: Fancy Guestbook
+Right now you can quit the guestbook by closing the Turtle window. Change the code so that the guestbook program stops taking new names when the user types "quit". The Turtle window should still stay open.
 
-Modify the guestbook to make it look nicer than just having a list of names.  For example, draw a symbol (a star?) next
-to each name, and/or put the names in a colored box.  Or add a way for the user to type "quit" and have the guestbook
-quit.
+*Hint:* remember you can use if statements inside of while loops to check for a condition.
 
+### Challenge 3: Stars on the U.S. Flag
 
+Modify the program to create a blue background, and change the stars to be solid white. You can set the background color using `bgcolor()`, or by drawing a large square and filling it in with the color you want before you draw the stars.
 
+Bonus: draw the 50 stars in the pattern they appear on the [US Flag](https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States.svg). 
+
+### Challenge 4: Random Number of Stars
+
+Instead of drawing a set number of stars in a set number of rows, draw a grid of stars with random dimensions using the `random` library. You'll probably want to provide boundaries to the range of random numbers that are generated so you don't accidentally draw a million rows (that would take forever!). 
+
+*Hint:* If you need a refresher on the `random` library, look at the first few exercises in [Lab 4]({% link labs/counting_and_loops.md %}). Also remember to add `import random` at the top of your program.
 
