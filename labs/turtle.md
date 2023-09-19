@@ -6,106 +6,79 @@ nav_exclude: true
 visible: false
 ---
 
-For this lab, we are going to use a git repository like we did for last week. The first thing you should do is fork the
-turtles repository, add your partner, the instructor, and the TA to the repository, and then clone the repository onto
-your computer. Refer to last week’s lab for instructions on how to do this.
+For this lab, we are going to use a git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Jack (waierjac) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this.
 
-For this lab, we will be working with turtle graphics all day.  There are a LOT of commands that can get the turtle to
-do things.  You will need to refer back to the documentation frequently to figure out what commands exist, and how to do
-what you need to do.  For reference, here are links to the documentation; I suggest you keep one or more of these open
-as you work:
+For this lab, we will be working with turtle graphics all day. There are a LOT of commands you can use for turtle, and you don't have to memorize them all. Instead, you can refer to the documentation:
 
 * [Turtle Documentation](https://docs.python.org/3/library/turtle.html)
 
-I also *strongly* advise you to work incrementally.   Add one or two lines of
-code, and then run it to see what happens.  Add one or two more lines, run it
-again.  And so on.  The more often you run it, the more you'll understand what
-it is doing and the easier it will be to get it to do what you want it to.
+I'd recommend that the navigator (the person who isn't driving) keep the documentation open to refer to while you work.
+
+I also *strongly* advise you to write your code in small chunks and test it frequently. Add one or two lines of code, and then run it to see what happens. If it's not working, tinker with it until it does. Then add one or two more lines, run it again. And so on. The more often you run it, the more you'll understand what it is doing and the easier it will be to troubleshoot when things go wrong.
 
 ## Draw some things
 
+When I refer to "the turtle" in these exercises, I mean the arrow in the turtle drawing window. Think of it as a small turtle that crawls around on the screen, leaving a trail behind it.
+
 ### Exercise 1: Finish the square
 
-In the git repository, you should see a program called `square,py`.  This program is supposed to draw a square on the
-screen that looks like this:
+In the Git repository, you should see a program called `square,py`. This program is supposed to draw a square on the screen that looks like this:
 
 ![square]({% link img/square.png %})
 
-However, the program isn't finished!   Run the program with `python square.py` (or `python3 square.py` on Mac) and see
-what happens.
+However, the program isn't finished! Run the program with `python square.py` (or `python3 square.py` on Mac) and see what happens.
 
-Edit the program to finish drawing the square.  Remember that the `right()` and `left()` commands turn the turtle in
-*degrees* -- 360 degrees turns the turtle all the way around so it is facing the same way it started.  90 degrees is a
-right turn.  180 degrees turns the turtle around to face the opposite direction is started.
+Edit the program to finish drawing the square.  Remember that the `right()` and `left()` commands turn the turtle in *degrees* -- 360 degrees turns the turtle all the way around so it is facing the same way it started. 90 degrees is a quarter of the way around (a right angle). 180 degrees turns the turtle around to face the opposite direction is started.
 
 ### Exercise 2: Finish the stick figure
 
-In the git repository you should see a program called `person.py`.  This program begins to draw a stick figure using
-turtle graphics.  Run this program using
-```
-python person.py
-```
-(On MacOS, you probably need to run it with `python3`)
+In the git repository you should see a program called `person.py`.  This program begins to draw a stick figure using turtle. Run the program to see what it does.
 
-It should start to draw a stick figure, and then wait for you to close the window.   Notice that python keeps running
-(but doesn't do anything) until you close the window.
+It should start to draw a stick figure, and then wait for you to close the window. Python will keep running the program (even if it's not doing anything) until you close the Turtle drawing window.
 
-Write the code to finish drawing the stick figure.  The `person.py` file contains some comments for what you'll need to
-write to finish it.
+Write the code to finish drawing the stick figure.  The `person.py` file contains some comments (text with `#` in front of it) for what you'll need to write to finish it.
 
-Don't try to do this all at once.  Start by drawing on a piece of paper without lifting up your pen: what do you need to
-do with the pen?  Next, write one or two commands, and then run the program to see what happens.  Write more
-commands, and see what happens.  
+Don't try to do this all at once. Start by drawing on a piece of paper without lifting up your pen: what do you need to do with the pen? (You can use the whiteboard in the classroom for this too, if you want.)  Next, write one or two commands, and then run the program to see what happens. Write more commands, and see what happens.  
 
-Once it is finished the person should look like this:
+Once it is finished the person should look something like this:
 
 ![person]({% link img/person.png %})
 
-*Note*: Pay attention to the direction the arrow is facing. After drawing the
-code that I wrote, it is facing down.  That means if you turn right, it will
-end up facing left (because if you facing down and turn right, that's where you
-end up).
+*Note*: Pay attention to the direction the arrow is facing. After drawing the code that I wrote, it is facing down. That means if you turn right, it will end up facing left (because if you facing down and turn right, that's where you end up).
 
 ### Exercise 3: Pen Up and Down
 
-Next, we are going to do a bit of writing with our turtle.   Create a new program, called `MI.py`, that writes the two
-capital letters "MI" next to each other.  The two letters should not be touching each other.  It should probably look
-something like this:
+Next, we are going to do a bit of writing with our turtle.   Create a new program, called `MI.py`, that writes the two capital letters "MI" next to each other.  The two letters should not be touching each other.  It should probably look something like this:
 
 ![mi]({% link img/mi.png %})
 
-To do this, you can use the `penup()` and `pendown()` functions to lift up the pen and put it back down.
+To do this, you can use the `penup()` and `pendown()` functions to lift up the pen after drawing the "M" and put it back down before starting the "I".
 
-Before you can use any of the turtle commands, you need to remember to *import* the turtle library.  Importing brings in
-additional functionality into python that it normally doesn't have.  To import the turtle library, use the command
+Before you can use any of the turtle commands, you need to remember to *import* the turtle library. Importing brings in additional functionality into python that it normally doesn't have. The turtle library doesn't come preloaded into Python, so we have to import it to be able to use it. To import the turtle library, put this line at the top of your program:
 ```
 from turtle import *
 ```
-at the beginning of your program.  Notice, both of the previous programs do that.
+Notice, both of the previous programs did that, too.
 
-Also, for turtle programs, it helps to end the program with `done()`.  This causes the program to wait until the user
-clicks on the image before finishing and closing the window..
+Also, for turtle programs, it helps to end the program with `done()` - put it in the last line of the program. This causes the program to keep the turtle window open after it's done drawing.
 
-Don't forget to add, commit, and push this file to your git repository.
-
+Don't forget to save this file into the git repo on your computer, so you can then add, commit, and push it to your git repository on GitLab.
 
 ### Exercise 4: Names, squared
 
-For the next exercise, create a new program called `names.py`.  This program should use the `write()` function to print
-out both your name and the name of your partner for the lab.  It should also draw a red box around those names.  
+For the next exercise, create a new program called `names.py`. This program should use the `write()` function to print out both your name and the name of your partner for the lab. It should also draw a red box around those names.  
 
 Here is mine:
 
 ![rick]({% link img/rick.png %})
 
-Note: you can change the color of the pen with `pencolor("red")`
+Note: you can change the color of the pen with `pencolor("red")`.
 
-
+You can also change the font and size if you want to. If you want to try this, look through the turtle documentation (linked at the top of this lab) to figure out how to do it.
 
 ## Interactive Drawing!
 
-The program `guestbook.py` is a simple guest book app that prints out a name on the screen.  If you run it, it should
-print my name, and move the turtle a bit.
+The program `guestbook.py` is a simple guest book app that prints out a name on the screen. If you run it, it should print my name and move the turtle a bit.
 
 ### Exercise 5: Input name from user
 
