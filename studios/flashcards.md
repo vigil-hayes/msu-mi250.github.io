@@ -1,8 +1,8 @@
 ---
 parent: Week 4
 topic: Flashcards
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Research on how people learn has suggested that, when learning facts, one of the most important things to do is to periodically "retrieve" the information from your memory. That is, if you occasionally remember those facts and use them in some way, then you are more likely to remember them long-term. One of the keys is to remember the fact, but not recognize it. That is, it has to come from your brain, and not from something else like notes or a book or a web page. Doing this remembering [periodically, over time](https://en.wikipedia.org/wiki/Spaced_repetition){:target="_blank"} helps you remember those facts long-term.
