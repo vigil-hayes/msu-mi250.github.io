@@ -12,55 +12,47 @@ visible: false
 
 ### Exercise {% increment exercise5 %}: Add your names to a list
 
-Start by running the program `names.py`.  This prints out a list with the names of the instructor and TA for this class.
+Start by running the program `names.py`. This prints out a list with the names of the instructor and the course assistant for this class.
 
-Add both your name to the list, and your partner's name to the end of the list.  Run the program and make sure it prints
-out all four names correctly.
+Add both your name and your partner's name as separate items to the end of the list. Run the program and make sure it prints out all four names correctly.
 
 ### Exercise {% increment exercise5 %}: Adding another name
 
-You have hard coded a set of names in the program by explicitly specifying a list.  However, you can also get python to
-add things to a list using `.append()`.  So if you have a variables called `stuff` that contains a list, and you want to
-add "basketball" to that list you can say:
-```
-stuff.append("basketball")
-```
-Of course, you can replace "basketball" with a variable that contains a string also.
+You have hard coded a set of names into the list. However, you can also get Python to add more things to a list that already exists using `.append()`. For example, say you have a variable called `fruit` that contains a list of different kinds of fruit, and you want to add "apple" to that list. You can do that like this:
 
-Use this to modify your program to ask the user for another name with `input()`.  Then `.append()` that name to your list, and print
-out the full list with 5 names on it.
+```
+fruit.append("apple")
+```
+
+If "apple" were stored in a variable call `new_fruit`, you could also append it to the `fruit` list using the variable:
+
+```
+fruit.append(new_fruit)
+```
+
+Modify your program to ask the user for another name with `input()`. Then `.append()` that name to your list, and print out the full list with 5 names on it.
 
 ### Exercise {% increment exercise5 %}: Alphabetical order
 
-The function `.sort()` will sort any list you have. By default, it sorts things alphabetically, with all the capital
-letters coming before any lowercase letter.  So if you have a variable *stuff* that contains a list, then you can say
-`stuff.sort()` to sort that list.
+The function `.sort()` will sort any list you have. If the list is made up off numbers, it will sort from lowest to highest. If the list is made up of works, it will sorts things alphabetically, with words that are capitalized coming before words that are lowercase. So if you have a variable `fruit` that contains a list, then you can say `fruit.sort()` to sort that list into alphabetical order.
 
-The names program should print out 5 names now.  Modify the program to sort the names, and print out the list of names
-in alphabetical order.   Test your program by entering in different names, and seeing if it sorts them differently.
+The names program should print out 5 names now.  Modify the program to sort the names, and print out the list of names in alphabetical order.  Test your program by entering in different names, and seeing if it sorts them differently.
 
 ### Exercise {% increment exercise5 %}: Beginning of the Alphabet
 
-In your program, you can retrieve specific items from the list using `[]`.  So, to get the 2nd item from the list
-`stuff`, you can say `stuff[1]`.  (Note: Lists in python always start at 0, so 0 is the first item, 1 is the second, and
-so on.)
+In your program, you can retrieve specific items from the list using `[]`.  So, to get the 2nd item from the list `stuff`, you can say `stuff[1]`.  (Note: Lists in Python always start at 0, so 0 is the first item, 1 is the second, and so on.)
 
 Modify your program to print out only one name: the name that comes *first* in alphabetical order.
 
 ### Exercise {% increment exercise5 %}: End of the Alphabet
 
-Having a last name like "Wash" means that I always end up at the end of any list of alphabetical order.  So let's give
-some love to the end of the alphabet.  Change your program so it prints out the person's name who appears last in
-alphabetical order.
+The folks who have last names that start near the end of the alphabet always end up waiting longer. So let's show some love to the end of the alphabet. Change your program so it prints out the person's name who appears last in alphabetical order.
 
-*Hint*: Modify your program so it prints out the name that appears last in the list, after the list has
-been sorted into alphabetical order.  OR, first in the list after sorting by reverse alphabetical order.
+*Hint*: There are two ways to do this: find out how long the list is and call the last item in it, or sort the list in reverse alphabetical order to call the first item. Refer to [this week's readings]({% link readings/lists_and_randomness.md %}){:target="_blank"} for help with the second option.
 
 ## Random Number Generator
 
-Next, we are going to use the `random` package to build a couple of useful tools to help us make choices.  As a
-reminder, before you can use the random package, you need to `import random` into your program.  I usually put the
-import lines at the beginning of my program.
+Next, we are going to use the `random` package to build a couple of useful tools to help us make choices. As a reminder, before you can use the random package, you need to `import random` into your program. I usually put the import lines at the beginning of my program.
 
 The git repository has a really simple coin flip program called `coin.py`.  Run this program. What happens?  Run it
 again.  Does it always print out the same thing? Now, open up the code and look at how it works.

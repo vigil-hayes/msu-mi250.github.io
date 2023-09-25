@@ -3,30 +3,31 @@ topic: Lists and Randomness
 parent: Week 6
 ---
 
-Please read the following:
+This week we're learning about lists and revisiting the random module, which we started using a couple weeks ago. 
+
+## Readings
 
 ### Lists
 
-* [Automate the Boring Stuff: Chapter 4](https://automatetheboringstuff.com/chapter4/): Lists
-* [Think Python: Chapter 10](http://greenteapress.com/thinkpython2/html/thinkpython2011.html): Lists
-
-Also, please read about using randomness:
+* [Automate the Boring Stuff: Chapter 4 - Lists](https://automatetheboringstuff.com/chapter4/){:target="_blank"}
+* [How to Think Like a Computer Scientist: Lists](https://openbookproject.net/thinkcs/python/english3e/lists.html){:target="_blank"}
 
 ### Randomness
-* [How to Generate Random Numbers in
-  Python](https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/) -- Don't read section 3 Random
-Numbers in NumPy
-* [The Random Module](https://www.tutorialsteacher.com/python/random-module)
+* [Random Numbers in Python](https://www.geeksforgeeks.org/random-numbers-in-python/#){:target="_blank"} - this reading might look familiar. Does it make more sense this time around?
+* [The Random Module](https://www.tutorialsteacher.com/python/random-module){:target="_blank"}
 
-Read the readings. Doing this will help you begin to understand the concepts we will be working
-with this week. As you do the readings, I want you to specifically focus on what you might want to use lists for.  What
-kinds of things have we already done in programming that you think would be easier if you had a list?  Summarize your
-thoughts about lists, and specifically focus on ways they would make what we've already done easier (or harder?).
+## Summary
 
-Then, write down a question. It can be a point of confusion or a needed clarification about anything in the readings, or
-it can be something interesting that you thought about while you were reading that goes beyond the reading. Or it can be
-an example you thought about, or a connection you made between the concepts here and other parts of your life. But write
-down a good question or example based on what you were thinking about while reading.
+For the summary this week, think about what we've done in class already. 
 
-The summary + question for this week can be submitted on D2L.
+**Summary prompt:** Summarize your thoughts about lists, and about using randomness with lists. Focus on ways they would make what we've already done in class easier (or harder?).
+
+## Question
+
+As per usual, your question can be one of three types:
+* *Confusion*: what didn't you understand in the readings?
+* *Curiousity*: what do you want to know more about?
+* *Connection*: how does this topic connect to your own experiences?
+
+Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
 
