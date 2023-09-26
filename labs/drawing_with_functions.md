@@ -8,35 +8,33 @@ visible: false
 
 ## Using Functions
 
-In your readings, you learned about functions.  Functions are named sections of code, that you can "call" from other
-parts of code.  In this section of the lab, we will be using the `cards.py` program.  The top of this program defines 4
-functions in it: one that draws a diamond, one that draws a heart, one that draws a club, and one that draws a spade.
-You shouldn't need to modify or change these functions; leave them in the program.    If you run the program, it just
-draws a spade right now (because, at the end of the file, we call the `spade()` function).
+In your readings, you learned about functions. Functions are named sections of code, that you can "call" from other parts of code. Functions let you use the same chunks of code over and over again without having to write it all out each time. 
 
-### Exercise 1: Draw a club
+In this section of the lab, we will be using the `cards.py` program.  The top of this program defines 4 functions in it: one that draws a diamond, one that draws a heart, one that draws a club, and one that draws a spade. You shouldn't need to modify or change these functions; leave them in the program. If you run the program, it just draws a spade right now (because, at the end of the file, we call the `spade()` function).
 
-For the first exercise, change the program to draw a club instead of a spade.   This should only involve changing one
-line of the program.
+{% capture _ %}{% increment exercise5 %}{% endcapture %}
+
+### Exercise {% increment exercise5 %}: Draw a club
+
+Change `cards.py` to draw a club instead of a spade. This should only involve changing one line of code in the program.
 
 ![club]({% link img/club.png %})
 
-### Exercise 2: Draw a heart
+### Exercise {% increment exercise5 %}: Draw a heart
 
-Next, change the program to draw a heart instead of a spade.  Again, this should only involve changing one line.
+Next, change the program to draw a heart instead of a spade. Again, this should only involve changing one line.
 
 ![heart]({% link img/heart.png %})
 
-### Exercise 3: Draw and spade and a heart next to each other
+### Exercise {% increment exercise5 %}: Draw a spade and a heart next to each other
 
-Next, change the program to draw a spade and a heart next to each other.  You shouldn't need to change the functions at
-all.  Instead, you should call the spade function, then move the turtle, and then call the heart function.
+Next, change the program to draw a spade and a heart next to each other. You shouldn't need to change the functions at all. Instead, you should call the spade function, then move the turtle, and then call the heart function.
 
 ![spade and heart]({% link img/spadeheart.png %})
 
-*Hint*: Remember you can use penup() and pendown() so that you don't draw a line in between drawing the two shapes.
+*Hint*: Remember you can use `penup()` and `pendown()` so that you don't draw a line in between drawing the two shapes.
 
-### Exercise 4: Draw two clubs and a diamond next to each other
+### Exercise {% increment exercise5 %}: Draw two clubs and a diamond next to each other
 
 Finally, modify your program to draw two clubs and a diamond next to each other.
 
@@ -44,46 +42,44 @@ Finally, modify your program to draw two clubs and a diamond next to each other.
 
 ## Creating your own functions
 
-In `cards.py`, the code I gave you used `def spade():` to define the `spade` function.   All of the indented lines after
-that are part of that function.  You can use `def` to create your own functions.  
+In `cards.py`, the code I gave you used `def spade():` to define the `spade` function. All of the indented lines after that are part of that function. You can use `def` to create your own functions.  
 
-### Exercise 5: Fill in a function that draws a star
+### Exercise {% increment exercise5 %}: Fill in a function that draws a star
 
-Look at the program `stars.py`.  It has a `def star():` near the top of the program.  That is creating a new function
-that is supposed to draw a star.  However, right now, the code for the function (everything indented below it) just says
-`pass` -- which is python's way of saying "do nothing".  
+Look at the program `stars.py`. It has the line `def star():` near the top of the program. That is creating a new function that is supposed to draw a star. However, right now, the code for the function (everything indented below it) just says `pass`. This is a placehoolder: `pass` is Python's way of saying "do nothing".
 
-Modify the star function to include the code for drawing a star.   When you run the program, it should look like this:
+Modify the star function to include the code for drawing a star. When you run the program, it should look like this:
 
-![stars in a cirlce]({% link img/stars.png %})
+![stars in a circle]({% link img/stars.png %})
 
-*Hint*: Remember, it is OK to look at past labs (and the solutions to past labs) for help.
+*Hint*: Remember, it is OK to look at past labs (and the solutions to past labs) for help. You probably drew some stars in the [Turtle lab]({% link labs/turtle.md %}){:target="_blank"}.
 
 *Hint 2*: You can speed up the turtle by putting the command `speed(0)` near the top of your program.
 
-<!-- Exercise 7: Convert code into a function, so it can be called more than once -->
-
 ## Functions with parameters
 
-So far in this lab, we have just used functions as a way of organizing our program.  Basically, we give a section of our
-program a name, and then we can "call" that function -- which runs the section with the name.   This is a really useful
-feature of functions.  Remember how long and confusing the code was for your flags two weeks ago. If we broke it up into
-logical pieces -- the piece that draws a bar, the piece that draws a star, etc. -- then we can give each of those pieces
-a name and make them a function.  This would make the code easier to understand.
+So far in this lab, we have just used functions as a way of organizing our program. Basically, we give a section of our program a name, and then we can "call" that function -- which runs the section with the name. This is a really useful feature of functions. Remember how long and confusing the code was for your flags two weeks ago. If we broke it up into logical pieces -- the piece that draws a bar, the piece that draws a star, etc. -- then we can give each of those pieces
+a name and make them a function. This would make the code easier to understand.
 
-Functions can do more than just that, though.  They can also have parameters that modify what they do. 
+Functions can do more than just that, though. They can also have parameters that modify what they do. The parameter is what goes inside of the parentheses for a function name. For example, `forward()` takes one parameter: a number with specifies the length that the Turtle should move forward. You can slot any number you like into the `forward()` function, and it will move the Turtle that many pixels forward.
 
-### Exercise 6: Sizes of Stars
+### Exercise {% increment exercise5 %}: Sizes of Stars
 
-Look at the program `sizes.py`.  It has a function called `star` that draws a star.  Except, unlike the star function
-you wrote above, it accepts a parameter -- `size`.  The size parameter tells it how big of a star to draw.   
+Look at the program `sizes.py`.  It has a function called `star` that draws a star. Except, unlike the star function you wrote above, it accepts a parameter -- `size`.  The size parameter tells it how big of a star to draw.   
 
-Right now that program draws a single star of size 25.  Modify the program so that it draws 3 stars next to each other,
-each one bigger than the other (25, 50, 100).  When complete, it should look like this:
+When you define a function with parameters, you also define the parameters, like this:
+```
+def star(size):
+```
+This defines a function called `star()`, with one parameter, called `size`. The parameter is a variable that is specific to the function: it will be filled in later when you call the function. The code inside the function should say where the parameter is used. 
+
+Right now that program draws a single star of size 25.  Modify the program so that it draws 3 stars next to each other, each one bigger than the other (25, 50, 100). When complete, it should look like this:
 
 ![3 stars]({% link img/sizes.png %})
 
-### Exercise 7: Colored bars on a flag
+*hint:* because you've added a parameter, when you call the `star()` function now, you have to call it with the parameter filled in or Python will give you an error.  
+
+### Exercise {% increment exercise5 %}: Colored bars on a flag
 
 Next, look at the program `flag.py`.   The goal of this program is to draw the flag of Germany. Unfortunately the
 program is incomplete.  Since each of the three bars is the same thing except a different color, I decided to write a
@@ -95,7 +91,7 @@ rectange into the `bar()` function, then it should look like then when it works.
 
 ![3 bars]({% link img/empty_flag.png %})
 
-### Exercse 8: German Flag
+### Exercse {% increment exercise5 %}: German Flag
 
 Let's continue to modify the flag program to draw the flag of Germany: three colored bars that are black, red, and
 yellow.  The `bar()` function accepts one parameter -- `bar_color`.  When it is used at the bottom of the file, it calls
@@ -106,7 +102,7 @@ get the bar function working to correctly draw the colored rectangle, the progra
 
 ![Flag of Germany]({% link img/germanflag.png %})
 
-### Exercise 9: Flag of Ghana
+### Exercise {% increment exercise5 %}: Flag of Ghana
 
 You now have a function that draws horizontal bars, and a function that draws a star of a different size.  As the next exercise in this
 lab, copy both of those functions into the same file and write a program that draws the [Flag of Ghana](https://en.wikipedia.org/wiki/Flag_of_Ghana#/media/File:Flag_of_Ghana.svg).
@@ -122,7 +118,7 @@ right place.
 So far in this lab, you have used functions that I wrote, and filled in functions that I created.  Next, you need to
 write your own function.
 
-### Exercise 10: Next Suit Function
+### Exercise {% increment exercise5 %}: Next Suit Function
 
 Go back to the `cards.py` program.   Write a `move_next()` function that moves the turtle to a place to get it ready to
 draw the next suit.   Once your function works, it should be able to be used like this:
@@ -137,18 +133,20 @@ diamond()
 
 ## Challenges
 
-If you complete all of the exercises, try these challenges:
+{% capture _ %}{% increment challenge5 %}{% endcapture %}
 
-### Challenge: User Input
+If you complete all of the exercises, try at least one of these challenges:
 
-Go back to your `cards.py` program and modify it to ask the user which suit it should draw.  Then draw the suit that the
-user specifies.
+### Challenge {% increment challenge5 %}: User Input
 
-### Extra Challenge: 5 suits
 
-Put this user input into a loop: Ask the user 5 times what suits they want drawn, and then draw those five symbols next
-to each other on the screen.
 
-### Challenge: Sized Circle of Stars
+### Challenge {% increment challenge5 %}: 5 suits
+
+Go back to your `cards.py` program and modify it to ask the user which suit it should draw. Then draw the suit that the user specifies.
+
+Put this user input into a loop: Ask the user 5 times what suits they want drawn, and then draw those five symbols next to each other on the screen. Bonus: keep drawing suit symbols until the user says to stop.
+
+### Challenge {% increment challenge5 %}: Sized Circle of Stars
 
 Modify the stars program to draw circles of different sized stars.

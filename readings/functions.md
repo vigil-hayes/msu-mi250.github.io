@@ -7,8 +7,8 @@ Functions are a nice way to organize your code and make it reusable. We've alrea
 
 ## Readings
 
-* [Think Python: Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
-* [Automate the Boring Stuff: Functions](https://automatetheboringstuff.com/chapter3/) -- stop reading at "Local and Global Scope"
+* [Think Python: Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html){:target="_blank"}
+* [Automate the Boring Stuff: Functions](https://automatetheboringstuff.com/chapter3/){:target="_blank"} -- stop reading at "Local and Global Scope"
 
 ## Summary
 
