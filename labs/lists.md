@@ -64,7 +64,7 @@ Edit the program so it prints out "Heads" if `num` is 1, and "Tails" if `num` is
 
 The `coin.py` program flips a single coin and prints out either heads or tails. Let's test to see if this program is biased. Modify the program to flip the coin 20 times and print out the results of each flip.
 
-*Hint*: You will need to use a loop for this. Look back at the [for loop lab]({% link labs/counting_and_loops.md %}) for help.
+*Hint*: You will need to use a loop for this. Look back at the [lab on loops]({% link labs/counting_and_loops.md %}) for help.
 
 ### Exercise {% increment exercise5 %}: Coin flipper counter
 
