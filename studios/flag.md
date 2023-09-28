@@ -1,8 +1,8 @@
 ---
 parent: Week 5
-topic: Country Flag Studio
-nav_exclude: true
-visible: false
+topic: Country Flag
+nav_exclude: false
+visible: true
 ---
 
 Today we are going to practice [Vexillography](https://en.wikipedia.org/wiki/Vexillography) -- the art of designing flags!
