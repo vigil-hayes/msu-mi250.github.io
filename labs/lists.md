@@ -6,17 +6,17 @@ nav_exclude: true
 visible: false
 ---
 
-{% capture _ %}{% increment exercise5 %}{% endcapture %}
+{% capture _ %}{% increment exercise55 %}{% endcapture %}
 
 ## Names, names, and more names
 
-### Exercise {% increment exercise5 %}: Add your names to a list
+### Exercise {% increment exercise55 %}: Add your names to a list
 
 Start by running the program `names.py`. This prints out a list with the names of the instructor and the course assistant for this class.
 
 Add both your name and your partner's name as separate items to the end of the list. Run the program and make sure it prints out all four names correctly.
 
-### Exercise {% increment exercise5 %}: Adding another name
+### Exercise {% increment exercise55 %}: Adding another name
 
 You have hard coded a set of names into the list. However, you can also get Python to add more things to a list that already exists using `.append()`. For example, say you have a variable called `fruit` that contains a list of different kinds of fruit, and you want to add "apple" to that list. You can do that like this:
 
@@ -32,19 +32,19 @@ fruit.append(new_fruit)
 
 Modify your program to ask the user for another name with `input()`. Then `.append()` that name to your list, and print out the full list with 5 names on it.
 
-### Exercise {% increment exercise5 %}: Alphabetical order
+### Exercise {% increment exercise55 %}: Alphabetical order
 
 The function `.sort()` will sort any list you have. If the list is made up off numbers, it will sort from lowest to highest. If the list is made up of works, it will sorts things alphabetically, with words that are capitalized coming before words that are lowercase. So if you have a variable `fruit` that contains a list, then you can say `fruit.sort()` to sort that list into alphabetical order.
 
 The names program should print out 5 names now.  Modify the program to sort the names, and print out the list of names in alphabetical order.  Test your program by entering in different names, and seeing if it sorts them differently.
 
-### Exercise {% increment exercise5 %}: Beginning of the Alphabet
+### Exercise {% increment exercise55 %}: Beginning of the Alphabet
 
 In your program, you can retrieve specific items from the list using `[]`.  So, to get the 2nd item from the list `stuff`, you can say `stuff[1]`.  (Note: Lists in Python always start at 0, so 0 is the first item, 1 is the second, and so on.)
 
 Modify your program to print out only one name: the name that comes *first* in alphabetical order.
 
-### Exercise {% increment exercise5 %}: End of the Alphabet
+### Exercise {% increment exercise55 %}: End of the Alphabet
 
 The folks who have last names that start near the end of the alphabet always end up waiting longer. So let's show some love to the end of the alphabet. Change your program so it prints out the person's name who appears last in alphabetical order.
 
@@ -54,19 +54,19 @@ The folks who have last names that start near the end of the alphabet always end
 
 Next, we are going to use the `random` package to build a couple of useful tools to help us make choices. As a reminder, before you can use the random package, you need to add `import random` at the beginning of your program.
 
-### Exercise {% increment exercise5 %}: Heads or tails
+### Exercise {% increment exercise55 %}: Heads or tails
 
 Open up `coin.py`. This program is supposed to flip a coin - but the program isn't finished yet. Right now it just generates a random number between 1 and 2, stores it in the variable `num`, and prints out the number it generates. Run it to see how it works - the number it prints should change if you run it enough times.
 
 Edit the program so it prints out "Heads" if `num` is 1, and "Tails" if `num` is 2 (or if it isn't 1). 
 
-### Exercise {% increment exercise5 %}: Coin flipper bias
+### Exercise {% increment exercise55 %}: Coin flipper bias
 
 The `coin.py` program flips a single coin and prints out either heads or tails. Let's test to see if this program is biased. Modify the program to flip the coin 20 times and print out the results of each flip.
 
 *Hint*: You will need to use a loop for this. Look back at the [lab on loops]({% link labs/counting_and_loops.md %}) for help.
 
-### Exercise {% increment exercise5 %}: Coin flipper counter
+### Exercise {% increment exercise55 %}: Coin flipper counter
 
 Modify your coin flipping program to count how many heads and tails it gets. At the end of the program, it should print out the counts -- how many heads came up, and how many tails came up.
 
@@ -80,7 +80,7 @@ print(counter)
 
 *Hint 2*: you'll likely need two counters: one for heads, and one for tails. Where should the counter for tails go in the code if you only want it to go up whenever the coin is tails?
 
-### Exercise {% increment exercise5 %}: Coin flipper user input
+### Exercise {% increment exercise55 %}: Coin flipper user input
 
 Modify the program to ask the user how many times it should flip the coin. Then have the program flip a coin that many times, and count how many heads and tails it gets. At the end of the program, it should print out the counts -- how many heads came up, and how many tails came up.
 
@@ -90,7 +90,7 @@ Modify the program to ask the user how many times it should flip the coin. Then 
 
 It is always difficult to choose where to go for lunch when you are with a bunch of friends. We are going to build a restaurant choosing program to help with the choice. Let's start by looking at `restaurant.py` and running it. It should ask the user for 3 restaurants, and then print out the list of restaurants.
 
-### Exercise {% increment exercise5 %}: User experience of counting
+### Exercise {% increment exercise55 %}: User experience of counting
 
 Python counts starting a zero: 0, 1, 2, 3, etc. Regular human beings, on the other hand, start counting at 1: 1, 2, 3, 4, etc.
 
@@ -100,7 +100,7 @@ Right now, the program asks for "restaurant 0" first.  Modify the program so tha
 
 *Hint 2:* In `for i in range(3)`, `i` is a variable that changes value each time the loop is run. Where is that value showing up in what prints out as the program runs? Note where `i` is being used *inside* the for loop.
 
-### Exercise {% increment exercise5 %}: Random Choice
+### Exercise {% increment exercise55 %}: Random Choice
 
 The function `random.choice()` will pick a random item out of a list, and return that item. So if you have a list of `stuff`, you can say `random.choice(stuff)` to get a random thing out of that list.
 
@@ -108,7 +108,7 @@ Modify the restaurant program to use this to randomly choose a restaurant for lu
 
 *Note:* Remember to import the random library (`import random`) at the beginning of your program.
 
-### Exercise {% increment exercise5 %}: More (or less) than 3
+### Exercise {% increment exercise55 %}: More (or less) than 3
 
 This is where lists really shine. Lists are great because you don't have to know ahead of time how many items are going to be in the list. They get bigger or smaller as needed.
 
@@ -135,8 +135,8 @@ You should go to Noodles and co.
 If you finish with the exercises above, try at least one of the challenges below. The challenges are starting to give a little less direction - as you get further into programming, you get fewer and fewer directions for how to do things, and have to do more work to figure it out yourself.
 
 
-{% capture _ %}{% increment challenge5 %}{% endcapture %}
-### Challenge {% increment challenge5 %}: Unlimited Restaurant Options
+{% capture _ %}{% increment challenge55 %}{% endcapture %}
+### Challenge {% increment challenge55 %}: Unlimited Restaurant Options
 
 Modify your program so that it doesn't need to ask ahead-of-time for the number of restaurants. The user should be able to just keep entering restaurants until they type "done" or just hit enter or something. Then it will randomly choose one of the ones they entered and print it. The program should still accept as many restaurants as they want.
 
@@ -153,7 +153,7 @@ You should go to No Thai!
 
 *Hint*: `while True:` will loop forever. You can break out of a loop with the `break` command. An elegant way to break out of a loop with user input is to only have the `break` command run if the user enters a specific word, like "quit".
 
-### Challenge {% increment challenge5 %}: Infinite coin flipper
+### Challenge {% increment challenge55 %}: Infinite coin flipper
 
 Make a copy of your coin program and call it `infinite.py`. Modify the program so that it keeps flipping coins as long as the user wants it to. It should flip a coin, and then ask the user if it should continue. If the user says "yes", it should go and flip another coin, and then ask the user again. It should keep doing that until the user says "no".
 
@@ -187,7 +187,7 @@ Which is 75%
 Tails
 Should I continue? no
 ```
-### Challenge {% increment challenge5 %}: Song list randomizer
+### Challenge {% increment challenge55 %}: Song list randomizer
 
 Start a new program called `songs.py` that asks the user for several songs they want to listen to, then present the list of songs in a random order.
 
