@@ -2,8 +2,8 @@
 parent: Week 6
 topic: Using Lists
 git: https://gitlab.msu.edu/mi-250/random-lists
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 {% capture _ %}{% increment exercise55 %}{% endcapture %}
