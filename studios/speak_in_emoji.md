@@ -5,85 +5,62 @@ nav_exclude: true
 visible: false
 ---
 
-Emoji are graphical representations of ideas and concepts -- basically, they are pictograms.  It is possible to convey
-complex concepts and ideas using nothing but emoji. Smiley face emoji are particularly interesting because they often
-convey emotions better than words do.  Emoji are especially powerful when you put one after the other to form emoji
-"sentences".
+Emoji are graphical representations of ideas and concepts -- basically, they are pictograms. It is possible to convey complex concepts and ideas using nothing but emoji. Smiley face emoji are particularly interesting because they often convey emotions better than words do. Emoji are especially powerful when you put one after the other to form emoji "sentences".
 
-Your goal for today is to write a set of functions that draw emoji using turtle graphics.  Each function should draw one
-emoji.  Then use those functions to draw out an emoji "sentence" on the screen that conveys some complex feeling and
-idea.
+Your goal for today is to write a set of functions that draw emoji using turtle graphics. Each function should draw one emoji. Then use those functions to draw out an emoji "sentence" on the screen that conveys some complex feeling or idea.
 
-Work in groups of 2-4 people.
+As usual, work in groups of 2-4 people.
 
----
-
-That’s it. That’s the whole of the instructions – form a group, write functions that create emoji, and then form those
-emoji into sentences. What the emoji look like is entirely up to you. How you program it is entirely up to you. What
-sentence you convey is up to you. Have fun with it. Be creative.
+## Advice
 
 What follows is just advice for doing it. You don’t have to follow my advice. Do whatever you want. This is just my
 experience in doing this, and you might want to do it differently.
 
-## Advice
-
 ### One function per emoji
 
-Functions work best when they comprise a logical, coherent thing.  You want each function to make sense on its own, and
-to do one "logical" thing. When functions try to do too much in one function, it gets confusing.   So, you can create a
-function `smiley()` that draws a smiley face emoji.  It should do everything that is needed for the smiley face.  It is
-better that it do everything for the smiley face.
+Functions work best when they comprise a logical, coherent thing. You want each function to make sense on its own, and
+to do one "logical" thing. When functions try to do too much in one function, it gets confusing. So, you can create a function `smiley()` that draws a smiley face emoji. It should do everything that is needed for the smiley face.
 
-Also, you don't want it to do things other than what the name implies.  So, a `smiley()` function should only draw a
-smiley face.  It shouldn't also move the turtle around to other places, or change the turtle colors, or anything like
-that.  If the function has side effects, then it gets confusing when you should use the function and when you
-shouldn't.  Try to avoid your functions having side effects.
+Also, you don't want it to do things other than what the name implies. So, a `smiley()` function should only draw a smiley face. It shouldn't also move the turtle around to other places, or change the turtle colors, or anything like that. If the function has side effects, then it gets confusing when you should use the function and when you
+shouldn't. Try to avoid your functions having side effects.
 
-### Create your Own Emoji
+### Create your own emoji
 
-Everyone knows the standard smiley face emoji.  People have come up with hundreds of new emoji. I encourage you to
-create your own emoji that capture ideas or feelings that you have! You can use an existing emoji if you want, but it is
-much more fun to create your own emoji!
+Everyone knows the standard smiley face emoji. People have come up with hundreds of new emoji. I encourage you to create your own emoji that capture ideas or feelings that you have! You can use an existing emoji if you want, but it is much more fun to create your own emoji.
 
-### Keep your Emoji simple
+### Keep your emoji simple
 
-Emoji are supposed to be simple pictograms.  Work hard to keep them simple.  Don't spend hours tweaking your emoji to
-get it just right.  Start simple and get the basic emoji working.  You can always make it more complex later.
+Emoji are supposed to be simple pictograms. Work hard to keep them simple. Don't spend hours tweaking your emoji to get it just right. Start simple and get the basic emoji working. You can always make it more complex later. Besides, sometimes simple things can convey ideas more effectively than complex things.
 
-### Divide and Conquer
+### Divide and conquer
 
-Split up the emoji between team members.  One of the nice things about functions is that it is really easy to divide up
-the work.  One person can work on one function, and another person can work on the other.  This makes it easy to divide
-up the work in a reasonable, logical way.  Also, if you are each working on different functions, git can usually merge
-the changes easily.  Just make sure that you are all working in a clone of the same git repository.
+Split up the emoji between team members. One of the nice things about functions is that it is really easy to divide up the work. One person can work on one function, and another person can work on the other. This makes it easy to divide up the work in a reasonable, logical way. Also, if you are each working on different functions, git can usually merge the changes easily. Just make sure that you are all working in a clone of the same git repository.
+
+If you want to avoid potential git conflicts, you can also each create your own file for each emoji and assign one team member to combine the code into a single file towards the end of class.
+
+### Finish each emoji at the start
+
+Remember for the `bar()` function in the lab, the code was set up to draw a bar, then move the turtle in advance of the next bar, then draw the next bar. But this only worked well if the turtle finished drawing the bar in the same place and orientation where it started from. So if the turtle started at the top left of the bar and facing to the right, it should be at the position both at the start of the `bar()` function and at the end.
+
+You'll want to do something similar with emojis - draw an emoji, move in prep to draw the next emoji, then draw the next emoji. It's much easier to do this if, in each emoji function, you include code so that the turtle ends up exactly where it started after the emoji is done drawing. Then the code to move to where the next emoji starts can be the same between every emoji.
+
+Following this principle makes it much easier to collaborate, too! If everyone in your group is working on a different emoji, it's easier to put them together into one program at the end if you know that each emoji drawing will end where it started.
 
 ### Support functions
 
-In addition to having a separate function for each emoji, you might want to create a function or two to help with other
-things that you need to do.  For example, could you create a `next()` function that moves the turtle to the right and
-gets it ready to draw the next emoji?
+In addition to having a separate function for each emoji, you might want to create a function or two to help with other things that you need to do. For example, could you create a `next()` function that moves the turtle to the right and gets it ready to draw the next emoji?
 
 ### Look for common features
 
-As you work on your emoji, you might notice that you have common features.  For example, if you are drawing both a
-smiley face and a frowning face, both of them will have the same circular face.  That is an opportunity to create a
-support function.   You could in this case create a function that draws a blank face (a circle of the appropriate
-color).  Then your smiley function could call the blank face, and then draw the eyes and mouth.  Your frowning face
-could also call the blank face function first, and then draw a different eyes and mouth.  
+As you work on your emoji, you might notice that you have common features. For example, if you are drawing both a smiley face and a frowning face, both of them will have the same circular face. That is an opportunity to create a support function. You could in this case create a function that draws a blank face (a circle of the appropriate color). Then your smiley function could call the blank face, and then draw the eyes and mouth. Your frowning face could also call the blank face function first, and then draw a different eyes and mouth.  
 
-Creating support functions for common features like this is a great way to avoid lots of copy-and-pasting of code.  It
-also makes it easier if you want to change something later on.  If you want to change the skin color, for example, you
-only need to change it in the one place (blank face), rather than find all the places in your code that have a skin
-color.
-
+Creating support functions for common features like this is a great way to avoid lots of copy-and-pasting of code. It also makes it easier if you want to change something later on. If you want to change the skin color, for example, you only need to change it in the one place (blank face), rather than find all the places in your code that have a skin color.
 
 ## Challenge
 
 If you get the basic emoji sentence working and you have time left in the studio today, try this challenge:
 
-The emoji sentence that your program draws is "hard-coded" -- it always draws the same sentence (the same emoji in the
-same order) every time.  Instead of hard coding a sentence, modify your program to allow the user specify which emoji
-should be drawn in which order.
+The emoji sentence that your program draws is "hard-coded" -- it always draws the same sentence (the same emoji in the same order) every time. Instead of hard coding a sentence, modify your program to allow the user to specify which emoji should be drawn in which order.
 
 For example, your program could work like this:
 ```
