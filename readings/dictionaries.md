@@ -3,32 +3,28 @@ topic: Dictionaries
 parent: Week 8
 ---
 
-Please read the following chapters about dictionaries:
+Dictionaries are another data structure in Python. We've used variables, which can store one thing, and lists, which can store many of the same thing. Dictionaries are a little like lists, except more structured. Things stored in dictionaries are stored in pairs. These pairs are called "key-value pairs" and work like actual paper dictionaries, which have words with definitions attached to them. The word is the key, and the definition is the value associated with that key.
 
-* [Automate the Boring Stuff: Chapter 5](https://automatetheboringstuff.com/chapter5/) -- Dictionaries and Structuring Data
-* [Think Python: Chapter 11](http://greenteapress.com/thinkpython2/html/thinkpython2012.html) -- Dictionaries (stop at
-  "11.6 Memos")
+## Readings
 
-Also, please read the following web pages about how dictionaries are used:
+* [Using dictionaries to store data as key-value pairs](http://www.compciv.org/guides/python/fundamentals/dictionaries-overview/){:target="_blank"}
+* [Automate the Boring Stuff: Chapter 5 - Dictionaries and Structuring Data](https://automatetheboringstuff.com/chapter5/){:target="_blank"} -- skim
+* [Think Python: Chapter 11](http://greenteapress.com/thinkpython2/html/thinkpython2012.html){:target="_blank"} -- skim up to "11.6 Memos"
 
-* [Using dictionaries to store data as key-value pairs](http://www.compciv.org/guides/python/fundamentals/dictionaries-overview/)
+## Summary
 
-Skim the whole thing, but really carefully read the sections called "Versatility as a data format" and "Dictionaries in
-the Wild". Also read:
+For this week's summary, think about what you already know about other ways of storing data in Python, like variables and lists. Think about how dictionaries are different from those structures.
 
-* [Manipulating Lists and Dictionaries in Python](https://www.pluralsight.com/guides/manipulating-lists-dictionaries-python)
+**Summary prompt:** What do you think dictionaries might be useful for in Python?
 
-Read the readings. Doing this will help you begin to understand "dictionaries", which are ways of storing structured
-data in python.  As you do the readings, think about what kinds of information would be effectively stored in
-dictionaries?  What kinds of things that you would do in programming would you use dictionaries for?  Write a summary of
-what you think dictionaries are good for?   What if you combine them with lists?
+## Question
 
-Then, write down a question. It can be a point of confusion or a needed clarification about anything in the readings, or
-it can be something interesting that you thought about while you were reading that goes beyond the reading. Or it can be
-an example you thought about, or a connection you made between the concepts here and other parts of your life. But write
-down a good question or example based on what you were thinking about while reading.
+As per usual, your question can be one of three types:
+* *Confusion*: what didn't you understand in the readings?
+* *Curiousity*: what do you want to know more about?
+* *Connection*: how does this topic connect to your own experiences?
 
-The summary + question for this week can be submitted on D2L.
+Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
 
 
 
