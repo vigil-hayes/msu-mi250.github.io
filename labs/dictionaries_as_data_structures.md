@@ -221,30 +221,20 @@ We don't normally do this in code that is intended for other people to use. But 
 
 All of these exercises today are using dictionaries in a very specific way, and in a way that is different than how we used them before. All of these exercises are using dictionaries to store "structured data" -- complex data that is made up of multiple different pieces of information that are grouped into a logical whole. A student is a logical whole, but the information about that student has multiple different pieces. Same with a pizza order.
 
-When we put this information into a dictionary, we do so in a specific way. Dictionarys store "key/value" information that associates some value (e.g. definition) with a key (e.g. word). 
+In our structured dictionaries, the keys define the structure of the data. So we have keys that look like "crust", "toppings", or "name" -- they are words in quotes. The values associated with those keys are the actual data. Dictionary keys provide a template for the types of data that are associated with them.
 
-In our structured dictionaries, the keys define the structure of the data. So we have keys that look like "crust", "toppings", or "name" -- they are words in quotes. The values associated with those keys are the actual data. 
-
-This is a really common and valuable way to think about and use dictionaries in Python.  
+It can be helpful to think of a dictionary as a repeatable template that is full of metadata. Think about fill out a form: a form might have a bunch of items like name, birthdate, address, etc. with blank spaces next to them that you fill out. The same form can be used by a lot of different people, who all will fill the blanks with different data. But the structure of the form -- the items that need to be filled in -- is the same for everyone. 
 
 ### Exercise 14: Structuring Data
 
 Now that you have experience working with dictionaries to store structured data, it is time to create the a structure
-yourself. Create a new file called `post.py`.
+yourself. Create a new file called `songs.py`.
 
-Imagine a post on social media, such as a Facebook post or an Instagram post. The post is actually a complex object
-that has a lot of information -- who posted it, the text content of the post, an optional picture, hashtags, the date
-and time when it was posted, etc.
+Think about apps you use to play music - Spotify, iTunes, etc. A playlist in these apps will have a bunch of songs in them, and each song has different pieces of data associated with it so that you can tell what song is playing at any given time. These pieces of data are often called *metadata* - the song itself is the data, the data associated with the song is data about the data. For songs, this is stuff like the artist, the album the song is on, the length of the song, the year it was released, etc. What other metadata can be associated with a song? 
 
-Write a program that stores a post on an imaginary social media system that you are creating in a dictionary, and then
-prints out the contents of the post by pulling data from the dictionary.
+Make a dictionary structure that will store metadata about a song. The structure should be repeatable: that is, you should be able to put the metadata for different kinds of songs into it and the structure will still work. Think of contingencies - for example, what if a song has more than one artist? Create multiple dictionaries to test: each dictionary should have the data for a single song in it.
 
-Create multiple different posts as separate dictionaries.  Make sure that the code you use to print out the post is a function, and test that it works correctly with multiple different posts.
-
-It is up to you how you want to structure / organize your dictionary. The only rule is that the entire post has to be
-stored in a single variable -- which means in a dictionary.
-
-*Hint:* your final program should look similar to `deluxe.py` in that it has a function that prints out data from the dictionary, the dictionary itself, and then calls the function at the end.
+Print out the data for each song in the console using a function similar to the `print_pizza_order()` function from the previous exercises. Make sure the function works with different songs.
 
 ## Challenges
 
@@ -261,7 +251,6 @@ Bonus: put your questions and `input()` commands into a function that `return`s 
 
 Modify the student program to store a list of grades in the dictionary for the student. Then write a function that goes through the student's grades and calculates their GPA.
 
-### Challenge 3: Display your social media post
+### Challenge 3: Song randomizer
 
-Modify the program from Exercise 14 (the social media post) to use Turtle to display all of the information in the post
-visually.  
+Modify the the `songs.py` program you made for exercise 14 to print out a randomized song playlist. Bonus: format the song list nicely using Turtle.
