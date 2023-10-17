@@ -2,8 +2,8 @@
 parent: Week 8
 topic: Dictionaries as Data Structures
 git: https://gitlab.msu.edu/mi-250/structured-data
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 ## Working with Dictionaries
