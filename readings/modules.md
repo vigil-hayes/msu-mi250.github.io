@@ -3,7 +3,7 @@ topic: Modules
 parent: Week 9
 ---
 
-This week we're looking at modules, which is another way to organize a Python program. In the 'real world', programs often consist of multiple files which work with one another. Some programs might have dozens or even hundreds of source files, all of which have code in them. The more complex a program is the longer the code will be. Breaking up a program into multiple files is a way to keep things more organized. 
+This week we're looking at modules, which is another way to organize a Python program. In the 'real world', programs often consist of multiple files which work with one another. Some programs might have dozens or even hundreds of source files, all of which have code in them. The more complex a program is the longer the code will be. Breaking up a program into multiple files is a way to keep things more organized, and to make collaborating easier.
 
 We've already been using modules - every time you use `import`, you're using a module for Python that someone else has written, like random or turtle. Those modules contain functions that you can use in your program. This week you'll get to write your own modules.
 
