@@ -7,110 +7,85 @@ visible: false
 layout: studio
 ---
 
+{% capture _ %}{% increment exercise88 %}{% endcapture %}
+
 ## Organizing your Program
 
-As you begin to write longer and more complex programs, it becomes more important to stay organized as you work.
-Earlier in the semester, you would put all of the code in one file, with no line breaks or other ways of organizSing the
-code.  Today, we are going to practice a few skills that will make it easier to stay organized.
+As you begin to write longer and more complex programs, it becomes more important to stay organized as you work. Earlier in the semester, you would put all of the code in one file, with no line breaks or other ways of organizing the code. Today, we are going to practice a few skills that will make it easier to stay organized.
 
-### Exercise 1: Refactoring -- Red stripes
+One method is called refactoring - this is when you edit code you've already written to make work better, make it cleaner, or make it more efficient. In professional programming, it's very, very common to spend time refactoring code on a regular basis.
 
-Run the program `refactor.py` in this week's git repository.  It should draw something that resembles a US flag.  The
-program is over 250 lines long!  And there is a LOT of repetition in that program.  We can better organize our code in a
-way that will make it easier to read, shorter, and work better.   So let's try to do that.  This is called "refactoring"
--- rewriting code so that it does exactly the same thing, but the code is easier to read, makes more sense, and
-hopefully will be easier to use in the future.
+### Exercise {% increment exercise88 %}: Read and comment
 
-Start by reading the code in `refactor.py`.  Think about what it does. As you read it, you'll find yourself mentally
-organizing the code in your head -- "OK so this part draws the first red stripe.  Then this part moves the turtle down to
-the next stripe." and so on.  Pay attention to that. The logical sections that appear in your head should become sections
-or functions in the code.
+Run the program `refactor.py` in this week's git repository. It should draw something that resembles a US flag. The program is over 250 lines long! And there is a LOT of repetition in that program. We can better organize our code in a way that will make it easier to read, shorter, and work better.
 
-Let's start with those first two blocks of code.  The first block draws a red stripe.  The second block moves the turtle to
-be ready to draw the next stripe.  Your exercise is to create functions for those.
+The first step is to figure out what the code is doing. Start by reading the code in `refactor.py`. Think about what it does. As you read it, you'll find yourself mentally organizing the code in your head -- "OK so this part draws the first red stripe. Then this part moves the turtle down to
+the next stripe." and so on. Pay attention to that. The logical sections that appear in your head should become sections or functions in the code.
 
-Take the code for the red stripe, and put it into a function called `red_stripe()`.  Now go through the code, and every time
-it draws a red stripe, replace the the code with a call to the `red_stripe()` function. That is, delete the extra copies
-of the current code that draws a red stripe, and replace it with a call to your `res_stripe()` funtion.  There are 7 red
-stripes in the US flag, so there should be 7 calls to `red_stripe()`.
+As you read through the code and figure out what each section of it does, write comments describing each code section. In Python, commented lines start with `#`. I've added a comment on line 5 of the program as an example.
 
-### Exercise 1.5: Move Next
+### Exercise {% increment exercise88 %}: Refactoring -- Red stripes
 
-Next, look at the 2nd block of code.  It moves the turtle to be ready to draw the next stripe.   Put that code into a
-`move_next()` function.  Go through the code and every time it tries to move the turtle for the next stripe, replace it
-with `move_next()`.  Since there are 13 stripes in the flag, there should be 13 calls to `move_next()`.
+Now that you've commented the code, you'll notice that you probably used the same comments multiple times. When a chunk of code does the same thing as another chunk of code, that's a good time to use a function.
 
-When you run the program, it should still draw exactly the same flag as it did when you began.  But the program should
-be much shorter now.
+Take the code for the red stripe, and put it into a function called `red_stripe()`. Now go through the code, and every time it draws a red stripe, replace the the code with a call to the `red_stripe()` function. That is, delete the extra copies of the current code that draws a red stripe, and replace it with a call to your `res_stripe()` funtion.  There are 7 red stripes in the US flag, so there should be 7 calls to `red_stripe()` in the program when you're done.
 
-### Exercise 2: Refactoring -- Generalize to stripe()
+### Exercise {% increment exercise88 %}: Move Next
 
-The first exercise involved copy-and-pasting code into functions, and then calling those functions. This is a really
-common part of refactoring, and it is important.  Just giving sections of code a name can make the code easier to read
-and understand.
+Next, look at the 2nd block of code. It moves the turtle to be ready to draw the next stripe. Put that code into a `move_next()` function. Go through the code and every time it tries to move the turtle for the next stripe, replace it with `move_next()`. Since there are 13 stripes in the flag, there should be 13 calls to `move_next()`.
 
-But once you give it a name, you often realize that it can do more than just one thing. We only replaced the red
-stripes.  THe program also draws white stripes, with almost exactly the same code. For this exercise, change the
-`red_stripe()` function to just be `stripe()`, and add a parameter that allows you to specify what color you want the
-stripe to be.   That is, you should be able to say `stripe("red")` or `stripe("white")` to get either a red stripe or a
-white stripe.
+When you run the program, it should still draw exactly the same flag as it did when you began. But the program should be much shorter now.
 
-Now, see if you can replace more of the code with this `stripe()` function.   You should be able to replace all of the
-code that draws all 13 stripes with calls to this function.
+### Exercise {% increment exercise88 %}: Refactoring -- Generalize to stripe()
+
+The first exercise involved copy-and-pasting code into functions, and then calling those functions. This is a really common part of refactoring, and it is important.  Just giving sections of code a name can make the code easier to read and understand.
+
+But once you give it a name, you often realize that it can do more than just one thing. We only replaced the red stripes. The program also draws white stripes, with almost exactly the same code. For this exercise, change the `red_stripe()` function to just be `stripe()`, and add a parameter called `bar_color` that allows you to specify what color you want the stripe to be. That is, you should be able to say `stripe("red")` or `stripe("white")` to get either a red stripe or a white stripe.
+
+Now, see if you can replace more of the code with this `stripe()` function. You should be able to replace all of the code that draws all 13 stripes with calls to the `stripe()`.
 
 When you run the program, it should still draw exactly the same flag as it did when you began.
 
-### Exercise 3: Refactoring -- Generalize to colored_rectangle()
+*Hint:* Remember parameters are variables specific a function that act as placeholders, and then are filled in with whatever is in the paratheses when the function is called. So `bar_color` in the function's code would be replaced with `"white"` or `"red"` when the function is called. If you need a refresher on parameters, go back to the [drawing with functions lab]({% link labs/drawing_with_functions.md %}). 
 
-OK, we've done a good job of making our program much, much shorter.  It is also easier to read and understand now.
-Let's keep going.   We've got a bunch of code that draws a blue box on top of our red-and-white stripes. We could
-copy-and-paste this code into a `blue_box()` function.   But, looking at the code, it looks surprisingly similar to the
-code for the stripes we had before, doesn't it?  
+### Exercise {% increment exercise88 %}: Refactoring -- Generalize to colored_rectangle()
 
-Let's see if we can add some more parameters to our `stripe()` function to allow us to draw a blue box.  We already can
-specify the color of the box.   But right now, `stripe()` always draws a rectangle that is 300 by 10.   Let's add some
-more parameters to our `stripe()` function to specify how far across and how far up the rectangle should be.   
+OK, we've done a good job of making our program much, much shorter. It is also easier to read and understand now. Let's keep going. We've got a bunch of code that draws a blue box on top of our red-and-white stripes. We could copy-and-paste this code into a `blue_box()` function. But, looking at the code, it looks surprisingly similar to the code for the stripes we had before, doesn't it?  
 
-ALso, since we are logically changing what this function does, we should also rename the function to better reflect what
-it does.  How does the name `colored_rectangle()` sound?  So, we could call `colored_rectangle("red", 300, 10)` to draw
-a red strip, and `colored_rectangle("blue", 100, 70)` to draw the blue box.
+Let's see if we can add some more parameters to our `stripe()` function to allow us to draw a blue box. We already can specify the color of the box. But right now, `stripe()` always draws a rectangle that is 300 by 10. Let's add some more parameters to our `stripe()` function to specify how wide and how tall the rectangle should be.   
 
-Modify the flag code to make this happen.
+ALso, since we are logically changing what this function does, we should also rename the function to better reflect what it does. How does the name `colored_rectangle()` sound?  So, we could call `colored_rectangle("red", 300, 10)` to draw a red stripe, and `colored_rectangle("blue", 100, 70)` to draw the blue box.
+
+Modify the flag code to make this happen. You'll need to change all of the calls to `stripe()` so that they call the new function instead and use the extra parameters for width and height.
 
 When you run the program, it should still draw exactly the same flag as it did when you began.
 
-### Exercise 4: Refactoring -- Moving helper functions to a module
+### Exercise {% increment exercise88 %}: Refactoring -- Moving helper functions to a module
 
-If you look at your code now, it is really in two parts.  First, there are a couple of helper functions --
-`colored_rectangle()` and `move_next()`.  And second, there is the main code, that calls these functions.
+If you look at your code now, it is really in two parts.  First, there are a couple of helper functions -- `colored_rectangle()` and `move_next()`. And second, there is the main code that calls these functions and creates the actual drawing.
 
-Let's move these helper functions to a separate python file.   Create a new file called `flag.py`, and move these two
-functions into that new file.  Since you use turtle commands in this file, you will need `from turtle import *` at the
-top of the `flag.py` file.
+Let's move these helper functions to a separate python file. Create a new file called `flag.py`, and move these two functions into that new file. Since you use turtle commands in this file, you will need `from turtle import *` at the top of the `flag.py` file.
 
-Then, back in your main file, delete these functions.   Instead, you should be able to `import flag`
--- which will import these functions from this "helper" file into your main file for use.   You can then call them by
-saying `flag.colored_rectangle()` or `flag.move_next()`. This allows you to separate your code into parts.   The drawing
-helper file contains a small set of functions that help out, and then the main file uses those functions, but is much
-shorter and easier to read.
+Then, back in your main file, delete the functions.   Instead, you put `import flag` at the top of the program - this will import all of the functions from `flag.py` into the main program. You can then call them by saying `flag.colored_rectangle()` or `flag.move_next()`. This allows you to separate your code into parts. The drawing helper file contains a small set of functions that help out, and then the main file uses those functions, but is much shorter and easier to read.
 
 When you run the program, it should still draw exactly the same flag as it always did, but now, it should be much easier
 to read and modify the program.
 
-*Hint*: If you `import flag`, then you have to say `flag.function()`.   If, instead, you say `from flag import *`, then
-you can use the functions directly as `function()`, without having to say `flag.`.  .
+*Hint*: If you `import flag`, then you have to say `flag.function()`. If say `from flag import *` instead, then you can use the functions directly as `function()` instead of `flag.function()`. We've been using `from turtle import *` every time we use Turtle so we don't have to do `turtle.forward()` all the time and can just use `forward()` instead.
 
+### Exercise {% increment exercise88 %}: Add a star
+
+[Have students add a star to the blue box by adding a function to draw a star in the helper file and then calling it in the main program]
 
 ## Separating Content and Logic
 
-Next, turn your attention to the program `flashcards.py`.  Run that program.  It should print out a set of questions 
-about state capitals, and ask you for the answers.  It will tell you if you get it right, and then at the end tell you
+Next, turn your attention to the program `flashcards.py`.  Run that program.  It should print out a set of questions about state capitals, and ask you for the answers.  It will tell you if you get it right, and then at the end tell you
 how many you got right.
 
 Let's see if we can refactor this program also.   Read the code in `flashcards.py`.  It is very repetitive, isn't it?
 Let's see if we can make it easier to read and understand.
 
-### Exercise 5: Refactoring -- Write a flashcard function
+### Exercise {% increment exercise88 %}: Refactoring -- Write a flashcard function
 
 Each of the flashcards has a set of code that displays a prompt and then checks what the user inputs against an answer.
 The only thing that varies between flashcards is the prompt, and the correct answer.
@@ -124,7 +99,7 @@ currently does.
 
 When you run the flashcard program, it should look the same to the user as it currently does.
 
-### Exercise 6: Refactoring: Moving the content into a dictionary
+### Exercise {% increment exercise88 %}: Refactoring: Moving the content into a dictionary
 
 Right now, the *content* of the flashcards -- the questions and answers -- is mixed with the *logic* of the
 flashcard program.  The logic controls what order the flashcards should be displayed, when the user should be asked for
@@ -180,7 +155,7 @@ A good way to remember this is if you are using `.lower()`, then both sides of t
 everything that you are comparing is always lower case.
 
 
-### Exercise 7: Moving the content into a separate file
+### Exercise {% increment exercise88 %}: Moving the content into a separate file
 
 The previous exercise talked about separating content and program logic -- but the content is still being specified in a
 python dictionary.  That means that to update the list and add new flashcards, whoever is doing that has to understand
@@ -210,7 +185,7 @@ logic.   The program logic is in the `flashcards.py` file, and the content of th
 file.  The `flashcards.py` program should still do *exactly* the same thing that it always did, but now, the python file
 doesn't actually contain any actual content.
 
-### Exercise 8: Put helper functions in a separate file
+### Exercise {% increment exercise88 %}: Put helper functions in a separate file
 
 The `flashcards.py` program should basically contain two parts -- a couple of helper functions to display a flashcard
 and read information from a file, and the main part that loops through the dictionary displaying flashcards and counting
@@ -221,7 +196,7 @@ Let's organize the code the same way we did above.  Put all of the helper functi
 main `flashcards.py` file, `import` that other code and use it.
 
 
-### Exercise 9: Create 50 flashcards for all 50 states
+### Exercise {% increment exercise88 %}: Create 50 flashcards for all 50 states
 
 The file `capitals-all.txt` contains the capital cities of all 50 US states, one per line.   Modify your program to test
 the user's knowledge of all 50 capital cities, and report whether they get each one right.
@@ -230,7 +205,7 @@ If you did this right, this should be REALLY easy -- you should just change the 
 program should automatically adjust and handle it correctly.  See how easy it is to add new flashcards once you've
 separate content and program logic?
 
-### Exercise 10: Change the flashcards to sports
+### Exercise {% increment exercise88 %}: Change the flashcards to sports
 
 For the next exercise, let's really push and see how easy it is to add new flashcards. Modify your program to ask the
 user which team certain players play for.   Create a new text file that contains a list of player names and the name of
@@ -242,6 +217,10 @@ should work with minimal modifications.
 *Hint*: The file currently contains information in the form `capital, state`.  That is, the answer is first, followed by
 a comma, then the question.   If you want to change that to something else, then it is a good idea to maintain the same
 `answer, question` format.
+
+## Challenges
+
+If you finish all of the exercises above before the end of class, try at least one of the challenges below.
 
 ### Challenge 1: More Refactoring of the flag
 
