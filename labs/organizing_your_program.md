@@ -21,9 +21,9 @@ Right now everything is in one program, and the program is over 100 lines long. 
 
 Modules allow you to separate the code that is actually running from the functions that define how the code will be run. 
 
-Create a new file called `card-functions.py`. Move all four of the functions that define how the card symbols should be drawn into this new file. Make sure to include `from turtle import *` at the top of `card-functions.py`.
+Create a new file called `card_functions.py`. Move all four of the functions that define how the card symbols should be drawn into this new file. Make sure to include `from turtle import *` at the top of `card_functions.py`.
 
-Now `cards.py` should only have a few lines of code left it in. We'll need to add one more line of code to `cards.py` - the command that imports the card functions from `card-functions.py`.
+Now `cards.py` should only have a few lines of code left it in. We'll need to add one more line of code to `cards.py` - the command that imports the card functions from `card_functions.py`.
 
 There are two ways to import functions from another file: we've been using both methods.
 
@@ -43,13 +43,15 @@ forward(10)
 
 This method imports all of the functions from the `turtle` module so that they can be used 'natively' inside a program. That means you don't have to add `turtle.` in front of every Turtle function you want to use.
 
-Use one of the above methods to import the card functions in `card-functions.py` into `card.py`. The name of the module you import is the same as the name of the file (for this exercise, you'll be importing `flag-functions`).
+Use one of the above methods to import the card functions in `card_functions.py` into `card.py`. The name of the module you import is the same as the name of the file (for this exercise, you'll be importing `card_functions`).
+
+*Note:* It's best practice in Python (and many other programming languages) to separate words in the names of variables, functions, files, or anything else you're naming with underscores: `_`. Python sometimes has trouble with hyphens (`-`) because they're used for math (minus sign), but never has trouble with underscores.
 
 ### Exercise {% increment exercise88 %}: Add another function
 
 Right now the program draws a spade, then moves, then draws a heart, then moves, etc. The code that moves the turtle in between each symbol is repetitive, though.
 
-Make a new function called `move_next()` that moves the turtle in between each symbol and replace the repetitive code with calls to the function. Put this function in the `card-functions.py` file.
+Make a new function called `move_next()` that moves the turtle in between each symbol and replace the repetitive code with calls to the function. Put this function in the `card_functions.py` file.
 
 The program should run in exactly the same way as it did before, but `cards.py` should be shorter.
 
@@ -108,7 +110,7 @@ When you run the program, it should still draw exactly the same flag as it did w
 
 If you look at your code now, it is really in two parts. First, there are a couple of helper functions -- `colored_rectangle()` and `move_next()`. And second, there is the main code that calls these functions and creates the actual drawing.
 
-Create a new file called `flag-functions.py` and move these two functions into that new file. Remember to add `from turtle import *` at the top of the `flag-functions.py` file. Then add a new import statement at the top of `flag.py` to import `flag-functions`.
+Create a new file called `flag_functions.py` and move these two functions into that new file. Remember to add `from turtle import *` at the top of the `flag_functions.py` file. Then add a new import statement at the top of `flag.py` to import `flag_functions`.
 
 When you run the program, it should still draw exactly the same flag as it always did, but now it should be much easier to read and modify the program.
 
@@ -116,7 +118,7 @@ When you run the program, it should still draw exactly the same flag as it alway
 
 ### Exercise {% increment exercise88 %}: Add a star
 
-Write a function to draw a single white star, and draw it on top of the blue box in the flag. But keep your code organized! The function that draws the star shoud go into your functions file (`flag-functions.py`), and the code that actually moves the turtle and creates the star should go in the main program file (`flag.py`).
+Write a function to draw a single white star, and draw it on top of the blue box in the flag. But keep your code organized! The function that draws the star shoud go into your functions file (`flag_functions.py`), and the code that actually moves the turtle and creates the star should go in the main program file (`flag.py`).
 
 *Hint:* if you can't remember how to draw a star, go back to the code you wrote for the [functions lab]({% link labs/drawing_with_functions.md %}).
 
