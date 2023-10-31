@@ -3,32 +3,35 @@ topic: Reading Code
 parent: Week 11
 ---
 
-Please read these readings:
+This week's topic is reading code. You've been doing a lot of this already, but it's important to keep practicing. One of the most important skill you can have as a programmer is to be able to read and understand code that other people have written.
 
-* [Automate the Boring Stuff, Chapter 15](https://automatetheboringstuff.com/chapter15/) -- Time (stop at Multithreading)
-* <https://spin.atomicobject.com/2017/06/01/how-to-read-code/>
-* <https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/>
+## Readings
+
+* [The Most Important Skill for a Developer Is Reading Code](https://medium.com/teawithtechies/the-most-important-skill-for-developers-is-reading-code-f5fcc5759f72){:target="_blank"} 
+* [How to Quickly and Effectively Read Other People's Code](https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/){:target="_blank"}
 
 Also, please skim through the following:
 
-* [Automate the Boring Stuff, Chapter 2](https://automatetheboringstuff.com/chapter2/) -- Starting with "While Loops"
-  and going to the end
-* [Automate the Boring Stuff: Functions](https://automatetheboringstuff.com/chapter3/): Functions
-* [Think Python: Chapter 10](http://greenteapress.com/thinkpython2/html/thinkpython2011.html): Lists
-* [Automate the Boring Stuff: Chapter 5](https://automatetheboringstuff.com/chapter5/) -- Dictionaries and Structuring Data
+* [Loops in Python](https://www.geeksforgeeks.org/loops-in-python/){:target="_blank"}
+* [Automate the Boring Stuff: Chapter 3 - Functions](https://automatetheboringstuff.com/chapter3/){:target="_blank"}
+* [Automate the Boring Stuff: Chapter 4 - Lists](https://automatetheboringstuff.com/chapter4/){:target="_blank"}
+* [Automate the Boring Stuff: Chapter 5 - Dictionaries and Structuring Data](https://automatetheboringstuff.com/chapter5/){:target="_blank"}
 
-Yes, you read those before.  Skim through them again.   Now that you've spent some time working with these ideas (for
-loops, lists, dictionaries, functions), they should make sense in a different way. When you read through these again,
-you'll see the ideas in a completely new and different way.  
+Yes, you read those before. Skim through them again. Now that you've spent some time working with these ideas (for loops, lists, dictionaries, functions), they should make sense in a different way.  
+
+## Summary
 
 As you re-read these, what new things do you notice that you didn't last time?  Is there anything that makes more sense
-this time through than last time?  Summarize what new things you learned by re-reading these readings again and thinking
-about them after having written code using these concepts.  Submit this summary on D2L.
+this time through than last time?
 
-Then, write down a question. It can be a point of confusion or a needed clarification about anything in the readings, or
-it can be something interesting that you thought about while you were reading that goes beyond the reading. Or it can be
-an example you thought about, or a connection you made between the concepts here and other parts of your life. But write
-down a good question or example based on what you were thinking about while reading.
+**Summary prompt:** What new things did you learn by re-reading these readings again?
 
-The summary + question for this week can be submitted on D2L.
+## Question
+
+As per usual, your question can be one of three types:
+* *Confusion*: what didn't you understand in the readings?
+* *Curiousity*: what do you want to know more about?
+* *Connection*: how does this topic connect to your own experiences?
+
+We do not have class on Tuesday this week. Submit your summary+question on D2L under Quizzes before class starts on THursday. Thursday's class will be a lab.
 
