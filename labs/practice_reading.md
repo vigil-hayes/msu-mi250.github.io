@@ -68,7 +68,7 @@ After your timer goes off, you are allowed to run the program to see what it doe
 
 At this point, ask the instructor or TA to check your comments for exercises 1 through 3 before moving on. Switch drivers if you haven't already.
 
-### Exercise 4: 
+### Exercise 4 
 
 Set your timer for 5 minutes.
 
@@ -76,7 +76,7 @@ Look at the program in `ex4.py`. Read the code, and write comments for each line
 
 After your timer goes off, you are allowed to run the program to see what it does.
 
-### Exercise 5:
+### Exercise 5
 
 Set your timer for 5 minutes.
 
@@ -84,7 +84,7 @@ Look at the program in `ex5.py`. Read the code, and write comments for each line
 
 After your timer goes off, you are allowed to run the program to see what it does.
 
-### Exercise 6:
+### Exercise 6
 
 Set your timer for 8 minutes.
 
@@ -97,7 +97,7 @@ After your timer goes off, you are allowed to run the program to see what it doe
 
 At this point, ask the instructor or TA to check your comments for exercises 4 through 6 before moving on. Now is a good time to switch drivers again.
 
-### Exercise 7:
+### Exercise 7
 
 Set your timer for 7 minutes.
 
@@ -106,9 +106,9 @@ this program do?
 
 After your timer goes off, you are allowed to run the program to see what it does.
 
-### Exercise 8:
+### Exercise 8
 
-Set your timer for 10 minutes
+Set your timer for 10 minutes.
 
 Look at the program in `ex8.py`. Read the code, and write comments for each line or chunk of code as described above. Remember to describe what the program does at the top when you're done.
 this program do?
