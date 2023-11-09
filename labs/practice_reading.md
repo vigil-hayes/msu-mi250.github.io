@@ -2,8 +2,8 @@
 parent: Week 11
 topic: Practice Reading Code
 git: https://gitlab.msu.edu/mi-250/reading-code
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 layout: studio
 ---
 
