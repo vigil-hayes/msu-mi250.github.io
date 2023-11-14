@@ -2,8 +2,8 @@
 parent: Week 12
 topic: Working with Text and Files
 git: https://gitlab.msu.edu/mi-250/working-with-files
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 
 ---
 
@@ -68,9 +68,9 @@ First, you will want to set the default value associated with each word to 0 usi
 ```
 my_dictionary.setdefault('word','default_value')
 ``` 
-In this example, 'word' is the key and 'default_value' is the value -- both of these are hardcoded. But we want the word - the key - to be different each time the loop is run, so that each individual word will be added to the dictionary. Remember there's a variable in the `for` loop statement that represents each word in the list of words. 
+In this example, 'word' is the key and 'default_value' is the value -- both of these are hardcoded. But we want the word - the key - to be different each time the loop is run, so that each individual word will be added to the dictionary. Remember there's a variable in the `for` loop statement that represents each word in the list of words.
 
-We also want the default value to start at 0 so that we can add to that count every time we encounter the word. After you set the default value, you'll want to increment the count for the value every time the word shows up. You already did this in the first exercise. 
+We also want the default value to start at 0 for each word so that we can add to that count every time we encounter the word. After you set the default value, you'll want to increment the count for the value every time the word shows up. You already did this in the first exercise. 
 
 Your `for` loop should now set the default value for each word and then increment the count associated with that word each time it sees it in the list. Print out the `words` dictionary when you're done. It should look like this:
 
@@ -92,7 +92,7 @@ would look for every time the character 'w' shows up in a string and replace it 
 For this exercise, what we're going to do is replace all of the punctuation characters in the string with nothing, like this:
 
 ```python
-punc = ''',.?!:;-'''    # common punctuation marks, saved into a string
+punc = ",.?!:;-"    # common punctuation marks, saved into a string
 for char in phrase:  	# go through each character in the "phrase" string
 	if char in punc: 	# for each character in the string, checks if the character is also in the string called 'punc'
 		phrase = phrase.replace(char, "") 	# replaces the character with nothing and resaves the string
@@ -125,13 +125,13 @@ Now your dictionary should look like this:
 This program is working pretty well with a short phrase. What about something longer? We're only running it on one line of the Taylor Swift song. Let's use the full refrain instead:
 
 ```
-‘Cause the players gonna play, play, play, play, play
+'Cause the players gonna play, play, play, play, play
 And the haters gonna hate, hate, hate, hate, hate
-Baby, I’m just gonna shake, shake, shake, shake, shake
+Baby, I'm just gonna shake, shake, shake, shake, shake
 I shake it off, I shake it off
 Heartbreakers gonna break, break, break, break, break
 And the fakers gonna fake, fake, fake, fake, fake
-Baby, I’m just gonna shake, shake, shake, shake, shake
+Baby, I'm just gonna shake, shake, shake, shake, shake
 I shake it off, I shake it off
 
 I shake it off, I shake it off
@@ -140,7 +140,7 @@ I, I shake it off, I shake it off
 I, I shake it off, I shake it off
 ```
 
-*Note:* In Python, hard-coded strings normally all appear on one line: `"hello"`. If you want a string to be more than one line long (like the lyrics above), you can use triple double-quotes around it. So something like this:
+*Note:* In Python, hard-coded strings normally all appear on one line: `"hello"`. If you want a string to be more than one line long (like the lyrics above), you can use triple quotes around it. So something like this:
 ```
 lyrics = """
 These are the lyrics to a song
@@ -152,7 +152,7 @@ and don't rhyme
 The dictionary that prints out should now look like this:
 
 ```
-{'‘cause': 1, 'the': 3, 'players': 1, 'gonna': 6, 'play': 5, 'and': 2, 'haters': 1, 'hate': 5, 'baby': 2, 'i’m': 2, 'just': 2, 'shake': 22, 'i': 15, 'it': 12, 'off': 12, 'heartbreakers': 1, 'break': 5, 'fakers': 1, 'fake': 5}
+{"'cause": 1, 'the': 3, 'players': 1, 'gonna': 6, 'play': 5, 'and': 2, 'haters': 1, 'hate': 5, 'baby': 2, "i'm": 2, 'just': 2, 'shake': 22, 'i': 15, 'it': 12, 'off': 12, 'heartbreakers': 1, 'break': 5, 'fakers': 1, 'fake': 5}
 ```
 
 ### Exercise {% increment exercise11 %}: Print the results nicely
@@ -162,7 +162,7 @@ You've got a really program for cleaning text and counting words at this point. 
 Modify your program to loop through all of the words in the dictionary and print out the count for each word on a separate line, like this:
 
 ```
-‘cause: 1
+'cause: 1
 the: 3
 players: 1
 gonna: 6
