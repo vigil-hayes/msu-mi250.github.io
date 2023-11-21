@@ -1,8 +1,8 @@
 ---
 parent: Week 13
 topic: Refactor Old Studio
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 layout: lab
 ---
 
