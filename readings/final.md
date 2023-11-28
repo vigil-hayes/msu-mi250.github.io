@@ -1,27 +1,22 @@
 ---
-topic: Creativity
+topic: Reflection
 parent: Final Week
 ---
 
-There are no readings for this week.  However, I would like you to think about and
-submit a summary+question.
+There are no readings for this week.  However, I would like you to think about and submit a summary+question. This is a chance for you to reflect on this course, and on where you see yourself going in the future.
 
-For this week's summary, think back over the class.  What have you learned? Do you feel like you are able to program
-computers now?  Do you feel like you understand programming enough that you could work with a professional, where you do
-related work (technology design, art design, game design, advertising design, etc.) and tell the programmers what to do?
-What skills do you think you understand pretty well?  What skills do you feel like you still need to learn?  
+## Summary
 
-There is a lot more about programming that you can learn; this was just one course.  But reflect over this course and
-summarize what kinds of things you feel like you are now able to do that you couldn't do at the beginning of the course.
-For the summary part of the assignment, summarize what you feel like you've learned in this course.
+For this week's summary, think back over the class. What have you learned? Do you feel somewhat more confident with programming and with computers than you did before? Do you feel like you could talk with other programmers about the work they do? What skills do you think you understand pretty well? What skills do you feel like you still need to learn? 
 
-For the question part of the course, think about how you might use these skills in the future. How do you think you
-might use the skills you learned in your future courses?  in your future career?  in your future life?  Are you already
-using the skills from this course in interesting and valuable ways?
+You've learned a lot over the course of the semester. One thing that might help you to see how far you've come is to look at the code you wrote for the labs and studios early in the semester. You probably understand some of that code better now than you did then. Try to remember what things you found hard to do in September and October. Are those things easier now?
 
----
+*Prompt:* Summarize what you feel like you've learned in this course.
 
-If you have spare time, this is interesting reading: <https://automatetheboringstuff.com/chapter18/>
+## Question
 
+For the question part of the course, think about how you might use these skills in the future. How do you think you might use the skills you learned in your future courses?  Or in your future career?  Or in your future life?  Are you already using the skills from this course in interesting and valuable ways?
 
+## Going Forward
 
+If this course was interesting to you, there are more programming courses you can take in the Media and Information department and elsewhere. You can also learn a lot by practicing programming on your own. [This article about teaching yourself to code](https://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889){:target="_blank"} has a lot of good suggestions and resources if you want to continue practicing your programming skills.
