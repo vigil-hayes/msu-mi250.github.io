@@ -1,9 +1,9 @@
 ---
 parent: Week 14
-topic: Requests and Movies
+topic: Requests Data Using APIs
 git: https://gitlab.msu.edu/mi-250/using-apis
-nav_exclude: true
-visible: false
+nav_exclude: False
+visible: true
 ---
 
 So far, we've been creating our own content to use in programs. We've been writing out stories and storing them as strings, or storing structure data in dictionaries, or putting text data in files and bringing it in to Python. For structured data, we've been writing it ourselves. But you may want to write a program that uses large amounts of structured data that already exists out in the world.
