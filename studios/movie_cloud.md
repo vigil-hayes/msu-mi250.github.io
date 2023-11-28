@@ -15,7 +15,7 @@ What follows is just advice for doing it. You don’t have to follow my advice. 
 
 ### Finish the Lab 
 
-If you didn't finish this week's lab, you should make sure that at least one person in your group finished through Exercise 8 -- getting TMDB API access working. If not, go back and do Exercise 8, and possibly all of the exercises after that. Specifically, you should make sure that you can retrieve and print out movie information from TMDB first.
+If you didn't finish this week's lab, you should make sure that at least one person in your group finished through Exercise 11 -- getting TMDB API access working. If not, go back and do Exercise 11, and possibly also all of the exercises after that. Specifically, you should make sure that you can retrieve and print out movie information from TMDB first.
 
 If not everyone in your group finished the lab, ask the student(s) who got the furthest to show the code from the lab to the others in your group and explain how it works. That will help everyone be on the same page as you work on the studio today.
 

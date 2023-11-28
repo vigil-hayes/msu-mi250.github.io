@@ -347,7 +347,7 @@ Combine the results of your last two programs / exercises. Search for the movie 
 
 This program in total should make 3 API queries in total: search, movie, and credits.
 
-### Challenge 2: Movie Search Progarm (aka user input)
+### Challenge 2: Movie Search Program (aka user input)
 
 Take the program you wrote for challenge 1, and modify it to accept the search query as an input. That is, your program should ask the user what movie they want to know about. It will then search TMDB for that movie. It will assume that the first result is the movie the user is looking for, and remember the ID number for that movie. Then it will use the API to get inforamtion about the movie such as its full name, tagline, overview, and list of stars, and print out all of that information.
 
