@@ -2,13 +2,13 @@
 parent: Final Week
 topic: Adventure Engine
 git: None
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.  
 
-*Important:* This entire week is a studio. You'll be working in groups of 2-4 people as usual, but you will be continuing this same project on Wednesday with the same group. You'll have class today and on Thursday to work on the project, and can also work on it during finals week. Your group's project will be due at the end of the final period for this class: 12pm on Thursday, December 14.
+*Important:* This entire week is a studio. You'll be working in groups of 2-4 people as usual, but you will be continuing this same project on Wednesday with the same group. You'll have class today and on Thursday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: 12pm on Thursday, December 14.
 
 ## Grading and Rubric 
 
@@ -52,9 +52,13 @@ There are many ways to approach this project and you have a lot of tools as your
 
 In my experience, every group's program for this project is very different. There's no right or wrong way to do things. Write the program in whatever way makes the most sense to you. The advice below is based on my experience, but you can do things differently if you want.
 
+### Refer to previous labs and studios
+
+Forget how to do something? Remember you can look at the code from previous labs and studios to remind yourself. And you can use any code you've written in the past, too. 
+
 ### Logic vs content
 
-One of the items on the rubric is that your program should separate the logic from the content somehow. The logic is what the program is doing - how it works, in what order things happen, etc. The content is what you're showing the user - the text of the story, Turtle illustrations etc.
+One of the items on the rubric is that your program should separate the logic from the content somehow. The logic is what the program is doing - how it works, in what order things happen, etc. The content is what you're showing the user - the text of the story, Turtle illustrations, etc.
 
 We've used two techniques in class that separate content from logic: files and modules.
 
@@ -66,9 +70,9 @@ One way to set this up is to have a file for each "path" the user can take in th
 
 ### Providing an option to quit
 
-The rubric also asked you to provide the user with the option to quit the program while it's running. You should allow your user to enter "quit" (or some other, equivalent input) and when you notice that, the program should just stop.
+The rubric also asked you to provide the user with the option to quit the program while it's running. You should allow your user to enter "quit" (or some other, equivalent input) and when the program notices that, it should just stop.
 
-You can use the function `sys.exit()` to just stop the whole program.  So when the user enters "quit", call `sys.exit()`.  You will need to `import sys` at the top of your program so you can use the `exit()` function.
+You can use the function `sys.exit()` to just stop the whole program.  So when the user enters "quit", call `sys.exit()`. You will need to `import sys` at the top of your program so you can use the `exit()` function.
 
 ### Loop to load the next file
 
@@ -98,7 +102,7 @@ Remember you'll be coming back to this project on Thursday. Add comments to your
 
 ## Ideas for being creative
 
-These are all ideas that can help you make your story creative and interactive. You don't have to use any of them if you don't want to: they're here to help get you think about what you might be able to do.
+These are all ideas that can help you make your story creative and interactive. You don't have to use any of them if you don't want to: they're here to help you think about what you might be able to do.
 
 *Choose an interesting setting:* Maybe your story takes place in a haunted house, or on Mars. Deciding on a setting first can help provide focus when you go to write and illustrate your story.
 
