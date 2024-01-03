@@ -27,4 +27,4 @@ Normally, there won't be a question prompt. But since this is the first week we 
 
 ## Turn in
 
-Turn in your summary + question by going to D2L -> Quizzes. This is Week 1. Please turn it in **before class starts on Thursday, August 31**. Caitlin will read them all before class starts and answer the most pressing questions at the beginning of class.
+Turn in your summary + question by going to D2L -> Quizzes. This is Week 1. Please turn it in **before class starts on Wednesday, January 10**. Caitlin will read them all before class starts and answer the most pressing questions at the beginning of class.

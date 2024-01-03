@@ -1,9 +1,10 @@
 ---
 parent: Week 2
-topic: Control Flow
+topic: Control Flow (lab)
 git: https://gitlab.msu.edu/mi-250/control-flow
 nav_exclude: false
 visible: true
+layout: studio
 ---
 
 The first thing you need to do today is to create a copy of the files you'll need for the lab. These files are in the git repository linked above. Last week, you only downloaded one file. This week, download the full repository. Find the download button (next to the blue "Clone" button) on the main repository page and choose the ".zip" option. It will download as a .zip folder on your computer.

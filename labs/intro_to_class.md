@@ -39,4 +39,4 @@ Today, everyone will take a screenshot and submit it. The place you'll turn them
 MacOS and Windows both have built-in applications for taking screenshots. If you need a refresher, here's [a reference for taking screenshots]({% link reference/screenshots.md %}). (For the future, this can be found under "Reference" in the sidebar of this site.)
 
 
-**NOTE** This "lab" is for practice and is ungraded! The first graded lab will be on Thursday.
+**NOTE** This "lab" is for practice and is ungraded! The first graded lab will be on Wednesday.

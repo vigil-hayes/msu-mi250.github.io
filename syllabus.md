@@ -16,9 +16,9 @@ nav_order: 2
 {:toc}
 </details>
 
-## Fall 2023 Time and Location
+## Spring 2024 Time and Location
 
-Tuesdays and Thursdays, 10:20am-12:10pm  
+Mondays and Wednesdays, 3:00-4:50pm  
 Holden Hall C131  
 Synchronous, in person – no hybrid options available
 
@@ -26,7 +26,7 @@ Synchronous, in person – no hybrid options available
 
 *Instructor:* Caitlin Geier (she/her/hers)  
 *Email:* [geierac@msu.edu](mailto:geierac@msu.edu)  
-*Office hours:* Monday and Tuesday afternoons, by appointment: [book a time](https://outlook.office.com/bookwithme/user/31419b7d578f4dd5996e2c55409b0d0e@msu.edu?anonymous&ep=pcard){:target="_blank"}  
+*Office hours:* Drop-in Mondays from 1-2:30pm in office or [on Zoom](https://msu.zoom.us/my/geierac), or by appointment  
 *Office:* Room 525, Communication Arts and Sciences  
 
 *Course assistant:* Jack Waier  
@@ -60,9 +60,9 @@ Students are expected to use their laptops in class for in-class work, and shoul
 
 This course has 4 main elements:
 * **Homework:** reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
-* **Labs:** set exercises for learning and practicing concepts in programming, done in class with partners (usually on Tuesdays)
-* **Studios:** open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-4 (usually on Thursdays)
-* **Final project:** a two week project at the end of the semester started in class and due during the class’s final exam period (12pm, Thursday Dec. 14).
+* **Labs:** set exercises for learning and practicing concepts in programming, done in class with partners (usually on Mondays)
+* **Studios:** open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-3 (usually on Wednesdays)
+* **Final project:** a two week project at the end of the semester started in class and due during the class’s final exam period (8pm, Wednesday April 24).
 
 **This course does NOT have any quizzes or exams.** Aside from the final project, which students have the option of working on outside of class, all programming work will be done IN CLASS. It’s therefore very important to attend class as much as possible.
 
@@ -71,7 +71,7 @@ Students in this course will practice a concept called pair programming, which o
 
 In labs: students will be randomly assigned in pairs at the beginning of class. You’ll likely work with someone different every week. You will practice pair programming for every lab.
 
-In studios: students can choose who they work with and can work in groups no smaller than 2 people and no larger than 4. We encourage you to practice pair programming in whatever way makes sense for your group rather than all working on your own computers. You should be talking with your group members frequently.
+In studios: students can choose who they work with and can work in groups no smaller than 2 people and no larger than 3. We encourage you to practice pair programming in whatever way makes sense for your group rather than all working on your own computers. You should be talking with your group members frequently.
 
 ## Coursework
 
@@ -103,7 +103,7 @@ Labs are NOT graded based on how much you complete or how "good" your code is.
 
 ### Studios
 
-Studios will usually take place on Thursdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-4 people; you can choose who you work with for studios. 
+Studios will usually take place on Wednesdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-3 people; you can choose who you work with for studios. 
 
 Studios are also graded using the check/check-plus/check-minus system. Grades are based on: 
 * Effort (did you work on the studio for the entire class?)
@@ -116,15 +116,15 @@ Studios are NOT graded on how "good" your code is or whether everything works as
 
 The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
 
-Final projects are due at the end of the final exam period: 12pm (noon) Thursday, December 14, 2023. **There is no final exam for this class.**
+Final projects are due at the end of the final exam period: 8pm Wednesday, April 24, 2024. **There is no final exam for this class.**
 
 ### Turning in work
 
 In-class work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
 
-### Extra credit
+<!-- ### Extra credit
 
-There will be two extra credit opportunities this semester – a take-home assignment on November 3rd (election day) and an in-class activity on November 21st (the week of Thanksgiving).
+There will be two extra credit opportunities this semester – a take-home assignment on November 3rd (election day) and an in-class activity on November 21st (the week of Thanksgiving). -->
 
 ### Honors option
 
@@ -135,8 +135,8 @@ This course does have an honors option for students in the honors college. If yo
 Grades in this class are mostly based on attending class and making an honest effort to engage with the material, both in and outside of class. The final project is the only work in which students will be graded on the programming skills they’ve developed over the semester. Grades are broken down in this way:
 
 | Homework (summary + question) | 20% |
-| In class exercises (labs and studios) | 60% |
-| Final project | 20% |
+| In class exercises (labs and studios) | 65% |
+| Final project | 15% |
 
 Grades will be input on D2L and are calculated continuously – you will always know where your grade stands for the class by looking at D2L. Most all grades (except for the final project) are based on a check / check plus / check minus rubric:
 * **Check = 9/10**. You showed up and did the work. This is the base grade for everybody. (You didn’t do anything wrong if you get a check!)
@@ -162,7 +162,7 @@ A rubric for the final project will be released at the beginning of the final we
 
 ## Communication Policies
 
-Caitlin and Jack are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom: [book a time](https://outlook.office.com/bookwithme/user/31419b7d578f4dd5996e2c55409b0d0e@msu.edu?anonymous&ep=pcard){:target="_blank"}. Jack can also meet with students outside of class as needed - email him or ask him in class. If you have questions about anything course-related, please get in touch!
+Caitlin and Jack are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom. Jack can also meet with students outside of class as needed - email him or ask him in class. If you have questions about anything course-related, please get in touch!
 
 Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
 
@@ -192,15 +192,17 @@ The "drop 4" policy for in class activities will cover nearly all absences for n
 
 Note that missing more than two weeks of class will make it harder for you to keep up, and also harder for you to earn good grades because you won’t be able to participate as much in class. If you need to miss extra class, talk with Caitlin or Jack and we will help you determine what you might need to do to keep up with the class. All of the exceptions below will be taken into account if you go beyond 4 absences.
 
+If you know in advance that you need to miss a class for any of the below reasons, contact Caitlin as soon as possible. The more advance notice we have, the easier it will be for us to work with you.
+
 **Adding the class late** – if you added this class to your schedule at the end of the first week of the semester, you may have missed the first graded homework and the first graded in class activity. Talk to Caitlin as soon as possible to catch up on the work, and to be exempted from those activities.
 
 **Illness lasting more than 2 weeks** – COVID is still a thing, and there are all sorts of other illnesses people can have that affect their ability to attend class. Contact Caitlin as soon as possible to discuss potential accommodations and what kind of documentation may be necessary.
 
 **Grief absences** – If you have experienced the death of a family member or someone close to you, or you are experiencing emotional distress from a similar tragedy, you may request a grief absence. To request a grief absence, visit the Grief Absence Request Form found on the [Student Information System](https://student.msu.edu/){:target="_blank"} under Resources –> Grief Absence. See the [grief absence policy](https://reg.msu.edu/roinfo/notices/griefabsence.aspx){:target="_blank"} for more information. Once your grief absence is approved, we will exempt you from the in-class activities for the approved dates. This means those classes won’t count towards your grade at all, and also won’t count as part of your 4 dropped grades.
 
-**Religious holidays** – If you wish to be absent from class to observe a religious holiday, please make arrangements in advance. 
+**Religious holidays** – If you wish to be absent from class to observe a religious holiday, please make arrangements in advance - ideally at least two weeks in advances. Absences for religious holidays will be treated as exempt, within reason. See [MSU's religious observance policy](https://reg.msu.edu/roinfo/notices/religiouspolicy.aspx){:target="_blank"} for more detail.
 
-**Student athletes** – If you must miss a class to participate in an officially-sanctioned athletic game, you must provide adequate advanced notice beforehand, such as a team schedule or written authorization from the faculty member of the other course or a university administrator.
+**Student athletes** – If you must miss a class to participate in an officially-sanctioned athletic game, you must provide adequate advanced notice beforehand, such as a team schedule or written authorization from a coach or a university administrator.
 
 **Required activity** – If you must miss a class to participate in a university-sanctioned event, you must provide the instructor with adequate advance notice and written authorization from a university administrator.
 

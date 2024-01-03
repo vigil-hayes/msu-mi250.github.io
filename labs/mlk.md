@@ -1,9 +1,9 @@
 ---
-parent: Week 1
-topic: <i>MLK Day; no class</i>
-visible: false
-nav_exclude: true
-published: false
+parent: Week 2
+topic: <i>NO CLASS - MLK day</i>
+visible: true
+nav_exclude: false
+published: true
 ---
 
 Today is Martin Luther King Jr. day; there is no class today.
