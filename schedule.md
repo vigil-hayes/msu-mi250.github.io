@@ -11,8 +11,6 @@ has_toc: False
 <!--Zoom link: <https://msu.zoom.us/j/96651450582?pwd=SVhqOTNOMzJERW5BSVVmaEhFeWd2QT09>-->
 <!-- Slack link: <https://join.slack.com/t/mi-250/signup> -->
 
----
-
 {% assign weeks_list = site.html_pages | where: "layout", "week" | sort: "nav_order"  %}
 
 |-------|--------------------|-------|--------|
