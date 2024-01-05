@@ -58,10 +58,11 @@ Students are expected to use their laptops in class for in-class work, and shoul
 
 ## Course Structure
 
-This course has 4 main elements:
-* **Homework:** reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
+This course has 5 main elements:
+* **Summary+Questions:** reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
 * **Labs:** set exercises for learning and practicing concepts in programming, done in class with partners (usually on Mondays)
 * **Studios:** open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-3 (usually on Wednesdays)
+* **Homework:** larger homework assignments to learn/practice skills and think about programming in practice (every 2-3 weeks, 5 in total)
 * **Final project:** a two week project at the end of the semester started in class and due during the class’s final exam period (8pm, Wednesday April 24).
 
 **This course does NOT have any quizzes or exams.** Aside from the final project, which students have the option of working on outside of class, all programming work will be done IN CLASS. It’s therefore very important to attend class as much as possible.
@@ -75,9 +76,9 @@ In studios: students can choose who they work with and can work in groups no sma
 
 ## Coursework
 
-### Homework
+### Summary + Questions
 
-Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Tuesday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. Homework should take you between 30 minutes and 1 hour each week.
+Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Monday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. Homework should take you between 30 minutes and 1 hour each week.
 
 All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<https://mi250.dev/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the homework.
 
@@ -88,11 +89,11 @@ All readings and videos are available for free and are linked on the readings pa
 * Curiosity: something you want to learn more about
 * Connection: apply one of the concepts from the week’s topic to your own life or work (this might be a statement rather than a question; that’s okay)
 
-If your summary + question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Tuesdays, so it’s important to turn them in on time.
+If your summary + question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Mondays, so it’s important to turn them in on time.
 
 ### Labs 
 
-Labs will usually be on Tuesdays. Labs cover one or more specific concepts relating to the topic of the week; their goal is to give you a chance to put the concepts in practice. Programming is very hard to learn through reading alone, which is why we practice it in class with partners. Each lab has a series of small, structured exercises that you and your partner will go through together using pair programming. Partners for labs are assigned randomly at the beginning of class.
+Labs will usually be on Mondays. Labs cover one or more specific concepts relating to the topic of the week; their goal is to give you a chance to put the concepts in practice. Programming is very hard to learn through reading alone, which is why we practice it in class with partners. Each lab has a series of small, structured exercises that you and your partner will go through together using pair programming. Partners for labs are assigned randomly at the beginning of class.
 
 Labs are graded using the check/check-plus/check-minus system. Grades are based on:
 * Effort (did you work on the lab for the entire class?)
@@ -112,6 +113,27 @@ Studios are also graded using the check/check-plus/check-minus system. Grades ar
 
 Studios are NOT graded on how "good" your code is or whether everything works as intended at the end of class.
 
+### Homework
+
+Throughout the semester (every 2 or 3 weeks), students will be asked to complete homework assignments in addition to the weekly summary+question. These are longer form assignments and will not generally involve writing code. The goal of them is to give you skills that will help you in the labs and studios, and to make you think more about how programming fits into your life and into the world more broadly.
+
+Homework assignment schedule:
+
+| # | Topic | Due |
+| HW 1 | Google Search | Week 4 |
+| HW 2 | Error Messages | Week 6 |
+| HW 3 | Jobs | Week 8 |
+| HW 4 | ChatGPT | Week 11 |
+| HW 5 | Ethics | Week 13 |
+
+All homework assignments will be due on Wednesdays before the start of class. Instructions for each assignment will be on the course website and will be available at least 2 weeks before the due date. Each assignment will likely take 1-2 hours to complete.
+
+You will be required to complete 4 homework assignments throughout the semester. If you complete all 5, the 5th will be counted as extra credit (between 1.75% and 2.25% added on top of your final grade).
+
+Homework is also graded using the check/check-plus/check-minus system. Grades are based on: 
+* Thoroughness (did you follow all of the instructions / do all of the tasks?)
+* Effort (did you make an honest attempt at doing the assignment?)
+
 ### Final project
 
 The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
@@ -122,10 +144,6 @@ Final projects are due at the end of the final exam period: 8pm Wednesday, April
 
 In-class work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
 
-<!-- ### Extra credit
-
-There will be two extra credit opportunities this semester – a take-home assignment on November 3rd (election day) and an in-class activity on November 21st (the week of Thanksgiving). -->
-
 ### Honors option
 
 This course does have an honors option for students in the honors college. If you want to do an honors option, talk with Caitlin within the first two weeks of class.
@@ -134,14 +152,15 @@ This course does have an honors option for students in the honors college. If yo
 
 Grades in this class are mostly based on attending class and making an honest effort to engage with the material, both in and outside of class. The final project is the only work in which students will be graded on the programming skills they’ve developed over the semester. Grades are broken down in this way:
 
-| Homework (summary + question) | 20% |
-| In class exercises (labs and studios) | 65% |
+| Summary + question | 15% |
+| In class exercises (labs and studios) | 60% |
+| Homework | 10% |
 | Final project | 15% |
 
 Grades will be input on D2L and are calculated continuously – you will always know where your grade stands for the class by looking at D2L. Most all grades (except for the final project) are based on a check / check plus / check minus rubric:
 * **Check = 9/10**. You showed up and did the work. This is the base grade for everybody. (You didn’t do anything wrong if you get a check!)
-* **Check plus = 10/10**. You showed up, did the work, and impressed us: maybe you worked particularly well with your partner that day, or had a particularly insightful question.
-* **Check minus = 7/10**. You showed up, but didn’t honestly engage with the work. Maybe you were late to class with no excuse, or maybe you spent half the class cruising Insta or not talking with your partner or group at all. 
+* **Check plus = 10/10**. You showed up, did the work, and impressed us: maybe you worked particularly well with your partner that day, had a particularly insightful question, or did a particularly thorough job on the homework.
+* **Check minus = 7/10**. You showed up, but didn’t honestly engage with the work. Maybe you were late to class with no excuse, or maybe you spent half the class cruising Insta or not talking with your partner or group at all. Maybe you put the bare minimum of effort into the summary+question or the homework.
 
 Final projects will be graded in two parts:
 * Normal studio requirements – graded based on effort, attendance, and participation during the two class periods in the final week of class
@@ -170,13 +189,19 @@ Email policy: we will respond to email within 24 hours on weekdays, or within 72
 
 Announcements about the course will be posted on D2L. Make sure you have allowed D2L to send announcements to your MSU email. You can also have D2L emails forwarded to different email accounts - see [instructions to do this in the MSU D2L documentation]( https://help.d2l.msu.edu/msu-docs/tools-and-tips/d2l-email-forwarding){:target="_blank"}.
 
-## Attendance / Absence Policy
+## Attendance / Absence / Lateness Policy
 
 This class is very heavily based on attendance and participation – it’s very important that you attend class every week as each week’s content builds on the previous week. If you miss too many classes, you WILL fall behind.
 
 It’s also very important to attend the ENTIRE class – arriving late or leaving early means you will have less time to practice coding, and it will make class more difficult for your partner / groupmates for the day. Your grade for the class will be reduced if you are late or leave early.
 
-That said, life happens. **The 4 lowest grades for in class activities (labs and studios) will be dropped, as will the 2 lowest grades for homework.** You can miss up to two weeks of class total without it affecting your grade at all. You do not have to explain why you’re missing class to us. This policy covers the vast majority of absences you might need to take.
+That said, life happens. **The 4 lowest grades for in class activities (labs and studios) will be dropped, as will the 2 lowest grades for summary+questions. Only 4 of the 5 homework assignments are required.** You can miss up to two weeks of class total without it affecting your grade at all. You do not have to explain why you’re missing class to us. This policy covers the vast majority of absences you might need to take.
+
+### Late Homework
+
+Late summary+questions will not be accepted except in extenuating circumstances. 
+
+Late homework will not be accepted except in extenuating circumstances (see below) OR by prior arrangement with the instructor.
 
 ### Illness
 

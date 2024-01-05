@@ -5,6 +5,7 @@ layout: home
 {% assign reading = site.html_pages | where: "layout", "reading" | where: "parent", page.title | first  %}
 {% assign lab = site.html_pages | where: "layout", "lab" | where: "parent", page.title | first %}
 {% assign studio = site.html_pages | where: "layout", "studio" | where: "parent", page.title | first  %}
+{% assign homework = site.html_pages | where: "layout", "homework" | where: "parent", page.title | first  %}
 
 <h2 class="weekly-readings"> Readings: <a href="{{reading.url | relative_url}}">{{reading.topic}}</a> </h3>
 {% if lab.visible %}
@@ -12,6 +13,9 @@ layout: home
 {% endif %}
 {% if studio.visible %}
 <h2 class="weekly-studio"> Studio: <a href="{{studio.url | relative_url}}">{{studio.topic}}</a> </h3>
+{% endif %}
+{% if homework.visible %}
+<h2 class="weekly-homework"> Homework: <a href="{{homework.url | relative_url}}">{{homework.topic}}</a> </h3>
 {% endif %}
 
 

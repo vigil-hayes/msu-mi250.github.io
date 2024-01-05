@@ -52,6 +52,16 @@ defaults:
       title: "Studio"
   -
     scope:
+      path: "homework"
+      type: "pages"
+    values:
+      visible: true
+      layout: homework
+      nav_order: 4
+      grand_parent: Schedule
+      title: "Homework"
+  -
+    scope:
       path: "week"
       type: "pages"
     values:
