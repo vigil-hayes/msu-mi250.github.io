@@ -5,4 +5,4 @@ nav_exclude: false
 visible: true
 ---
 
-TBD
+TBD - A few exercises getting students to practice using Google to search for programming stuff. Site specific searches, keywords, etc. Very brief reflection of some sort.

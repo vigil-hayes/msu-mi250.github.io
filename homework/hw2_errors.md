@@ -5,4 +5,4 @@ nav_exclude: false
 visible: true
 ---
 
-TBD
+TBD - have a few different errors and ask students to figure out what they mean using Google and anything else available to them. Include tips/tricks for reading and understanding error messages.

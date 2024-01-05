@@ -5,4 +5,4 @@ nav_exclude: false
 visible: true
 ---
 
-TBD
+TBD - ask students to find and read a recent article about something relating to ethics and programming or ethics and technology. Suggest a few resources (e.g. Ars Technica) for them to look through. Write a brief summary of the ethical question covered in the article and reflect somehow.

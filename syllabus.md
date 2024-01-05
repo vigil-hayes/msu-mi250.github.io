@@ -35,9 +35,9 @@ Synchronous, in person – no hybrid options available
 
 ## Course Description
 
-This course is an undergraduate course aimed at students who have little to no programming experience and who don’t intend to be programmers. There are many roles in the tech industry today which don’t involve programming, but which work alongside programmers. The goals of this course are to teach students enough to be “dangerous” at programming, to learn about computers and programming environments, and to practice skills around talking about programming, co-learning, and collaboration. These skills are incredibly useful not only for programmers, but also for other media and technology roles, such as user experience, graphic design, game design, digital storytelling, and more.
+This course is an undergraduate course aimed at students who have little to no programming experience and who don’t intend to be programmers. There are many roles in the tech industry today which don’t involve programming, but which work alongside programmers. The goals of this course are to teach students enough to be “dangerous” at programming, to learn about computers and programming environments, and to practice skills around talking about programming, co-learning, and collaboration. These skills are incredibly useful not only for programmers, but also for other media and technology roles, such as user experience, graphic design, game design, digital storytelling, data analytics, and more.
 
-This course is NOT appropriate for students with programming experience; for example, students who have taken CSE 231 or similar courses in the past. This is a required course for multiple majors and minors in media and information, but the requirement can be waived in many cases for students who have taken other programming courses or have demonstrated experience. 
+This course is NOT appropriate for students with programming experience; for example, students who have taken CSE 231 or similar courses in the past. This is a required course for multiple majors and minors in media and information, but the requirement can be waived in many cases for students who have taken other programming courses or have demonstrated experience with programming. 
 
 ## Required Technology
 
@@ -78,9 +78,9 @@ In studios: students can choose who they work with and can work in groups no sma
 
 ### Summary + Questions
 
-Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Monday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. Homework should take you between 30 minutes and 1 hour each week.
+Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Monday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. This should take you between 30 minutes and 1 hour each week.
 
-All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<https://mi250.dev/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the homework.
+All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<https://mi250.dev/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the summary+questions.
 
 **Summary:** one paragraph max (at least 3 sentences). These will always be guided summaries rather than just repeating facts. There will be a prompt on the readings page for each week which will usually ask you to explain what you’ve learned in your own words and to apply it to your own experiences. If your summary is too short or too long, or doesn’t answer the prompt, you may be marked down for it.
 
@@ -89,7 +89,7 @@ All readings and videos are available for free and are linked on the readings pa
 * Curiosity: something you want to learn more about
 * Connection: apply one of the concepts from the week’s topic to your own life or work (this might be a statement rather than a question; that’s okay)
 
-If your summary + question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Mondays, so it’s important to turn them in on time.
+If your summary+question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Mondays, so it’s important to turn them in on time.
 
 ### Labs 
 
@@ -104,7 +104,7 @@ Labs are NOT graded based on how much you complete or how "good" your code is.
 
 ### Studios
 
-Studios will usually take place on Wednesdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-3 people; you can choose who you work with for studios. 
+Studios will usually take place on Wednesdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-3 people. You can choose who you work with for studios. 
 
 Studios are also graded using the check/check-plus/check-minus system. Grades are based on: 
 * Effort (did you work on the studio for the entire class?)
@@ -115,7 +115,7 @@ Studios are NOT graded on how "good" your code is or whether everything works as
 
 ### Homework
 
-Throughout the semester (every 2 or 3 weeks), students will be asked to complete homework assignments in addition to the weekly summary+question. These are longer form assignments and will not generally involve writing code. The goal of them is to give you skills that will help you in the labs and studios, and to make you think more about how programming fits into your life and into the world more broadly.
+Throughout the semester (every 2 to 3 weeks), students will be asked to complete homework assignments in addition to the weekly summary+question. These are longer form assignments and will not generally involve writing code. The goal of them is to give you skills that will help you in the labs and studios, and to make you think more about how programming fits into your life and into the world more broadly.
 
 Homework assignment schedule:
 
@@ -126,9 +126,9 @@ Homework assignment schedule:
 | HW 4 | ChatGPT | Week 11 |
 | HW 5 | Ethics | Week 13 |
 
-All homework assignments will be due on Wednesdays before the start of class. Instructions for each assignment will be on the course website and will be available at least 2 weeks before the due date. Each assignment will likely take 1-2 hours to complete.
+All homework assignments will be due on Wednesdays before the start of class. Instructions for each assignment will be on the course website and will be available at least 2 weeks before the due date. You'll turn the assignments in on D2L. Each assignment will likely take 1-2 hours to complete.
 
-You will be required to complete 4 homework assignments throughout the semester. If you complete all 5, the 5th will be counted as extra credit (between 1.75% and 2.25% added on top of your final grade).
+You will be required to complete 4 homework assignments throughout the semester. If you complete all 5, the assignment with the lowest grade will be counted as extra credit (between 1.75% and 2.25% added on top of your final grade).
 
 Homework is also graded using the check/check-plus/check-minus system. Grades are based on: 
 * Thoroughness (did you follow all of the instructions / do all of the tasks?)
