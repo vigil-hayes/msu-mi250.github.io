@@ -1,8 +1,8 @@
 ---
 parent: Week 3
 topic: Choose Your Own Adventure
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 The goal for today's studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. 

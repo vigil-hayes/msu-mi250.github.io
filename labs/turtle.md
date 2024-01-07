@@ -2,8 +2,8 @@
 parent: Week 5
 topic: Turtles
 git: https://gitlab.msu.edu/mi-250/turtles
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For this lab, we are going to use a git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Jack (waierjac) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this.

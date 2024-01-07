@@ -23,7 +23,7 @@ The most important thing to remember about command line is that it only will let
 Folder structures on computers are nested on multiple levels. It might look like this:
 
 ```
-geier  
+Caitlin  
 - Desktop  
 - Documents  
 - - Photos  
@@ -32,7 +32,7 @@ geier
 - Downloads  
 ```
 
-In this example, the MI 250 folder is inside the School folder, which is inside Documents, which is inside the top level 'geier' folder. To navigate to the MI 250 folder, you have to go through all of its 'parent' folders first.
+In this example, the MI 250 folder is inside the School folder, which is inside Documents, which is inside the top level 'Caitlin' folder. To navigate to the MI 250 folder, you have to go through all of its 'parent' folders first.
 
 By default, both PowerShell and Terminal start at a folder named after the computer's user. Desktop, Downloads, and Documents as well as a few other folders are there by default. When you make a new folder, you need to pay attention to where you're putting it in this structure so you can find it again.
 
@@ -40,10 +40,11 @@ In command line, to navigate to a folder, you use `cd`, which stands for 'change
 ```
 cd documents/school/"mi 250"
 ```
+If there are spaces in a folder name, make sure to put quotation marks ("") around the name of the folder.
 
 ### Getting to a folder fast
 
-There's a neat trick that works in both Windows and Mac OS to get to the folder you want to go to within typing in the full path to get there. 
+There's a neat trick that works in both Windows and Mac OS to get to the folder you want to go to without typing in the full path to get there. 
 1. Type `cd` in command line - make sure there is a space after `cd`.
 2. Open up the folder you want in File Explorer (Windows) or Finder (Mac OS) -- the normal way of viewing folders. 
 3. Drag the folder over to the command line window. When you release your mouse on top of the command line window, that should put the full directory name after `cd`.
@@ -68,7 +69,7 @@ To get out of this mode, type `quit()` and hit Enter. On Windows, you can also h
 
 ## More tips
 
-### Saving time
+### Using previous commands with arrow keys
 
 When the space next to the prompt in command line is empty (you haven't typed anything yet), you can hit the "up" arrow on your keyboard - this will autopopulate the last command that was given. If you hit the up arrow multiple times, it will cycle through all of the previous commands you've given it. The down arrow goes the opposite direction through the commands.
 

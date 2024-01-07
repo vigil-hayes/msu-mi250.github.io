@@ -1,8 +1,8 @@
 ---
 parent: Week 13
 topic: Movie Cloud
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For this studio, you should write a program that creates a Movie Cloud. A movie cloud is a word cloud, but about a movie. Your program should ask the user for the name of a movie. Then it should search that movie in The Movie Database, and get the list of actors in the movie. Using Turtle, it should draw the the name of the movie in big letters, and then should draw the actors' names in a word cloud of some sort.

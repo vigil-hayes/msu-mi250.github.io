@@ -27,7 +27,7 @@ Make sure to turn this in before the first class of each week.
 
 ## Code and screenshots for labs
 
-Every week, usually on Tuesdays, we'll have a lab. Labs are done in pairs. At least one person in each pair will need to turn in:
+Every week, usually on Mondays, we'll have a lab. Labs are done in pairs. At least one person in each pair will need to turn in:
 * code
 * screenshots showing code working
 
@@ -50,7 +50,7 @@ When trading places between driver and navigator:
 
 ## Code and screenshots for studios
 
-Most weeks on Thursdays, we'll have a studio. Studios are done in groups of 2-4. At least one person in the group will need to turn in:
+Most weeks on Wednesdays, we'll have a studio. Studios are done in groups of 2-4. At least one person in the group will need to turn in:
 * code
 * screenshot(s) showing code working
 

@@ -1,8 +1,8 @@
 ---
 parent: Week 10
 topic: Tic Tac Toe
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For the studio today, you are going to make a [game of Tic Tac Toe](https://en.wikipedia.org/wiki/Tic-tac-toe). You should draw an initial board (two vertical lines and two horizontal lines). Then ask the user where they want to move. Draw either an X or an O in the place they say. Let the user(s) continue until the whole board is full, or until the user decides someone has won.

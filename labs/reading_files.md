@@ -2,8 +2,8 @@
 parent: Week 12
 topic: Working with Text and Files
 git: https://gitlab.msu.edu/mi-250/working-with-files
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 
 ---
 

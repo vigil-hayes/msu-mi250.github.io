@@ -2,8 +2,8 @@
 parent: Week 3
 topic: Git and GitLab
 git: https://gitlab.msu.edu/mi-250/git-and-gitlab
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 In this week's readings, you read about version control and Git. A Git repository is a specific, named collection of files that usually make up a single program. You've already used git repositories in this class - all of the files for last week's lab were stored in a git repository, which you accessed through the Gitlab website.

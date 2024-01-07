@@ -3,9 +3,8 @@ parent: Week 1
 topic: Getting Started with Python
 git: https://gitlab.msu.edu/mi-250/getting-started
 layout: studio
-nav_exclude: false
-nav_order: 3
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Today we will start with our first programming lab. We'll be getting Python set up and getting your computer ready for writing code, then we'll practice working with code a bit.
@@ -38,7 +37,7 @@ For this section, the driver will do everything on their computer first with the
 
 Python is a programming language, but is interpreted, which means that there is a separate program that reads the program that you write and "runs" it by interpreting it as instructions. That is, it is a program that runs other programs.
 
-The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.11.X on it. Click the button to download the program, and run the installer program. That will install the current version of the python interpreter on your computer. 
+The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.12.X on it. Click the button to download the program, and run the installer program. That will install the current version of the python interpreter on your computer. 
 
 **Important:** While running the installer, be sure to click the "Add python to the PATH" checkbox.
 
