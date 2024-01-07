@@ -41,7 +41,7 @@ The first thing we need to do is go install Python. Go to the main Python websit
 
 **Important:** While running the installer, be sure to click the "Add python to the PATH" checkbox.
 
-If you already have python installed on your computer, make sure you have the current version (3.11.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
+If you already have python installed on your computer, make sure you have the current version (3.12.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
 
 ### Use Command Line
 
@@ -72,9 +72,9 @@ To get out of Python's interactive mode, type `quit()` and hit Enter. On Windows
 
 ##### Troubleshooting
 
-If the Python install doesn't work, you'll get an error message (on older versions of windows), or it will open Python in the Microsoft store (on Windows 10 or 11). Try closing PowerShell and opening it again. If it still doesn't work, it means Python isn't properly installed. 
+If the Python install doesn't work, you'll get an error message (on older versions of Windows), or it will open Python in the Microsoft store (on Windows 10 or 11). Try closing PowerShell and opening it again. If it still doesn't work, it means Python isn't properly installed. 
 
-Run the Python installer again. If it is already installed, if will give you an opportunity to "modify" the python install. Do that. Click through the optional features, and then you should see a page of "Advanced Options". On that page, click the checkbox next to "Add python to environment variables". Then click install to finish it. After this, close PowerShell and open it again, then try the `python` command again.
+Run the Python installer again. If it is already installed, if will give you an opportunity to "modify" the Python install. Do that. Click through the optional features, and then you should see a page of "Advanced Options". On that page, click the checkbox next to "Add python to environment variables". Then click install to finish it. After this, close PowerShell and open it again, then try the `python` command again.
 
 #### If you have Mac OS
 
@@ -90,7 +90,7 @@ geier-Macbook-Pro:~ geier$
 If you type, it should appear next to the prompt. Type the command `python3` and hit enter.   If it works, then you should see something like this appear:
 
 ```
-Python 3.11.1 (default, Jan 13 2021, 11:08:38)
+Python 3.11.1 (default, Aug 23 2023, 11:08:38)
 [Clang 12.0.0 (clang-1200.0.26.2)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -104,15 +104,15 @@ To get out of Python's interactive mode, type `quit()` and hit Enter. On Mac, yo
 
 ##### Troubleshooting
 
-If you get an error message, that means python wasn't installed properly. Try closing Terminal, opening it again, and then trying the `python` command again. If it still doesn't work, try running the Python installer again.
+If you get an error message, that means Python wasn't installed properly. Try closing Terminal, opening it again, and then trying the `python` command again. If it still doesn't work, try running the Python installer again.
 
 ## Run your first program
 
-Next, we are going to try to run our first python program. The program is called `eliza.py` - eliza is the name of the program, and the `.py` at the end means it's a Python program. All python programs end with `.py`.
+Next, we are going to try to run our first Python program. The program is called `eliza.py` - eliza is the name of the program, and the `.py` at the end means it's a Python program. All Python programs end with `.py`.
 
 ### Download eliza.py from Gitlab
 
-Near the top of this webpage is a link to a Git repository on Gitlab (which is similar to Github, except administered by MSU). The repository contains the code for this week's lab. Each week's lab will have a Gitlab link at the top.
+Near the top of this webpage is a link to a Git repository on Gitlab (which is similar to Github, except it's administered by MSU). The repository contains the code for this week's lab. Each week's lab will have a Gitlab link at the top.
 
 When you go to Gitlab for the first time, you'll need to log in. Click the "Okta" button (and check the "Remember me" box down below so you won't have to log in everytime.) If you're logged into an MSU system already, the site should load. Otherwise, it'll ask you for the MSU netid and password.
 
@@ -179,7 +179,7 @@ If you're on a Mac, remember to use `python3`!
 
 The program should begin talking to you, and ask you for information about yourself. Play around with it, and answer some questions.  Notice how it responds, and when it says the same things and when it says different things. When you are done, type "goodbye" to exit the program.
 
-Congrats!  You have run your first python program by hand on the command line!  Good work. We will be doing this many times over the course of the semester, but in the future it will mostly be programs that YOU write that you will be running.
+Congrats!  You have run your first python program by hand on the command line! Good work. We will be doing this many times over the course of the semester, but in the future it will mostly be programs that YOU write that you will be running.
 
 ## Trade places and repeat
 
@@ -197,15 +197,19 @@ For the next step, we are going to edit the program.  We are going to add some n
 
 To edit the program, the first thing we need it is a text editor.  Computer programs are written as plain text files. This means we can't open them up in Word or Google docs or similar programs. We have to open them in a text editor. There are lots of text editors out there that you can use, and they can get really complicated.
 
-The text editors I recommend for this course are:
+The text editor I recommend for this course is:
+
+[Visual Studio Code](https://code.visualstudio.com)
+
+VS Code works for both MacOS and Windows. It's entirely free. Here are a couple other free options, if you decide you don't like VS Code:
 * For Mac: [BBEdit](https://www.barebones.com/products/bbedit/download.html) (free version works fine)
 * For Windows: [Notepad++](https://notepad-plus-plus.org). 
 
-But you are welcome to install any other text editor you like. If you have a text editor that you already use and like, that's fine, too. I also sometimes use [Visual Studio Code](https://code.visualstudio.com) (both Windows and Mac). 
+You are welcome to install any other text editor you like. If you have a text editor that you already use and like, that's fine, too. Note that Caitlin and Jack both use VS Code and will be able to support you most easily if you use VS Code, too.
 
 All of the options above are free to use. There are many others, including some specifically for Python, but not all of them are free and some get very complicated. I encourage you to experiment and find one that YOU like. Programming is a form of art, and each artist has their own preferences for tools.
 
-### Look at the eliza program's code
+### Look at the Eliza program's code
 
 You downloaded the `eliza.py` program earlier in this lab.  Our next goal is to edit this file. Go to the text editor that you choose, and open the eliza.py file from whatever folder you downloaded it to (probably downloads).
 
@@ -290,4 +294,4 @@ When you and your partner are done for the day, submit your work! Today you'll j
 
 If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin or Jack first.**
 
-If you didn't get everything done today, that's OK. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin and Jack know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class on Thursday to make sure you have everything working.
+If you didn't get everything done today, that's OK. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin and Jack know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class or next week to make sure you have everything working.
