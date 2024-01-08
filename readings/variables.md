@@ -16,6 +16,12 @@ This week, the readings cover initially how to get Python to do some things, inc
 
 There is overlap in these chapters; they sometimes talk about the same things. Please read all of them. This won't take long, and having heard the concepts in different places and in different ways will help them make more sense to you. Don't worry if you don't quite understand what you've read yet. That's normal.
 
+Below are some short lessons where you can run and edit code to see how it works. I would recommend going through these as well, as it can help some of the concepts explained in the book chapters make more sense. We will also be practicing these concepts in class.
+
+* [Learn Python: Hello World!](https://www.learnpython.org/en/Hello%2C_World%21){:target="_blank"}
+* [Learn Python: Variables and Types](https://www.learnpython.org/en/Variables_and_Types){:target="_blank"}
+* [Learn Python: Conditions](https://www.learnpython.org/en/Conditions){:target="_blank"}
+
 ## Summary
 
 When writing your summary this week, think about what you learned from the readings and what did and didn't make sense to you. In particular, think about the idea of variables. Think about things you already have experience with - classes you've taken, or hobbies or jobs you've had - and whether you've encountered anything similar before.
