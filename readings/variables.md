@@ -40,6 +40,6 @@ After reading the material, come up with one question. Caitlin will read through
 
 **NOTE:** You do have to ask a question for it to count. "I have no questions" is not a question. If you can't think of a question, think of a connection instead.
 
-Submit your summary+question on D2L under Quizzes.
+Submit your summary+question on D2L under Quizzes. Since there's no class on Monday this week (due to MLK Day), turn it in before class starts on Wednesday.
 
 
