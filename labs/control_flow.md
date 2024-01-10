@@ -85,7 +85,7 @@ Now open up the file, and notice that at the top of the file, there are some var
 
 Run the program again, and notice what changed. Why did that happen?
 
-Notice what running the program does -- it stores specific words (in `""` quotes) into variables like `body_part` and `action`.  Then, when it prints out, instead of print out the word `action`, it prints out whatever is stored in the variable named `action`. This is how variables work -- you store something in them, and then python will substitute whatever is stored in them as it runs.
+Notice what running the program does -- it stores specific words (in `""` quotes) into variables like `body_part` and `action`.  Then, when it prints out, instead of printing out the word `action`, it prints out whatever is stored in the variable named `action`. This is how variables work -- you store something in them, and then Python will substitute whatever is stored in them as it runs.
 
 ### Exercise 5: New Mad-libs
 
