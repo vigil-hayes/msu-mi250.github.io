@@ -69,9 +69,15 @@ You can always go back to the [readings and videos from this week]({% link readi
 
 ### Change places
 
-Now is a good time to switch places with your partner. Before you do, remember to take a screenshot or two of `hello.py` with the changes you made running in command line. 
+Now is a good time to switch places with your partner. Before you do, remember to take a screenshot of `hello.py` with the changes you made running in command line. 
 
 The new driver will need to download the Git repository for today's lab on their computer now - go to the top of this page if you need a refresher on how to do that.
+
+### Exercise 4: New hello program
+
+Make a *new* program called `hello2.py`. You can do this by going to File -> New File in your text editor (Visual Studio Code or similar) and then doing File -> Save As and giving it a name - make sure you add the `.py` at the end of the name so your computer will know it's a Python program.
+
+The file will start out blank - you'll need to add code to it. Write code to introduce the other person in your pair today - they should be the driver now. When you're done, your code should look similar to your partner's edited version of hello.py - it should be a series of `print()` statements which print out information about you when you run the program. Make sure to run the program to test it!
 
 ## Variables -- storing information for later use
 
@@ -79,7 +85,7 @@ Now that we've had a chance to practice printing out information, let's use vari
 
 We will start with the file `mad-libs.py`. The first thing you should do is to run the program. What does it print out? 
 
-### Exercise 4: Words
+### Exercise 5: Words
 
 Now open up the file, and notice that at the top of the file, there are some variables. The name of each variable is a prompt, like "body_part" or "action". Ask the navigator to come up with new words to respond to the prompts by reading the variable names to them. Replace what's in there now with the new words.
 
@@ -87,7 +93,7 @@ Run the program again, and notice what changed. Why did that happen?
 
 Notice what running the program does -- it stores specific words (in `""` quotes) into variables like `body_part` and `action`.  Then, when it prints out, instead of printing out the word `action`, it prints out whatever is stored in the variable named `action`. This is how variables work -- you store something in them, and then Python will substitute whatever is stored in them as it runs.
 
-### Exercise 5: New Mad-libs
+### Exercise 6: New Mad-libs
 
 Pick a new movie quote. It can be from any movie you want, though if you like the Guardians of the Galaxy theme, here are some of the [memorable quotes](https://www.imdb.com/title/tt2015381/quotes/){:target="_blank"}. Add a new print statement that prints out the quote. Then choose a word to replace, and create a variable to hold the word that replaces it. Try to get it so that you can change the value of the variable at the top of the file, and it will change what is printed out.
 
@@ -107,7 +113,7 @@ First, notice that there is a second mad-libs file, `mad-libs-input.py`. Run tha
 
 Next, run it again, and type in different things. What happens?
 
-### Exercise 6: Update the Mad-Lib
+### Exercise 7: Update the Mad-Lib
 
 The original source of that mad-lib is the song "Space Oddity" by David Bowie. It's an old song from the late 60s, written during the space race. For this challenge, change the mad-lib. Pick a different song that YOU like, and use that song to create the mad-lib. Feel free to edit this file; you don't need to create a whole new program.
 
@@ -137,7 +143,7 @@ Now go through and read the source code for the Avengers program -- open up `ave
 
 Pay particular attention to how things are indented. Indentation is really important in Python. Indentation controls which lines are part of the `if` statement and which ones are not. When `if`, `elif`, and `else` statements are all indented at the same level, this connects them together as one big statement with multiple branches of possibility.
 
-### Exercise 7: Try different inputs
+### Exercise 8: Try different inputs
 
 Run the avengers program multiple times. Give different answers to the prompts. Try out all three avengers as an answer to the first prompt. What happens?
 
@@ -145,19 +151,19 @@ Now look at the code. Why is that happening? What is each part of the statement 
 
 Also, as you tried things, did anything not work as you expected?  Make a list of 'bugs' -- problems with the program where it doesn't work the way you expect it to. What you're doing here is testing the program to understand how it works and thinking about how you could improve it. 
 
-### Exercise 8: What Happens when Captain America tries?
+### Exercise 9: What Happens when Captain America tries?
 
 Next, modify the code. What happens when Captain America tries to pick up the hammer? Put some print statements in the right place to tell the story of what happens when Captain America tries to pick up the hammer.
 
-### Exercise 9: Lowercase
+### Exercise 10: Lowercase
 
 Right now, if you type in Thor's name or Iron Man's name, it works even if you don't capitalize their names. But Captain America's name has to be capitalized. Modify the code so that you can use lowercase to type in captain america's name.
 
-### Exercise 10: Nicknames
+### Exercise 11: Nicknames
 
 What happens if you just type in "cap" instead of "captain america"? It doesn't work right. Let's fix that. Make it so that you can enter in nicknames like "cap" or "tony" and it'll still work.
 
-### Exercise 11: Black Widow
+### Exercise 12: Black Widow
 
 Black Widow was also hanging out with the rest of her team. Let's add her in to the story. Create a new branch where she tries to lift the hammer, and print out what happens when she tries.
 
@@ -167,26 +173,18 @@ If you and your partner finish all of the exercises before the end of class, try
 
 ### Challenge 1: Two-part Mad-libs
 
-Take the mad-libs program that you worked on, and create a second part of the mad-libs.  So you input a bunch of words,
-nad it prints out part of a story / song / something.  Then you get a chance to input more words, and it prints out the
-second half. You've already got a first half of the mad-libs program written.  Add a second half to your mad-libs program.
+Take the mad-libs program that you worked on, and create a second part of the mad-libs. So you input a bunch of words, and it prints out part of a story / song / something. Then you get a chance to input more words, and it prints out the second half. You've already got a first half of the mad-libs program written. Add a second half to your mad-libs program.
 
 ### Challenge 2: Avengers Mad-Libs
 
-Turn the avengers story into mad-libs. Replace some of the words with variables, and then fill in the variables at the
+Turn the Avengers story into mad-libs. Replace some of the words with variables, and then fill in the variables at the
 beginning of the program with funny words.
 
-### Challenge 3: Avengers bug-list
+### Challenge 3: Chat bot
 
-As part of challenge 6, you made a list of bugs.  Try this again; run the program over and over and try out different
-inputs, and see what happens.  Make a list of each input, what you expect to happen, and what actually happens.
-Any time what actually happens is different than what you expect, you've found a bug!   The goal here is just to make a
-list of bugs in the program.
+Make a new program called `chat.py`. Revisit exercise 4 if you need a reminder on how to do this. Your program should ask the user a question, collect input from the user, then give a different answer in response depending on what the user says. 
 
-### Challenge 4: Avengers bug-fixing
-
-Don't do this until finishing making the bug list.  Go through your list of avengers bugs, and try to fix them.  How do
-you get it to do the right thing in all of those situations?
+For example, `if` the user says "no", respond with one phrase. Else if (`elif`) they say "yes", respond with a different phrase. You can use as many `elif`s as you want to catch different types of user input. You can also use `else` at the end to catch any user response that doesn't match with your `if` or `elif` cases.
 
 ## Turn in your work
 
