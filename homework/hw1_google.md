@@ -5,13 +5,13 @@ nav_exclude: true
 visible: false
 ---
 
-Google Search is an incredibly important tool when learning and practicing programming. It's not expected that you will memorize how to do absolutely everything with code. You won't be able to, there's just too much to know. It *is* expected that you will be able to figure out what you don't know. Google Search is one of the best tools for that.
+Google Search is an incredibly important tool to use when learning and practicing programming. It's not expected that you will memorize how to do absolutely everything with code. You won't be able to, there's just too much to know. It *is* expected that you will be able to figure out what you don't know. Google Search is one of the best tools for that.
 
 Professional programmers routinely use Google to remind themselves how to do certain things with code, to find examples of how other people have written code for solving a specific problem, and even to find freely available code they can add to their own programs. The goals of this assignment are to get you started with understanding what Google is and isn't good for, and to give you some tips for using Google more effectively.
 
 ## Instructions
 
-For each exercise below, write your answers to the questions in Word (or similar) and include at least one screenshot which shows your search results. Paste your screenshots directly into Word underneath your answers. Your answers don't need to be more then 1-2 sentences.
+For each exercise below, write your answers to the questions in Word (or similar) and include at least one screenshot which shows your search results. Paste your screenshots directly into Word underneath your answers. Your answers don't need to be more than 1-2 sentences.
 
 *Note:* If you would prefer to use Bing or DuckDuckGo or some other search engine than Google for this assignment, that's fine. Everything below will work in most search engines.
 
@@ -31,7 +31,7 @@ Google Search allows you to use a number of different operators to narrow your s
 
 Note there is no space between "define:" and the term you want defined. This is important.
 
-Use the search term with the "define:" operator above. How are the results different from when you searched for "else statement" in exercise 1?
+Search for "else statement" using the "define:" operator, as shown above. How are the results different from when you searched for "else statement" in exercise 1?
 
 ### Exercise 3 - Exact search terms
 
@@ -45,22 +45,22 @@ Take screenshots for each result. How are the results different? Which of the re
 
 ### Exercise 4 - Site search
 
-Google also has an operator that allows you to search a specific website rather than the entire internet. It works like the "define" operator, except you can add additional keywords after it. So if I wanted to search Reddit to see what kinds of reading chairs Redditors recommend, I could do this:
+There's also an operator that allows you to use Google to search a specific website rather than the entire internet. It works like the "define" operator, except you can add additional keywords after it. So if I wanted to search Reddit to see what kinds of reading chairs Redditors recommend, I could do this:
 
 `site:reddit.com best reading chair`
 
 This will bring up search results *only* from Reddit. Note that you have to include the domain extension for the url (like .com or .org) as part of the site name. If you try it with just `site:reddit` your search won't work.
 
-Reddit can actually be a useful site for finding answers to specific programming questions. Stack Overflow (stackoverflow.com) is also a very useful site for programming questions, and the official Python documentation (python.org) can be useful, too.
+Reddit can actually be a useful site for finding answers to specific programming questions. Stack Overflow (stackoverflow.com) is also a very useful site for programming questions, and the official Python documentation (python.org) will be useful for this class, too.
 
-Search Reddit, Stack Overflow, or the Python documentation to find out whether you always need to have an else statement with an if statement or not. Make sure your search is specific to Python. 
+Search Reddit, Stack Overflow, or the Python documentation to find out whether you always need to have an else statement after an if statement or not. Make sure your search is specific to Python. 
 
 What search terms did you use to find the answer? Did you try using quote marks around any phrases? Which site(s) did you search? About how many searches did you do before you found a good answer? 
 
-Include two screenshots: one of the search results for the last search you did, and one showing the webpage with the answer you found.
+Include two screenshots: one of the search results for the last search you did, and one showing the webpage with the best answer you found.
 
 ## Turn in
 
-Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Google Search and Programming.
+Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Google Search and Programming. This assignment is due on Wednesday, January 31st at 3pm (before the start of class).
 
 Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus.

@@ -2,8 +2,8 @@
 parent: Week 2
 topic: Control Flow (lab)
 git: https://gitlab.msu.edu/mi-250/control-flow
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 layout: studio
 ---
 
