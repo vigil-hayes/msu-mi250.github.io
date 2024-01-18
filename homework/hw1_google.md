@@ -1,8 +1,8 @@
 ---
 parent: Week 4
 topic: 1 - Google Search
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Google Search is an incredibly important tool to use when learning and practicing programming. It's not expected that you will memorize how to do absolutely everything with code. You won't be able to, there's just too much to know. It *is* expected that you will be able to figure out what you don't know. Google Search is one of the best tools for that.
