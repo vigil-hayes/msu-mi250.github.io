@@ -52,15 +52,33 @@ What Git allows you to do that simply downloading the files doesn't is to make a
 
 The first thing you'll need to do is download and install Git onto your computer. You can download the Git installer from the [Git Downloads Page](https://git-scm.com/downloads){:target="_blank"}. 
 
-#### On Mac:
-If you are on a Mac, choose the "Binary Installer".
-
 #### On Windows:
-On Windows, it will ask you a lot of questions. Just click next on all of them.
+On Windows, choose the standalone installer. If you have Windows 10 or Windows 11, the 64-bit installer will work fine. The installer will ask you a lot of questions. Just click next on all of them.
 
-Once you've got Git installed, open up a command line window (Powershell on Windows or Terminal on Mac). If you just type the
-command `git`, it should print out a bunch of help information about the different git commands. If it does that, then
-you've got git installed correctly! If you get an error message, then you haven't installed Git correctly yet. Try running the installer you downloaded again.
+#### On Mac:
+If you are on a Mac, the best way to get the most up to date version of Git is to install Homebrew first. To install Homebrew, copy and paste this command into Terminal and hit Enter:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+It will prompt you for your computer's password before the install starts. If it gives you any errors, you may have to install the Xcode command line tools first. You can do so by running this command in Terminal:
+
+```
+xcode-select --install
+```
+If you end up having to install Xcode as well, you may have to run the Homebrew install command above one more time before moving to the next step.
+
+Once Homebrew is installed, you can install Git by running this command:
+
+```
+brew install git
+```
+
+*Alternate option for Mac*: If you absolutely can't get the above instructions to work, you can also install Git using the binary installer option on the Git for Mac downloads page. This will give you a much older version of Git (from 2021), but it will work for most things we do in this class.
+
+### Make sure Git is installed properly
+
+Once you've got Git installed, open up a command line window (Powershell on Windows or Terminal on Mac). If you just type the command `git`, it should print out a bunch of help information about the different git commands. If it does that, then you've got git installed correctly! If you get an error message or a bunch of red text, then you haven't installed Git correctly yet. Go back and try again.
 
 ### Tell Git who you are
 
@@ -74,27 +92,28 @@ Be sure to keep the quotation marks. You should only need to do this step once o
 
 ### Create a GitLab Access Token
 
-To get files from Gitlab using Git, you need to use something called an "Access Token". This is kind of like a passkey that you give to GitLab to let it know that it's you. To create an access token, go back to the GitLab webpage and click on the profile image in the upper right hand corner of the page. It should bring up a user menu with your name at the top -- choose "Preferences" in that menu. 
+To get files from Gitlab using Git, you need to use something called an "Access Token". This is kind of like a passkey that you give to GitLab to let it know that it's you. To create an access token, go back to the GitLab webpage and hover over the sidebar icon on the upper left to make the sidebar visible. In the green part of the sidebar, there will be a circular profile icon on the upper right. If you click on that icon, it should bring up a user menu with your name at the top -- choose "Preferences" in that menu. 
 
-Once you're on the Preferences page, find the menu item on the left hand menu for "Access Tokens". If you can only see icons on the left, the icon looks like an oval with three dots (...) in it. 
+![Gitlab preferences]({% link img/gitlab_preferences.png %})
+
+Once you're on the Preferences page, open up the sidebar menu on the left again and look for "Access Tokens" in the menu. 
 
 On the Access Tokens page, create a new Personal Access Token. Steps:
-* Type in your NetID in the "Token Name" field. 
-* Choose an expiration date that is at after the class ends - like December 31, 2023.  
-* **Important:** click the "write_repository" checkbox. If you don't, your token won't let you access the files inside your repositories.
-When done, click the "Create personal access token" button. The webpage will reload, and near the top, it will print out a new
-"access token" which is basically a randomly generated password for you to use.
+1. Click the "Add new token" button near the top left of the page.
+2. Type in your NetID in the "Token Name" field. 
+3. Choose an expiration date that is after the class ends - like April 30, 2023.  
+4. **Important:** click the "write_repository" checkbox. If you don't, your token won't let you access the files inside your repositories.
+5. Click the "Create personal access token" button. The webpage will reload, and near the top, it will show a "personal access token" which is basically a randomly generated password for you to use.
+6. **Save this access token!!** You will need to use it shortly. I recommend copy and pasting it into your notes or into a Google doc - somewhere where you can find it later.
 
-**Write down this access token!!**. (Or copy-and-paste it somewhere you can find it.)
-
-You should only need to do the access token thing today; after completing this lab, Git should remember it and never ask you again.
+You should hopefully only need to use your access token today; after completing this lab, Git should remember it and never ask you again.
 
 ## Clone the repository
 
 Cloning a repository is always done in three steps:
-1. Fork the repository (you will do this for every lab) or create a new repository (for studios)
-2. In command line, use `cd` to navigate to the place on your computer where you want the repository to live
-3. Use the `git clone` command to clone your repository onto your computer
+1. Fork the repository (one person in each pair will do this for every lab) or create a new repository (for studios).
+2. In command line, use `cd` to navigate to the place on your computer where you want the repository to live.
+3. Use the `git clone` command to clone your repository onto your computer.
 
 ### Step 1: Forking the repository
 
@@ -102,7 +121,7 @@ You already did this step above! Make sure you're on the page for your forked re
 
 ### Step 2: Navigate to the right place in command line
 
-On your computer, you should make a place to keep your work for this class -- all of the labs and studios that you work on. Me, personally, I created a folder on my desktop called "MI 250" and keep everything in there. But its your computer, and you can put it wherever you want (so long as you remember where it is!).
+On your computer, you should make a place to keep your work for this class -- a folder to store all of the labs and studios that you work on. I created a folder on my desktop called "MI250" and keep everything in there. But it's your computer, and you can put it wherever you want (so long as you remember where it is!).
 
 To get a repository on your computer, you need to "clone" the repository -- which means using Git to make a copy of the repository that will live on your computer and will talk to the copy that's on Gitlab.
 
@@ -110,19 +129,21 @@ Open up your command line program (Terminal on Mac or PowerShell on Windows). Th
 
 ### Step 3: Git clone
 
-If you look at the project page for your forked repository, in the upper right hand corner there is a blue button labled "Clone".  If you click on that, you get two options: "Clone with SSH" and "Clone with HTTPS". Those are just two different ways of accomplishing the same thing. **In this class, we will always use "Clone with HTTPS".** Click the "Copy URL" button that looks like a clipboard icon next to the HTTPS option: it will copy a link to the repository onto your clipboard.
+If you look at the project page for your forked repository, on the right hand side there is a blue button labled "Code". If you click on that, you get several options. **In this class, we will always use "Clone with HTTPS".** Click the "Copy URL" button that looks like a clipboard icon next to the HTTPS option: it will copy a link to the repository onto your clipboard.
 
-Next, we will use a git command in command line to clone the project. By default, this command will clone the project into whatever directory you are currently in on the command line.  That's why it was important that we `cd` into our folder for this class before running this command (see Step 2 above!).  
+Next, we will use a Git command in command line to clone the project. By default, this command will clone the project into whatever directory you are currently in on the command line. That's why it was important that we `cd` into our folder for this class before running this command (see Step 2 above!).  
 
-The command to use git to clone a project onto your computer is `git clone` to clone the project. In command line, type in `git clone ` and then paste in the HTTPS link that you copied from the Gitlab website. It should look something like this:
+The command to use Git to clone a project onto your computer is `git clone` to clone the project. In command line, type in `git clone ` and then paste in the HTTPS link that you copied from the Gitlab website. It should look something like this:
 
 ```
 git clone https://gitlab.msu.edu/geierac/git-and-gitlab.git
 ```
 
-When you do this, it will ask you for your username and password. Don't enter your real password! Instead, log in with your NetID (don't include `@msu.edu`) and then use your newly created "access token" as the password. If this works, then it should print out information telling you it is "receiving objects", which means it is downloading the files for the repository for you.
+**Important:** Make sure your username is in the URL that you paste in! If it's not (if it says mi250 instead), that means you're in the wrong repository.
 
-Once the repository has downloaded, you will get a prompt on the command line again. If you use the command `ls`, you should see a new directory called "git-and-gitlab". Change directories into that using the command `cd git-and-gitlab`. If you do an `ls` again, you'll see that all of the files from the repository have now been downloaded onto your computer and are there for you to work with.  If you look at the folder in Exporer/Finder, then you should also see the files.
+When you run the `git clone` command, it will ask you for your username and password. Don't enter your real password! Instead, log in with your NetID (don't include `@msu.edu`) and then use your newly created "personal access token" as the password. If this works, then it should print out information telling you it is "receiving objects", which means it is downloading the files for the repository for you.
+
+Once the repository has downloaded, you will get a prompt on the command line again. If you use the command `ls`, you should see a new directory called "git-and-gitlab". Change directories into that using the command `cd git-and-gitlab`. If you do an `ls` again, you'll see that all of the files from the repository have now been downloaded onto your computer and are there for you to work with. If you look at the folder in Exporer/Finder, then you should also see the files.
 
 **IMPORTANT:** The new folder that appeared on your computer represents the repository. Anything inside that folder will talk to the repository on Gitlab. If you change the name of the folder or move files outside of it before you work on them, the link between the folder on your computer and the Gitlab repository will be broken.
 
@@ -165,9 +186,7 @@ If your `git add` command works correctly, then it won't print anything out. It 
 
 #### Commit
 
-Once you've got all the changes together in the staging area, the next step is to "commit" those changes.  Committing
-the changes takes all those changes, and creates a new version of your program that has those changes.  That is, it
-formally records that these changes compromise a new version of your program.
+Once you've got all the changes together in the staging area, the next step is to "commit" those changes. Committing the changes takes all those changes and creates a new version of your program that has those changes. That is, it formally records a new version of your program.
 
 To do this, we use the command `git commit`.
 
@@ -175,7 +194,7 @@ To do this, we use the command `git commit`.
 git commit -m "adding my name to README"
 ```
 
-Whenever you make a commit, you need to add a message explaining, very briefly, what changes you've made and why. `-m` is a modifier that stands for "message" and you add your message in quotes after it. The purpose of the message is so that you and the other programmers and the project can all tell what's been changed and why.
+Whenever you make a commit, you need to add a message explaining, very briefly, what changes you've made and why. `-m` is a modifier that stands for "message" and you add your message in quotes after it. The purpose of the message is so that you and the other programmers on the project can all tell what's been changed and why.
 
 #### Push
 
@@ -184,15 +203,14 @@ Committing the changes only records the changes in the clone of the repository t
 git push
 ```
 
-Now go check the version of your repository that's on Gitlab. Don't forget to refresh the page. When you look at the README.md file, it should have your name in it now instead of my name. That means that you have successfully commited your first change to a git
-repository! Good work!
+Now go check the version of your repository that's on Gitlab. Don't forget to refresh the page. When you look at the README.md file, it should have your name in it now instead of my name. That means that you have successfully commited your first change to a Git repository! Good work!
 
 
 ## Swap and Repeat
 
 The biggest benefit of Git is collaboration -- it makes it easier to work on the same code with other people. The next step of today's lab is to learn how that works by swapping roles. The current driver (the person at the keyboard) will become the navigator, and the navigator will become the driver.
 
-Go through all of the same steps, starting with "[Set up your computer to use the new git repository](#set-up-your-computer-to-use-the-new-git-repository)" on the new driver's computer. When you edit the README file, *add* your name to the file, so that it says "By: Partner's Name and Your Name".  Be sure to add, commit, and push the changes, and then check on the GitLab to make sure that the changes you made appear there.
+Go through all of the same steps, starting with "[Set up your computer to use the new git repository](#set-up-your-computer-to-use-the-new-git-repository)" on the new driver's computer. When you edit the README file, *add* your name to the file, so that it says "By: Partner's Name and Your Name". Be sure to add, commit, and push the changes, and then check on the GitLab to make sure that the changes you made appear there.
 
 Once you've done this correctly, then there should be a single Git repository in Gitlab for you and your partner and both members of the pair should have a clone of that Git repository on their personal computer. Either person can work on the program, and then commit and push changes back to the repository at any time. This makes collaboration easier, because both people have a copy, and both people can work on it. 
 
@@ -202,24 +220,22 @@ The code you turn in today will be the code that you and your partner have both 
 
 Swap roles again, so that the original driver is now driving again using their own computer.
 
-If you look at the files on your computer, then you'll notice that the newest change -- the one that adds the navigator's name to `README.md` -- aren't there.  What is happening is that there are changes in the main GitLab repository, but they haven't been copied down to your computer yet.
+If you look at the files on your computer, then you'll notice that the newest change -- the one that adds the navigator's name to `README.md` -- isn't there. What is happening is that there are changes in the main GitLab repository, but they haven't been copied down to your computer yet.
 
 To do that, we can use the command `git pull`. This command will take all of the changes that are in the main repository on GitLab and pull them down to your computer. Run that now:
 ```
 git pull
 ```
 
-Now open the README.md file in the text editor on your computer, and you should see the changes, including both people's
-names.
+Now open the README.md file in the text editor on your computer, and you should see the changes, including both people's names.
 
 You want to run this command any time that your partner makes any changes and then commits and pushes those changes to the repository. Always remember to use `git pull` before you start working to make sure you have all the latest changes.
 
 # Part 2 - Programming
 
-Now that you've got the Git repository and have figured out how to contribute to it, we can start working on programming in the files in that repository.
+Now that you've got the Git repository and have figured out how to contribute to it, we can start working on modifying the programs in that repository.
 
-We are going to begin with the program `bottles.py`, which is a simple program that prints out lyrics to a song -- the
-song [99 bottles of beer](https://en.wikipedia.org/wiki/99_Bottles_of_Beer).  
+We are going to begin with the program `bottles.py`, which is a simple program that prints out lyrics to a song -- a modified version of the song [99 bottles of beer](https://en.wikipedia.org/wiki/99_Bottles_of_Beer).  
 
 The first thing to do is to run the program on the command line:
 ```
@@ -253,7 +269,7 @@ The song right now starts with only 2 bottles. That's not very many. Expand the 
 
 ## Exercise 6: Git Commit
 
-OK, now you've made some more changes to your bottles program. You should commit that code to your git repository. Use the same sets that you used above -- `git add <filename>`, `git commit -m "<message>"`, and `git push` -- to commit those changes and push them back to the main repository on Gitlab.
+OK, now you've made some more changes to your bottles program. You should commit that code to your Git repository. Use the same commands that you used above -- `git add <filename>`, `git commit -m "<message>"`, and `git push` -- to commit those changes and push them back to the main repository on Gitlab.
 
 Then, swap again, and have the other person `git pull` on their computer. Make sure all of the new code you both added to `bottles.py` are on both of your computers AND in your GitLab repository.
 
@@ -278,8 +294,6 @@ In `bottles.py`, `beverage` is a variable that is replaced with something else. 
 Take screenshots of your code working in command line, as per usual, and upload them to D2L under Assignments. If you got all of your changes up in your GitLab repository, you've already turned in your code for today! This is how you'll turn your code in every class from now own. Make sure Caitlin and Jack are both added as members to your repository (see [Give other people access to the new project](#give-other-people-access-to-the-new-project))
 
 
-
-
 # Troubleshooting 
 
 ## Troubleshooting git clone
@@ -296,7 +310,7 @@ If you did that, then try running `git clone` again, and use the correct usernam
 
 When you first run `git clone`, git will ask you for your username and password. both MacOS and Windows will remember these -- it won't ask you for them again after the first time. However, sometimes you get something wrong the first time. Generally Mac handles this well -- if it didn't work, then Mac will prompt you again next time.
 
-However, Windows sometimes remembers this wrong username/password, and then `git` commands don't work. To fix this, go down to the start bar and search for "Windows Credential Manager". On the page that comes up, look through the list for the Git/GitLab credential.  I usually just delete the entry for Git/GitLab.  Then try running `git clone` again, and it should prompt you for your username and password.
+However, Windows sometimes remembers this wrong username/password, and then Git commands don't work. To fix this, go down to the start bar and search for "Windows Credential Manager". On the page that comes up, look through the list for the Git/GitLab credential. I usually just delete the entry for Git/GitLab. Then try running `git clone` again, and it should prompt you for your username and password.
 
 ## Troubleshooting git commit
 
