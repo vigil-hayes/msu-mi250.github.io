@@ -9,7 +9,7 @@ The goal for today's studio is to write an interactive Choose Your Own Adventure
 
 Be creative! There's a small choose your own adventure program in the code from last week's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from last week might be useful to start with.
 
-You must work in a small group on this project. Form a group of 2-4 people and work together on this project. Who you work with is up to you, but you can't work alone.
+You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can't work alone.
 
 ## Advice
 
@@ -17,7 +17,9 @@ What follows is just advice for doing it. You don't have to follow my advice. Do
 
 ### Work together
 
-You should work in small groups on this studio. Groups of 2-4 people. Work together to create the story and to write the code. But don't divide up the work; that's no fun.  Everyone should work on all parts. If you need to come up with the next step of the story, then get the whole group together and brainstorm the story. If you need to implement a choice in Python, then get the whole group together and work on it until it looks how you want it to. Have one person on the keyboard sharing their screen, and the rest looking over helping (navigating). Since we don't have a good way of sharing files with one another yet, having one person drive is the easiest way to work on the story together.
+You should work in small groups on this studio. Groups of 2-3 people. Work together to create the story and to write the code. But don't divide up the work; that's no fun. Everyone should work on all parts. If you need to come up with the next step of the story, then get the whole group together and brainstorm the story. If you need to implement a choice in Python, then get the whole group together and work on it until it looks how you want it to. Have one person on the keyboard sharing their screen, and the rest looking over helping (navigating). Since we don't have a good way of sharing files with one another yet, having one person drive is the easiest way to work on the story together.
+
+Make sure to switch drivers regularly so everyone gets a chance to write code!
 
 ### Choosing a story
 
