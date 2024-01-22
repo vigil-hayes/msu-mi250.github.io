@@ -17,15 +17,28 @@ What follows is just advice for doing it. You don't have to follow my advice. Do
 
 ### Work together
 
-You should work in small groups on this studio. Groups of 2-3 people. Work together to create the story and to write the code. But don't divide up the work; that's no fun. Everyone should work on all parts. If you need to come up with the next step of the story, then get the whole group together and brainstorm the story. If you need to implement a choice in Python, then get the whole group together and work on it until it looks how you want it to. Have one person on the keyboard sharing their screen, and the rest looking over helping (navigating). Since we don't have a good way of sharing files with one another yet, having one person drive is the easiest way to work on the story together.
+You should work in small groups on this studio. Groups of 2-3 people. Work together to create the story and to write the code. But don't divide up the work; that's no fun. Everyone should work on all parts. If you need to come up with the next step of the story, then get the whole group together and brainstorm the story. If you need to implement a choice in Python, then get the whole group together and work on it until it looks how you want it to. Have one person on the keyboard sharing their screen, and the rest looking over helping (navigating).
 
-Make sure to switch drivers regularly so everyone gets a chance to write code!
+Some groups like to start out by writing the story in Google Docs or by mapping out the story paths on paper. That's fine. When you're writing the code, make sure to switch drivers regularly so everyone gets a chance to work on the program! 
+
+### Use Git
+
+Remember you can share code using Git and Gitlab. Git is easiest to use when only one person is writing code at any given time; if multiple people are working on the same file, you will run into Git conflicts, which are sometimes hard to resolve. 
+
+I would recommend approaching it like this:
+
+First driver:
+1. use `git clone` or `git pull` to get the most up to date project onto their computer
+2. write code
+3. use `git add`, `git commit`, and `git push` to save code to the group's Gitlab repository
+
+Switch drivers, second driver does the same as above, and so on.
+
+If you get stuck with Git, here's a [Git reference]({% link reference/using_git.md %}) that may be helpful. Jack and Caitlin can also help you anytime. Remember all of your code needs to be in Gitlab at the end of class - that's how you will turn your code in from now on!
 
 ### Choosing a story
 
-If you are good at coming up with stories, then you don't need this advice. If you aren't awesome at it, then the easiest way to start is to start with an existing story and set of characters. For example, I'd probably start with the [Avengers](https://gitlab.msu.edu/mi-250/control-flow/-/blob/master/avengers.py) movies because I like them and they have LOTS of interesting stories.
-
-Pick a story that you already know a lot about to start with, and begin there. It could be from a movie, a book, a game, a TV show, a fairy tale, or real life. It could be a true story, or it could be made up.
+If you are good at coming up with stories, then you don't need this advice. If you aren't awesome at it, then the easiest way to start is to start with an existing story and set of characters.  Pick a story that you already know a lot about to start with, and begin there. It could be from a movie, a book, a game, a TV show, a fairy tale, or real life. It could be a true story, or it could be made up.
 
 The easiest place to start is to tell that story. Then think about different places where people in the story could have made different choices, and things would have turned out differently.  Those are great places to ask the user to make a choice. You'll also have to write the alternative outcomes / stories.
 
@@ -44,6 +57,14 @@ Don't try to do everything at once. Start with as simple of a story as you can, 
 
 This also means that you don't need to have the whole story written before you start writing your program. Get the first bit of it written, then try to make it work as a computer program. Alternate between writing story and writing code. If you try to do it all at once, it's easy to get bogged down in unimportant details. By going back and forth between story writing and coding, you make sure that each piece works well before you move on.
 
-### Submit on D2L
+### Use code you've already worked with
 
-When you are done, please submit screenshots of your code working and the .py file with the program you created to D2L under Assignments. At least one person in the group needs to submit something.
+You already did a bit with conditionals (if, else, and elif) in the lab last week. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program will be particularly helpful for you to look at.
+
+### Submit on D2L and Gitlab
+
+Your studio is finished when the class is over - no sooner! You can always continue to add to the story or improve your code.
+
+When you are done, please submit screenshots of your code working (that is, of the program running in Powershell or Terminal) on D2L under Assignments. At least one person in the group needs to submit a screenshot. 
+
+Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Jack. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.

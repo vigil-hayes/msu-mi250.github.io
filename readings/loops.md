@@ -14,6 +14,7 @@ The readings for this week cover three topics.  First, we will learn a bit more 
 
 ### Loops
 * [Loops in Python](https://www.geeksforgeeks.org/loops-in-python/){:target="_blank"}
+* [Learn Python: Loops](https://www.learnpython.org/en/Loops){:target="_blank"} - practice. Note the exercise at the end uses lists, which we won't cover in class for a couple weeks.
 
 ### Randomness
 
