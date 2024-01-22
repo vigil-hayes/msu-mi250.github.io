@@ -6,7 +6,7 @@ nav_exclude: true
 visible: false
 ---
 
-For this lab, we are going to use a git repository like we did for last week. The first thing you should do is fork this week's GitLab project (linked above). Only one person needs to create a forked project. Once forked, add your partner to the project (and Caitlin and Jack), and then clone the repository onto your computer. Check out the [Git reference]({% link reference/using_git.md %}) for a reminder on how to do this.
+For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork this week's GitLab project (linked above). Only one person needs to create a forked project. Once forked, add your partner to the project (and Caitlin and Jack), and then clone the repository onto your computer. Check out the [Git reference]({% link reference/using_git.md %}) for a reminder on how to do this.
 
 {% capture _ %}{% increment exercise3 %}{% endcapture %}
 
@@ -14,15 +14,15 @@ For this lab, we are going to use a git repository like we did for last week. Th
 
 ### Exercise {% increment exercise3 %}: Count
 
-As an example of how to do loops, look at the file `counter.py` in the git repository. The program is supposed to count to 5. 
+As an example of how to do loops, look at the file `counter.py` in the Git repository. The program is supposed to count to 5. 
 
 Run the program to see what it does. Then open the file and look at the code. How does it work? Read the code and see if you can figure out how this program works. Does it do anything you're not expecting?
 
 Edit the program so that it counts to 5 the way a person would count (that is, starting at 1).
 
-*Hint:* When Python counts using numbers, it *always* starts at 0.
+*Hint:* When Python counts using numbers, it starts at 0 by default.
 
-*Hint 2:* There are multiple ways to do this. One way is to use an increment, another is to modify the range. `range()` can take multiple values! Check out this week's [readings]({% link readings/loops.md %}) for more detail.
+*Hint 2:* There are multiple ways to do this. One way is to use an increment, another is to modify the range. `range()` can take more than one value at once! Check out this week's [readings]({% link readings/loops.md %}) for more detail.
 
 ### Exercise {% increment exercise3 %}: Print a random number
 
@@ -40,7 +40,7 @@ That's cool, but `counter.py` only works well with whole numbers. You can use `r
 
 The for loop is still running, and still only counts to 5. Let's make it count to a random number instead.
 
-You're already generating a random whole number, but you're only printing it out. Let's put it in the for loop. Store the random number in a variable called `count` and then use the variable in the for loop so that instead of running 5 times, it will run a random number of times.
+You're already generating a random whole number, but you're only printing it out. Let's add it to the for loop so that instead of running 5 times, it will run a random number of times. You can do this by storing the random number in a variable called `count` and then using the variable inside of `range()` in the for loop.
 
 ### Exercise {% increment exercise3 %}: Add some text
 
