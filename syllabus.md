@@ -26,7 +26,7 @@ Synchronous, in person – no hybrid options available
 
 *Instructor:* Caitlin Geier (she/her/hers)  
 *Email:* [geierac@msu.edu](mailto:geierac@msu.edu)  
-*Office hours:* Drop-in Mondays from 1-2:30pm in office or [on Zoom](https://msu.zoom.us/my/geierac), or by appointment  
+*Office hours:* Drop-in Mondays from 1:30-2:30pm in office or [on Zoom](https://msu.zoom.us/my/geierac), or by appointment  
 *Office:* Room 525, Communication Arts and Sciences  
 
 *Course assistant:* Jack Waier  
