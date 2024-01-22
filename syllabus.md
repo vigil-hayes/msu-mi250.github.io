@@ -30,7 +30,7 @@ Synchronous, in person – no hybrid options available
 *Office:* Room 525, Communication Arts and Sciences  
 
 *Course assistant:* Jack Waier  
-*Email:* [waierjac@msu.edu](mailto:geierac@msu.edu)  
+*Email:* [waierjac@msu.edu](mailto:waierjac@msu.edu)  
 *Office hours:* by appointment - email or talk to after class to find a time
 
 ## Course Description
