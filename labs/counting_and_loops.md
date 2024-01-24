@@ -42,6 +42,8 @@ The for loop is still running, and still only counts to 5. Let's make it count t
 
 You're already generating a random whole number, but you're only printing it out. Let's add it to the for loop so that instead of running 5 times, it will run a random number of times. You can do this by storing the random number in a variable called `count` and then using the variable inside of `range()` in the for loop.
 
+*Note:* You can get this to work without using a variable at all, but it's good practice to store values in variables before using them in other functions, like `print()` or `range()`. You'll see why in the next exercise!
+
 ### Exercise {% increment exercise3 %}: Add some text
 
 The program only spits out a bunch of numbers. Let's make it a little more user friendly by adding some text to tell the person running it what it's doing. Print out a line of text that says `The program is counting to X`, but replace `X` with the random number you're generating.
@@ -62,7 +64,15 @@ If you run the program `bottles.py` in the git repository, it will print out the
 
 Let's start small! Modify the program so it repeats the verse 5 times. Don't worry about number of bottles in each verse just yet; just get the loop working. Your code should only be 5 lines in total.
 
-*Hint*: `range(5)` will count from 0 to 4. It always stops just before it gets to the end number. `range(1, 5)` will count starting at 1, so will count from 1 to 4. `range(5, 1, -1)` will count by `-1`, so it will count backwards from 5 down to 2.
+*Hint:* `range(5)` will count from 0 to 4. It always stops just before it gets to the end number. `range(1, 5)` will count starting at 1, so will count from 1 to 4. `range(5, 1, -1)` will count by `-1`, so it will count backwards from 5 down to 1.
+
+*Hint 2:* Python using indentation to sort out which blocks of code belong together. Code that runs inside a loop in Python means the code that will loop will start on the line underneath the loop statement *and* will be indented.
+
+```python
+for i in range(x):  # this is the loop statement
+    print(i) # code here will repeat with each loop - notice how it's indented
+print("This is outside of the loop") # this code will NOT repeat because it's not indented
+```
 
 ### Exercise {% increment exercise3 %}: Make the number of bottles go down
 
