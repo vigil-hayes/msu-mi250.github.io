@@ -66,7 +66,7 @@ Let's start small! Modify the program so it repeats the verse 5 times. Don't wor
 
 *Hint:* `range(5)` will count from 0 to 4. It always stops just before it gets to the end number. `range(1, 5)` will count starting at 1, so will count from 1 to 4. `range(5, 1, -1)` will count by `-1`, so it will count backwards from 5 down to 1.
 
-*Hint 2:* Python using indentation to sort out which blocks of code belong together. Code that runs inside a loop in Python means the code that will loop will start on the line underneath the loop statement *and* will be indented.
+*Hint 2:* Python using indentation to figure out which blocks of code belong together. Code that runs inside a loop in Python means the code that will loop will start on the line underneath the loop statement *and* will be indented.
 
 ```python
 for i in range(x):  # this is the loop statement
@@ -78,7 +78,7 @@ print("This is outside of the loop") # this code will NOT repeat because it's no
 
 Now modify the code so that the number of bottles counts down with each verse, like in the song.
 
-*Hint*: A `for` loop uses a variable. In `for i in range(10)`, the `i` is a variable. You can use that variable inside the loop. Each time through the loop, the `for` loop fills in that variable with the current number.  So the first time through the loop, `i` is 0; the second time, it is 1, the third time is 2, and so on.
+*Hint*: A `for` loop uses a variable. In `for i in range(10)`, the `i` is a variable. You can use that variable inside the loop. Each time through the loop, the `for` loop fills in that variable with the current number.  So the first time through the loop, `i` is 0; the second time, it is 1, the third time is 2, and so on. `i` will have different start and end points depending on what you include in `range()`.
 
 ### Exercise {% increment exercise3 %}: All the verses
 
@@ -155,7 +155,7 @@ At this point, you should have modified versions of all 3 programs for this lab.
 
 ## Challenges
 
-If you finish the lab, please try to do at least one of the challenges. If you can get one or more of the challenges working correctly, then you can leave class early.
+If you finish the lab before the end of class, please try to do at least one of the challenges. If you can get one or more of the challenges working correctly, then you can leave class early. Check in with Caitlin or Jack first before you leave.
 
 {% capture _ %}{% increment challenge3 %}{% endcapture %}
 
@@ -167,11 +167,11 @@ Modify your bottles program so that every other line uses the alternative versio
 
 ### Challenge {% increment challenge3 %}: Random number of bottles
 
-Use a the `random` module to make the song start at a random number of bottles, rather than at 100. When you do this, think about practicalities - you need the number it generates to be a whole number, but don't want it to be too many digits or else your program will take forever to run. Remember to include `import random` at the top of the program!
+Use the `random` module to make the song start at a random number of bottles rather than at 100. When you do this, think about practicalities - you need the number it generates to be a whole number, but don't want it to be too many digits or else your program will take forever to run. Remember to include `import random` at the top of the program!
 
 ### Challenge {% increment challenge3 %}: Limited tries
 
-For `question.py`, change the code so it only lets the user try to answer the first question 3 times before it moves onto the next question. 
+In `question.py`, change the code so it only lets the user try to answer the first question 3 times before it moves onto the next question. 
 
 How would you do this with a while loop? (hint: there are examples in this week's reading on loops.) How would you do it with a for loop? Bonus: use a while loop for the first question, and a for loop for the second question.
 

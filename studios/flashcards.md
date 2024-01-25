@@ -5,9 +5,9 @@ nav_exclude: true
 visible: false
 ---
 
-Research on how people learn has suggested that, when learning facts, one of the most important things to do is to periodically "retrieve" the information from your memory. That is, if you occasionally remember those facts and use them in some way, then you are more likely to remember them long-term. One of the keys is to remember the fact, but not recognize it. That is, it has to come from your brain, and not from something else like notes or a book or a web page. Doing this remembering [periodically, over time](https://en.wikipedia.org/wiki/Spaced_repetition){:target="_blank"} helps you remember those facts long-term.
+Research on how people learn has suggested that when learning facts, one of the most important things to do is to periodically "retrieve" the information from your memory. That is, if you occasionally remember those facts and use them in some way, then you are more likely to remember them long-term. One of the keys is to remember the fact, not just recognize it. That is, it has to come from your brain, and not from something else like notes or a book or a web page. Doing this remembering [periodically and over time](https://en.wikipedia.org/wiki/Spaced_repetition){:target="_blank"} helps you remember facts long-term.
 
-To help people with this, one of the most common ways of remembering a bunch of facts is *Flash Cards*. [Flash cards](https://www.wikihow.com/Write-Flash-Cards){:target="_blank"} used to be physical note cards with a prompt on one side ("What is 2 + 3?") and an answer on the other ("5"). You use them by reading the prompt and trying to remember the answer. Once you remember the answer, then you can flip the card over and check if your answer was right. Flash cards are also nice because you can measure progress; you can count the number you get right, and tell whether you are remembering more or less than in the past. Now, instead of physical note cards, most people use flashcard apps on their computer, phone, or tablet to accomplish the same goal.
+A common way to memorize a bunch of facts at once is to use *Flash Cards*. [Flash cards](https://www.wikihow.com/Write-Flash-Cards){:target="_blank"} used to be physical note cards with a prompt on one side ("What is 2 + 3?") and an answer on the other ("5"). You use them by reading the prompt and trying to remember the answer. Once you remember the answer, then you can flip the card over and check if your answer was right. Flash cards are also nice because you can measure progress: you can count the number you get right, and tell whether you are remembering more or less than in the past. Now, instead of physical note cards, most people use flashcard apps on their computer, phone, or tablet to accomplish the same goal.
 
 ## Today's studio
 
@@ -22,15 +22,15 @@ It is OK if it always prints out the flash cards in the same order every time. W
 
 ## Git
 
-Store your project in a git repository on the [MSU GitLab](https://gitlab.msu.edu). You'll need to make a new repository for you and your group - it's easiest to do this first, before you start writing any code. Only one person in the group needs to create a repository; once it's shared, everyone else in the group will have access to it. Remember to add Caitlin (geierac) and Jack (waierjac) as members along with your groupmates. See the [Using Git in the Reference section]({% link reference/using_git.md %}) for a refresher.
+Store your project in a Git repository on the [MSU GitLab](https://gitlab.msu.edu). You'll need to make a new repository for you and your group - it's easiest to do this first, before you start writing any code. Only one person in the group needs to create a repository; once it's shared, everyone else in the group will have access to it. Remember to add Caitlin (geierac) and Jack (waierjac) as members along with your groupmates. See the [Using Git in the Reference section]({% link reference/using_git.md %}) for a refresher.
 
 ## Advice
 
-What follows is advice for doing this. You don't have to follow this advice. Do whatever you want. This is just my experience in doing this, and you might want to do it differently. That's ok!
+What follows is my advice for doing this. You don't have to follow this advice. Do whatever you want. This is just my experience in doing this, and you might want to do it differently. That's ok!
 
 ### Make it useful
 
-Try to make this program actually useful.  The easiest way is if you make the flashcard app for something you are already trying to learn. For example, maybe you have some vocabulary or dates you need to know for one of your other classes. Or it can be something related to a hobby or interest you have, like remembering which player is on which baseball team (Question: What team is Julio Rogriguez on? Answer: Seattle Mariners), or who trivia about favorite novels (Question: Who wrote American Gods? Answer: Neil Gaiman).
+Try to make this program actually useful.  The easiest way is if you make the flashcard app for something you are already trying to learn. For example, maybe you have some vocabulary or dates you need to know for one of your other classes. Or it can be something related to a hobby or interest you have, like remembering which player is on which baseball team (Question: What team is Julio Rodriguez on? Answer: Seattle Mariners), or who trivia about favorite novels (Question: Who wrote American Gods? Answer: Neil Gaiman).
 
 If you can't think of anything you might want to test yourself on, you can create a flashcard program for someone else; for example, create a program to help a middle school student remember biology facts, or a high school student remember world history, or an elementary school student study multiplication. Or make a program that could be used for playing trivia night at a bar or cafe.
 
