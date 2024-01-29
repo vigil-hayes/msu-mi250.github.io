@@ -2,6 +2,7 @@
 title: Error messages
 nav_exclude: true
 visible: false
+published: false
 parent: Reference
 nav_order: 5
 has_children: false

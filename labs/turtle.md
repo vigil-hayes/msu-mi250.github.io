@@ -1,14 +1,14 @@
 ---
 parent: Week 5
-topic: Turtles
+topic: Turtle Graphics
 git: https://gitlab.msu.edu/mi-250/turtles
 nav_exclude: true
 visible: false
 ---
 
-For this lab, we are going to use a git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Jack (waierjac) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this.
+For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Jack (waierjac) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this.
 
-For this lab, we will be working with turtle graphics all day. There are a LOT of commands you can use for turtle, and you don't have to memorize them all. Instead, you can refer to the documentation:
+For this lab, we will be working with Turtle Graphics all day. There are a LOT of commands you can use for Turtle, and you don't have to memorize them all. Instead, you can refer to the documentation:
 
 * [Turtle Documentation](https://docs.python.org/3/library/turtle.html)
 
@@ -18,7 +18,7 @@ I also *strongly* advise you to write your code in small chunks and test it freq
 
 ## Draw some things
 
-When I refer to "the turtle" in these exercises, I mean the arrow in the turtle drawing window. Think of it as a small turtle that crawls around on the screen, leaving a trail behind it.
+When I refer to "the turtle" in these exercises, I mean the arrow in the Turtle drawing window. Think of it as a small turtle that crawls around on the screen, leaving a trail behind it.
 
 ### Exercise 1: Finish the square
 
@@ -28,15 +28,15 @@ In the Git repository, you should see a program called `square,py`. This program
 
 However, the program isn't finished! Run the program with `python square.py` (or `python3 square.py` on Mac) and see what happens.
 
-Edit the program to finish drawing the square.  Remember that the `right()` and `left()` commands turn the turtle in *degrees* -- 360 degrees turns the turtle all the way around so it is facing the same way it started. 90 degrees is a quarter of the way around (a right angle). 180 degrees turns the turtle around to face the opposite direction is started.
+Edit the program to finish drawing the square.  Remember that the `right()` and `left()` commands turn the turtle in *degrees* -- 360 degrees turns the turtle all the way around so it is facing the same way it started. 90 degrees is a quarter of the way around (a right angle). 180 degrees turns the turtle around to face the opposite direction.
 
 ### Exercise 2: Finish the stick figure
 
-In the git repository you should see a program called `person.py`.  This program begins to draw a stick figure using turtle. Run the program to see what it does.
+In the Git repository you should see a program called `person.py`.  This program begins to draw a stick figure using Turtle. Run the program to see what it does.
 
 It should start to draw a stick figure, and then wait for you to close the window. Python will keep running the program (even if it's not doing anything) until you close the Turtle drawing window.
 
-Write the code to finish drawing the stick figure.  The `person.py` file contains some comments (text with `#` in front of it) for what you'll need to write to finish it.
+Write the code to finish drawing the stick figure.  The `person.py` file contains some comments (text with `#` in front of it) for what code you'll need to write to finish it.
 
 Don't try to do this all at once. Start by drawing on a piece of paper without lifting up your pen: what do you need to do with the pen? (You can use the whiteboard in the classroom for this too, if you want.)  Next, write one or two commands, and then run the program to see what happens. Write more commands, and see what happens.  
 
@@ -48,21 +48,21 @@ Once it is finished the person should look something like this:
 
 ### Exercise 3: Pen Up and Down
 
-Next, we are going to do a bit of writing with our turtle.   Create a new program, called `MI.py`, that writes the two capital letters "MI" next to each other.  The two letters should not be touching each other.  It should probably look something like this:
+Next, we are going to do a bit of writing with our turtle. Create a new program, called `MI.py`, that writes the two capital letters "MI" next to each other. The two letters should not be touching each other. It should probably look something like this:
 
 ![mi]({% link img/mi.png %})
 
-To do this, you can use the `penup()` and `pendown()` functions to lift up the pen after drawing the "M" and put it back down before starting the "I".
+To get the gap between the "M" and the "I", you can use the `penup()` and `pendown()` functions to lift up the pen after drawing the "M" and put it back down before starting the "I".
 
-Before you can use any of the turtle commands, you need to remember to *import* the turtle library. Importing brings in additional functionality into python that it normally doesn't have. The turtle library doesn't come preloaded into Python, so we have to import it to be able to use it. To import the turtle library, put this line at the top of your program:
+Before you can use any of the Turtle commands, you need to remember to *import* the Turtle library. Importing brings in additional functionality into python that it normally doesn't have. The Turtle library doesn't come preloaded into Python, so we have to import it to be able to use it. To import the Turtle library, put this line at the top of your program:
 ```
 from turtle import *
 ```
-Notice, both of the previous programs did that, too.
+Note both of the previous programs did that, too.
 
-Also, for turtle programs, it helps to end the program with `done()` - put it in the last line of the program. This causes the program to keep the turtle window open after it's done drawing.
+Also, for Turtle programs, it helps to end the program with `done()` - put it in the last line of the program. This causes the program to keep the Turtle window open after it's done drawing so you can see what the drawing looks like.
 
-Don't forget to save this file into the git repo on your computer, so you can then add, commit, and push it to your git repository on GitLab.
+Don't forget to save this file into the Git repo on your computer, so you can then add, commit, and push it to your Git repository on GitLab. If you haven't switched drivers already, now might be a good time to do that.
 
 ### Exercise 4: Names, squared
 
@@ -74,7 +74,7 @@ Here is mine:
 
 Note: you can change the color of the pen with `pencolor("red")`.
 
-You can also change the font and size if you want to. If you want to try this, look through the turtle documentation (linked at the top of this lab) to figure out how to do it. (Hint: you can add more things inside the `write()` function!)
+You can also change the font and size if you want to. If you want to try this, look through the Turtle documentation (linked at the top of this lab) to figure out how to do it. (Hint: you can add more things inside the `write()` function!)
 
 *Hint:* Remember to add `from turtle import *` to the beginning of your `names.py` program and `done()` to the end.
 
@@ -84,7 +84,7 @@ The program `guestbook.py` is a simple guest book app that prints out a name on 
 
 ### Exercise 5: Input name from user
 
-Turtle has a function called `textinput()` that allows you to ask the user for a text input, which you can then save to a variable and use elsewhere. Modify the guestbook program to ask the user for their name, and then write the user's name on the screen using Turtle underneath my name.
+Turtle has a function called `textinput()` that allows you to ask the user for a text input, which you can then save to a variable and use elsewhere. Modify the guestbook program to ask the user for their name, and then use Turtle to write the user's name on the screen underneath my name.
 
 `textinput()` works similarly to `input()`, which we've used in the past. But there are two main differences: 
 * Unlike `input()`, which prompts the user in the terminal, `textinput()` causes a window to pop up asking the user for information
@@ -94,13 +94,13 @@ For example, the code:
 ```
 name2 = textinput("Name", "Please enter your name")
 ```
-would pop up a window titled "Name" and ask the user to "Please enter your name". Whatever the user enters would be saved into the `name2` variable.
+would pop up a window titled "Name" and ask the user to "Please enter your name". Whatever the user enters in the window would be saved into the `name2` variable.
 
-### Exercise 6: Second Name
+### Exercise 6: Third Name
 
 The guestbook should have two names in it now - my name, and then a name captured via `textinput()` underneath it. Now modify the guest book to ask the user for a third name, and display the third name below the second one. You'll have to move the pen down again before writing the third name to make sure the names aren't on top of each other.
 
-*Hint:* you'll likely want to have three different variables at this point, each storing a different name. 
+*Hint:* You'll likely want to have three different variables at this point, each storing a different name. 
 
 ### Exercise 7: Looped Guestbook
 
@@ -108,17 +108,17 @@ Now you should have three names in your guestbook, with the turtle moving betwee
 
 When you see repeated code, that can be a good time to use a loop instead. Put the code that asks for a name, draws it, and then moves the turtle down into a loop so it will keep asking for names and then printing them out, one after the other.
 
-*Hint:* a while loop will probably work better than a for loop for this. Go back to the Guessing Game exercises in [Lab 4]({% link labs/counting_and_loops.md %}) if you need a reminder on how to use while loops. Note you can end the program anytime by closing the Turtle window, so you don't need to worry if the loop is infinite.
+*Hint:* a while loop will probably work better than a for loop for this. Go back to the Guessing Game exercises in [the Counting and Loops lab]({% link labs/counting_and_loops.md %}) if you need a reminder on how to use while loops. Note you can end the program anytime by closing the Turtle window, so you don't need to worry if the loop is infinite.
 
 ## Seeing Stars
 
 ### Exercise 8: Star
 
-Create a new program called `stars.py`. For this program, write a program that draws a 5 pointed stars. Here's the catch: you must you a `for` loop do draw the star. If you do it right, the star can be drawn using only 3 lines of code.
+Create a new program called `stars.py`. For this program, write a program that draws a 5 pointed star. Here's the catch: you must use a `for` loop to draw the star. If you do it right, the star can be drawn using only 3 lines of code.
 
-Note: The angle at a point of a star is 144 degrees.
+*Note:* The angle at a point of a star is 144 degrees.
 
-Note 2: Drawing a star should just involve moving forward, turning 144 degrees, moving forward, turning again, and so on
+*Note 2:* Drawing a star should just involve moving forward, turning 144 degrees, moving forward, turning again, and so on
 until the star is finished.
 
 One finished, it should look like this:
@@ -129,7 +129,7 @@ One finished, it should look like this:
 
 ### Exercise 9: Row of stars
 
-Next, modify your program to use a `for` loop to create a row of 5 stars next to each other. You should use the same code you wrote above to draw a single star, but put it inside loop with some additional code between the stars to move the turtle to get ready to draw the next star.
+Next, modify your program to use a `for` loop to create a row of 5 stars next to each other. You should use the same code you wrote above to draw a single star, but put it inside a loop with some additional code between the stars so that the turtle moves to the right to get ready to draw the next star.
 
 ### Exercise 10: Fill In the Stars
 
@@ -147,7 +147,7 @@ Filled star, on Windows
 
 Black is boring. Make the stars brightly colored. Here's a handy resource for [colors you can use in Turtle](https://trinket.io/docs/colors){:target="_blank"}. 
 
-If you want an even broader range of colors, you can also use HTML color codes, also known as hex codes. Here's a good [color picker](https://htmlcolorcodes.com/){:target="_blank"}.
+If you want an even broader range of colors, you can also use HTML color codes, also known as hex codes. Here's a good [color picker](https://htmlcolorcodes.com/){:target="_blank"}. Google can help you figure out how to use hex codes with Turtle.
 
 Play around and find a color you and your partner both like, and make all the stars that color. Bonus: can you make the stars multiple colors?
 
@@ -155,7 +155,7 @@ Play around and find a color you and your partner both like, and make all the st
 
 Now that you have the commands to draw a star, let's draw lots of stars. Using nexts for loops, modify your previous program to draw 50 stars in a 10 by 5 grid.
 
-*Hint:* the command `speed(0)` will speed up the turtle drawing so you don't have to wait as long.
+*Hint:* the command `speed(0)` will speed up the Turtle drawing so you don't have to wait as long.
 
 *Hint 2:* You'll need to move the turtle in between each row of stars so it starts in the right place to draw the next row. 
 
@@ -165,7 +165,7 @@ If you finish all of the exercises before the end of class, try at least one of 
 
 ### Challenge 1: Draw more shapes
 
-You've drawn a square and a star so far. Use the turtle to draw these shapes as well:
+You've drawn a square and a star so far. Use Turtle to draw these shapes as well:
 * Pentagon (5 sides)
 * Hexagon (6 sides)
 * Octagon (8 sides)
@@ -188,5 +188,6 @@ Bonus: draw the 50 stars in the pattern they appear on the [US Flag](https://en.
 
 Instead of drawing a set number of stars in a set number of rows, draw a grid of stars with random dimensions using the `random` library. You'll probably want to provide boundaries to the range of random numbers that are generated so you don't accidentally draw a million rows (that would take forever!). 
 
-*Hint:* If you need a refresher on the `random` library, look at the first few exercises in [Lab 4]({% link labs/counting_and_loops.md %}). Also remember to add `import random` at the top of your program.
+Bonus: also make each star be a random size.
 
+*Hint:* If you need a refresher on the `random` library, look at the first few exercises in [Lab 4]({% link labs/counting_and_loops.md %}). Also remember to add `import random` at the top of your program.
