@@ -25,7 +25,7 @@ Flags are not easy to design. Flags have a lot of symbolism in them.  Figure out
 
 ### Flag Design
 
-The flag should follow good flag design. Here is a pamphlet from the North American Vexillography Association that describes their 5 principles for good flag design, with examples: <https://nava.org/digital-library/design/GFBF_English.pdf>
+Try to design your flag based on good flag design principles. Here is a pamphlet from the North American Vexillography Association that describes their 5 principles for good flag design, with examples: <https://nava.org/digital-library/design/GFBF_English.pdf>
 
 Also think about what's easy and hard about using Turtle to draw things, based on your experience with the lab on Tuesday. It's harder to draw a flower with Turtle than to draw a circle or a square. 
 
@@ -36,6 +36,10 @@ It might help to draw out ideas on paper or using the whiteboard first.
 Start simple.  First, design a really simple flag (a 2 or three color striped flag like the [Flag of Italy](https://en.wikipedia.org/wiki/Flag_of_Italy)?) and write a program to draw that. Then think about how you can make the flag more complicated or more interesting. Change the colors. Change the orientation. Change the size of the flag.
 
 If you have specific symbols you want to incorporate, think about how to make them as simple as possible while still conveying meaning. You can also think about how you might make a more complex shape using simple shapes (like squares and circles) that are drawn on top of each other.
+
+### Test frequently
+
+Test your code often. Write a couple lines and test. Fix any errors that come up. Write another couple of lines and test again. The more code you write at once without testing it, the more likely you'll have trouble figuring out what isn't working and why! 
 
 ### Think like a Pen
 
@@ -79,6 +83,3 @@ Adding comments to your code is a really good way to remind yourself (and your g
 Your flag is a computer program. That means that it can do things that other flags cannot. Think about how you can use programming to make your flag more interesting than just a flat drawing. For example, could you animate something on the flag, or have a special way of drawing the flag? Or maybe you can ask the user for some input, and then customize the flag around that input. Maybe you can use the `random` library to make the flag have different dimensions every time the program is run.
 
 Programming can be an artistic tool. And unlike other artistic tools, like paintbrushes or clay, programming can be very dynamic and interactive - it can produce things that are different each time the program runs. How can you harness this strength of programming to make your flag unique?
-
-
-
