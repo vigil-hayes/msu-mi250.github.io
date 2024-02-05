@@ -745,7 +745,7 @@
   },"124": {
     "doc": "Homework",
     "title": "Turn in",
-    "content": "Turn your assignment in as a Word doc or a PDF on D2L under Assignments -&gt; Understanding Error Messages. This assignment is due on Wednesday, February 14th at 3pm (before the start of class). Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus. ",
+    "content": "Turn your assignment in as a Word doc or a PDF on D2L under Assignments -&gt; Understanding Error Messages. This assignment is due on Wednesday, February 21st at 3pm (before the start of class). Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus. ",
     "url": "/homework/hw2_errors.html#turn-in",
     "relUrl": "/homework/hw2_errors.html#turn-in"
   },"125": {
@@ -1333,7 +1333,7 @@
   },"222": {
     "doc": "Schedule",
     "title": "Course Schedule",
-    "content": "| Week | Topic / Readings | Lab | Studio | Homework | . | 1 (Jan 8 / 10) | Course Introduction | Intro to Class | Getting Started with Python | | . | 2 (Jan 15 / 17) | Variables, Flow | NO CLASS - MLK day | Control Flow (lab) | | . | 3 (Jan 22 / 24) | Version Control | Git and GitLab | Choose Your Own Adventure | | . | 4 (Jan 29 / 31) | Loops and Variables | Counting and Loops | Flashcards | 1 - Google Search | . | 5 (Feb 5 / 7) | Drawing | | | | . | 6 (Feb 12 / 14) | Lists and Randomness | | | | . | 7 (Feb 19 / 21) | Functions | | | | . | Break (Feb 26 / 28) | Spring Break | NO CLASS | NO CLASS | | . | 8 (Mar 4 / 6) | Dictionaries | | | | . | 9 (Mar 11 / 13) | Modules | | | | . | 10 (Mar 18 / 20) | Revisiting Functions | | | | . | 11 (Mar 25 / 27) | Reading Code | | | | . | 12 (Apr 1 / 3) | Files | | | | . | 13 (Apr 8 / 10) | APIs | | | | . | 14 (Apr 15 / 17) | Reflection | | | | . ",
+    "content": "| Week | Topic / Readings | Lab | Studio | Homework | . | 1 (Jan 8 / 10) | Course Introduction | Intro to Class | Getting Started with Python | | . | 2 (Jan 15 / 17) | Variables, Flow | NO CLASS - MLK day | Control Flow (lab) | | . | 3 (Jan 22 / 24) | Version Control | Git and GitLab | Choose Your Own Adventure | | . | 4 (Jan 29 / 31) | Loops and Variables | Counting and Loops | Flashcards | 1 - Google Search | . | 5 (Feb 5 / 7) | Drawing | | | | . | 6 (Feb 12 / 14) | Lists and Randomness | | | | . | 7 (Feb 19 / 21) | Functions | | | 2 - Error Messages | . | Break (Feb 26 / 28) | Spring Break | NO CLASS | NO CLASS | | . | 8 (Mar 4 / 6) | Dictionaries | | | | . | 9 (Mar 11 / 13) | Modules | | | | . | 10 (Mar 18 / 20) | Revisiting Functions | | | | . | 11 (Mar 25 / 27) | Reading Code | | | | . | 12 (Apr 1 / 3) | Files | | | | . | 13 (Apr 8 / 10) | APIs | | | | . | 14 (Apr 15 / 17) | Reflection | | | | . ",
     "url": "/schedule.html#course-schedule",
     "relUrl": "/schedule.html#course-schedule"
   },"223": {

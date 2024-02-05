@@ -1,8 +1,8 @@
 ---
-parent: Week 6
+parent: Week 7
 topic: 2 - Error Messages
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Learning how to read and understand error messages that you get when you are running and testing programs is an important skill to have.
@@ -98,7 +98,7 @@ TypeError: 'str' object cannot be interpreted as an integer
 
 ## Turn in
 
-Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Understanding Error Messages. This assignment is due on Wednesday, February 14th at 3pm (before the start of class).
+Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Understanding Error Messages. This assignment is due on Wednesday, February 21st at 3pm (before the start of class).
 
 Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus.
 
