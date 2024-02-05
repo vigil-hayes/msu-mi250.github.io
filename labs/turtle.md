@@ -2,8 +2,8 @@
 parent: Week 5
 topic: Turtle Graphics
 git: https://gitlab.msu.edu/mi-250/turtles
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Jack (waierjac) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this.
@@ -130,6 +130,8 @@ One finished, it should look like this:
 ### Exercise 9: Row of stars
 
 Next, modify your program to use a `for` loop to create a row of 5 stars next to each other. You should use the same code you wrote above to draw a single star, but put it inside a loop with some additional code between the stars so that the turtle moves to the right to get ready to draw the next star.
+
+*Hint:* It is possible to have a for loop inside of another for loop - this is called having a nested loop.
 
 ### Exercise 10: Fill In the Stars
 

@@ -10,45 +10,62 @@ visible: false
 
 ## Names, names, and more names
 
+Lists are the simplist possible form of what's known as an array. An array is a data structure that allows you to store lots of different pieces of related data in a single variable. A "list" in Python is exactly like it sounds: a list of different, but related, pieces of data. For example:
+
+```
+groceries = ["apples", "cheese", "crackers"]
+```
+
+The variable `groceries` is storing a list of different things you might buy at a grocery store. You can have as many (or as few) items in a list as you want. Lists are also *mutable*, which means you can change the contents on the fly. 
+
+Lists are always identified by the square brackets (`[]`) around the contents of the list. Whenever you see square brackets in Python, you can be sure it's a list (or, more broadly, an array) of some sort.
+
 ### Exercise {% increment exercise55 %}: Add your names to a list
 
 Start by running the program `names.py`. This prints out a list with the names of the instructor and the course assistant for this class.
 
-Add both your name and your partner's name as separate items to the end of the list. Run the program and make sure it prints out all four names correctly.
+Add both your (the driver's) name as a separate to the end of the list. Run the program and make sure it prints out all 3 names correctly.
 
 ### Exercise {% increment exercise55 %}: Adding another name
 
-You have hard coded a set of names into the list. However, you can also get Python to add more things to a list that already exists using `.append()`. For example, say you have a variable called `fruit` that contains a list of different kinds of fruit, and you want to add "apple" to that list. You can do that like this:
+You have hard coded another name into the list. However, you can also get Python to add more things to a list that already exists using `.append()`. For example, look at the `groceries` list at the very beginning of today's instructions. Say you want to add "jam" to that list. You can do that like this:
 
 ```
-fruit.append("apple")
+groceries.append("jam")
 ```
 
-If "apple" were stored in a variable call `new_fruit`, you could also append it to the `fruit` list using the variable:
+In `names.py`, use `.append()` to add your partner's (the navigator's) name to the list. The `names` list that prints out should have 4 names in it now.
+
+### Exercise {% increment exercise55 %}: Add name with input
+
+Now, go back to `names.py`. Modify your program to ask the user for another name with `input()`. Then `.append()` that name to your list, and print out the full list. It should have 5 names in it when you're done.
+
+*Hint:* You'll want to store the user input into a variable first before you append it to the list. As an example, if "jam" were stored in a variable called `new_grocery_item`, you could also append it to the `groceries` list using the variable:
 
 ```
-fruit.append(new_fruit)
+new_grocery_item = "jam"
+groceries.append(new_grocery_item)
 ```
-
-Modify your program to ask the user for another name with `input()`. Then `.append()` that name to your list, and print out the full list with 5 names on it.
 
 ### Exercise {% increment exercise55 %}: Alphabetical order
 
-The function `.sort()` will sort any list you have. If the list is made up off numbers, it will sort from lowest to highest. If the list is made up of works, it will sorts things alphabetically, with words that are capitalized coming before words that are lowercase. So if you have a variable `fruit` that contains a list, then you can say `fruit.sort()` to sort that list into alphabetical order.
+The function `.sort()` will sort any list you have. If the list is made up of numbers, it will sort from lowest to highest. If the list is made up of words, it will sorts things alphabetically, with words that are capitalized coming before words that are lowercase. So if you have a variable `groceries` that contains a list, then you can say `groceries.sort()` to sort that list into alphabetical order.
 
-The names program should print out 5 names now.  Modify the program to sort the names, and print out the list of names in alphabetical order.  Test your program by entering in different names, and seeing if it sorts them differently.
+Modify `names.py` to sort the names, and print out the list of names in alphabetical order by first name. Test your program by entering in different names, and seeing if it sorts them differently.
 
 ### Exercise {% increment exercise55 %}: Beginning of the Alphabet
 
-In your program, you can retrieve specific items from the list using `[]`.  So, to get the 2nd item from the list `stuff`, you can say `stuff[1]`.  (Note: Lists in Python always start at 0, so 0 is the first item, 1 is the second, and so on.)
+With lists, you can also retrieve specific items using square brackets (`[]`) next to the name of the list.  So, to get the 2nd item from the list `stuff`, you can say `stuff[1]`. The number in the square brackets is called the *list index*. 
 
 Modify your program to print out only one name: the name that comes *first* in alphabetical order.
+
+*Hint:* the list index in Python *always* start at 0, so 0 is the index for the first item, 1 is the second, and so on.
 
 ### Exercise {% increment exercise55 %}: End of the Alphabet
 
 The folks who have last names that start near the end of the alphabet always end up waiting longer. So let's show some love to the end of the alphabet. Change your program so it prints out the person's name who appears last in alphabetical order.
 
-*Hint*: There are two ways to do this: find out how long the list is and call the last item in it, or sort the list in reverse alphabetical order to call the first item. Refer to [this week's readings]({% link readings/lists_and_randomness.md %}){:target="_blank"} for help with the second option.
+*Hint*: There are two ways to do this: the first is to find out how long the list is and call the last item in it, and the second is to sort the list in reverse alphabetical order to call the first item. Refer to [this week's readings]({% link readings/lists_and_randomness.md %}){:target="_blank"} for help with the second option. Google will likely be helpful, too!
 
 ## Flipping Coins
 
