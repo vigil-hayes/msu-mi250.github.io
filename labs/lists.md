@@ -24,7 +24,7 @@ Lists are always identified by the square brackets (`[]`) around the contents of
 
 Start by running the program `names.py`. This prints out a list with the names of the instructor and the course assistant for this class.
 
-Add both your (the driver's) name as a separate to the end of the list. Run the program and make sure it prints out all 3 names correctly.
+Add your (the driver's) name to the end of the list. Run the program and make sure it prints out all 3 names correctly.
 
 ### Exercise {% increment exercise55 %}: Adding another name
 
@@ -46,6 +46,26 @@ Now, go back to `names.py`. Modify your program to ask the user for another name
 new_grocery_item = "jam"
 groceries.append(new_grocery_item)
 ```
+
+### Exercise {% increment exercise55 %}: Print nicely
+
+Right now, your `print()` statement prints out the list as Python code. Let's make it more human readable.
+
+We worked with `for` loops a couple weeks ago. For loops and lists are made for each other - you can use a for loop to easily go through each item in a list one by one. Let's go back to our groceries example:
+
+```
+for item in groceries:
+	print(item)
+```
+In the above code, the for loop goes through each `item` in the `groceries` list one by one. `print(item)` prints the next item in the list every time the loop is run. When it prints, it looks like this:
+
+```
+apples
+cheese
+crackers
+```
+
+Use a `for` loop to print out each name in your `names` list one by one.
 
 ### Exercise {% increment exercise55 %}: Alphabetical order
 
@@ -69,13 +89,13 @@ The folks who have last names that start near the end of the alphabet always end
 
 ## Flipping Coins
 
-Next, we are going to use the `random` package to build a couple of useful tools to help us make choices. As a reminder, before you can use the random package, you need to add `import random` at the beginning of your program.
+Next, we are going to use the `random` library to build a couple of useful tools to help us make choices. As a reminder, before you can use the random library, you need to add `import random` at the beginning of your program.
 
 ### Exercise {% increment exercise55 %}: Heads or tails
 
 Open up `coin.py`. This program is supposed to flip a coin - but the program isn't finished yet. Right now it just generates a random number between 1 and 2, stores it in the variable `num`, and prints out the number it generates. Run it to see how it works - the number it prints should change if you run it enough times.
 
-Edit the program so it prints out "Heads" if `num` is 1, and "Tails" if `num` is 2 (or if it isn't 1). 
+Modify the program so it prints out "Heads" if `num` is 1, and "Tails" if `num` is 2 (or if it isn't 1). 
 
 ### Exercise {% increment exercise55 %}: Coin flipper bias
 
@@ -85,7 +105,7 @@ The `coin.py` program flips a single coin and prints out either heads or tails. 
 
 ### Exercise {% increment exercise55 %}: Coin flipper counter
 
-Modify your coin flipping program to count how many heads and tails it gets. At the end of the program, it should print out the counts -- how many heads came up, and how many tails came up.
+Modify your coin flipping program to count how many times heads comes up, and the same for tails. At the end of the program, it should print out the counts -- how many heads came up, and how many tails came up.
 
 *Hint*: You can use a counter to do this (which is sometimes known as an "accumulator"). You create a variable, and then set it to zero as a place to start. Then, each time through a loop, you add 1 to it. It looks something like this:
 ```
@@ -94,34 +114,35 @@ while looping:
 	counter = counter + 1
 print(counter)
 ```
+You can also write it as `counter += 1`, which is shorter and does the same thing as `counter = counter + 1`.
 
 *Hint 2*: you'll likely need two counters: one for heads, and one for tails. Where should the counter for tails go in the code if you only want it to go up whenever the coin is tails?
 
 ### Exercise {% increment exercise55 %}: Coin flipper user input
 
-Modify the program to ask the user how many times it should flip the coin. Then have the program flip a coin that many times, and count how many heads and tails it gets. At the end of the program, it should print out the counts -- how many heads came up, and how many tails came up.
+Modify the program to ask the user how many times it should flip the coin. Then have the program flip a coin that many times, and count the number of heads and the number of tails. At the end of the program, it should print out the counts -- how many heads came up, and how many tails came up.
 
 *Hint:* Remember the difference between strings and integers. When a user enters a response to `input()`, it is stored as a string. If you want to use it as a number, you need to convert it to one using `int()`.
 
 ## Choosing a restaurant
 
-It is always difficult to choose where to go for lunch when you are with a bunch of friends. We are going to build a restaurant choosing program to help with the choice. Let's start by looking at `restaurant.py` and running it. It should ask the user for 3 restaurants, and then print out the list of restaurants.
+It is always difficult to choose where to go for lunch when you are with a bunch of friends. We are going to build a restaurant choosing program to help with the choice. Let's start by looking at `restaurant.py` and running it. It should ask the user for 3 restaurants and then print out the list of restaurants.
 
 ### Exercise {% increment exercise55 %}: User experience of counting
 
-Python counts starting a zero: 0, 1, 2, 3, etc. Regular human beings, on the other hand, start counting at 1: 1, 2, 3, 4, etc.
+Python counts starting at zero: 0, 1, 2, 3, etc. Regular human beings, on the other hand, start counting at 1: 1, 2, 3, 4, etc.
 
 Right now, the program asks for "restaurant 0" first.  Modify the program so that it looks like human beings would expect, starting with 1.
 
 *Hint:* the program should still ask for 3 restaurants.
 
-*Hint 2:* In `for i in range(3)`, `i` is a variable that changes value each time the loop is run. Where is that value showing up in what prints out as the program runs? Note where `i` is being used *inside* the for loop.
+*Hint 2:* Note where `i` is being used *inside* the for loop. In `for i in range(3)`, `i` is a variable that changes value each time the loop is run. Because `range(3)` is an integer in this for loop, `i` is also an integer (which means you can do math to it!). 
 
 ### Exercise {% increment exercise55 %}: Random Choice
 
-The function `random.choice()` will pick a random item out of a list, and return that item. So if you have a list of `stuff`, you can say `random.choice(stuff)` to get a random thing out of that list.
+The function `random.choice()` will pick a random item out of a list and return that item. So if you have a list of `groceries`, you can say `random.choice(groceries)` to get a random thing out of that list.
 
-Modify the restaurant program to use this to randomly choose a restaurant for lunch, and print out which restaurant the computer chose.
+Modify the restaurant program to use this to randomly choose a restaurant for lunch. Then print out which restaurant the computer chose.
 
 *Note:* Remember to import the random library (`import random`) at the beginning of your program.
 
@@ -131,7 +152,7 @@ This is where lists really shine. Lists are great because you don't have to know
 
 Right now, the `restaurant.py` program always asks for exactly 3 restaurants. In programmer terminology, we say that "3" is "hard-coded" into the program.
 
-Modify the program to ask the user how many restaurants they are thinking about for lunch, and then have it ask them for that many restaurant names, and then pick a random restaurant from that list. So if they say they are thinking about `5` restaurants, your program should ask them for 5 names of restaurants, and then pick from among those 5. If they say `2`, it should only ask them for 2 restaurant names. 
+Modify the program to ask the user how many restaurants they are thinking about for lunch, and then have it ask them for that many restaurant names, and then pick a random restaurant from that list. So if they say they are thinking about 5 restaurants, your program should ask them for 5 names of restaurants, and then pick from among those 5. If they say 2, it should only ask them for 2 restaurant names. 
 
 Here is a potential use of the program:
 ```
@@ -145,17 +166,16 @@ You should go to Noodles and co.
 
 *Hint:* Remember the difference between strings and integers. When a user enters a response to `input()`, it is stored as a string. If you want to use it as a number, you need to convert it to one using `int()`.
 
-*Hint 2:* Notice that I made the program a little more user friendly by printing out the words "You should go to" in addition to the final choice.  It is always a good idea to try to make things easier for your users to use and understand.
+*Hint 2:* Notice that I made the program a little more user friendly by printing out the words "You should go to" in addition to the final choice. It is always a good idea to try to make things easier for your users to use and understand.
 
 ## Challenges
 
 If you finish with the exercises above, try at least one of the challenges below. The challenges are starting to give a little less direction - as you get further into programming, you get fewer and fewer directions for how to do things, and have to do more work to figure it out yourself.
 
-
 {% capture _ %}{% increment challenge55 %}{% endcapture %}
 ### Challenge {% increment challenge55 %}: Unlimited Restaurant Options
 
-Modify your program so that it doesn't need to ask ahead-of-time for the number of restaurants. The user should be able to just keep entering restaurants until they type "done" or just hit enter or something. Then it will randomly choose one of the ones they entered and print it. The program should still accept as many restaurants as they want.
+Modify the `restaurant.py` program so that it doesn't need to ask ahead of time for the number of restaurants. The user should be able to just keep entering restaurants until they type "done" or just hit enter or something. Then it will randomly choose one of the ones they entered and print it. The program should still accept as many restaurants as they want.
 
 Here is an example output:
 ```
@@ -176,7 +196,7 @@ Make a copy of your coin program and call it `infinite.py`. Modify the program s
 
 As a bonus, have the program print out the percent of coin flips that have come up "heads". To get this, you can divide the number of "heads" by the total number of coin flips (heads + tails), then multiply the result by 100.
 
-Don't forget to add this program to your git repository.
+Don't forget to add this program to your Git repository.
 
 *Hint*: `while True:` will loop forever. You can break out of a loop with the `break` command. An elegant way to break out of a loop with user input is to only have the `break` command run if the user enters a specific word, like "quit".
 
@@ -206,9 +226,9 @@ Should I continue? no
 ```
 ### Challenge {% increment challenge55 %}: Song list randomizer
 
-Start a new program called `songs.py` that asks the user for several songs they want to listen to, then present the list of songs in a random order.
+Start a new program called `songs.py` that asks the user for several songs they want to listen to, then present the list of songs in a random order. Your program should print out the list of songs in a human readable format.
 
-Don't forget to add this program to your git repository.
+Don't forget to add this program to your Git repository.
 
 *Hint*: `random.shuffle(list)` will randomly re-order a list. Picture in your head putting each item in your list on a separate index card, and then shuffling the deck of index cards.
 
