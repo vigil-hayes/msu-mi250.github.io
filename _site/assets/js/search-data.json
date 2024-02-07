@@ -511,7 +511,7 @@
   },"85": {
     "doc": "Studio",
     "title": "Studio",
-    "content": "Today we are going to practice Vexillography – the art of designing flags! . Imagine that you and your teammates are going to go and start your own country. This isn’t so crazy at it sounds; not too long ago, a family colonized an old weapons platform outside England and created the Principality of Sealand. Others have claimed islands in the Pacific Ocean or tried to create floating countries. What all countries need is a flag. Your job today is to design a flag for your group’s new country, and then write a Python program that draws that flag on the screen using the turtle package. ",
+    "content": "Today we are going to practice Vexillography – the art of designing flags! . Imagine that you and your teammates are going to go and start your own country. This isn’t so crazy at it sounds; not too long ago, a family colonized an old weapons platform outside England and created the Principality of Sealand. Others have claimed islands in the Pacific Ocean or tried to create floating countries. What all countries need is a flag. Your job today is to design a flag for your group’s new country, and then write a Python program that draws that flag on the screen using the turtle package. Remember to add from turtle import * at the top of your program and done() at the end! . ",
     "url": "/studios/flag.html",
     "relUrl": "/studios/flag.html"
   },"86": {

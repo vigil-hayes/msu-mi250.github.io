@@ -9,7 +9,7 @@ Today we are going to practice [Vexillography](https://en.wikipedia.org/wiki/Vex
 
 Imagine that you and your teammates are going to go and start your own country. This isn't so crazy at it sounds; not too long ago, a family colonized an old weapons platform outside England and created the [Principality of Sealand](https://en.wikipedia.org/wiki/Principality_of_Sealand). Others have claimed islands in the Pacific Ocean or tried to create floating countries.
 
-What all countries need is a flag. Your job today is to design a flag for your group's new country, and then write a Python program that draws that flag on the screen using the `turtle` package.  
+What all countries need is a flag. Your job today is to design a flag for your group's new country, and then write a Python program that draws that flag on the screen using the `turtle` package. Remember to add `from turtle import *` at the top of your program and `done()` at the end! 
 
 ## Advice
 
