@@ -1,8 +1,8 @@
 ---
 title: Error messages
-nav_exclude: true
-visible: false
-published: false
+nav_exclude: false
+visible: true
+published: true
 parent: Reference
 nav_order: 5
 has_children: false
