@@ -11,7 +11,7 @@ Your goal is to create a digital guestbook. Imagine it being left running so peo
 
 Use Turtle as the interface for the guestbook - the names and any additional information people enter into the guestbook should be displayed using Turtle.
 
-Work in teams of 2-4. One person should start a new repository in GitLab so your team can share code.
+Work in teams of 2-3. One person should start a new repository in GitLab so your team can share code.
 
 ## Advice
 
@@ -56,6 +56,19 @@ There is a python program [here](https://gitlab.msu.edu/mi-250/random-lists/-/sn
 ### Use randomness
 
 Remember you can pull random items out of a list! If you have, for a example, a list of fonts or a list of colors, you can use `random.choice()` on the list to pull a random item from it. That might be an interesting way to make your guestbook look unique. What other parts of your geustbook design can you apply random features to?
+
+### Use multiple turtles
+
+You can have more than one turtle on the screen at any time. It can sometimes be helpful to have different Turtles draw different things - that way you don't have to figure out how to get the turtle in the right place before you start drawing something new. 
+
+To create a second (or third or fourth) turtle, you have to name it first, and then call it by name every time you use it. You can call your new turtle whatever you want.
+
+```python
+bob = Turtle()      # creates a new turtle called bob
+bob.forward(20)     # moves bob forward by 20 pixels
+```
+
+For this studio, it might be helpful to have one turtle draw out the names and messages, and another draw the background decoration for the guestbook. But there are lots of ways you could approach it.
 
 ### Test your program
 
