@@ -9,10 +9,11 @@ Functions are a nice way to organize your code and make it reusable. We've alrea
 
 * [Think Python: Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html){:target="_blank"}
 * [Automate the Boring Stuff: Functions](https://automatetheboringstuff.com/chapter3/){:target="_blank"} -- stop reading at "Local and Global Scope"
+* [Learn Python: Functions](https://www.learnpython.org/en/Functions){:target="_blank"} -- practice
 
 ## Summary
 
-For the summary this week, think about what you've learned about functions, and whether anything else you've encountered outside of the class is similar
+For the summary this week, think about what you've learned about functions, and whether anything else you've encountered outside of the class is similar.
 
 **Summary prompt:** How would you describe what a function does, and what it's for? How is a function different from a variable?
 
@@ -23,5 +24,5 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
+Submit your summary+question on D2L under Quizzes before class starts on Monday.
 

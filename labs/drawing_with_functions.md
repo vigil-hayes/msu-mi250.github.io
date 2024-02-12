@@ -8,9 +8,9 @@ visible: false
 
 ## Using Functions
 
-In your readings, you learned about functions. Functions are named sections of code that you can "call" from other parts of code. Functions let you use the same chunks of code over and over again without having to write it all out each time. 
+In your readings, you learned about functions. Functions are named sections of code that you can "call" from other parts of the program. Functions let you use the same chunks of code over and over again without having to write it all out each time. 
 
-In this section of the lab, we will be using the `cards.py` program. The top of this program defines 4 functions in it: one that draws a diamond, one that draws a heart, one that draws a club, and one that draws a spade. You shouldn't need to modify or change these functions; leave them in the program. If you run the program, it just draws a spade right now (because, at the end of the file, we call the `spade()` function).
+In the first section of the lab, we will be using the `cards.py` program. The top of this program defines 4 functions in it: one that draws a diamond, one that draws a heart, one that draws a club, and one that draws a spade. You shouldn't need to modify or change these functions; leave them in the program. If you run the program, it just draws a spade right now (because, at the end of the file, we call the `spade()` function).
 
 {% capture _ %}{% increment exercise5 %}{% endcapture %}
 
@@ -28,7 +28,7 @@ Next, change the program to draw a heart instead of a spade. Again, this should 
 
 ### Exercise {% increment exercise5 %}: Draw a spade and a heart next to each other
 
-Next, change the program to draw a spade and a heart next to each other. You shouldn't need to change the functions at all. Instead, you should call the spade function, then move the turtle, and then call the heart function.
+Next, change the program to draw a spade and a heart next to each other. You shouldn't need to change the functions at all. Instead, you should call the spade function, then write some code underneath it to move the turtle, and then call the heart function.
 
 ![spade and heart]({% link img/spadeheart.png %})
 
@@ -36,7 +36,7 @@ Next, change the program to draw a spade and a heart next to each other. You sho
 
 ### Exercise {% increment exercise5 %}: Draw two clubs and a diamond next to each other
 
-Finally, modify your program to draw two clubs and a diamond next to each other.
+Finally, modify your program to draw two clubs and a diamond next to one another.
 
 ![club club and diamond]({% link img/clubclubdiamond.png %})
 
@@ -52,15 +52,15 @@ Modify the star function to include the code for drawing a star. When you run th
 
 ![stars in a circle]({% link img/stars.png %})
 
-*Hint*: Remember, it is OK to look at past labs (and the solutions to past labs) for help. You probably drew some stars in the [Turtle lab]({% link labs/turtle.md %}){:target="_blank"}.
+*Hint*: Remember, it is OK to look at past labs for help. You probably drew some stars in the [Turtle lab]({% link labs/turtle.md %}){:target="_blank"}. 
 
 *Hint 2*: You can speed up the turtle by putting the command `speed(0)` near the top of your program.
 
 ## Functions with parameters
 
-So far in this lab, we have just used functions as a way of organizing our program. Basically, we give a section of our program a name, and then we can "call" that function -- which runs the section with the name. This is a really useful feature of functions. Remember how long and confusing the code was for your flags two weeks ago. If we broke it up into logical pieces -- the piece that draws a bar, the piece that draws a star, etc. -- then we can give each of those pieces a name and make them a function. This would make the code easier to understand, and also allow you to use each chunk of code multiple times.
+So far in this lab, we have just used functions as a way of organizing our program. Remember how long and confusing the code was for your flags two weeks ago. If we broke it up into logical pieces -- the piece that draws a bar, the piece that draws a star, etc. -- then we can give each of those pieces a name and make them a function. This would make the code easier to understand, and also allow you to use each chunk of code multiple times. For example, if your flag had three stripes, you could make a function for a stripe and then call it three times.
 
-Functions can do more than just that, though. They can also have parameters that modify what they do. The parameter is what goes inside of the parentheses for a function name. For example, `forward()` is a function that takes one parameter: a number which specifies the distance in pixels that the Turtle should move forward. You can put any number you like into the `forward()` function, and it will move the Turtle that many pixels forward.
+Functions can do more than just that, though. They can also have parameters that modify what they do. The parameter is what goes inside of the parentheses for a function name. For example, `forward()` is a function that takes one parameter: a number which specifies the distance in pixels that the turtle should move forward. You can put any number you like into the `forward()` function and it will move the turtle that many pixels forward.
 
 Parameters make functions more flexible. Parameters are like variables that you can put different things into to make the function do different things every time you call it. The `forward()` function in Turtle will move a different distance depending on what number you give it, for example.
 
@@ -81,6 +81,35 @@ Right now that program draws a single star of size 25. Modify the program so tha
 *Hint:* because you've added a parameter, when you call the `star()` function now, you have to call it with the parameter filled in or Python will give you an error.
 
 *Hint 2:* remember you'll need to write some code to move the turtle between drawing each star so the stars don't overlap.
+
+### Exercise {% increment exercise5 %}: Fill the stars with color
+
+Let's add another paramater that lets you change the color of the star on the fly. You can add a second parameter to the function by putting a comma after the first one, like this:
+
+```
+def star(size,star_color):
+```
+
+Note I've called it `star_color` and not just `color` - that's because `color()` is already a reserved word in turtle.
+
+Now we've defined the parameter, but it won't do anything unless we call it inside of the function as well. Notice how the parameter `size` is used: it's a placeholder for a number that get put into the function when you call it later. We can do the same with color. Normally you'd define the color like this:
+
+```
+fillcolor("black")
+begin_fill
+<draw shape>
+end_fill
+```
+
+The code above hard codes the color black; if you put it in the function as-is, every time you call it, it will only draw a black star. Instead, we want to use the parameter `star_color` in place of `"black"`. That way the parameter can be replaced with whatever color you want when the function is called.
+
+When you call the star function at the bottom of the program now, make each of the three stars a different color.
+
+### Exercise {% increment exercise5 %}: Use new star function in circle
+
+Your star() function is a bit more flexible now - let's use it in `stars.py`. Replace the star() function you wrote for `stars.py` with the updated function from `sizes.py`. What happens? Aside from the function itself, what other code do you have to change to get it to work correctly?
+
+*Hint:* You should only have to change one line of code inside the for loop in the main code section.
 
 ### Exercise {% increment exercise5 %}: Colored bars on a flag
 
