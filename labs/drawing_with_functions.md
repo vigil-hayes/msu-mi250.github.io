@@ -111,21 +111,34 @@ Your star() function is a bit more flexible now - let's use it in `stars.py`. Re
 
 *Hint:* You should only have to change one line of code inside the for loop in the main code section.
 
-### Exercise {% increment exercise5 %}: Colored bars on a flag
+## Write Your Own Functions
 
-Next, look at the program `flag.py`. The goal of this program is to draw the flag of Germany, but the program isn't done yet. Since each of the three bars is the same thing except a different color, I decided to write a `bar()` function that draws a single bar. That function takes one parameter -- `bar_color` -- that tells the function what color to make the bar. We'll ignore the parameter for now and come back to it in the next exercise.
+### Exercise {% increment exercise5 %}: Bars for a flag
 
-Let's start by writing a simple `bar()` function that just draws a 300x50 rectangle. If you put the code to draw a rectange into the `bar()` function, then it should look like this when it works:
+Next, look at the program `flag.py`. The goal of this program is to draw the flag of Germany, but the program isn't done yet. Right now it's also very inefficient - there's a lot of repeated code. When you run the program, it should look like this: 
 
 ![3 bars]({% link img/empty_flag.png %})
 
-*Hint:* the code that moves the turtle into position before drawing the next bar expects the turtle (the arrow) to be in the same position and angle it started in before drawing the bar.
+The code right now makes three rectangles, one on top of the other, like a flag but without color. Notice the code for each of the three rectangles is exactly the same. This is a good use case for using a function instead!
+
+Write a function called `bar()` and replace the code that draws each bar with calls to that function. Remember a function is defined like this:
+
+```
+def my_function():
+    <stuff>
+```
+
+The code inside your function should only draw one bar of the flag. To make three bars, you'll need to call the function three times in the code below. When you run the program after you've made your changes, it should look exactly the same as it did before, but have far fewer lines of code.
+
+### Exercise {% increment exercise5 %}: Move Function
+
+There's also some repeated code in between each bar that draws which moves the turtle in preparation for drawing the next bar. Make a function called `move_next()` that moves the turtle and call it in place of the repeated code.
 
 ### Exercse {% increment exercise5 %}: German Flag
 
-Let's continue to modify the flag program to draw the flag of Germany: three colored bars that are black, red, and yellow. The `bar()` function accepts one parameter -- `bar_color`. When it is used at the bottom of the file, it calls `bar()` three times, each time asking to draw a different colored bar.   
+Let's continue to modify the flag program to draw the flag of Germany: three colored bars that are black, red, and yellow. Your `bar()` function currently doesn't account for color, and doesn't accept any parameters. Modify it so it has one paramater called `bar_color` and then use the parameter inside the function to define the color. Remember the parameter is like a variable inside of the function; it will be filled in with a 'real' value when the function is called. 
 
-Modify the code for the bar function to color that rectangle whatever color the parameter says it should be. Remember the parameter is like a variable; it will be filled in with a 'real' value when the function is called. 
+You will need to modify your function calls at the bottom of the program so that they use the new parameter. So the first bar should be drawn using `bar("black")` instead of `bar()`. The colors in the German flag are "black", then "red", then "yellow".
 
 Your program should look like this:
 
@@ -135,26 +148,9 @@ Your program should look like this:
 
 ### Exercise {% increment exercise5 %}: Flag of Ghana
 
-You now have a function that draws horizontal bars, and a function that draws a star of a different size. As the next exercise in this lab, create a new program called `ghana.py` and copy both of those functions into it. Use those functions to write a program that draws the [Flag of Ghana](https://en.wikipedia.org/wiki/Flag_of_Ghana#/media/File:Flag_of_Ghana.svg).
+You now have a function that draws a horizontal bar, a function that moves the turtle between drawing bars, and a function in a different program that draws a star with a `size` parameter. Let's use them all together. 
 
-Your program should use the `bar()` function and the `star()` function to draw the colored bars and the black star. You shouldn't need to modify the bar function. You will need to modify the `star()` function so it draws a black star instead of an outline. To draw the flag, you should only need to call the functions with the right colors and write a bit more code to move the turtle to the right places.
-
-## Your own functions
-
-So far in this lab, you have used functions that I wrote, and filled in functions that I created.  Next, you need to
-write your own function.
-
-### Exercise {% increment exercise5 %}: Next Suit Function
-
-Go back to the `cards.py` program. Write a `move_next()` function that moves the turtle to a place to get it ready to draw the next suit. Once your function works, you should be able to use it like this:
-
-```
-spade()
-move_next()
-heart()
-move_next()
-diamond()
-```
+Create a new program called `ghana.py` and copy all three of those functions into it. Use those functions to write a program that draws the [Flag of Ghana](https://en.wikipedia.org/wiki/Flag_of_Ghana#/media/File:Flag_of_Ghana.svg).
 
 ## Challenges
 
@@ -182,8 +178,8 @@ Put this user input into a loop: Ask the user 5 times what suits they want drawn
 
 ### Challenge {% increment challenge5 %}: Different star sizes
 
-Modify the stars program to draw circles of different sized stars. You'll probably want to use a parameter for the size. You can use the `random` library to vary the size randomly, but you don't have to. What are other different ways you could change the sizes of the stars?
+Modify the stars program to draw circles of different sized stars. You'll probably want to use a parameter for the size. You can use the `random` library to vary the size randomly, but you don't have to. What are other ways you could change the sizes of the stars?
 
 ### Challenge {% increment challenge5 %}: Draw the original U.S. flag
 
-The [Betsy Ross varient of the original U.S. flag](https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Betsy_Ross_flag.svg){:target="_blank"} had 13 stars in a circle on the blue part of the flag. The code in `stars.py` draws a circle of 13 stars. Use the `star()` function, the loop that draws the circle of stars, and the `bar()` function to draw the original U.S. flag. You'll probably need to modify the `bar()` function so it draws skinnier bars.
+The [Betsy Ross variant of the original U.S. flag](https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Betsy_Ross_flag.svg){:target="_blank"} had 13 stars in a circle on the blue part of the flag. The code in `stars.py` draws a circle of 13 stars. Use the `star()` function, the loop that draws the circle of stars, and the `bar()` function to draw the original U.S. flag. You'll probably need to modify the `bar()` function so it draws skinnier bars.
