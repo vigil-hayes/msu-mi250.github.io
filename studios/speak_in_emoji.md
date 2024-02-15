@@ -9,20 +9,23 @@ Emoji are graphical representations of ideas and concepts -- basically, they are
 
 Your goal for today is to write a set of functions that draw emoji using turtle graphics. Each function should draw one emoji. Then use those functions to draw out an emoji "sentence" on the screen that conveys some complex feeling or idea.
 
-As usual, work in groups of 2-4 people.
+As usual, work in groups of 2-3 people.
 
 ## Advice
 
-What follows is just advice for doing it. You don’t have to follow my advice. Do whatever you want. This is just my
-experience in doing this, and you might want to do it differently.
+What follows is just advice for doing it. You don’t have to follow my advice. Do whatever you want. This is just my experience in doing this, and you might want to do it differently.
 
-### One function per emoji
+### Use functions!
 
-Functions work best when they comprise a logical, coherent thing. You want each function to make sense on its own, and
-to do one "logical" thing. When functions try to do too much in one function, it gets confusing. So, you can create a function `smiley()` that draws a smiley face emoji. It should do everything that is needed for the smiley face.
+Functions work best when they comprise a logical, coherent thing. You want each function to make sense on its own, and to do one "logical" thing. When functions try to do too much in one function, it gets confusing. So, you can create a function `smiley()` that draws a smiley face emoji. It should do everything that is needed for the smiley face.
 
-Also, you don't want it to do things other than what the name implies. So, a `smiley()` function should only draw a smiley face. It shouldn't also move the turtle around to other places, or change the turtle colors, or anything like that. If the function has side effects, then it gets confusing when you should use the function and when you
-shouldn't. Try to avoid your functions having side effects.
+Also, you don't want it to do things other than what the name implies. So, a `smiley()` function should only draw a smiley face. It shouldn't also move the turtle around to other places, or draw a second emoji, or anything like that.
+
+### Think about side effects
+
+Side effects happen with Turtle functions when you run a function an the turtle ends up somewhere you don't expect at the end. That makes it hard to draw the next thing. One key tip is to make sure the turtle is the same color, in the same place on the screen, and in the same orientation (the direction it faces) at the end of the function as it is at the beginning.
+
+Following this principle makes it much easier to collaborate, too! If everyone in your group is working on a different emoji, it's easier to put them together into one program at the end if you know that each emoji drawing will end where it started. Then all you need is something like a `move_next()` function, like in the lab on Monday, to be able to draw all of the emojis in a row.
 
 ### Create your own emoji
 
@@ -34,21 +37,13 @@ Emoji are supposed to be simple pictograms. Work hard to keep them simple. Don't
 
 ### Divide and conquer
 
-Split up the emoji between team members. One of the nice things about functions is that it is really easy to divide up the work. One person can work on one function, and another person can work on the other. This makes it easy to divide up the work in a reasonable, logical way. Also, if you are each working on different functions, git can usually merge the changes easily. Just make sure that you are all working in a clone of the same git repository.
+Split up the emoji between team members. One of the nice things about functions is that it is really easy to divide up the work. One person can work on one function, and another person can work on the other. This makes it easy to divide up the work in a reasonable, logical way. Also, if you are each working on different functions, Git can usually merge the changes easily. Just make sure that you are all working in a clone of the same Git repository.
 
-If you want to avoid potential git conflicts, you can also each create your own file for each emoji and assign one team member to combine the code into a single file towards the end of class.
-
-### Finish each emoji at the start
-
-Remember for the `bar()` function in the lab, the code was set up to draw a bar, then move the turtle in advance of the next bar, then draw the next bar. But this only worked well if the turtle finished drawing the bar in the same place and orientation where it started from. So if the turtle started at the top left of the bar and facing to the right, it should be at the position both at the start of the `bar()` function and at the end.
-
-You'll want to do something similar with emojis - draw an emoji, move in prep to draw the next emoji, then draw the next emoji. It's much easier to do this if, in each emoji function, you include code so that the turtle ends up exactly where it started after the emoji is done drawing. Then the code to move to where the next emoji starts can be the same between every emoji.
-
-Following this principle makes it much easier to collaborate, too! If everyone in your group is working on a different emoji, it's easier to put them together into one program at the end if you know that each emoji drawing will end where it started.
+If you want to avoid potential Git conflicts, you can also each create your own file for each emoji and assign one team member to combine the code into a single file towards the end of class.
 
 ### Support functions
 
-In addition to having a separate function for each emoji, you might want to create a function or two to help with other things that you need to do. For example, could you create a `next()` function that moves the turtle to the right and gets it ready to draw the next emoji?
+In addition to having a separate function for each emoji, you might want to create a function or two to help with other things that you need to do. For example, could you create a `move_next()` function that moves the turtle to the right and gets it ready to draw the next emoji?
 
 ### Look for common features
 
