@@ -2,8 +2,8 @@
 parent: Week 7
 topic: Drawing with Functions
 git: https://gitlab.msu.edu/mi-250/drawing-functions
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 ## Using Functions
@@ -90,7 +90,7 @@ Let's add another paramater that lets you change the color of the star on the fl
 def star(size,star_color):
 ```
 
-Note I've called it `star_color` and not just `color` - that's because `color()` is already a reserved word in turtle.
+Note I've called it `star_color` and not just `color` - that's because `color()` is already a reserved word in Turtle.
 
 Now we've defined the parameter, but it won't do anything unless we call it inside of the function as well. Notice how the parameter `size` is used: it's a placeholder for a number that get put into the function when you call it later. We can do the same with color. Normally you'd define the color like this:
 
@@ -101,7 +101,7 @@ begin_fill
 end_fill
 ```
 
-The code above hard codes the color black; if you put it in the function as-is, every time you call it, it will only draw a black star. Instead, we want to use the parameter `star_color` in place of `"black"`. That way the parameter can be replaced with whatever color you want when the function is called.
+The code above hardcodes the color black: that means if you put it in the function as-is, every time you call it, it will only draw a black star. Instead, we want to use the parameter `star_color` in place of `"black"`. That way the parameter can be replaced with whatever color you want when the function is called.
 
 When you call the star function at the bottom of the program now, make each of the three stars a different color.
 
@@ -158,9 +158,15 @@ Create a new program called `ghana.py` and copy all three of those functions int
 
 If you complete all of the exercises before the end of class, try at least one of these challenges:
 
+### Challenge {% increment challenge5 %}: 5 suits
+
+Modify your `cards.py` program to ask the user which suit it should draw. Then draw the suit that the user specifies.
+
+Put this user input into a loop: Ask the user 5 times what suits they want drawn, and then draw those five symbols next to each other on the screen. Bonus: keep drawing suit symbols until the user says to stop.
+
 ### Challenge {% increment challenge5 %}: Random color stars
 
-Modify `stars.py` to include a parameter for the color of the star called `star_color`. Use the list of colors below and `random.choice()` so that when each star in the circle is drawn, it draws as a random color from the list. You'll need to modify where `star()` is called inside the for loop so that it's called using the parameter.
+Modify `stars.py` to draw each star in a random color. Use the list of colors below and `random.choice()` so that when each star in the circle is drawn, it draws as a random color from the list. You'll need to modify how the `star_color` parameter in your function works to get this to work.
 
 ```
 colors = ["red","orange","green","blue","yellow","light blue","purple"]
@@ -169,16 +175,6 @@ colors = ["red","orange","green","blue","yellow","light blue","purple"]
 You can put more colors into the list if you want to.
 
 Note: remember to add `import random` to the top of your program.
-
-### Challenge {% increment challenge5 %}: 5 suits
-
-Go back to your `cards.py` program and modify it to ask the user which suit it should draw. Then draw the suit that the user specifies.
-
-Put this user input into a loop: Ask the user 5 times what suits they want drawn, and then draw those five symbols next to each other on the screen. Bonus: keep drawing suit symbols until the user says to stop.
-
-### Challenge {% increment challenge5 %}: Different star sizes
-
-Modify the stars program to draw circles of different sized stars. You'll probably want to use a parameter for the size. You can use the `random` library to vary the size randomly, but you don't have to. What are other ways you could change the sizes of the stars?
 
 ### Challenge {% increment challenge5 %}: Draw the original U.S. flag
 
