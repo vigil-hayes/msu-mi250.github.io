@@ -11,11 +11,11 @@ Dictionaries work really well for structured objects like social media posts. Fo
 
 Your program should:
 * have a dictionary structure for a post that stores all of the data and metadata associated with that post. 
-* use Turtle to visually display all of the information in a post in a nicely formatted way. (You only have to display one post.)
+* use Turtle to visually display all of the information in a post in a nicely formatted way. (You only have to display one post at a time.)
 
 It is up to you how you want the post to be structured, and what kinds of data it will have in it or associated with it. You can base your post design off of an existing social media platform, or you can create your own. Be creative! The only rule is that all of the data associated with a single post has to be stored in a single variable -- which means in a dictionary.
 
-As per usual, work in groups of 2-4.
+As per usual, work in groups of 2-3.
 
 ## Advice
 
@@ -23,13 +23,15 @@ Here's some advice that might help you out. But you don't have to take my advice
 
 ### Take inspiration from existing designs
 
-There are lots of social media platforms out there, and nearly all of them have the concept of a 'post'. But posts on each platform have different kinds of data associated with them. Look at what posts look like and what kinds of data are displayed for each post on the platforms you use to get an idea of what kinds of data you might want to include. Also look at *how* posts are displayed -- what size fonts are used for different things? Where is the post image displayed in relation to the text around it? How big is an average post in terms of width or height?
+There are lots of social media platforms out there, and many of them have the concept of a 'post'. But posts on each platform have different kinds of data associated with them. Look at what posts look like and what kinds of data are displayed for each post on the platforms you use to get an idea of what kinds of data you might want to include. Also look at *how* posts are displayed -- what size fonts are used for different things? Where is the post image displayed in relation to the text around it? How big is an average post in terms of width or height?
+
+Also think about more uncommon types of social media -- for example, Goodreads, which allows users to keep track of and share books they read, or Strava, which allows users to share their running routes and how far they've run. Think about what hobbies you have and what you might want to share with others. You could design a post for a platform that doesn't exist yet, and that allows a user to post about something more specific than their general status.
 
 ### Design the UI on paper first
 
 [Wireframing](https://www.interaction-design.org/literature/topics/wireframing){:target="_blank"} is common technique in UX design to quickly sketch out how a webpage or app should look, or how a piece of it could look. On paper (or a whiteboard), wireframing is a quick and dirty way to figure out where elements should be placed relative to one another. 
 
-It will probably be easier and faster to code the layout of your post in Turtle if you already have a visual guide for what the post should look like to refer to. Wireframes can also include information like how many pixels high or wide something should be - remember `forward()` using pixels to measure how far the Turtle should move. Font size also relates directly to pixels - a 12 point font is 12 pixels tall.
+It will probably be easier and faster to code the layout of your post in Turtle if you already have a visual guide for what the post should look like to refer to. Wireframes can also include information like how many pixels high or wide something should be -- remember `forward()` uses pixels to measure how far the Turtle should move. Font size also relates directly to pixels -- a 12 point font is 12 pixels tall.
 
 ### Split up the work
 
@@ -62,14 +64,22 @@ Turtle allows you to import existing images into the Turtle drawing window, so l
 
 Social media platforms do work behind the scenes to make sure all of the images that display in posts display at the same size. You might want to change the size of the images you use to specific pixel dimensions -- like make all images 150x150 pixels -- so that you can plan your post design around those specific dimensions. It's harder to plan consistent designs when the design elements aren't consistent.
 
-To display an image in Turtle, you need to add it as a shape first, and then call the shape.
+To display an image in Turtle, you need to add it as a shape first, and then call the shape. The new shape (your image) replaces the turtle on the screen.
 
 ```
 addshape("ship.gif")
 shape("ship.gif")
 ```
 
-Make sure the image file is in the same folder as the Python program that's trying to use it. *Note:* if you're running the Python program directly through VS Code, you'll need to navigate to the right folder in VS Code's terminal first or the program won't be able to find the image and will give you an error.
+Make sure the image file is in the same folder as the Python program that's trying to use it. 
+
+Because what this code is doing is replacing the turtle with an image, if you want to move the turtle again after placing the image, it will move the image, too! There are two ways to get around this:
+
+1. Place the image at the very end of your Turtle code (so it's the last thing you do).
+
+2. Create a second turtle and use it to place the image. The [instructions for the Week 6 studio (Guestbook)](http://localhost:4000/studios/guestbook.html){:target="_blank"} include instructions for creating a second turtle. This is what you'll need to do if you want to include multiple images.
+
+*Note:* if you're running the Python program directly through VS Code, you'll need to navigate to the right folder in VS Code's terminal first or the program won't be able to find the image and will give you an error.
 
 ### What happens if data is missing?
 
@@ -93,7 +103,7 @@ If you've created a good structure and can use Turtle to print out a nicely form
 
 Instead of hard-coding the data for the post, collect it from the user. Exercises 6 and 7 from [the dictionary lab]({% link labs/dictionaries_as_data_structures.md %}){:target="_blank"} might be useful. Also remember you can use `textinput()` in order to collect user input through the Turtle window rather than through command line.
 
-Remember when you collect user input, it all comes into Python as strings. You may need to convert the strings into other things so that they work with your dictionary structure. If you want the user to be able to enter multiple hashtags to associate with their post, for example, you could use a loop that keeps asking the user to enter a hashtag until the user tells it to stop and then put all of the hashtags then enter into a list with `.append()`
+Remember when you collect user input, it all comes into Python as strings. You may need to convert the strings into other things so that they work with your dictionary structure. If you want the user to be able to enter multiple hashtags to associate with their post, for example, you could use a loop that keeps asking the user to enter a hashtag until the user tells it to stop and then put all of the hashtags they enter into a list with `.append()`
 
 If your post structure uses images, there's no easy way to upload images to Turtle like there is on a real social media platform. But you can ask the user to input the name of the image file they want to use for the post.
  

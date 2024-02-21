@@ -1,8 +1,8 @@
 ---
-parent: Week 8
+parent: Week 9
 topic: 3 - Jobs
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 This is a short research and writing assignment. The purpose of this assignment is for you to reflect on how programming might fit into your future.
@@ -21,4 +21,4 @@ Next, write a 2-3 paragraph reflection about the job posting you found:
 
 ## Turn in
 
-Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment is due on Wednesday, March 6th at 3pm (before the start of class).
+Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment is due on Wednesday, March 13th at 3pm (before the start of class).
