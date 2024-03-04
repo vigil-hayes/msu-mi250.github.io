@@ -20,7 +20,7 @@ Right now everything is in one program, and the program is over 100 lines long. 
 
 Modules allow you to separate the code that is actually running from the functions that define how the code will be run. 
 
-Create a new file called `card_functions.py`. Move all four of the functions that define how the card symbols should be drawn into this new file. Make sure to include `from turtle import *` at the top of `card_functions.py`.
+Create a new file called `card_functions.py`: this is our module. Move all four of the functions that define how the card symbols should be drawn into this new file. Make sure to include `from turtle import *` at the top of `card_functions.py`.
 
 Now `cards.py` should only have a few lines of code left it in. We'll need to add one more line of code to `cards.py` - the command that imports the card functions from `card_functions.py`.
 
@@ -42,7 +42,9 @@ forward(10)
 
 This method imports all of the functions from the `turtle` module so that they can be used 'natively' inside a program. That means you don't have to add `turtle.` in front of every Turtle function you want to use.
 
-Use one of the above methods to import the card functions in `card_functions.py` into `card.py`. The name of the module you import is the same as the name of the file (for this exercise, you'll be importing `card_functions`).
+Use one of the above methods to import the card functions in `card_functions.py` into `cards.py`. The name of the module you import is the same as the name of the file (for this exercise, you'll be importing `card_functions`).
+
+Run `cards.py` to make sure your module works. It should do exactly the same thing it did before you put the functions into the `card_functions` module.
 
 *Note:* It's best practice in Python (and many other programming languages) to separate words in the names of variables, functions, files, or anything else you're naming with underscores: `_`. Python sometimes has trouble with hyphens (`-`) because they're used for math (minus sign), but never has trouble with underscores.
 
@@ -52,7 +54,7 @@ Right now the program draws a spade, then moves, then draws a heart, then moves,
 
 Make a new function called `move_next()` that moves the turtle in between each symbol and replace the repetitive code with calls to the function. Put this function in the `card_functions.py` file.
 
-The program should run in exactly the same way as it did before, but `cards.py` should be shorter.
+The program should run in exactly the same way as it did before, but `cards.py` should be shorter. `cards.py` should also not have any functions in it - only calls to functions.
 
 ## Organizing and Refactoring Code
 
@@ -62,12 +64,11 @@ One method is called refactoring - this is when you edit code you've already wri
 
 ### Exercise {% increment exercise88 %}: Read and comment
 
-Run the program `flag.py` in this week's git repository. It should draw something that resembles a US flag. The program is over 250 lines long! And there is a LOT of repetition in that program. We can better organize our code in a way that will make it easier to read, shorter, and work better.
+Run the program `flag.py` in this week's git repository. It should draw something that resembles a US flag. The program is over 250 lines long! And there is a LOT of repetition in that program. We can organize the code in this program in a way that will make it easier to read, shorter, and work better.
 
-The first step is to figure out what the code is doing. Start by reading the code in `flag.py`. Think about what it does. As you read it, you'll find yourself mentally organizing the code in your head -- "OK so this part draws the first red stripe. Then this part moves the turtle down to
-the next stripe." and so on. Pay attention to that. The logical sections that appear in your head should become sections or functions in the code.
+The first step is to figure out what the code is doing. Start by reading the code in `flag.py`. Think about what it does. As you read it, you'll find yourself mentally organizing the code in your head -- "OK so this part draws the first red stripe. Then this part moves the turtle down to where the next stripe will draw" and so on. Pay attention to that. The logical sections that appear in your head should become sections or functions in the code.
 
-As you read through the code and figure out what each section of it does, write comments describing each code section. In Python, commented lines start with `#`. I've added a few comments at the beginning of the program as an example.
+As you read through the code and figure out what each section of it does, write comments describing each code section. In Python, commented lines start with `#`. I've added a few comments at the beginning of the program as an example. Pay special attention to where code repeats itself - this will be important later!
 
 ### Exercise {% increment exercise88 %}: Red stripes
 
@@ -77,15 +78,15 @@ Take the code for the red stripe, and put it into a function called `red_stripe(
 
 ### Exercise {% increment exercise88 %}: Move Next
 
-Next, look at the 2nd block of code. It moves the turtle to be ready to draw the next stripe. Put that code into a `move_next()` function. Go through the code and every time it tries to move the turtle for the next stripe, replace it with `move_next()`. Since there are 13 stripes in the flag, there should be 13 calls to `move_next()`.
+Next, look at the code right after each red stripe. It moves the turtle to be ready to draw the next stripe. Put that code into a `move_next()` function. Go through the code and every time it tries to move the turtle for the next stripe, replace it with `move_next()`. Since there are 13 stripes in the flag, there should be 13 calls to `move_next()`.
 
 When you run the program, it should still draw exactly the same flag as it did when you began. But the program should be much shorter now.
 
 ### Exercise {% increment exercise88 %}: Generalize to stripe()
 
-The first exercise involved copy-and-pasting code into functions, and then calling those functions. This is a really common part of refactoring, and it is important.  Just giving sections of code a name can make the code easier to read and understand.
+The previous two exercises involved copy-and-pasting code into functions, and then calling those functions. This is a really common part of refactoring, and it is important. Just giving sections of code a name can make the code easier to read and understand. And you'll notice the program is much shorter than it was before, too.
 
-But once you give it a name, you often realize that it can do more than just one thing. We only replaced the red stripes. The program also draws white stripes, with almost exactly the same code. For this exercise, change the `red_stripe()` function to just be `stripe()`, and add a parameter called `bar_color` that allows you to specify what color you want the stripe to be. That is, you should be able to say `stripe("red")` or `stripe("white")` to get either a red stripe or a white stripe.
+But once you give it a name, you often realize that it can do more than just one thing. We only replaced the red stripes. The program also draws white stripes, with almost exactly the same code. For this exercise, change the `red_stripe()` function to just be `stripe()`, and add a parameter called `bar_color` that allows you to specify what color you want the stripe to be. That is, you should be able to say `stripe("red")` or `stripe("white")` to draw either a red stripe or a white stripe.
 
 Now, see if you can replace more of the code with this `stripe()` function. You should be able to replace all of the code that draws all 13 stripes with calls to the `stripe()`.
 
@@ -95,7 +96,7 @@ When you run the program, it should still draw exactly the same flag as it did w
 
 ### Exercise {% increment exercise88 %}: Generalize to colored_rectangle()
 
-OK, we've done a good job of making our program much, much shorter. It is also easier to read and understand now. Let's keep going. We've got a bunch of code that draws a blue box on top of our red-and-white stripes. We could copy-and-paste this code into a `blue_box()` function. But, looking at the code, it looks surprisingly similar to the code for the stripes we had before, doesn't it?  
+OK, we've done a good job of making our program much, much shorter. It is also easier to read and understand now. Let's keep going. We've still got a bunch of code at the end that draws a blue box on top of our red-and-white stripes. We could copy-and-paste this code into a `blue_box()` function. But, looking at the code, it looks surprisingly similar to the code for the stripes we had before, doesn't it?  
 
 Let's see if we can add some more parameters to our `stripe()` function to allow us to draw a blue box. We already can specify the color of the box. But right now, `stripe()` always draws a rectangle that is 300 by 10. Let's add some more parameters to our `stripe()` function to specify how wide and how tall the rectangle should be.   
 
@@ -105,6 +106,10 @@ Modify the flag code to make this happen. You'll need to change all of the calls
 
 When you run the program, it should still draw exactly the same flag as it did when you began.
 
+### Exercise {% increment exercise88 %}: Reflect
+
+So now your program has two functions: `colored_rectangle()` and `move_next()`. Of the two, `colored_rectangle()` is much more flexible: it has multiple parameters that let you change the color and the size on the fly. Also, now the only code that runs which *isn't* in a function is the code that moves the turtle before drawing the blue box. Can `move_next()` be made to be more flexible so it can cover more use cases? Would it be practical to do so? Discuss this with your partner and decide whether or not you want to modify `move_next()` to account for moving before drawing the blue box.
+
 ### Exercise {% increment exercise88 %}: Moving functions to a module
 
 If you look at your code now, it is really in two parts. First, there are a couple of helper functions -- `colored_rectangle()` and `move_next()`. And second, there is the main code that calls these functions and creates the actual drawing.
@@ -113,7 +118,7 @@ Create a new file called `flag_functions.py` and move these two functions into t
 
 When you run the program, it should still draw exactly the same flag as it always did, but now it should be much easier to read and modify the program.
 
-*Hint*: Remember if you decide to use `import functions` instead of `from functions import *` you'll need to refer to the module when you call each function in it, like `functions.move_next()`.
+*Hint*: Remember if you decide to use `import flag_functions` instead of `from flag_functions import *` you'll need to refer to the module when you call each function in it, like `flag_functions.move_next()`.
 
 ### Exercise {% increment exercise88 %}: Add a star
 
@@ -133,7 +138,7 @@ Each of the flashcards has a set of code that displays a prompt and then checks 
 
 Let's refactor this code into a `flashcard()` function. The function can accept two parameters -- the prompt and an expected answer. Move code for displaying a question, getting the answer from the user, and then checking to see if it is correct or not into the function.  
 
-Then modify the main part of the program to call the flashcard function 4 times and to ask the same 4 questions as it currently does.  
+Then modify the main part of the program to call the flashcard function 4 times and to ask the same 4 questions as it currently does.
 
 When you run the flashcard program, it should look the same to the user as it currently does.
 
@@ -143,7 +148,7 @@ Right now, the *content* of the flashcards -- the prompts and answers -- is hard
 
 Let's try to separate the logic of the program from the content in the program. Let's put all of the content in a single dictionary, where each key is a prompt for the user, and the value associated with that key is the expected answer. This dictionary should be hard-coded at the top of the file, and will contain the same 4 prompts and answers that we asked before. 
 
-Remember that you can hard-code dictionaries in two different ways:
+Remember that you can add items to dictionaries in two different ways:
 ```
 cards = {}
 cards['Wyoming'] = 'Cheyenne'
@@ -172,17 +177,17 @@ When you run the program, it should do basically the same thing as before -- giv
 
 Let's add back the colon (:) and extra space to the prompt so it looks more user friendly. 
 
-*Hint:* Inside an `input()` statement you can't use commas like in `print()`, but you can use `+` to combine strings together. Using `+` means you need to add spaces into the string manually, though. `user_entry = input(answer + " is correct")` prints out in the terminal as `Helena is correct`, where answer = Helena.
+*Hint:* Inside an `input()` statement you can't use commas like in `print()`, but you can use `+` to combine strings together. Using `+` means you need to add spaces into the string manually, though.
 
 ### Exercise {% increment exercise88 %}: Add more content
 
-Now if you want to add a new flashcard, you shouldn't have to change anything except the dictionary. Try this: add two additional flashcards about states and capitols to the dictionary, run the program, and verify that you can add new flashcard content without changing the main code.
+Now if you want to add a new flashcard, you shouldn't have to change anything except the dictionary. Try this: add two additional state/capital flashcards to the dictionary, run the program, and verify that you can add new flashcard content without changing the main code.
 
 There's a text file in the Gitlab repo called `capitols-all.txt` with all of the U.S. states and their capitols in it, for reference.
 
 ### Exercise {% increment exercise88 %}: Moving the content into a separate file
 
-So far we've only used modules with functions. But modules can also be used to store content. Create a new file called `capitols.py` and move the dictionary into it. The `instructions` variable also contains content that is specific to this set of flashcards: move that variable into `capitols.py` as well.
+So far we've only used modules with functions. But modules can also be used to store content. Create a new file called `capitols.py` and move the dictionary into it. The `instructions` variable also contains content that is specific to this set of flashcards: move that variable and the string associated with it into `capitols.py` as well.
 
 Then import `capitols` into `flashcards.py` so that you can continue to use the content.
 
@@ -194,15 +199,27 @@ Now that we've taken the content out, the `flashcards.py` program should contain
 
 Let's organize the code the same way we did above. Put the helper function into a separate file called `flashcard_functions.py`. Then import the functions into the main `flashcards.py` file.
 
-Your flashcard program should now have two import statements, and should only contain a few lines of code: a print statement that prints out the instructions, and the loop that goes through the dictionary.
+`flashcards.py` should now have two import statements, and should only contain a few lines of code: a print statement that prints out the instructions, and the loop that goes through the dictionary and calls the flashcard function:
+
+```
+import <functions>
+import <content>
+
+print(instructions)
+
+for prompt, answer in cards.items():
+    flashcard(prompt, answer)
+```
+
+Everything else should be in the two modules you've created.
 
 ### Exercise {% increment exercise88 %}: Create a new set of sports flashcards
 
-For the next exercise, let's see how easy it is to use a different set of flashcards with the program. Create a new file called `players.py` and add instructions and a dictionary with the same `prompt: answer` format as the dictionary you created to store states and capitols. This set of flashcards should give the user a player's name and prompt them to say what team the player plays for.
+For the next exercise, let's see how easy it is to use a different set of flashcards with the program. Create a new file called `players.py` and add instructions and a dictionary with the same `prompt: answer` format as the dictionary you created to store states and capitols. This set of flashcards should give the user a player's name and prompt them to say what team the player plays for. Include at least 3 players and their associated teams in your dictionary.
 
-The format of this new file should look very similar to `capitols.py`. I'd even recommend using the same variable names for the instructions and the dictionary. Only the content -- the actual text of the instructions and the contents of the dictionary -- should be different.
+The format of this new file should look very similar to `capitols.py`. Also use the same variable names for the instructions and the dictionary that you used for the capitals. Only the content -- the actual text of the instructions and the contents of the dictionary -- should be different.
 
-Now instead of importing capitols into `flashcards.py`, import `players` instead. If you've set it up correctly, when you run `flashcards.py` it should now be asking sports questions instead of questions about state capitols.
+Now instead of importing `capitols` into `flashcards.py`, import `players`. If you've set it up correctly, when you run `flashcards.py` it should now be asking sports questions instead of questions about state capitols.
 
 ## Challenges
 
