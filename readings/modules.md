@@ -16,8 +16,7 @@ We've already been using modules - every time you use `import`, you're using a m
 
 For the summary this week, think about past programs you've written and how those programs have been organized. Also think about how you've written programs in studios, where multiple people were working on different pieces of the same program. How might using modules have helped?
 
-**Summary prompt:** Think about and describe a strategy for deciding when to break up a program into multiple files,
-and how to decide what goes in which file.
+**Summary prompt:** Think about and describe a strategy for deciding when to break up a program into multiple files, and how to decide what goes in which file.
 
 ## Question
 
@@ -26,8 +25,8 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-Submit your summary+question on D2L under Quizzes.
+Submit your summary+question on D2L under Quizzes before class starts on Monday.
 
-**NOTE:** Because of fall break, there is no class on Tuesday. We will have a lab on Thursday. You have until Thursday to submit your summary+question this week.
+
 
 
