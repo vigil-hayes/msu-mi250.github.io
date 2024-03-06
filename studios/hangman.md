@@ -5,37 +5,30 @@ nav_exclude: true
 visible: false
 ---
 
-For the studio today, you are going to make a [hangman game](https://en.wikipedia.org/wiki/Hangman_(game)).  The game
-works like this:
+For the studio today, you are going to make a [hangman game](https://en.wikipedia.org/wiki/Hangman_(game)). The game works like this:
 
-The game chooses a secret word, and displays a number of blanks indicating how many letters that word has.  The player
-then has to guess letters.  If the player guesses a letter correctly, the game fills in the letter in all places in that
-word that it appears.   If the player guesses a letter that is not in the word, then the game draws the next line in a
-stick figure (drawn with turtle).  The player wins if she or he guesses all of the letters before the stick figure is completed.
-The player loses if the guess incorrectly so many times that the stick figure is fully drawn.
-
----
-
-That’s it. That’s the whole of the instructions – form a group, write a hangman program. Have fun with it.
-
-What follows is just advice for doing it. You don’t have to follow my advice. Do whatever you want. This is just my
-experience in doing this, and you might want to do it differently.
+The game chooses a secret word, and displays a number of blanks indicating how many letters that word has. The player then has to guess the letters in the word. If the player guesses a letter correctly, the game fills in the letter in all places in that word that it appears.   If the player guesses a letter that is not in the word, then the game draws the next line in a stick figure (drawn with Turtle). The player wins if she or he guesses all of the letters in the word before the stick figure is completed. The player loses if they guess incorrectly so many times that the stick figure is fully drawn.
 
 ## Advice
 
-### Choose something less morbid
+What follows is some advice for building this program. You don't have to follow my advice; do whatever you want.
 
-"Hangman" is the name of the game, and it is traditionally played by hanging a stick figure.  But it doesn't have to be!
-It is OK to choose a more fun, less death-like thing to draw on the screen when the user guesses incorrectly.  Draw a
-fancy smiley face?  Draw a stick figure dancing?  Draw (stick figure) dogs and cats living together?  Its up to you.
+### Choose a drawing that works in pieces
+
+The traditional hangman game uses a stick figure in a noose. That's pretty morbid, though, and I'd encourage you to choose something else to draw. Look at the Turtle drawings you've done for past studios and labs in this class - could any of them be adapted for use in the game? Keep in mind that a good drawing for this game should do these things:
+
+* *be able to be split up into pieces so that each piece can be drawn separately to make up parts of the whole.* The stick figure traditionally used in hangman has 6-7 pieces that can be drawn separately. Having fewer pieces makes the game harder; more pieces makes the game easier.
+* *use color smartly (or sparingly).* Remember if you want to fill a shape with color, you have to draw the entire shape first. That means if you have a drawing you want to use but it uses a color fill, you might not be able to use color when you split up the drawing into pieces. You can either plan to fill the color in at the end, or not use color, or only use an outline color (`pen_color()`).
+
+### Use functions and modules to structure your program
+
+
 
 ### Work as a team
 
-There are lots of parts of hangman.  There's the user input side -- guessing letters, and checking to see if they are in
-a word.  There is the hangman drawing side, that draws the figure incrementally.  And there is the game logic, that
-chooses a word for the game and then connects the user input with the drawing.  
+There are lots of parts of hangman. There's the user input side -- guessing letters, and checking to see if they are in a word. There is the hangman drawing side, that draws the figure incrementally. And there is the game logic, that chooses a word for the game and then connects the user input with the drawing.  
 
-Spread out the work across the team.   Have different people do different parts.   Use functions to capture the
+Spread out the work across the team. Have different people do different parts.   Use functions to capture the
 different parts of the program.  Use git to share code.  This project is much easier if you break it into parts, and
 then do the parts separately, and then put them together.  Make sure to leave time to put them together; its not as easy
 as it sounds.
