@@ -74,4 +74,4 @@ if guess in word:
 		index_counter += 1
 ```
 
-You'll want to add some more code of this, of course - code that will write out the correct guessed letter in Turtle, code that will draw part of the image if the guess is incorrect, a loop so that the user can keep entering guesses, something that breaks the loop if the user has correctly guessed all the letters OR the full picture is drawn, etc.
+You'll want to add some more code to this, of course - code that will write out the correctly guessed letter in Turtle, code that will draw part of the image if the guess is incorrect, a loop so that the user can keep entering guesses, something that breaks the loop if the user has correctly guessed all the letters OR the full picture is drawn, etc.
