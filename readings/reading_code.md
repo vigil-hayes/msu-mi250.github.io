@@ -3,7 +3,7 @@ topic: Reading Code
 parent: Week 11
 ---
 
-This week's topic is reading code. You've been doing a lot of this already, but it's important to keep practicing. One of the most important skill you can have as a programmer is to be able to read and understand code that other people have written.
+This week's topic is reading code. You've been doing a lot of this already, but it's important to keep practicing. One of the most important skills you can have as a programmer is to be able to read and understand code that other people have written.
 
 ## Readings
 
@@ -21,10 +21,9 @@ Yes, you read those before. Skim through them again. Now that you've spent some 
 
 ## Summary
 
-As you re-read these, what new things do you notice that you didn't last time?  Is there anything that makes more sense
-this time through than last time?
+As you re-read these, what new things do you notice that you didn't last time? Is there anything that makes more sense this time through than last time? Also think about the times you've read code written by other people - for example, code you've found through Google or code your partner(s) have written in studios.
 
-**Summary prompt:** What new things did you learn by re-reading these readings again?
+**Summary prompt:** How has being able to read other people's code helped you out this semester? What's hard about reading code other people have written?
 
 ## Question
 
@@ -33,5 +32,4 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-We do not have class on Tuesday this week. Submit your summary+question on D2L under Quizzes before class starts on THursday. Thursday's class will be a lab.
-
+Submit your summary+question on D2L under Quizzes before class starts on Monday.
