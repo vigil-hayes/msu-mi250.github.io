@@ -18,13 +18,13 @@ The file `board_1.py` wants to draw a game board, but it is missing the code for
 
 ![Board 1]({% link img/board_1.png %})
 
-Test this.  Does it work? It should draw a large black square on the screen.
+Test this. Does it work? It should draw a large black square on the screen.
 
 You can also test this by going down to the line where `square(400, "black")` is called, and change the number to a different size.  Does it draw a different size square?  (It should.)  This is generally a good idea when working with functions. Run the program a couple of different times, putting different values in the parameter to make sure that the function does what it is supposed to do. Don't forget to change the parameters back to the way it started `square(400, "black")` when you are done testing it.
 
 *Hint:* Remember it's good practice to have the Turtle be in the same place AND facing the same direction at the start of the function as at the end.
 
-*Hint 2:* I would recommend using `color()` here to define the color of the square. Remember `fill_color()` only affects the fill color, and `pen_color()` only affects the outline color. `color()` handles both.
+*Hint 2:* I would recommend using `color()` here to define the color of the square. Remember `fill_color()` only affects the fill color, and `pencolor()` only affects the outline color. `color()` handles both.
 
 ### Exercise {% increment exercise8 %}: Red Squares 
 
