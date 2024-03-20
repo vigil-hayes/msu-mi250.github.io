@@ -1,8 +1,8 @@
 ---
 parent: Week 10
 topic: Tic Tac Toe
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 For the studio today, you are going to make a [game of Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe). You should draw an initial board (two vertical lines and two horizontal lines). Then ask each of the two players where they would like to move when it's their turn. Draw one symbol (say, an X) for player 1, and a different symbol (like an O) for player 2. Let the players continue until the whole board is full, or until the players decide someone has won.
