@@ -2,8 +2,8 @@
 parent: Week 11
 topic: Practice Reading Code
 git: https://gitlab.msu.edu/mi-250/reading-code
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 You have spend almost all of the lab and studio sessions writing code for this class. Writing code is relatively straightforward -- you enter code into the text editor, you run the code, see if it does what you want it to, and then keep editing it until it does. One aspect of this is that you don't always have to really understand what the code is doing -- sometimes you get lucky and it just works.
@@ -35,7 +35,7 @@ print("Done looping!")                         # Print message AFTER loop is bro
 
 ## Guidelines for this lab
 
-**Check in with Caitlin or Jack**: Every two to three exercises, before you move on to the next one, ask Caitlin or Jack to come over and look at your comments to make sure that they aren't missing anything. This is important; often we will ask you questions that reveal that you might not have fully understood the program. 
+**Check in with Caitlin or Jack**: Every two to three exercises, before you move on to the next one, ask Caitlin or Jack to come over and look at your comments to make sure that they aren't missing anything. This is important; often we will ask you questions that reveal that you might not have fully understood the program. You might understand overall what the program does, but may not understand exactly what each line of code does. The goal of today's exercises is to dig into the code so that you understand exactly how it's working.
 
 **Write a "purpose" comment**: At the top of each program, write a comment that explains, at a high level, what the program is doing.
 
