@@ -385,7 +385,7 @@
   },"64": {
     "doc": "Readings",
     "title": "Readings",
-    "content": ". | Python File Operation | Think Python, Chapter 14: Files (Up through 14.4. Stop at 14.5 Catching Exceptions) | . Also, please re-read (skim) the following readings about dictionaries: . | Using dictionaries to store data as key-value pairs | Automate the Boring Stuff: Chapter 5 - Dictionaries and Structuring Data – skim | Think Python, Chapter 11 - Dictionaries – skim up to “11.6 Memos” | . ",
+    "content": ". | Python File Operation | Think Python, Chapter 14: Files – Read through 14.4. Stop at 14.5: Catching Exceptions | . Also, please re-read (skim) the following readings about dictionaries: . | Using dictionaries to store data as key-value pairs | Think Python, Chapter 11 - Dictionaries – skim up to “11.6 Memos” | . ",
     "url": "/readings/files.html#readings",
     "relUrl": "/readings/files.html#readings"
   },"65": {
@@ -397,7 +397,7 @@
   },"66": {
     "doc": "Readings",
     "title": "Question",
-    "content": "As per usual, your question can be one of three types: . | Confusion: what didn’t you understand in the readings? | Curiousity: what do you want to know more about? | Connection: how does this topic connect to your own experiences? | . Submit your summary+question on D2L under Quizzes before class starts on Tuesday. ",
+    "content": "As per usual, your question can be one of three types: . | Confusion: what didn’t you understand in the readings? | Curiousity: what do you want to know more about? | Connection: how does this topic connect to your own experiences? | . Submit your summary+question on D2L under Quizzes before class starts on Monday. ",
     "url": "/readings/files.html#question",
     "relUrl": "/readings/files.html#question"
   },"67": {

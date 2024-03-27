@@ -8,12 +8,11 @@ This week we're dealing with files. Files are one way to make data persistent - 
 ## Readings
 
 * [Python File Operation](https://www.programiz.com/python-programming/file-operation){:target="_blank"}
-* [Think Python, Chapter 14: Files](http://greenteapress.com/thinkpython2/html/thinkpython2015.html){:target="_blank"} (Up through 14.4.  Stop at 14.5 Catching Exceptions)
+* [Think Python, Chapter 14: Files](http://greenteapress.com/thinkpython2/html/thinkpython2015.html){:target="_blank"} -- Read through 14.4.  Stop at 14.5: Catching Exceptions
 
 Also, please re-read (skim) the following readings about dictionaries:
 
 * [Using dictionaries to store data as key-value pairs](http://www.compciv.org/guides/python/fundamentals/dictionaries-overview/){:target="_blank"}
-* [Automate the Boring Stuff: Chapter 5 - Dictionaries and Structuring Data](https://automatetheboringstuff.com/chapter5/){:target="_blank"} -- skim
 * [Think Python, Chapter 11 - Dictionaries](http://greenteapress.com/thinkpython2/html/thinkpython2012.html){:target="_blank"} -- skim up to "11.6 Memos"
 
 ## Summary
@@ -29,6 +28,6 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
+Submit your summary+question on D2L under Quizzes before class starts on Monday.
 
 
