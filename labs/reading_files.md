@@ -54,33 +54,54 @@ Do this on the phrase in your program, and print out the resulting list.
 
 *Hint:* You'll want to save the results of the `split()` function - the list - into a new variable, otherwise you'll have a hard time with the next exercise.
 
-### Exercise {% increment exercise11 %}: Count words using a dictionary
+### Exercise {% increment exercise11 %}: Add words to a dictionary
 
-Now we have a list of words. Remember you can use a `for` loop to go through a list item by item like this:
+Now we have a list of words. We're going to use a `for` loop to go through the list of words and add each word to a dictionary. 
+
+Create a blank dictionary at the top of the `word_count.py` called `words`. We'll use the `for` loop to add each word in the list to this dictionary. 
+
+Remember you can use a `for` loop to go through a list item by item like this:
 ```
 for item in my_list:
 ```
-Every time this loop runs, the variable `item` represents the next word in the list. You can use that variable inside of the loop to do things with each word.
-
-Now create a blank dictionary called `words`. We'll use the `for` loop to add each word in the list to this dictionary along with a value representing how many times that word has been encountered. 
-
-First, you will want to set the default value associated with each word to 0 using a phrase like this:
+We'll start by adding each word as new keys to the dictionary, and then giving each word a value of 0. Something like this should go inside your for loop:
 ```
-my_dictionary.setdefault('word','default_value')
+my_dictionary.setdefault('word',0)
 ``` 
-In this example, 'word' is the key and 'default_value' is the value -- both of these are hardcoded. But we want the word - the key - to be different each time the loop is run, so that each individual word will be added to the dictionary. Remember there's a variable in the `for` loop statement that represents each word in the list of words.
+In this example, 'word' is the key - this is hardcoded. But we want the word - the key - to be different each time the loop is run, so that each individual word will be added to the dictionary.
 
-We also want the default value to start at 0 for each word so that we can add to that count every time we encounter the word. After you set the default value, you'll want to increment the count for the value every time the word shows up. You already did this in the first exercise. 
+Remember: every time the `for` loop above is run, the variable `item` represents the next word in the list. You can use that variable inside of the loop to do things with each word - like add it to a dictionary!
 
-Your `for` loop should now set the default value for each word and then increment the count associated with that word each time it sees it in the list. Print out the `words` dictionary when you're done. It should look like this:
+Your `for` loop should now add each new word as keys to your `words` dictionary, with a default value of 0. Print out the dictionary when you're done. It should look like this:
 
+```
+{'Baby,': 0, "I'm": 0, 'just': 0, 'gonna': 0, 'shake,': 0, 'shake': 0}
+```
+
+### Exercise {% increment exercise11 %}: Count words using the dictionary
+
+The last exercise added each unique word to the dictionary, but didn't count the number of times each word appeared. Let's do that now.
+
+Remember the way to add a value associated with a specific key in a dictionary is to call the dictionary and the key like this:
+
+```
+my_dict[key] = value
+```
+The keys in our dictionary are words. We want the value associated with that key to increase by 1 every time that word is encountered. We're already setting the value to 0 by default: let's increment the value for every time the word comes up in the for loop.
+
+```
+my_dict[key] += 1
+```
+You'll need to replace `my_dict` with your dictionary and `key` with the variable representing each word in your for loop.
+
+When you're done, your dictionary should look like this:
 ```
 {'Baby,': 1, "I'm": 1, 'just': 1, 'gonna': 1, 'shake,': 4, 'shake': 1}
 ```
 
 ### Exercise {% increment exercise11 %}: Clean up text, part 1
 
-Notice the work 'shake' is in the dictionary twice. The fist time it appears, there's a comma next to it. We can use Python to strip out the punctuation. 
+Notice the word 'shake' is in the dictionary twice. The fist time it appears, there's a comma next to it. We can use Python to strip out the punctuation. 
 
 Python has another useful function that works on strings called `replace()`. This function will replace a given character or word in a string with something else. `replace()` takes two arguments: the character/word to find in the string, and the thing you want to replace that character or word with. For example,
 
@@ -92,7 +113,7 @@ would look for every time the character 'w' shows up in a string and replace it 
 For this exercise, what we're going to do is replace all of the punctuation characters in the string with nothing, like this:
 
 ```python
-punc = ",.?!:;-"    # common punctuation marks, saved into a string
+punc = ''',.?!":;-'''    # common punctuation marks, saved into a string
 for char in phrase:  	# go through each character in the "phrase" string
 	if char in punc: 	# for each character in the string, checks if the character is also in the string called 'punc'
 		phrase = phrase.replace(char, "") 	# replaces the character with nothing and resaves the string
@@ -157,7 +178,7 @@ The dictionary that prints out should now look like this:
 
 ### Exercise {% increment exercise11 %}: Print the results nicely
 
-You've got a really program for cleaning text and counting words at this point. However, the way that Python prints out dictionaries is really annoying and hard to read.
+You've got a pretty good program for cleaning text and counting words at this point. However, the way that Python prints out dictionaries is really annoying and hard to read.
 
 Modify your program to loop through all of the words in the dictionary and print out the count for each word on a separate line, like this:
 
@@ -170,7 +191,7 @@ play: 5
 ...
 ```
 
-You can do this by calling `dict.keys()` -- which returns a list of all of the keys (words) in the dictionary. You can then use a `for` loop to loop through that list.  
+You can do this by calling `my_dict.keys()` -- which returns a list of all of the keys (words) in the dictionary. You can then use a `for` loop to loop through that list.
 
 ## Working with Files
 
@@ -243,11 +264,11 @@ Right now this program is just telling you very basic things about the file you 
 
 For this exercise, modify your program to instead count how many times each word appears. You should have a separate count for each word.
 
-Sound familiar? You've already done in your `word_count.py` program. Bring the code from that program into this one, but modify it to use the text from the file instead.
+Sound familiar? You've already done in your `word_count.py` program. Bring the code from that program into this one, but modify it to use the text from the file `short.txt` instead.
 
 Your program should print out a dictionary that has the count of the number of times each word appears in the file.
 
-When I run mine on "short.txt", these are the counts I get:
+When I run mine on `short.txt`, these are the counts I get:
 ```
 {'All': 1, 'the': 2, "world's": 1, 'a': 1, 'stage,': 1, 'and': 3, 'all': 1, 'men': 1, 'women': 1, 'merely': 1, 'players.': 1, 'They': 1, 'have': 1, 'their': 2, 'exits': 1, 'entrances;': 1, 'And': 1, 'one': 1, 'man': 1, 'in': 1, 'his': 1, 'time': 1, 'plays': 1, 'many': 1, 'parts': 1}
 ```
@@ -274,6 +295,8 @@ Make sure to test it with both `short.txt` and `medium.txt`.
 Look at the file `long.txt` in the repository. It is the play "Twelfth Night" by William Shakespeare. Yes, the entire play.
 
 Modify your program to count how many of each word is present in that play and print out the results. This should be easy, but the results will be much, much longer!
+
+*Note:* if you run your program in VS Code's terminal, you won't be able to see all of the results. Run it in command line (Terminal or PowerShell) instead.
 
 ## Challenges
 

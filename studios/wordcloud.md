@@ -17,7 +17,7 @@ And another showing the world population by country:
 
 Your goal today is to write a program that reads in a *text* file, calculates how often each word appears in that file, and then finds an intersting way to display the most common words in the file on the screen using Turtle graphics. Try to make sure your program works with different kinds of input files.
 
-As per usual, work in teams of 2-4 people.
+As per usual, work in teams of 2-3 people.
 
 ## Advice
 
@@ -62,7 +62,7 @@ You can even go simpler than that, and start with a single list of words, with m
 
 ![word list]({% link img/wordlist.png%})
 
-### A word is as big vertically as you tell it
+### A word is as big vertically as you tell it to be
 
 When you use `write()` with turtle graphics, you can tell it a font size. That font size is approximately how big, vertically, the word is. So if you tell it to write the word with a size of 20, then you can go down one line by moving the turtle down 20 steps. This is really handy to know when making the word list, and it is what I did to make that word list above.
 
