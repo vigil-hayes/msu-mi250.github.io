@@ -20,9 +20,9 @@ There are tons and tons of content-based APIs out there. To get an idea of the k
 
 ## Summary
 
-For this week's summary, browse through the available APIs (links above). Think about what you might want to use some of these APIs for.
+For this week's summary, browse through the available APIs (links above). Think about what you might want to use some of these APIs for. Think also about what kinds of data are available through APIs.
 
-**Summary prompt:** Summarize your thoughts on APIs and what they are (and aren't) useful for.
+**Summary prompt:** Summarize your thoughts on when you might (or might not) want to use an API.
 
 ## Question
 
@@ -31,5 +31,5 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
+Submit your summary+question on D2L under Quizzes before class starts on Monday.
 

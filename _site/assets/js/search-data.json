@@ -85,13 +85,13 @@
   },"14": {
     "doc": "Readings",
     "title": "Summary",
-    "content": "For this week’s summary, browse through the available APIs (links above). Think about what you might want to use some of these APIs for. Summary prompt: Summarize your thoughts on APIs and what they are (and aren’t) useful for. ",
+    "content": "For this week’s summary, browse through the available APIs (links above). Think about what you might want to use some of these APIs for. Think also about what kinds of data are available through APIs. Summary prompt: Summarize your thoughts on when you might (or might not) want to use an API. ",
     "url": "/readings/apis.html#summary",
     "relUrl": "/readings/apis.html#summary"
   },"15": {
     "doc": "Readings",
     "title": "Question",
-    "content": "As per usual, your question can be one of three types: . | Confusion: what didn’t you understand in the readings? | Curiousity: what do you want to know more about? | Connection: how does this topic connect to your own experiences? | . Submit your summary+question on D2L under Quizzes before class starts on Tuesday. ",
+    "content": "As per usual, your question can be one of three types: . | Confusion: what didn’t you understand in the readings? | Curiousity: what do you want to know more about? | Connection: how does this topic connect to your own experiences? | . Submit your summary+question on D2L under Quizzes before class starts on Monday. ",
     "url": "/readings/apis.html#question",
     "relUrl": "/readings/apis.html#question"
   },"16": {
@@ -409,13 +409,13 @@
   },"68": {
     "doc": "Readings",
     "title": "Summary",
-    "content": "For this week’s summary, think back over the class. What have you learned? Do you feel somewhat more confident with programming and with computers than you did before? Do you feel like you could talk with other programmers about the work they do? What skills do you think you understand pretty well? What skills do you feel like you still need to learn? . You’ve learned a lot over the course of the semester. One thing that might help you to see how far you’ve come is to look at the code you wrote for the labs and studios early in the semester. You probably understand some of that code better now than you did then. Try to remember what things you found hard to do in January or February. Are those things easier now? . Prompt: Summarize what you feel like you’ve learned in this course. ",
+    "content": "For this week’s summary, think back over the class. What have you learned? Do you feel somewhat more confident with programming and with computers than you did before? Do you feel like you could talk with other programmers about the work they do? What skills do you think you understand pretty well? What skills do you feel like you still need to learn? . You’ve learned a lot over the course of the semester. One thing that might help you to see how far you’ve come is to look at the code you wrote for the labs and studios early in the semester. You probably understand some of that code better now than you did then. Try to remember what things you found hard to do in September and October. Are those things easier now? . Prompt: Summarize what you feel like you’ve learned in this course. ",
     "url": "/readings/final.html#summary",
     "relUrl": "/readings/final.html#summary"
   },"69": {
     "doc": "Readings",
     "title": "Question",
-    "content": "For the question part of the course, think about how you might use these skills in the future. How do you think you might use the skills you learned in your future courses? Or in your future career? Or in your future life? Are you already using the skills from this course in interesting and valuable ways? . ",
+    "content": "For the question part of the course, think about how you might use these skills in the future. How do you think you might use the skills you learned in your future courses? Or in your future career? Or in your future life? Are you already using the skills from this course in interesting and valuable ways? . As usual, sumbit your summary and question before class starts on Monday. ",
     "url": "/readings/final.html#question",
     "relUrl": "/readings/final.html#question"
   },"70": {
@@ -427,7 +427,7 @@
   },"71": {
     "doc": "Readings",
     "title": "Readings",
-    "content": "There are no readings for this week. However, I would like you to think about and submit a summary+question. This is a chance for you to reflect on this course, and on where you see yourself going in the future. ",
+    "content": "There are no readings for this week. However, I would still like you to think about and submit a summary+question. This is a chance for you to reflect on this course, and on where you see yourself going in the future. ",
     "url": "/readings/final.html",
     "relUrl": "/readings/final.html"
   },"72": {
