@@ -116,7 +116,7 @@ Jessica Meir
 ```
 for person in info['people']:
 ```
-then `person` represents each item in the list. In this for loop, `person` represents a dictionary, and you can use dictionary syntax (`dict['key']`) to target the key called `name`.
+then `person` represents each item in the list. In the data, the `people` key is connected to a list of dictionaries: therefore, in this for loop, `person` represents a dictionary. You can use dictionary syntax (`dict['key']`) to target the key called `name` in each dictionary.
 
 ## API Requests with Parameters
 
@@ -136,7 +136,7 @@ The file `rhyme.py` in the lab has the Datamuse API endpoint. Create a dictionar
 
 *Hint*: You'll need to remember to `import requests` to use the requests library.
 
-*Hint 2*: Remember, to get the JSON data out of the result of the API call, you need to use `.text` like you did in the previous exercises.
+*Hint 2*: Remember, to get the JSON data out of the result of the API call, you need to use `.text` like you did in Exercise 2.
 
 ### Exercise {% increment exercise %}: Pretty print the JSON response
 
@@ -169,6 +169,8 @@ Try it with different words. Notice the list is longer for some words than it is
 
 *Hint:* You should only need 1 `for` loop for this.
 
+*Hint 2:* You'll want to use just the regular `print()` function for this, not `pprint()`.
+
 ### Exercise {% increment exercise %}: Accept user input 
 
 Let's make this rhyme finding program more user-friendly. 
@@ -187,7 +189,7 @@ crime
 ...
 ```
 
-*Hint*: You will need to modify the dictionary you pass to the api to include the word input by the user.
+*Hint*: You will need to modify the parameter dictionary you pass to the api to include the word input by the user.
 
 ### Exercise {% increment exercise %}: Print only the top 10 rhymes
 
