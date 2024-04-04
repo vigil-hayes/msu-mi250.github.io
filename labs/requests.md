@@ -235,8 +235,7 @@ In order to be able to access TMDB's API, you need to have a TMDB account. If yo
 
 To access all of the TMDB developer features, use their developer portal: <https://developers.themoviedb.org/3/getting-started/introduction>.
 
-Once you have signed in to TMDB, you will see a profile icon next to the search icon in the upper right hand corner. Click on that profile icon and it will bring up a menu. Choose "Settings". On the settings page, there is an option on the left called "API". Click that. You will see a list of all "Apps" that you have created. For an API, an App is a
-program that you are writing that needs permission to access the API.  As a developer, you can create more than one app (if you want). Most likely, you have no apps there right now. Click on "Create" to create a new "App" for the program we are writing, and then choose "Developer" option.
+Once you have signed in to TMDB, you will see a profile icon next to the search icon in the upper right hand corner. Click on that profile icon and it will bring up a menu. Choose "Settings". On the settings page, there is an option on the left called "API". Click that. You will see a list of all "Apps" that you have created. Most likely, there won't be any in the list - yet! For an API, an App is a program that you are writing that needs permission to access the API. As a developer, you can create more than one app (if you want). Click on "Create" to create a new app for the program we are writing for this lab, and then choose the "Developer" option.
 
 Accept the terms of service, and then TMDB will then present you with a form about that app that asks you for a lot of information. Fill it the form -- give your app a name, provide a description, etc. You can use this website (<http://mi250.dev>) for the required website. Make it a personal app.  
 
@@ -244,15 +243,15 @@ Once you create the app, you will be taken to the App page that shows the inform
 
 Once you've done this, you have everything ready to start access TMDB's API.
 
-Let's test it. Run the program "movies.py" with your API key. If you get an API key error, then it didn't work. If you get a bunch of information about a movie, then it worked!
+Let's test it. Run the program "movies.py" with your API key. If you get an API key error, then it didn't work. If you get a bunch of information about a movie in a dictionary format, then it worked!
 
-Congrats!  You now can access TMDB with a program!
+Congrats! You now can access TMDB with a Python program!
 
 ### Exercise {% increment exercise %}: Pull out important movie information
 
 When you run "movies.py", the TMDB API returns a data structure -- a complicated dictionary that contains lots of information about the movie. Right now, all the program does is print out the whole dictionary. While this has some useful information, it also prints out a ton of information that isn't needed.
 
-Let's improve our movie information program by only having it print out the important information. Modify "movies.py" to only print out the title, tagline, and overview (in that order):
+Let's improve our movie information program by only having it print out specific information in a human readable format. Modify "movies.py" to only print out the title, tagline, and overview (in that order):
 
 ```
 Spider-Man: Across the Spider-Verse
@@ -263,7 +262,7 @@ After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood S
 
 ### Exercise {% increment exercise %}: Print out the genres also
 
-Now modify your movie program to also print out the movie's genres. Notice that a movie can be in more than one genre, and that TMDB gives you the genre in a list. You'll have to use a `for` loop to loop through that list and print out the name of each genre:
+Now modify your movie program to also print out the movie's genres. Find that information in the dictionary structure: you'll notice that a movie can be in more than one genre, and that TMDB gives you a list of genres. Each genre is in its own dictionary. You'll have to use a `for` loop to loop through that list and print out the name of each genre:
 
 ```
 Spider-Man: Across the Spider-Verse
@@ -278,11 +277,13 @@ Genres:
 - Science Fiction
 ```
 
+*Hint:* Your code for this will look fairly similar to your code to access the astronaut's names in the first few exercises.
+
 ### Exercise {% increment exercise %}: Print out the stars also
 
-Next, we are going to modify out movie program to get the list of people who starred in the movie and print out their names.
+Next, we are going to modify our movie program to get the list of people who starred in the movie and print out their names.
 
-Notice that the data we get back from TMDB doesn't actually include the names of any of the actors (the 'cast') in the movie. Instead, we are going to need to make a *second* request of the API. Copy and paste the code that makes the API request and change the URL to instead use the `movie_credits` URL. Look closely at that URL; it is the word `movie`
+Notice that the data we get back from TMDB doesn't actually include the names of any of the actors (the 'cast') in the movie. Instead, we are going to need to make a *second* request of the API. Copy and paste the code that makes the API request (this is the line of code that has `requests.get()` in it) and change the URL to instead use the `movie_credits` URL. Look closely at that URL: it is the word `movie`
 followed by the ID number of the movie (569094) we want, followed by the word `credits`.
 
 This should give you a second set of results. It has two entries: `cast` is a list of actors in the movie and `crew` is a list of the production crew of the movie. We only want to print out the cast for this exercise.
@@ -310,17 +311,16 @@ Cast:
 ...
 ```
 
-*Hint*: You will probably need to change the printing code back to just pretty print the dictionary returned by the credits API so you can see what it looks like.
+*Hint*: You will probably want to include a new `pprint` statement to pretty print the credits dictionary so you can see what it looks like.
 
-*Hint 2*: The credits request returns a LOT of information. So much that PowerShell or Terminal might not be able to display it all; when you scroll back you might not get all the way back to the beginning.   To deal with this, you can limit how *deep* into the data structure you pretty print. `pprint(info, depth=1)` only prints the top level dictionary. `pprint(info, depth=2)` prints the top level and one level underneath it. That can help you see parts of the dictionary when the data structure is REALLY big. Note also that PowerShell or Terminal will print more than the terminal inside VS Code will.
+*Hint 2*: The credits request returns a LOT of information. So much that PowerShell or Terminal might not be able to display it all; when you scroll back you might not get all the way back to the beginning. To deal with this, you can limit how *deep* into the data structure you pretty print. `pprint(info, depth=1)` only prints the top level dictionary. `pprint(info, depth=2)` prints the top level and one level underneath it. That can help you see parts of the dictionary when the data structure is REALLY big. Note also that PowerShell or Terminal will print more than the terminal inside VS Code will.
 
 
 ### Exercise {% increment exercise %}: Change to a Different Movie
 
 Let's change our program to request information about a different movie. Hopefully this should be pretty easy. Let's get information about the movie with TMDB ID number 438631.
 
-What movie is that?
-
+What movie is that? Make sure your code prints out this new movie's information in human readable format.
 
 ### Exercise {% increment exercise %}: Searching the Database
 
@@ -334,28 +334,32 @@ parameter = {"api_key": api_key, "query": "Spider-Man"}
 result_json = requests.get(movie_search, parameter)
 ```
 
-For this exercise, create a new program -- call it `search.py`. Make your program to search TMDB for movies with the word "Spider-Man" in the title. You can and should copy code from your `movies.py` program as needed.
+For this exercise, create a new program -- call it `search.py`. Make your program search TMDB for movies with the word "Spider-Man" in the title. You can and should copy code from your `movies.py` program as needed.
 
 *Hint*: You will probably need to change the printing code back to just pretty print the resulting dictionary so you can see what it looks like, since the search results dictionary looks different than the movie dictionary or the credits dictionary.
 
-
-## Challenges
-
-### Challenge 1: Print Information About the Top Search Result 
+### Exercise {% increment exercise %}: Print Information About the Top Search Result 
 
 When you search for a movie by name using the search API, most likely the first result is the movie you were looking for. Let's assume that it is.  
 
-Combine the results of your last two programs / exercises. Search for the movie "Harry Potter". The first movie in the list of results is probably the first Harry Potter movie. In the dictionary that you get back from the API, you should be able to find the ID number of that movie. Then fill that ID number in to the URLs to get the movie name, tagline, and overview, and also into the URL to get the cast. Print out all of that information in a human-readable form like you did in exercise 11.
+Combine the results of your last few exercises. Search for a movie of your choice. In the dictionary that you get back from the API, you should be able to find the ID number of that movie. Then add that ID number to the relevant URLs in your program to get the movie name, tagline, overview, and cast. Print out all of that information in a human-readable form like you did in exercise 14.
 
-This program in total should make 3 API queries in total: search, movie, and credits.
+When you're done, the program should make 3 API queries in total: search, movie, and credits.
 
-### Challenge 2: Movie Search Program (aka user input)
+## Challenges
+
+As per usual, if you finish early, try to do at least one of the challenges below. Or better yet, do all of them! The challenges in this lab will be useful for the studio later this week.
+
+### Challenge 1: Movie Search Program (aka user input)
 
 Take the program you wrote for challenge 1, and modify it to accept the search query as an input. That is, your program should ask the user what movie they want to know about. It will then search TMDB for that movie. It will assume that the first result is the movie the user is looking for, and remember the ID number for that movie. Then it will use the API to get inforamtion about the movie such as its full name, tagline, overview, and list of stars, and print out all of that information.
 
 This is creating a movie search tool. You type in the name of a movie, and is prints out a bunch of information about that movie.
 
-### Challenge 3: Better Movie Search Program
+### Challenge 2: Better Movie Search Program
 
-This builds on Challenge 2. Modify your program so that it prints out the movie titles for the top (5? 10? 20?) results of the search and allow the user to choose the movie they want. Then print out ,more information about the movie they choose.
+This builds on Challenge 2. Modify your program so that it prints out the movie titles for the top (5? 10? 20?) results of the search and allow the user to choose the movie they want. Then print out more information about the movie they choose.
 
+### Challenge 3: Actor Search
+
+There's a variable called `people_search` that we haven't used yet. Create a search program that uses this variable and allows the user to search for an actor and then prints out their top 5 (10? 20?) movies.
