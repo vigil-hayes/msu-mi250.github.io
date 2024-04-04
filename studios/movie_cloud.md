@@ -7,7 +7,7 @@ visible: false
 
 For this studio, you should write a program that creates a Movie Cloud. A movie cloud is a word cloud, but about a movie. Your program should ask the user for the name of a movie. Then it should search that movie in The Movie Database, and get the list of actors in the movie. Using Turtle, it should draw the the name of the movie in big letters, and then should draw the actors' names in a word cloud of some sort.
 
-Work in groups of 2-4, as per usual. 
+Work in groups of 2-3, as per usual. 
 
 ## Advice
 
@@ -45,4 +45,4 @@ You've got a movie that you are representing visually. Another way of thinking o
 
 Make sure your program can draw a nice looking cloud first before adding the feature that allows the user to specify which movie they want the cloud to be drawn for. That is, hard code a movie into your program and make sure it works with that movie before trying it with different movies.
 
-If you're in a group of 3-4, it might make sense for 1-2 people to work on the user input portion while the others work on drawing the cloud
+If you're in a group of 3, it might make sense for 1-2 people to work on the user input portion while the others work on drawing the cloud
