@@ -6,16 +6,18 @@ nav_exclude: true
 visible: false
 ---
 
-For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.  
+For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.
 
-*Important:* This entire week is a studio. You'll be working in groups of 2-4 people as usual, but you will be continuing this same project on Wednesday with the same group. You'll have class today and on Thursday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: 12pm on Thursday, December 14.
+You may use any of the code you wrote for that studio, or any other code you've written or used during the semester. But don't use the same story you wrote before: write something new for this studio.
+
+**Important:** This entire week is a studio. You'll be working in groups of 2-3 people as usual, but you will be continuing this same project on Wednesday with the same group. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: **8pm on Wednesday, April 24**. (Reminder: there is no final exam for this class.)
 
 ## Grading and Rubric 
 
 In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade
 as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
 
-The grade for your final project is 20% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
+The grade for your final project is 15% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
 
 *Basic necessities* (aka the “Minimum Viable Product”) (70% of grade; 10% each)
 * Program runs (with minimal effort)
@@ -98,7 +100,7 @@ Everyone in the group should be working on something, but you don't all have to 
 
 ### Comment your code
 
-Remember you'll be coming back to this project on Thursday. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
+Remember you'll be coming back to this project on Wednesday. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
 
 ## Ideas for being creative
 
