@@ -2,8 +2,8 @@
 parent: Final Week
 topic: Adventure Engine
 git: None
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.
