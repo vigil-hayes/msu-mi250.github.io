@@ -1,9 +1,9 @@
 ---
-parent: Week 13
+parent: Week 14
 topic: <i>NO CLASS - Thanksgiving</i>
-visible: false
-published: false
-nav_exclude: true
+visible: true
+published: true
+nav_exclude: false
 ---
 
-Thanksgiving break at MSU in 2023 is November 23-24 (Thursday and Friday). Enjoy your break!
+Thanksgiving break at MSU in 2024 is November 28-29 (Thursday and Friday). Enjoy your break!

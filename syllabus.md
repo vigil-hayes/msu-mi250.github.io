@@ -16,9 +16,9 @@ nav_order: 2
 {:toc}
 </details>
 
-## Spring 2024 Time and Location
+## Fall 2024 Time and Location
 
-Mondays and Wednesdays, 3:00-4:50pm  
+Tuesdays and Thursdays, 10:20am-12:10pm  
 Holden Hall C131  
 Synchronous, in person – no hybrid options available
 
@@ -26,12 +26,12 @@ Synchronous, in person – no hybrid options available
 
 *Instructor:* Caitlin Geier (she/her/hers)  
 *Email:* [geierac@msu.edu](mailto:geierac@msu.edu)  
-*Office hours:* Drop-in Mondays from 1:30-2:30pm in office or [on Zoom](https://msu.zoom.us/my/geierac), or by appointment  
+*Office hours:* By appointment, virtually or in person - email or talk to after class to find a time  
 *Office:* Room 525, Communication Arts and Sciences  
 
-*Course assistant:* Jack Waier  
-*Email:* [waierjac@msu.edu](mailto:waierjac@msu.edu)  
-*Office hours:* by appointment - email or talk to after class to find a time
+*Course assistant:*   
+*Email:*  
+*Office hours:* 
 
 ## Course Description
 
@@ -43,12 +43,12 @@ This course is NOT appropriate for students with programming experience; for exa
 
 All students are REQUIRED to bring a laptop computer to class running either MacOS or Windows. Linux is not supported in this class. Every student will be creating a development environment on their own computer in the first 2 weeks of class. Every student will be required to practice writing and running code on their own computers. 
 
-If you need a new computer, the [MSU Tech Store](https://techstore.msu.edu/computers-tablets){:target="_blank"} sells both Apple and Windows laptops at discounted prices for students. If your laptop breaks or is temporarily unavailable during the semester, talk with Caitlin about accommodations. MSU also has a [Laptop Loan program](https://msu.co1.qualtrics.com/jfe/form/SV_2mJ4Pi2oXHIBR1s){:target="_blank"} which students who have a temporary need for a laptop can apply for.
+If you need a new computer, the [MSU Tech Store](https://techstore.msu.edu/){:target="_blank"} sells both Apple and Windows laptops at discounted prices for students. If your laptop breaks or is temporarily unavailable during the semester, talk with Caitlin about accommodations. MSU also has a [Laptop Loan program](https://msu.co1.qualtrics.com/jfe/form/SV_2mJ4Pi2oXHIBR1s){:target="_blank"} which students who have a temporary need for a laptop can apply for.
 
 All course materials can be found on:
 * The course website (this website, <https://mi250.dev>)
 * D2L ([d2l.msu.edu](https://d2l.msu.edu){:target="_blank"})
-* Gitlab ([gitlab.msu.edu](https://gitlab.msu.edu>){:target="_blank"}) 
+* Gitlab ([gitlab.msu.edu](https://gitlab.msu.edu){:target="_blank"}) 
 
 You will not be required to purchase any software for this course. The course will be using the Python programming language, Git, and related tools, all of which are open source and/or freely available. You do not need to install anything ahead of time – we will be doing all of that work in class.
 
@@ -60,10 +60,10 @@ Students are expected to use their laptops in class for in-class work, and shoul
 
 This course has 5 main elements:
 * **Summary+Questions:** reading / watching content and summarizing / asking questions about content in ways that relate to students’ own lives (every week, due before the first class of the week).
-* **Labs:** set exercises for learning and practicing concepts in programming, done in class with partners (usually on Mondays)
-* **Studios:** open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-3 (usually on Wednesdays)
+* **Labs:** set exercises for learning and practicing concepts in programming, done in class with partners (usually on Tuesdays)
+* **Studios:** open-ended creative exercises for practicing and applying programming concepts, done in class in groups of 2-3 (usually on Thursdays)
 * **Homework:** larger homework assignments to learn/practice skills and think about programming in practice (every 2-3 weeks, 5 in total)
-* **Final project:** a two week project at the end of the semester started in class and due during the class’s final exam period (8pm, Wednesday April 24).
+* **Final project:** a two week project at the end of the semester started in class and due at the end of the class’s final exam period (12pm, Thursday December 12).
 
 **This course does NOT have any quizzes or exams.** Aside from the final project, which students have the option of working on outside of class, all programming work will be done IN CLASS. It’s therefore very important to attend class as much as possible.
 
@@ -78,7 +78,7 @@ In studios: students can choose who they work with and can work in groups no sma
 
 ### Summary + Questions
 
-Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Monday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. This should take you between 30 minutes and 1 hour each week.
+Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Tuesday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. This should take you between 30 minutes and 1 hour each week.
 
 All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<https://mi250.dev/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the summary+questions.
 
@@ -89,11 +89,11 @@ All readings and videos are available for free and are linked on the readings pa
 * Curiosity: something you want to learn more about
 * Connection: apply one of the concepts from the week’s topic to your own life or work (this might be a statement rather than a question; that’s okay)
 
-If your summary+question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Mondays, so it’s important to turn them in on time.
+If your summary+question is missing either a summary or a question, OR if it’s turned in late (after class starts), you will get a 0. We use your summaries and questions to understand what students are having trouble with so we can talk about it at the beginning of class on Tuesdays, so it’s important to turn them in on time.
 
 ### Labs 
 
-Labs will usually be on Mondays. Labs cover one or more specific concepts relating to the topic of the week; their goal is to give you a chance to put the concepts in practice. Programming is very hard to learn through reading alone, which is why we practice it in class with partners. Each lab has a series of small, structured exercises that you and your partner will go through together using pair programming. Partners for labs are assigned randomly at the beginning of class.
+Labs will usually be on Tuesdays. Labs cover one or more specific concepts relating to the topic of the week; their goal is to give you a chance to put the concepts in practice. Programming is very hard to learn through reading alone, which is why we practice it in class with partners. Each lab has a series of small, structured exercises that you and your partner will go through together using pair programming. Partners for labs are assigned randomly at the beginning of class.
 
 Labs are graded using the check/check-plus/check-minus system. Grades are based on:
 * Effort (did you work on the lab for the entire class?)
@@ -104,7 +104,7 @@ Labs are NOT graded based on how much you complete or how "good" your code is.
 
 ### Studios
 
-Studios will usually take place on Wednesdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-3 people. You can choose who you work with for studios. 
+Studios will usually take place on Thursdays. Unlike labs, studios are more open-ended exercises that allow you to practice – and be creative with – the concepts you learned in the lab that week and over the course of the semester. Studios are done in groups of 2-3 people. You can choose who you work with for studios. 
 
 Studios are also graded using the check/check-plus/check-minus system. Grades are based on: 
 * Effort (did you work on the studio for the entire class?)
@@ -121,12 +121,12 @@ Homework assignment schedule:
 
 | # | Topic | Due |
 | HW 1 | Google Search | Week 4 |
-| HW 2 | Error Messages | Week 6 |
-| HW 3 | Jobs | Week 8 |
+| HW 2 | Error Messages | Week 7 |
+| HW 3 | Jobs | Week 9 |
 | HW 4 | ChatGPT | Week 11 |
 | HW 5 | Ethics | Week 13 |
 
-All homework assignments will be due on Wednesdays before the start of class. Instructions for each assignment will be on the course website and will be available at least 2 weeks before the due date. You'll turn the assignments in on D2L. Each assignment will likely take 1-2 hours to complete.
+All homework assignments will be due on Thursdays before the start of class. Instructions for each assignment will be on the course website and will be available at least 2 weeks before the due date. You'll turn the assignments in on D2L. Each assignment will likely take 1-2 hours to complete.
 
 You will be required to complete 4 homework assignments throughout the semester. If you complete all 5, the assignment with the lowest grade will be counted as extra credit (between 1.75% and 2.25% added on top of your final grade).
 
@@ -138,15 +138,15 @@ Homework is also graded using the check/check-plus/check-minus system. Grades ar
 
 The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
 
-Final projects are due at the end of the final exam period: 8pm Wednesday, April 24, 2024. **There is no final exam for this class.**
+Final projects are due at the end of the final exam period: 12pm Thursday, December 12, 2024. **There is no final exam for this class.**
 
 ### Turning in work
 
-In-class work will be turned in via a combination of D2L and Gitlab. You will turn in homework individually on D2L. Work from in class activities will be turned in by at least one person in each partnership/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class.
+In-class work will be turned in via a combination of D2L and Gitlab. You will turn in summary+questions and homework individually on D2L. Work from in-class activities will be turned in by at least one person in each pair/group through D2L (screenshots and other evidence of work) and Gitlab (code) at the end of each class. We will start using Gitlab in Week 3.
 
 ### Honors option
 
-This course does have an honors option for students in the honors college. If you want to do an honors option, talk with Caitlin within the first two weeks of class.
+This course does have an honors option for students in the honors college. If you want to do an honors option, talk with Caitlin within the first three weeks of class.
 
 ## Coursework Expectations and Grading
 
@@ -181,7 +181,7 @@ A rubric for the final project will be released at the beginning of the final we
 
 ## Communication Policies
 
-Caitlin and Jack are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom. Jack can also meet with students outside of class as needed - email him or ask him in class. If you have questions about anything course-related, please get in touch!
+Caitlin and **minion** are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom. **(something about minion's availability here)**. If you have questions about anything course-related, please get in touch!
 
 Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
 
@@ -209,19 +209,19 @@ If you are sick with something contagious (like COVID or the flu), PLEASE PLEASE
 
 If you have or think you might have COVID and aren't sure what to do, see [MSU's COVID guidance page](https://msu.edu/together-we-will/covid19-guidance/){:target="_blank"}.
 
-If the instructor is sick, class may be cancelled.
+If Caitlin is sick, class may be cancelled.
 
 ### Exceptions
 
 The "drop 4" policy for in class activities will cover nearly all absences for nearly all students. It is meant to be flexible. If you find yourself needing to miss more classes than that, we will try to work with you to help you keep up with the class. IF you are beyond 4 absences already AND any of the below circumstances apply, we may be able to exempt you from certain classes or homework. Talk to Caitlin first and foremost!
 
-Note that missing more than two weeks of class will make it harder for you to keep up, and also harder for you to earn good grades because you won’t be able to participate as much in class. If you need to miss extra class, talk with Caitlin or Jack and we will help you determine what you might need to do to keep up with the class. All of the exceptions below will be taken into account if you go beyond 4 absences.
+Note that missing more than two weeks of class will make it harder for you to keep up, and also harder for you to earn good grades because you won’t be able to participate as much in class. If you need to miss extra class, talk with Caitlin and I will help you determine what you might need to do to keep up with the class. All of the exceptions below will be taken into account if you go beyond 4 absences.
 
 If you know in advance that you need to miss a class for any of the below reasons, contact Caitlin as soon as possible. The more advance notice we have, the easier it will be for us to work with you.
 
 **Adding the class late** – if you added this class to your schedule at the end of the first week of the semester, you may have missed the first graded homework and the first graded in class activity. Talk to Caitlin as soon as possible to catch up on the work, and to be exempted from those activities.
 
-**Illness lasting more than 2 weeks** – COVID is still a thing, and there are all sorts of other illnesses people can have that affect their ability to attend class. Contact Caitlin as soon as possible to discuss potential accommodations and what kind of documentation may be necessary.
+**Illness lasting more than 2 weeks** – COVID is still a thing, and there are all sorts of other illnesses people can have that affect their ability to attend class. Contact Caitlin as soon as possible to discuss potential accommodations and what kind of documentation may be necessary. (If you test positive for COVID or the flu, save your test results - this will be useful if you end up missing more than 2 weeks!)
 
 **Grief absences** – If you have experienced the death of a family member or someone close to you, or you are experiencing emotional distress from a similar tragedy, you may request a grief absence. To request a grief absence, visit the Grief Absence Request Form found on the [Student Information System](https://student.msu.edu/){:target="_blank"} under Resources –> Grief Absence. See the [grief absence policy](https://reg.msu.edu/roinfo/notices/griefabsence.aspx){:target="_blank"} for more information. Once your grief absence is approved, we will exempt you from the in-class activities for the approved dates. This means those classes won’t count towards your grade at all, and also won’t count as part of your 4 dropped grades.
 
@@ -253,12 +253,11 @@ For classes that involve complex thinking and no right answers like this, we str
 
 ### Mental health
 
-Mental health concerns or stressful events may lead to diminished academic performance or reduce a student's ability to participate in daily activities. If you’re struggling, we encourage you to seek support. Services are available to assist you with addressing these and other concerns you may be experiencing. You can learn more about the broad range of confidential mental health services available on campus on the [Counseling & Psychiatric Services (CAPS) website](caps.msu.edu){:target="_blank"}.
+Mental health concerns or stressful events may lead to diminished academic performance or reduce a student's ability to participate in daily activities. If you’re struggling, we encourage you to seek support. Services are available to assist you with addressing these and other concerns you may be experiencing. You can learn more about the broad range of confidential mental health services available on campus on the [Counseling & Psychiatric Services (CAPS) website](https://caps.msu.edu){:target="_blank"}.
 
 ### Technical assistance
 
-Asking your peers in class and your instructor is a great source for technical assistance.  This
-is particularly true with the technologies we are learning in class (python, git, etc.).  For MSU-provided technologies, you can visit the [MSU Help site](http://help.msu.edu){:target="_blank"}, the [Desire2Learn Help Site](http://help.d2l.msu.edu){:target="_blank"} or email the [MSU IT Service Desk](mailto:ithelp@msu.edu).
+Asking your peers in class and your instructor is a great source for technical assistance. This is particularly true with the technologies we are learning in class (Python, Git, etc.). For MSU-provided technologies, you can visit the [MSU Help site](http://help.msu.edu){:target="_blank"}, the [Desire2Learn Help Site](http://help.d2l.msu.edu){:target="_blank"} or email the [MSU IT Service Desk](mailto:ithelp@msu.edu).f
 
 ### Tolerance and civility
 

@@ -1,9 +1,9 @@
 ---
 parent: Week 3
 topic: Round Robin
-nav_exclude: true
-visible: false
-published: false
+nav_exclude: false
+visible: true
+published: true
 ---
 
 Today's studio is a creative exercise aimed at get you used to sharing code with other people using Git. You'll be practicing what's called [round robin storytelling](https://en.wikipedia.org/wiki/Round-robin_story){:target="_blank"} - this is when one person starts a story, then passes it on to the next person who adds to it, and then to the next person, who adds even more, and so on. 

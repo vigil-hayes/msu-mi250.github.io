@@ -1,9 +1,10 @@
 ---
 parent: Week 9
-topic: Organizing Your Program
+topic: Organizing Your Program (lab)
 git: https://gitlab.msu.edu/mi-250/organizing-code
 nav_exclude: false
 visible: true
+layout: studio
 ---
 
 {% capture _ %}{% increment exercise88 %}{% endcapture %}

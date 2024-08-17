@@ -1,9 +1,9 @@
 ---
 topic: Refactoring
-parent: Week 13
-publish: false
-nav_exclude: true
-visible: false
+parent: Week 14
+publish: true
+nav_exclude: false
+visible: true
 ---
 
 This week we're practicing refactoring - the process of improving and simplifying code you've already written.
