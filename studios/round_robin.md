@@ -1,8 +1,8 @@
 ---
 parent: Week 3
 topic: Round Robin
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 published: true
 ---
 

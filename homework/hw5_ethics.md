@@ -1,8 +1,8 @@
 ---
 parent: Week 13
 topic: 5 - Ethics
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 This is a short research and writing assignment. The purpose of this assignment is for you to think closely about an ethical issue related to programming (and more broadly, to technology). You'll read an article, then write 2-3 paragraphs in response to prompts about the article.

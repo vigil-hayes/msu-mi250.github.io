@@ -1,8 +1,8 @@
 ---
 parent: Week 12
 topic: Word Cloud
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 A [word cloud](https://en.wikipedia.org/wiki/Tag_cloud) is a way of visualizing text -- it shows how frequently different words are used by varying the size of the text. Words that have a larger font size appear more frequently than words that are smaller. If you have some text -- like a song, a speech, or a document -- you can use the word cloud to see approximately what that text is about and what kinds of things are being talked about.  

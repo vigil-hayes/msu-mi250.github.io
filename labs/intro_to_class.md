@@ -29,7 +29,7 @@ We'll take some time to share our pizza making instructions out loud and see how
 
 ## Exercise 4 - Take screenshots
 
-For every lab and studio you do in this class, you'll be expected to take screenshots showing the work you did. You'll submit your screenshots on D2L. We'll practice that today.
+For every lab and studio you do in this class, at least one person in each pair/group will be expected to submit screenshots showing the work you did. You'll submit your screenshots on D2L. We'll practice that today.
 
 Today, everyone will take a screenshot and submit it. The place you'll turn them in on D2L is under "Assignments" and is called "Screenshot Practice Exercise".
 
@@ -39,4 +39,4 @@ Today, everyone will take a screenshot and submit it. The place you'll turn them
 MacOS and Windows both have built-in applications for taking screenshots. If you need a refresher, here's [a reference for taking screenshots]({% link reference/screenshots.md %}). (For the future, this can be found under "Reference" in the sidebar of this site.)
 
 
-**NOTE** This "lab" is for practice and is ungraded! The first graded lab will be on Wednesday.
+**NOTE** This "lab" is for practice and is ungraded! The first graded lab will be on Thursday.

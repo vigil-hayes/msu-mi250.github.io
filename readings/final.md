@@ -17,7 +17,7 @@ You've learned a lot over the course of the semester. One thing that might help 
 
 For the question part of the course, think about how you might use these skills in the future. How do you think you might use the skills you learned in your future courses?  Or in your future career?  Or in your future life?  Are you already using the skills from this course in interesting and valuable ways?
 
-As usual, sumbit your summary and question before class starts on Monday.
+As usual, sumbit your summary and question before class starts on Tuesday.
 
 ## Going Forward
 

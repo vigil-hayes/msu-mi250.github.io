@@ -27,9 +27,9 @@ Synchronous, in person – no hybrid options available
 *Instructor:* Caitlin Geier (she/her/hers)  
 *Email:* [geierac@msu.edu](mailto:geierac@msu.edu)  
 *Office hours:* By appointment, virtually or in person - email or talk to after class to find a time  
-*Office:* Room 525, Communication Arts and Sciences  
+*Office:* Room 525, Communication Arts and Sciences building
 
-*Course assistant:*   
+*Course assistant:* TBD  
 *Email:*  
 *Office hours:* 
 

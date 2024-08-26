@@ -1,8 +1,8 @@
 ---
 parent: Week 11
 topic: 4 - ChapGPT
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Chat-based AI systems such as ChatGPT can be very useful for programming. But like any tool, it helps to understand how it works and what is or isn't useful about using it first. This assignment will have you do a couple of programming-related exercises with ChapGPT so you can learn a bit more about how it can / can't help you with programming tasks.
