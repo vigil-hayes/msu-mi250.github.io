@@ -36,7 +36,7 @@ Note: these are hard questions to answer, and there's no right answer. Don't fee
 
 ## Turn in
 
-Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Ethics and Programming. This assignment is due on Wednesday, April 10th at 3pm (before the start of class).
+Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Ethics and Programming. This assignment is due before the start of the studio in Week 13.
 
 ## Additional reading
 

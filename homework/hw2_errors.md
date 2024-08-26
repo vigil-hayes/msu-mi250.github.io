@@ -98,7 +98,7 @@ TypeError: 'str' object cannot be interpreted as an integer
 
 ## Turn in
 
-Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Understanding Error Messages. This assignment is due on Wednesday, February 21st at 3pm (before the start of class).
+Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Understanding Error Messages. This assignment is due before the start of the studio in Week 7.
 
 Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus.
 

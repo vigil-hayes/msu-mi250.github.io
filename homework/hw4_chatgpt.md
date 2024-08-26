@@ -83,4 +83,4 @@ BUT. Like with any code you get off the Internet, you'll need to try and underst
 
 ## Turn in
 
-Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment is due on Wednesday, March 27th at 3pm (before the start of class).
+Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment is due before the start of the studio in Week 11.
