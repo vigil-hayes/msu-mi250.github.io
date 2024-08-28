@@ -21,7 +21,7 @@ You should work in small groups on this studio. Groups of 2-3 people. Work toget
 
 Some groups like to start out by writing the story in Google Docs or by mapping out the story paths on paper. That's fine. When you're writing the code, make sure to switch drivers regularly so everyone gets a chance to work on the program! 
 
-### Use Git
+<!-- ### Use Git
 
 Remember you can share code using Git and Gitlab. Git is easiest to use when only one person is writing code at any given time; if multiple people are working on the same file, you will run into Git conflicts, which are sometimes hard to resolve. 
 
@@ -34,7 +34,7 @@ First driver:
 
 Switch drivers, second driver does the same as above, and so on.
 
-If you get stuck with Git, here's a [Git reference]({% link reference/using_git.md %}) that may be helpful. Jack and Caitlin can also help you anytime. Remember all of your code needs to be in Gitlab at the end of class - that's how you will turn your code in from now on!
+If you get stuck with Git, here's a [Git reference]({% link reference/using_git.md %}) that may be helpful. We can also help you anytime. Remember all of your code needs to be in Gitlab at the end of class - that's how you will turn your code in from now on! -->
 
 ### Choosing a story
 
@@ -67,4 +67,6 @@ Your studio is finished when the class is over - no sooner! You can always conti
 
 When you are done, please submit screenshots of your code working (that is, of the program running in Powershell or Terminal) on D2L under Assignments. At least one person in the group needs to submit a screenshot. 
 
-Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Jack. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.
+Also submit your Python program (your .py file that contains your code) on D2L. Again, only one person in the group needs to submit this.
+
+<!-- Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Jack. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios. -->
