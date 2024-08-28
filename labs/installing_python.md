@@ -29,19 +29,19 @@ Periodically, both of you will switch roles.  In some labs, we will switch roles
 
 ## Get ready to work with Python
 
-The goal of this lab is to get everything set up to run your first python program on both your own computer and your partner's computer.  I will give you a program, and you can both run it on your computers.
+The goal of this lab is to get everything set up to run your first Python program on both your own computer and your partner's computer.  I will give you a program, and you can both run it on your computers.
 
-For this section, the driver will do everything on their computer first with the other person acting as navigator. Later on in the lab you'll switch places. Remember you'll learn faster by working together!
+For this section, the driver will do everything on their computer first with the other person acting as navigator. Later on in the lab you'll switch places. Remember you'll figure things out faster by working together!
 
 ### Install Python
 
 Python is a programming language, but is interpreted, which means that there is a separate program that reads the program that you write and "runs" it by interpreting it as instructions. That is, it is a program that runs other programs.
 
-The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.12.X on it. Click the button to download the program, and run the installer program. That will install the current version of the python interpreter on your computer. 
+The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.12.X on it. Click the button to download the program, and run the installer program. That will install the current version of the Python interpreter on your computer. 
 
 **Important:** While running the installer, be sure to click the "Add python to the PATH" checkbox.
 
-If you already have python installed on your computer, make sure you have the current version (3.12.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
+If you already have Python installed on your computer, make sure you have the current version (3.12.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
 
 ### Use Command Line
 
@@ -61,7 +61,7 @@ PS C:\Users\geier>
 The first thing we are going to do is to verify that we have python installed correctly. To do that, simply type `python` where the cursor is and hit enter. If it works, you should see something like this:
 
 ```
-Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 19:29:22) [MSC v.1936 64 bit (AMD64)] on win32
+Python 3.12.5 (tags/v3.11.5:cce6ba9, Aug 26 2024, 19:29:22) [MSC v.1936 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
@@ -83,14 +83,14 @@ On a Mac, we will use the Terminal app. Terminal gives us a command line that we
 Terminal should open up a window with a bunch of text in it, and a prompt with a blinking cursor next to it. It might look like this:
 
 ```
-Last login: Mon Aug 28 23 16:57:43 on ttys000
+Last login: Mon Aug 28 24 16:57:43 on ttys000
 geier-Macbook-Pro:~ geier$
 ```
 
-If you type, it should appear next to the prompt. Type the command `python3` and hit enter.   If it works, then you should see something like this appear:
+If you type, it should appear next to the prompt. Type the command `python3` and hit enter. If it works, then you should see something like this appear:
 
 ```
-Python 3.11.1 (default, Aug 23 2023, 11:08:38)
+Python 3.12.5 (default, Aug 26 2024, 11:08:38)
 [Clang 12.0.0 (clang-1200.0.26.2)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -100,7 +100,7 @@ The three arrows `>>>` mean Python is in interactive mode. Try typing `2+2` and 
 
 To get out of Python's interactive mode, type `quit()` and hit Enter. On Mac, you can also hit Control-D.
 
-**Important:** Macs come pre-installed with a REALLY old version of Python (2.7). Many of the things we do in this class won't run on that version of Python. If you just type `python`, it'll run that really old version. If you are using a Mac, you should always type `python3` instead of `python` to run python. That way, you'll use the current version. Be sure to check the version number that is printed out to make sure it is correct.
+**Important:** Macs come pre-installed with a REALLY old version of Python (2.7). Many of the things we do in this class won't run on that version of Python. If you just type `python`, it'll run that really old version. If you are using a Mac, you should always type `python3` instead of `python` to run Python. That way, you'll use the current version. Be sure to check the version number that is printed out to make sure it is correct.
 
 ##### Troubleshooting
 
@@ -114,7 +114,7 @@ Next, we are going to try to run our first Python program. The program is called
 
 Near the top of this webpage is a link to a Git repository on Gitlab (which is similar to Github, except it's administered by MSU). The repository contains the code for this week's lab. Each week's lab will have a Gitlab link at the top.
 
-When you go to Gitlab for the first time, you'll need to log in. Click the "Okta" button (and check the "Remember me" box down below so you won't have to log in everytime.) If you're logged into an MSU system already, the site should load. Otherwise, it'll ask you for the MSU netid and password.
+When you go to Gitlab for the first time, you'll need to log in. Click the "Okta" button (and check the "Remember me" box down below so you won't have to log in everytime.) If you're logged into an MSU system already, the site should load. Otherwise, it'll ask you for your MSU netid and password.
 
 Once you're in Gitlab, you should see a short list of files. Clicking on a file will show you the contents of the file. This repository only has two files in it: `eliza.py` and a file called README.md which says a bit about what's in the repository.  
 
@@ -124,7 +124,7 @@ We want to download the `eliza.py` file. Click on the name of the file, and it s
 
 Next, we want to run the file from the command line. Open up PowerShell (in Windows) or Terminal (in Mac OS).
 
-The most important thing to remember about command line is that it only will let you do things with files if it thinks it's in the same location the file is. That means it has to be in the Downloads folder to interact with any of the files in Downloads. PowerShell will show you the directory tree you're in, while Terminal will only show you your current folder.
+The most important thing to remember about command line is that it only will let you do things with files if it thinks it's in the same location the file is. That means it has to be in the Downloads folder to interact with any of the files in Downloads. PowerShell (Windows) will show you the directory tree you're in, while Terminal (Mac) will only show you your current folder.
 
 By default, both PowerShell and Terminal start in the top level Users/username directory when you open it up. Other directories like Desktop and Downloads are nested directly under the Users directory.
 
@@ -159,12 +159,12 @@ Once you think you're in the right folder on command line, run the command `ls`.
 There's also a neat trick that works in both Windows and Mac OS to get to the folder you want to go to. 
 1. Type `cd` in command line - make sure there is a space after `cd`.
 2. Open up the folder you want in File Explorer (Windows) or Finder (Mac OS) -- the normal way of viewing folders. 
-3. Drag the folder over to the command line window. When you release your mouse on top of the command line window, that should put the full directory name after `cd`.
+3. Drag the folder over to the command line window. When you release your mouse on top of the command line window, that should put the full directory name for that folder after `cd`. Then hit enter!
 
 A couple of other useful command line commands:
 * You can get a list of the files in the current directory with the `ls` command
 * You can move up one directory (to the parent directory) with the command `cd ..`
-* If you start typing the name of a file or directory, you can it the Tab key and it will try to automatically finish typing the name of that file/directory for you.
+* If you start typing the name of a file or directory, you can hit the Tab key and it will try to automatically finish typing the name of that file/directory for you.
 * When the space next to the prompt is empty (you haven't typed anything yet), you can hit the "up" arrow on your keyboard - this will autopopulate the last command that was given. 
 
 There's more [useful command line stuff]({% link reference/command_line.md %}) in the Reference section on this site.
@@ -185,7 +185,7 @@ Congrats!  You have run your first python program by hand on the command line! G
 
 **Change Drivers**: At this point, the driver should have Python installed and running on their computer, and should have been able to run `eliza.py`. Now the driver and navigator should swap.
 
-Go back to the beginning of the [Install Python section]( #install-python) on this page and re-do these all of the above steps on the new driver's computer. Make sure that you've got python installed correctly on both computers, and that both computers can run `eliza.py`. Some things will be easier the second time around, and sometimes you will encounter new problems. Work together with your partner to figure out how to get it working.
+Go back to the beginning of the [Install Python section]( #install-python) on this page and re-do these all of the above steps on the new driver's computer. Make sure that you've got Python installed correctly on both computers, and that both computers can run `eliza.py`. Some things will be easier the second time around, and sometimes you will encounter new problems. Work together with your partner to figure out how to get it working.
 
 ## Edit the program
 
@@ -205,7 +205,7 @@ VS Code works for both MacOS and Windows. It's entirely free. Here are a couple 
 * For Mac: [BBEdit](https://www.barebones.com/products/bbedit/download.html) (free version works fine)
 * For Windows: [Notepad++](https://notepad-plus-plus.org). 
 
-You are welcome to install any other text editor you like. If you have a text editor that you already use and like, that's fine, too. Note that Caitlin and Jack both use VS Code and will be able to support you most easily if you use VS Code, too.
+You are welcome to install any other text editor you like. If you have a text editor that you already use and like, that's fine, too.
 
 All of the options above are free to use. There are many others, including some specifically for Python, but not all of them are free and some get very complicated. I encourage you to experiment and find one that YOU like. Programming is a form of art, and each artist has their own preferences for tools.
 
@@ -221,13 +221,13 @@ The second section is labeled "list of inputs and possible responses", and has a
 
 The last section calls itself the "code that asks for user input and prints out a response". This is a series of commands -- think of them like the instructions you wrote to make pizzas earlier this week. It prints out information, then asks the user to type something in, and then chooses a response based on what was typed.
 
-Right now, the way Eliza works is that the computer looks for specific words in what the user types; words like "hello", "mother", or "I feel", which the program calls prompts. Then, when it sees one of these prompts, it looks at the list of possible responses below the prompt, and picks one randomly to print out. So if the user enters "hello", then it will randomly pick one of the 3 responses below it and print it out.
+Right now, the way Eliza works is that the computer looks for specific words in what the user types: words like "hello", "mother", or "I feel", which the program calls prompts. Then, when it sees one of these prompts, it looks at the list of possible responses below the prompt, and picks one randomly to print out. So if the user enters "hello", then it will randomly pick one of the 3 responses below it and print it out.
 
 ### Make a change to the code
 
 We are going to make a change. We are going to allow Eliza to respond to questions.
 
-First, we should check whether she already does that. Run the eliza.py program with the command `python eliza.py` in command line. Enter a question, complete with a question mark at the end. What happens?   She responds, but she doesn't seem to acknowledge that it was a question.
+First, we should check whether she already does that. Run the eliza.py program with the command `python eliza.py` in command line. Enter a question, complete with a question mark at the end. What happens? She responds, but she doesn't seem to acknowledge that it was a question.
 
 Now, let's add an ability for her to respond to questions.   If you look in the file, you should see code that looks
 like this:
@@ -251,15 +251,15 @@ That is the 'default' response; if she doesn't know what else to say, she says t
 
 Make sure not to leave out any parentheses (), square brackets [], or commas. Also make sure the indents look like how the next chunk of code is indented. Indents are important in Python.
 
-Great! You've just made your first changes to a python program. Good work.
+Great! You've just made your first changes to a Python program. Good work.
 
-When you're done, save the file by going to File -> Save in your text editor. A quicker way to do this is Ctrl+S on Windows or Cmd+S on Macs. Files never save automatically; you have to remember to do it yourself every time. If your changes aren't saved and you try to run the program, it will run the last saved version.
+When you're done, save the file by going to File -> Save in your text editor. A quicker way to do this is Ctrl+S on Windows or Cmd+S on Mac. Files never save automatically; you have to remember to do it yourself every time. If your changes aren't saved and you try to run the program, it will run the last saved version.
 
 ### Run again, and see if the changes appear
 
-Now let's see if your changes work. Go to the command line again, and run eliza.py using the command `python eliza.py`. Notice that this is how we always run a python program: we go to the command line, type the word python followed by the name of the program file we've been editing. (And again, remember to use `python3` if you're on a Mac!)
+Now let's see if your changes work. Go to the command line again, and run eliza.py using the command `python eliza.py`. Notice that this is how we always run a Python program: we go to the command line, type the word `python` followed by the name of the program file we've been editing. (And again, remember to use `python3` if you're on a Mac!)
 
-Eliza should appear again. Start interacting with her. Does she still behave normally?  What happens now if you ask her a question? Does she do somethig different than she did before?
+Eliza should appear again. Start interacting with her. Does she still behave normally?  What happens now if you ask her a question? Does she do something different than what she did before?
 
 If she does, then your changes have worked! If she doesn't, then go back to the file and try again. Make sure you saved the latest version, and take a look at the punctuation and indents in the code you added.
 
@@ -271,11 +271,11 @@ Once you've got the changes you made to `eliza.py` working, take a take a screen
 
 ## Trade places and repeat
 
-In normal labs after this week, we won't be repeating steps on both people's computers. But for now, we want to make sure that both people's computers are set up and working with Python correctly. So **change drivers** again, and go through the steps starting at [Install a Text Editor](#install-a-text-editor) again. Hopefully it will be easier the second time around.
+In normal labs after this week, we won't be repeating steps on both people's computers. But for now, we want to make sure that both people's computers are set up and working with Python correctly. So **change drivers** again, and go through the steps starting at [Install a Text Editor](#install-a-text-editor) again on the other person's computer. Hopefully it will be easier the second time around.
 
 ## Extra Challenges
 
-At this point, both you and your partner should have Eliza.py with changes working on both of your computers. Labs every week will have one or more challenges at the end. If you finish all of the main exercises, start working on one of the challenges. If you finish one (or both!) challenges before class ends, let Caitlin or Jack know so we can check your work and answer any questions.
+At this point, both you and your partner should have Eliza.py with changes working on both of your computers. Labs every week will have one or more challenges at the end. If you finish all of the main exercises, start working on one of the challenges. If you finish one (or both!) challenges before class ends, let Caitlin know so I can check your work and answer any questions.
 
 ### Challenge: Other Python programs 
 
@@ -292,6 +292,6 @@ You don't necessarily understand how Eliza works, yet. You will later in the sem
 
 When you and your partner are done for the day, submit your work! Today you'll just need to turn in screenshots of Eliza working in command line and of the changes you made to the code. If you got to the challenges, take screenshots of those working, too. Next week you'll start turning in your code as well.
 
-If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin or Jack first.**
+If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin first.**
 
-If you didn't get everything done today, that's OK. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin and Jack know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class or next week to make sure you have everything working.
+If you didn't get everything done today, that's OK. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin know if you couldn't finish the main part of the lab and how far you got. I'll work with you after class or next week to make sure you have everything working.
