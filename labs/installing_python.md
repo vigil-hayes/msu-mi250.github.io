@@ -290,7 +290,7 @@ You don't necessarily understand how Eliza works, yet. You will later in the sem
 
 ## Submit your work
 
-When you and your partner are done for the day, submit your work! Today you'll just need to turn in screenshots of Eliza working in command line and of the changes you made to the code. If you got to the challenges, take screenshots of those working, too. Next week you'll start turning in your code as well.
+When you and your partner are done for the day, submit your work! Today you'll just need to turn in screenshots to D2L of Eliza working in command line and of the changes you made to the code. If you got to the challenges, take screenshots of those working, too. Next week you'll start turning in your code as well.
 
 If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin first.**
 
