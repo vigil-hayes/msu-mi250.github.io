@@ -1435,7 +1435,7 @@
   },"239": {
     "doc": "Schedule",
     "title": "Course Schedule",
-    "content": "| Week | Topic / Readings | Lab | Studio | Homework | . | 1 (Aug 27 / 29) | Course Introduction | Intro to Class | | | . | 2 (Sept 3 / 5) | Variables, Flow | | | | . | 3 (Sept 10 / 12) | Version Control | | | | . | 4 (Sept 17 / 19) | Loops and Variables | | | | . | 5 (Sept 24 / 26) | Drawing | | | | . | 6 (Oct 1 / 3) | Lists and Randomness | | | | . | 7 (Oct 8 / 10) | Functions | | | | . | 8 (Oct 15 / 17) | Dictionaries | | | | . | 9 (Oct 22 / 24) | Modules | NO CLASS - fall break | | | . | 10 (Oct 29 / 31) | Revisiting Functions | | | | . | 11 (Nov 5 / 7) | Reading Code | NO CLASS - election day | | | . | 12 (Nov 12 / 14) | Files | | | | . | 13 (Nov 19 / 21) | APIs | | | | . | 14 (Nov 26 / 28) | Refactoring | | NO CLASS - Thanksgiving | | . | 15 (Dec 3 / 5) | Reflection | | | | . ",
+    "content": "| Week | Topic / Readings | Lab | Studio | Homework | . | 1 (Aug 27 / 29) | Course Introduction | Intro to Class | Getting Started with Python | | . | 2 (Sept 3 / 5) | Variables, Flow | | | | . | 3 (Sept 10 / 12) | Version Control | | | | . | 4 (Sept 17 / 19) | Loops and Variables | | | | . | 5 (Sept 24 / 26) | Drawing | | | | . | 6 (Oct 1 / 3) | Lists and Randomness | | | | . | 7 (Oct 8 / 10) | Functions | | | | . | 8 (Oct 15 / 17) | Dictionaries | | | | . | 9 (Oct 22 / 24) | Modules | NO CLASS - fall break | | | . | 10 (Oct 29 / 31) | Revisiting Functions | | | | . | 11 (Nov 5 / 7) | Reading Code | NO CLASS - election day | | | . | 12 (Nov 12 / 14) | Files | | | | . | 13 (Nov 19 / 21) | APIs | | | | . | 14 (Nov 26 / 28) | Refactoring | | NO CLASS - Thanksgiving | | . | 15 (Dec 3 / 5) | Reflection | | | | . ",
     "url": "/schedule.html#course-schedule",
     "relUrl": "/schedule.html#course-schedule"
   },"240": {
@@ -1531,7 +1531,7 @@
   },"255": {
     "doc": "Syllabus",
     "title": "Instructors",
-    "content": "Instructor: Caitlin Geier (she/her/hers) Email: geierac@msu.edu Office hours: By appointment, virtually or in person - email or talk to after class to find a time Office: Room 525, Communication Arts and Sciences building . Course assistant: TBD Email: Office hours: . ",
+    "content": "Instructor: Caitlin Geier (she/her/hers) Email: geierac@msu.edu Office hours: By appointment, virtually or in person - email or talk to after class to find a time Office: Room 525, Communication Arts and Sciences building . Course assistant: Shiyu (Daria) Xiang (she/her/hers) Email: xiangsh2@msu.edu Office hours: By appointment, virtually - email or talk to after class to find a time . ",
     "url": "/syllabus.html#instructors",
     "relUrl": "/syllabus.html#instructors"
   },"256": {
@@ -1567,7 +1567,7 @@
   },"261": {
     "doc": "Syllabus",
     "title": "Communication Policies",
-    "content": "Caitlin and minion are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom. (something about minion’s availability here). If you have questions about anything course-related, please get in touch! . Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended. Announcements . Announcements about the course will be posted on D2L. Make sure you have allowed D2L to send announcements to your MSU email. You can also have D2L emails forwarded to different email accounts - see instructions to do this in the MSU D2L documentation. ",
+    "content": "Caitlin and Daria are happy to respond to student questions after class, or via email. Caitlin and Daria are also happy to meet with students on Zoom - email either of us to set up a time to meet. If you have questions about anything course-related, please get in touch! . Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended. Announcements . Announcements about the course will be posted on D2L. Make sure you have allowed D2L to send announcements to your MSU email. You can also have D2L emails forwarded to different email accounts - see instructions to do this in the MSU D2L documentation. ",
     "url": "/syllabus.html#communication-policies",
     "relUrl": "/syllabus.html#communication-policies"
   },"262": {

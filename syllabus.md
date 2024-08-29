@@ -29,9 +29,9 @@ Synchronous, in person – no hybrid options available
 *Office hours:* By appointment, virtually or in person - email or talk to after class to find a time  
 *Office:* Room 525, Communication Arts and Sciences building
 
-*Course assistant:* TBD  
-*Email:*  
-*Office hours:* 
+*Course assistant:* Shiyu (Daria) Xiang (she/her/hers)  
+*Email:* [xiangsh2@msu.edu](mailto:xiangsh2@msu.edu)  
+*Office hours:* By appointment, virtually - email or talk to after class to find a time
 
 ## Course Description
 
@@ -181,7 +181,7 @@ A rubric for the final project will be released at the beginning of the final we
 
 ## Communication Policies
 
-Caitlin and **minion** are happy to respond to student questions after class, or via email. Caitlin also holds office hours on a weekly basis, both in person and on Zoom. **(something about minion's availability here)**. If you have questions about anything course-related, please get in touch!
+Caitlin and Daria are happy to respond to student questions after class, or via email. Caitlin and Daria are also happy to meet with students on Zoom - email either of us to set up a time to meet. If you have questions about anything course-related, please get in touch!
 
 Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
 
