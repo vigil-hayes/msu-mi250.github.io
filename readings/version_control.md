@@ -3,7 +3,7 @@ topic: Version Control
 parent: Week 3
 ---
 
-From here on out, you'll be using something called version control to collaborate with partners in class and to turn in code. Version control allows programmers to keep track of changes to their code and to collaborate with other programmers more easily. The type of version control we'll be using is called Git. We'll be using it alongsize Gitlab, which is kind of like Google Docs except specifically for storing code. Gitlab is where you'll turn in your code from now on.
+From here on out, you'll be using something called version control to collaborate with partners in class and to turn in code. Version control allows programmers to keep track of changes to their code and to collaborate with other programmers more easily. The type of version control we'll be using is called Git. We'll be using it alongside Gitlab, which is kind of like Google Docs except specifically for storing code. Gitlab is where you'll turn in your code from now on.
 
 **Note:** Some of these readings talk about Github, which we won't be using. We're using Gitlab instead. Gitlab and Github are two different variations on the same thing - they're run by different companies, but they do the same thing, which is allow people to store programming projects in the cloud. We use Gitlab for this class because MSU runs an MSU-specific Gitlab server that all students can use for free.
 
