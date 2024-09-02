@@ -39,7 +39,7 @@ Python is a programming language, but is interpreted, which means that there is 
 
 The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.12.X on it. Click the button to download the program, and run the installer program. That will install the current version of the Python interpreter on your computer. 
 
-**Important:** While running the installer, be sure to click the "Add python to the PATH" checkbox.
+**Important for Windows:** While running the installer, be sure to click the "Add python to the PATH" checkbox.
 
 If you already have Python installed on your computer, make sure you have the current version (3.12.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
 
@@ -128,7 +128,7 @@ The most important thing to remember about command line is that it only will let
 
 By default, both PowerShell and Terminal start in the top level Users/username directory when you open it up. Other directories like Desktop and Downloads are nested directly under the Users directory.
 
-The first thing we need to do is to change the current directory to the one where the file was downloaded. If you sent `eliza.py` to the Downloads folder, use the command `cd downloads`. `cd` is short for "change directory". If that command works, it won't print anything out; instead it will just give you a new prompt which will show you you've moved into that folder.  
+The first thing we need to do is to change the current directory to the one where the file was downloaded. If you sent `eliza.py` to the Downloads folder, use the command `cd downloads`. The command `cd` is short for "change directory". If that command works, it won't print anything out; instead it will just give you a new prompt which will show you you've moved into that folder.  
 
 On Windows, this looks like:
 
@@ -282,7 +282,7 @@ At this point, both you and your partner should have Eliza.py with changes worki
 Now that you've gotten your first Python program running, try to download a few more Python programs and get them running. Be sure to run them using the command line:
 
 * [Snowflake](https://github.com/raspberrypilearning/turtle-snowflakes/blob/master/code/snowflake.py){:target="_blank"} -- draws a snowflake on the screen.  (the "raw" button downloads the file)
-* [Uno](http://code.activestate.com/recipes/580811-uno-text-based/?in=lang-python){:target="_blank"} -- play the card game uno
+* [Uno](http://code.activestate.com/recipes/580811-uno-text-based/?in=lang-python){:target="_blank"} -- play the card game uno (note: not available for Mac!)
 
 ### Challenge: Add more responses to Eliza
 
