@@ -6,7 +6,7 @@ visible: false
 published: true
 ---
 
-Today's studio is a creative exercise aimed at get you used to sharing code with other people using Git. You'll be practicing what's called [round robin storytelling](https://en.wikipedia.org/wiki/Round-robin_story){:target="_blank"} - this is when one person starts a story, then passes it on to the next person who adds to it, and then to the next person, who adds even more, and so on. 
+Today's studio is a creative exercise aimed at getting you used to sharing code with other people using Git. You'll be practicing what's called [round robin storytelling](https://en.wikipedia.org/wiki/Round-robin_story){:target="_blank"} - this is when one person starts a story, then passes it on to the next person who adds to it, and then to the next person, who adds even more, and so on. 
 
 You'll be using Git to share code this week - and also to write the story. The first person will start writing the story and building the code around it, then will push it up to GitLab so the next person can pull it down and start writing a new part of the story/program. 
 
@@ -19,7 +19,7 @@ First, nominate one member of your group to create the repository. You only need
 1. From your projects page in GitLab (this is the main landing page when you first log into Gitlab), click the blue "New Project" button
 2. Choose the "Create blank project" option
 3. On the Create blank project page, give your project a name (Studio 3 works fine, but you can name it whatever you want). Keep all the other options on that page as-is and click the blue "Create project" button at the bottom.
-4. Add your groupmates to the project as members. Also add Caitlin (geierac) and Jack (waierjac). For a reminder of how to do this, see the [Git reference page]({% link reference/using_git.md %}).
+4. Add your groupmates to the project as members. Also add Caitlin (geierac) and Shiyu (xiangsh2). For a reminder of how to do this, see the [Git reference page]({% link reference/using_git.md %}).
 
 At this point, everyone in the group should check that they have access to the repository, and then use `git clone` to make a copy of it on their computers. The repo will only have a README file in it when it's first created, so when you use `git clone`, it will create a new folder on your computer with just the README file it in.
 
@@ -32,6 +32,8 @@ You'll be using Git to pass control of the code from one person to the next. Whe
 3. push your changes back up to GitLab using `git add`, `git commit`, and `git push`.
 
 Once you've pushed your code, then it'll be ready for the next person to pull it down.
+
+Remember, the [Git reference page]({% link reference/using_git.md %}) on this site is a good resource to use as you're learning Git!
 
 ## Advice
 
@@ -53,7 +55,7 @@ Decide as a group what features you want to include in the story - should it be 
 
 ### Work together!
 
-You will each be writing your own chunks of the story, but that doesn't mean you shouldn't be working together. You all have a responsibility to each other to make sure that everyone understands the code that the others are writing. If you get stuck, ask your teammates for help. If your teammate gets stuck, see what you can do to help them. Maybe your code keeps giving you errors, maybe Git isn't working right, maybe you have writer's block - all of these are places where your teammates can help you out. Caitlin and Jack are always around to help you get unstuck, too.
+You will each be writing your own chunks of the story, but that doesn't mean you shouldn't be working together. You all have a responsibility to each other to make sure that everyone understands the code that the others are writing. If you get stuck, ask your teammates for help. If your teammate gets stuck, see what you can do to help them. Maybe your code keeps giving you errors, maybe Git isn't working right, maybe you have writer's block - all of these are places where your teammates can help you out. Caitlin and Shiyu are always around to help you get unstuck, too.
 
 ### Include ASCII art
 
