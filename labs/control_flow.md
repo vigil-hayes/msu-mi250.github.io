@@ -6,7 +6,7 @@ nav_exclude: true
 visible: false
 ---
 
-The first thing you need to do today is to create a copy of the files you'll need for the lab. These files are in the git repository linked above. Last week, you only downloaded one file. This week, download the full repository. Find the download button (next to the blue "Clone" button) on the main repository page and choose the ".zip" option. It will download as a .zip folder on your computer.
+The first thing you need to do today is to create a copy of the files you'll need for the lab. These files are in the git repository linked above. Last week, you only downloaded one file. This week, download the full repository. Find the download button (next to the blue "Code" button) on the main repository page and choose the ".zip" option. It will download as a .zip folder on your computer.
 
 Once you get the repository on your computer, you may need to unzip it to be able to work with the files inside. On Windows, right click on the file and choose 'Extract All' - this will create a new folder with the same name. On Mac, double click on the folder and it will do the same thing.
 
@@ -23,7 +23,7 @@ As with all labs, this lab will be done in pairs. Remember to switch places ever
 
 ## Print - outputting information
 
-You learned a bit about the print statement in the readings this week. You'll be using it a lot this semester; we'll start practicing now.
+You learned a bit about the `print` statement in the readings this week. You'll be using it a lot this semester; we'll start practicing now.
 
 ### Exercise 1: Hello world 
 

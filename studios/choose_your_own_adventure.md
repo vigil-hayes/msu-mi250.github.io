@@ -5,9 +5,11 @@ nav_exclude: true
 visible: false
 ---
 
+<!-- change "Tuesday" to "last week" for spring semester-->
+
 The goal for today's studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. 
 
-Be creative! There's a small choose your own adventure program in the code from last week's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from last week might be useful to start with.
+Be creative! There's a small choose your own adventure program in the code from Tuesday's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Tuesday might be useful to start with.
 
 You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can't work alone.
 
@@ -59,7 +61,7 @@ This also means that you don't need to have the whole story written before you s
 
 ### Use code you've already worked with
 
-You already did a bit with conditionals (if, else, and elif) in the lab last week. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program will be particularly helpful for you to look at.
+You already did a bit with conditionals (if, else, and elif) in Tuesday's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program will be particularly helpful for you to look at.
 
 ### Submit on D2L and Gitlab
 
