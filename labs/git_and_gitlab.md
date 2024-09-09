@@ -52,31 +52,19 @@ What Git allows you to do that simply downloading the files doesn't is to make a
 
 The first thing you'll need to do is download and install Git onto your computer. You can download the Git installer from the [Git Downloads Page](https://git-scm.com/downloads){:target="_blank"}. 
 
-#### On Windows:
+#### **On Windows:**
 On Windows, choose the standalone installer. If you have Windows 10 or Windows 11, the 64-bit installer will work fine. The installer will ask you a lot of questions. Just click next on all of them.
 
-#### On Mac:
-If you are on a Mac, the best way to get the most up to date version of Git is to install Homebrew first, and then use Homebrew to install Git. The easiest way to do this is to use the package installer. The latest version is located here: https://github.com/Homebrew/brew/releases/tag/4.3.19. Scroll down to the bottom of the page and click on the "Homebrew-4.X.XX.pkg" link to download the installer.
+#### **On Mac:**
+If you are on a Mac, the best way to get the most up to date version of Git is to install Homebrew first, and then use Homebrew to install Git. The easiest way to do this is to use [the package installer](https://github.com/Homebrew/brew/releases/tag/4.3.19){:target="_blank"}. Scroll down to the bottom of the page and click on the "Homebrew-4.3.19.pkg" link to download the installer.
 
-Once Homebrew is installed, you can install Git by running this command:
+Once Homebrew is installed, you can install Git by running this command in Terminal:
 
 ```
 brew install git
 ```
 
-*Installing Homebrew manually:*
-If the package installer doesn't work, you can also install Homebrew manually. To do so, copy and paste this command into Terminal and hit Enter:
-
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-It will prompt you for your computer's password before the install starts. If it gives you any errors, you may have to install the Xcode command line tools first. You can do so by running this command in Terminal:
-
-```
-xcode-select --install
-```
-
-*Alternate option for Mac*: If you absolutely can't get any of the above options to work, you can also install Git using the binary installer option on the Git for Mac downloads page. This will give you a much older version of Git (from 2021), but it will work for most things we do in this class.
+If you couldn't get the package installer to work, try the alternate options in the [Troubleshooting](#troubleshooting) section at the bottom of the lab.
 
 ### Make sure Git is installed properly
 
@@ -296,6 +284,24 @@ Take screenshots of your code working in command line, as per usual, and upload 
 
 
 # Troubleshooting 
+
+## Alternate Git installation methods for MacOS
+
+*Installing Homebrew manually:*
+If the package installer doesn't work, you can also install Homebrew manually. To do so, copy and paste this command into Terminal and hit Enter:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+It will prompt you for your computer's password before the install starts. If it gives you any errors, you may have to install the Xcode command line tools first. You can do so by running this command in Terminal:
+
+```
+xcode-select --install
+```
+
+Once Homebrew is installed, make sure to run `brew install git` to finish installing Git.
+
+*Alternate option for Mac*: If you absolutely can't get any of the above options to work, you can also install Git using the binary installer option on the Git for Mac downloads page. This will give you a much older version of Git (from 2021), but it will work for most things we do in this class.
 
 ## Troubleshooting git clone
 
