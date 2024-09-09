@@ -6,7 +6,7 @@ nav_exclude: true
 visible: false
 ---
 
-For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork this week's GitLab project (linked above). Only one person needs to create a forked project. Once forked, add your partner to the project (and Caitlin and Jack), and then clone the repository onto your computer. Check out the [Git reference]({% link reference/using_git.md %}) for a reminder on how to do this.
+For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork this week's GitLab project (linked above). Only one person needs to create a forked project. Once forked, add your partner to the project (and Caitlin and Shiyu), and then clone the repository onto your computer. Check out the [Git reference]({% link reference/using_git.md %}) for a reminder on how to do this.
 
 {% capture _ %}{% increment exercise3 %}{% endcapture %}
 
@@ -38,7 +38,7 @@ That's cool, but `counter.py` only works well with whole numbers. You can use `r
 
 ### Exercise {% increment exercise3 %}: Count to a random number
 
-The for loop is still running, and still only counts to 5. Let's make it count to a random number instead.
+The for loop is still running, and still only counts to 5. Let's make it count to a random number instead. That is, your loop should run a random number of times instead of exactly 5 times every time.
 
 You're already generating a random whole number, but you're only printing it out. Let's add it to the for loop so that instead of running 5 times, it will run a random number of times. You can do this by storing the random number in a variable called `count` and then using the variable inside of `range()` in the for loop.
 
@@ -155,7 +155,7 @@ At this point, you should have modified versions of all 3 programs for this lab.
 
 ## Challenges
 
-If you finish the lab before the end of class, please try to do at least one of the challenges. If you can get one or more of the challenges working correctly, then you can leave class early. Check in with Caitlin or Jack first before you leave.
+If you finish the lab before the end of class, please try to do at least one of the challenges. If you can get one or more of the challenges working correctly, then you can leave class early. Check in with Caitlin or Shiyu first before you leave.
 
 {% capture _ %}{% increment challenge3 %}{% endcapture %}
 

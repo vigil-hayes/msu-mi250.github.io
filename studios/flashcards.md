@@ -18,25 +18,25 @@ Your goal today is to write a flash card program to help someone study a specifi
 * Once a question is answered correctly, move on to the next flashcard. 
 * Optional: keep track of how many tries each flashcard took to answer correctly and print that out at the end.
 
-It is OK if it always prints out the flash cards in the same order every time. We will learn how to make things in different orders later in the semester.
+It's okay if it always prints out the flash cards in the same order every time. We will learn how to make things in different orders later in the semester.
 
 ## Git
 
-Store your project in a Git repository on the [MSU GitLab](https://gitlab.msu.edu). You'll need to make a new repository for you and your group - it's easiest to do this first, before you start writing any code. Only one person in the group needs to create a repository; once it's shared, everyone else in the group will have access to it. Remember to add Caitlin (geierac) and Jack (waierjac) as members along with your groupmates. See the [Using Git in the Reference section]({% link reference/using_git.md %}) for a refresher.
+Store your project in a Git repository on the [MSU GitLab](https://gitlab.msu.edu). You'll need to make a new repository for you and your group - it's easiest to do this first, before you start writing any code. Only one person in the group needs to create a repository; once it's shared, everyone else in the group will have access to it. Remember to add Caitlin (geierac) and Shiyu (xiangsh2) as members along with your groupmates. See the [Using Git in the Reference section]({% link reference/using_git.md %}) for a refresher.
 
 ## Advice
 
-What follows is my advice for doing this. You don't have to follow this advice. Do whatever you want. This is just my experience in doing this, and you might want to do it differently. That's ok!
+What follows is my advice for doing this. You don't have to follow this advice. Do whatever you want. This is just my experience in doing this, and you might want to do it differently. That's okay!
 
 ### Make it useful
 
-Try to make this program actually useful.  The easiest way is if you make the flashcard app for something you are already trying to learn. For example, maybe you have some vocabulary or dates you need to know for one of your other classes. Or it can be something related to a hobby or interest you have, like remembering which player is on which baseball team (Question: What team is Julio Rodriguez on? Answer: Seattle Mariners), or who trivia about favorite novels (Question: Who wrote American Gods? Answer: Neil Gaiman).
+Try to make this program actually useful. The easiest way is if you make the flashcard app for something you are already trying to learn. For example, maybe you have some vocabulary or dates you need to know for one of your other classes. Or it can be something related to a hobby or interest you have, like remembering which player is on which baseball team (Question: What team is Julio Rodriguez on? Answer: Seattle Mariners), or trivia about favorite novels (Question: Who wrote American Gods? Answer: Neil Gaiman).
 
 If you can't think of anything you might want to test yourself on, you can create a flashcard program for someone else; for example, create a program to help a middle school student remember biology facts, or a high school student remember world history, or an elementary school student study multiplication. Or make a program that could be used for playing trivia night at a bar or cafe.
 
 ### Do your research
 
-Just because you are making the program doesn't mean that you have to already know everything! Then why would you need the app? Instead, plan on doing some research to figure out what things you need to learn. Spend some time with Google trying to make a list of the things you would need to learn, and then spend some time on paper trying to turn those into flash cards.
+Just because you are making the program doesn't mean that you have to already know everything! Then why would you need the program? Instead, plan on doing some research to figure out what things you need to learn. Spend some time with Google trying to make a list of the things you would need to learn, and then spend some time on paper trying to turn those into flash cards.
 
 Also, remember that flash cards work best for **facts** -- things with a right or wrong answer that you need to memorize. They don't really help much with other types of learning, like learning how to write, or how to pronouce words in foreign languages, or how to develop your own style.  
 
