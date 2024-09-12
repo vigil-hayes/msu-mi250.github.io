@@ -27,7 +27,7 @@ For every lab, a repository will already exist with code files in it that you wi
 2. It will ask you for a 'namespace': there should be only one option, with your username. If you have multiple options, make sure you choose your username as the name space.
 3. Leave everything else on the page as-is and click the blue "Fork project" button at the bottom.
 4. Be patient - it might take a few moments. Once the fork is complete, it will take you to the project page for your newly forked project. You'll be able to tell because if you look at the breadcrumbs above the project name, instead of saying "MI 250 > Name of Lab", it should say your username instead of MI 250.
-5. Add your groupmates to the project. Also add Caitlin (geierac) and Jack (waierjac). (For a reminder of how to do this, see [sharing a repository with other people](#sharing-a-repository-with-other-people).)
+5. Add your groupmates to the project. Also add Caitlin (geierac) and Shiyu (xiangsh2). (For a reminder of how to do this, see [sharing a repository with other people](#sharing-a-repository-with-other-people).)
 
 Note: if you get a 404 error, it's because GitLab tried to load the repository page for your new forked repo before the fork was complete. Wait a few seconds and try reloading the page. If that doesn't work, go to your main projects page by clicking the fox icon in the upper left and see if the project you created is in the list.
 
@@ -38,16 +38,16 @@ For every studio, one member of your group will need to create a new repository.
 1. From your projects page in GitLab (this is the main landing page when you first log into Gitlab), click the blue "New Project" button
 2. Choose the "Create blank project" option
 3. On the Create blank project page, give your project a name (Studio 3 works fine, but you can name it whatever you want). Keep all the other options on that page as-is and click the blue "Create project" button at the bottom.
-4. Add your groupmates to the project. Also add Caitlin (geierac) and Jack (waierjac). (For a reminder of how to do this, see [sharing a repository with other people](#sharing-a-repository-with-other-people).)
+4. Add your groupmates to the project. Also add Caitlin (geierac) and Shiyu (xiangsh2). (For a reminder of how to do this, see [sharing a repository with other people](#sharing-a-repository-with-other-people).)
 
 ## Sharing a repository with other people
 
-If you want other people to be able to see your code, you need to share the repository with them. This includes your partner or groupmates in class, and Caitlin and Jack. To share a repo, you need to add the people you want to share with as members of that repo.
+If you want other people to be able to see your code, you need to share the repository with them. This includes your partner or groupmates in class, and Caitlin and Shiyu. To share a repo, you need to add the people you want to share with as members of that repo.
 
 1. Go to the main page for your project in Gitlab
 2. In the left hand menu, find Manage (it should be near the top.) Hover over it and you'll see a smaller menu - choose "Members" in that menu.
 3. On the Members page, click the blue "Invite Members" button on the top right.
-4. In the window that pops up, add each of your partners / groupmates - you can search for them using their MSU NetID (same as their MSU email). Also add Caitlin (geierac) and Jack (waierjac). Make sure to select the Maintainer role before clicking Invite at the bottom!
+4. In the window that pops up, add each of your partners / groupmates - you can search for them using their MSU NetID (same as their MSU email). Also add Caitlin (geierac) and Shiyu (xiangsh2). Make sure to select the Maintainer role before clicking Invite at the bottom!
 5. Everyone you added should show up on the list on the Project Members page - double check that they all have the Maintainer role. Everyone in that list will be able to see and edit your project.
 
 ## Git clone: Getting a repository onto your computer for the first time
@@ -109,4 +109,4 @@ If you've tried to fix the conflict but it's not working, `git restore` and `git
 
 If you do either of these, make sure to use `git pull` immediately after to make sure the respository is up to date. For more details, see [Git restore and Git reset](https://academind.com/tutorials/git-restore-and-git-reset){:target="_blank"}.
 
-Don't worry if you run into a conflict; Caitlin and Jack are always around to help you resolve them! 
+Don't worry if you run into a conflict; Caitlin and Shiyu are always around to help you resolve them! 
