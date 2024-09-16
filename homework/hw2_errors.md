@@ -21,7 +21,7 @@ Google is a very valuable resource for understanding error messages as well. For
 
 Each of the exercises below includes an error message and the snippet of code that caused the error. In your own words, describe what's happening with each of the error messages below. 
 
-Describe: What do you think caused the error? How would you go about trying to fix it? Try to make your descriptions as human-readable as possible - pretend you're trying to explain it to your partner during a lab or a studio during class. 
+Describe: What do you think caused the error? How would you go about trying to fix it? Try to make your descriptions as human-readable as possible - pretend you're trying to explain it to your partner during a lab or a studio in class. 
 
 ### Exercise 1
 
@@ -106,9 +106,11 @@ Grades will be based on following the instructions and making an honest effort. 
 
 As already mentioned, Google (or the search engine of your choise) is one of the best resources for looking up error messages. Here are a couple of other helpful resources:
 
-* [Error types in Python](https://www.tutorialsteacher.com/python/error-types-in-python){:target="_blank"}
 * [Common Python runtime errors beginners find](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find/){:target="_blank"}
+* [Python Errors and Built-in Exceptions](https://www.toppr.com/guides/python-guide/tutorials/python-files/python-errors-and-built-in-exceptions/){:target="_blank"}
 
 Note that text editors like Visual Studio Code will also highlight issues that will cause errors, usually in red or yellow. That can help you spot and fix issues before you run the program.
 
 It can also be helpful to look at the syntax highlighting - that is, the different colors text editors use to represent different parts of the code. For examples, VS Code always shows strings in Python files as orange text. If you know a line of text is supposed to be a string but it's not all in orange, that's a sign that there's something wrong that needs fixing - like a missing quote mark (") at the beginning or end of the string.
+
+VS Code and some other text editors will also sometimes show symbols and other visual indicators that there's an error in the code. Sometimes it will look like a squiggly underline, like how Word shows spelling or grammar errors. Other times it will be a red arrow in front the line numbers. When you encounter an error when running a program, look for these kinds of indicators in your text editor.

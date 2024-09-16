@@ -6,7 +6,7 @@ nav_exclude: true
 visible: false
 ---
 
-For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Jack (waierjac) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this.
+For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Caitlin (geierac) and Shiyu (xiangsh2) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this. Remember: only one person in your pair needs to fork the repository.
 
 For this lab, we will be working with Turtle Graphics all day. There are a LOT of commands you can use for Turtle, and you don't have to memorize them all. Instead, you can refer to the documentation:
 
@@ -66,7 +66,7 @@ Don't forget to save this file into the Git repo on your computer, so you can th
 
 ### Exercise 4: Names, squared
 
-For the next exercise, create a new program called `names.py`. This program should use the `write()` function to print out both your name and the name of your partner for the lab. It should also draw a red box around those names.  
+For the next exercise, create a new program called `name.py`. This program should use the `write()` function to print out a name. Decide whether to use your name or your partner's name. It should also draw a red box around the name.  
 
 Here is mine:
 
@@ -76,7 +76,7 @@ Note: you can change the color of the pen with `pencolor("red")`.
 
 You can also change the font and size if you want to. If you want to try this, look through the Turtle documentation (linked at the top of this lab) to figure out how to do it. (Hint: you can add more things inside the `write()` function!)
 
-*Hint:* Remember to add `from turtle import *` to the beginning of your `names.py` program and `done()` to the end.
+*Hint:* Remember to add `from turtle import *` to the beginning of your `name.py` program and `done()` to the end.
 
 ## Interactive Drawing!
 
@@ -110,9 +110,21 @@ When you see repeated code, that can be a good time to use a loop instead. Put t
 
 *Hint:* a while loop will probably work better than a for loop for this. Go back to the Guessing Game exercises in [the Counting and Loops lab]({% link labs/counting_and_loops.md %}) if you need a reminder on how to use while loops. Note you can end the program anytime by closing the Turtle window, so you don't need to worry if the loop is infinite.
 
+### Exercise 8: Quit the Guestbook
+
+Add an option for the user to quit the guestbook program if they type the word "quit". You can do this by putting an if statement inside your loop: 
+
+```python
+if userInputVariable == "quit":
+    break
+```
+The `break` keyword does what it says on the tin - if the if statement is true, it will break the loop.
+
+Test it to make sure it works! You may have to try putting the if statement in different places inside the loop to make sure it runs when it's supposed to.
+
 ## Seeing Stars
 
-### Exercise 8: Star
+### Exercise 9: Star
 
 Create a new program called `stars.py`. For this program, write a program that draws a 5 pointed star. Here's the catch: you must use a `for` loop to draw the star. If you do it right, the star can be drawn using only 3 lines of code.
 
@@ -127,37 +139,35 @@ One finished, it should look like this:
 
 *Hint:* Remember to add `from turtle import *` to the beginning of your `stars.py` program and `done()` to the end.
 
-### Exercise 9: Row of stars
+### Exercise 10: Row of stars
 
 Next, modify your program to use a `for` loop to create a row of 5 stars next to each other. You should use the same code you wrote above to draw a single star, but put it inside a loop with some additional code between the stars so that the turtle moves to the right to get ready to draw the next star.
 
 *Hint:* It is possible to have a for loop inside of another for loop - this is called having a nested loop.
 
-### Exercise 10: Fill In the Stars
+### Exercise 11: Fill In the Stars
 
 Modify your program to fill in the stars with a color. You can specify the fill color using the `color()` command. Use `begin_fill()` when you start drawing to begin filling in the stars, and `end_fill()` when you are done with what you want filled. For this exercise, fill the stars so they're all black (`color("black")`).
 
-*Note*: For some reason, on Macs, it doesn't actually fill in the center of the star. That's fine!
+*Note*: The center of the star will not be filled in with color - that's expected! It's to do with the way Turtle calculates what parts of the shape should and shouldn't be filled.
 
-![Hollow star, on a Mac]({% link img/star-mac.png %})
-Hollow star, on a Mac
+![Filled star with hollow center]({% link img/star-mac.png %})
 
-![Filled star, on Windows]({% link img/star-win.png %})
-Filled star, on Windows
-
-### Exercise 11: Brightly Colored Stars
+### Exercise 12: Brightly Colored Stars
 
 Black is boring. Make the stars brightly colored. Here's a handy resource for [colors you can use in Turtle](https://trinket.io/docs/colors){:target="_blank"}. 
 
 If you want an even broader range of colors, you can also use HTML color codes, also known as hex codes. Here's a good [color picker](https://htmlcolorcodes.com/){:target="_blank"}. Google can help you figure out how to use hex codes with Turtle.
 
-Play around and find a color you and your partner both like, and make all the stars that color. Bonus: can you make the stars multiple colors?
+Play around and find a color you and your partner both like, and make all the stars that color. 
 
-### Exercise 12: Lots of Stars
+Bonus: can you make the stars multiple colors?
+
+### Exercise 13: Lots of Stars
 
 Now that you have the commands to draw a star, let's draw lots of stars. Using nexts for loops, modify your previous program to draw 50 stars in a 10 by 5 grid.
 
-*Hint:* the command `speed(0)` will speed up the Turtle drawing so you don't have to wait as long.
+*Hint:* putting the command `speed(0)` near the top of your program will speed up the Turtle drawing so you don't have to wait as long.
 
 *Hint 2:* You'll need to move the turtle in between each row of stars so it starts in the right place to draw the next row. 
 
@@ -174,11 +184,13 @@ You've drawn a square and a star so far. Use Turtle to draw these shapes as well
 
 If you aren't sure of the angles you need to turn the turtle in order to draw these shapes, use Google to look it up!
 
-### Challenge 2: Quit the Guestbook
+### Challenge 2: Completely filled star
 
-Right now you can quit the guestbook by closing the Turtle window. Change the code so that the guestbook program stops taking new names when the user types "quit". The Turtle window should still stay open.
+Draw the star differently so that the entire inside part of the star is filled, like this:
 
-*Hint:* remember you can use if statements inside of while loops to check for a condition.
+![Filled star with hollow center]({% link img/star-win.png %})
+
+*Hint:* You can do this by drawing the outline of the star rather than drawing criss-crossing lines. What angles would you use for that?
 
 ### Challenge 3: Stars on the U.S. Flag
 

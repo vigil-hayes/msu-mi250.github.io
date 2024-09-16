@@ -15,7 +15,7 @@ This week we're learning about lists and revisiting the random module, which we 
 
 ### Randomness
 * [Random Numbers in Python](https://www.geeksforgeeks.org/random-numbers-in-python/#){:target="_blank"} - this reading might look familiar. Does it make more sense this time around?
-* [The Random Module](https://www.tutorialsteacher.com/python/random-module){:target="_blank"}
+* [Python random module](https://www.javatpoint.com/python-random-module){:target="_blank"}
 
 ## Summary
 
