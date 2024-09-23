@@ -22,7 +22,7 @@ When I refer to "the turtle" in these exercises, I mean the arrow in the Turtle 
 
 ### Exercise 1: Finish the square
 
-In the Git repository, you should see a program called `square,py`. This program is supposed to draw a square on the screen that looks like this:
+In the Git repository, you should see a program called `square.py`. This program is supposed to draw a square on the screen that looks like this:
 
 ![square]({% link img/square.png %})
 
@@ -147,11 +147,13 @@ Next, modify your program to use a `for` loop to create a row of 5 stars next to
 
 ### Exercise 11: Fill In the Stars
 
-Modify your program to fill in the stars with a color. You can specify the fill color using the `color()` command. Use `begin_fill()` when you start drawing to begin filling in the stars, and `end_fill()` when you are done with what you want filled. For this exercise, fill the stars so they're all black (`color("black")`).
+Modify your program to fill in the stars with a color. You can specify the fill color using the `color()` command. Use `begin_fill()` when you start drawing to begin filling in the stars, and `end_fill()` after the star has been drawn. For this exercise, fill the stars so they're all black (`color("black")`).
 
 *Note*: The center of the star will not be filled in with color - that's expected! It's to do with the way Turtle calculates what parts of the shape should and shouldn't be filled.
 
 ![Filled star with hollow center]({% link img/star-mac.png %})
+
+*Hint:* When you want to fill a shape with color, the order of things really matters. The color needs to be set before you start drawing the shape. You should also use `begin_fill()` before the code that draws the shape, and `end_fill()` after the shape has been completely drawn. In the case of the star, the loop which draws a line and then rotates the turtle 5 times in a row is what draws and individual star, so `begin_fill()` and `end_fill()` should be wrapped around that loop. 
 
 ### Exercise 12: Brightly Colored Stars
 
