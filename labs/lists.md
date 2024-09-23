@@ -24,7 +24,9 @@ Lists are always identified by the square brackets (`[]`) around the contents of
 
 Start by running the program `names.py`. This prints out a list with the names of the instructor and the course assistant for this class.
 
-Add your (the driver's) name to the end of the list. Run the program and make sure it prints out all 3 names correctly.
+Add your (the driver's) name to the end of the list. Run the program and make sure it prints out all 3 names correctly. 
+
+*Note:* What prints out should look like a Python list.
 
 ### Exercise {% increment exercise55 %}: Adding another name
 
@@ -84,6 +86,8 @@ Modify your program to print out only one name: the name that comes *first* in a
 ### Exercise {% increment exercise55 %}: End of the Alphabet
 
 The folks who have last names that start near the end of the alphabet always end up waiting longer. So let's show some love to the end of the alphabet. Change your program so it prints out the person's name who appears last in alphabetical order.
+
+*Note:* It's always best practice not to hard code things, particularly if you know the data you're working with in the code might change over time. For this exercise, find a solution that will work regardless of how many items are in the list - that is, your code should print out the last item in the list regardless of whether there are 3 items in the list or 30. 
 
 *Hint*: There are two ways to do this: the first is to find out how long the list is and call the last item in it, and the second is to sort the list in reverse alphabetical order to call the first item. Refer to [this week's readings]({% link readings/lists_and_randomness.md %}){:target="_blank"} for help with the second option. Google will likely be helpful, too!
 

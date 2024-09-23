@@ -51,15 +51,15 @@ Or
 write("Please enter your full name", font=("Helvetica", 12, "italic"))
 ```
 
-There is a python program [here](https://gitlab.msu.edu/mi-250/random-lists/-/snippets/143) that will give you a list of all the fonts on your computer. Another trick is to open up Microsoft Word and look at the fonts Word lets you use - if there is no cloud icon next to the name of the font in Word's font list, that means it's already installed on your computer.
+There is a Python program [here](https://gitlab.msu.edu/mi-250/random-lists/-/snippets/143) that will give you a list of all the fonts on your computer. Another trick is to open up Microsoft Word and look at the fonts Word lets you use - if there is no cloud icon next to the name of the font in Word's font list, that means it's already installed on your computer.
 
 ### Use randomness
 
-Remember you can pull random items out of a list! If you have, for a example, a list of fonts or a list of colors, you can use `random.choice()` on the list to pull a random item from it. That might be an interesting way to make your guestbook look unique. What other parts of your geustbook design can you apply random features to?
+Remember you can pull random items out of a list! If you have, for example, a list of fonts or a list of colors, you can use `random.choice()` on the list to pull a random item from it. That might be an interesting way to make your guestbook look unique. What other parts of your geustbook design can you apply random features to?
 
 ### Use multiple turtles
 
-You can have more than one turtle on the screen at any time. It can sometimes be helpful to have different Turtles draw different things - that way you don't have to figure out how to get the turtle in the right place before you start drawing something new. 
+You can have more than one turtle on the screen at any time. It can sometimes be helpful to have different turtles draw different things - that way you don't have to figure out how to get the turtle in the right place before you start drawing something new. 
 
 To create a second (or third or fourth) turtle, you have to name it first, and then call it by name every time you use it. You can call your new turtle whatever you want.
 
