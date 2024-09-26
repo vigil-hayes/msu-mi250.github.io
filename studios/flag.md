@@ -1,8 +1,8 @@
 ---
 parent: Week 5
 topic: Country Flag
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Today we are going to practice [Vexillography](https://en.wikipedia.org/wiki/Vexillography) -- the art of designing flags!
@@ -59,7 +59,7 @@ Push yourself to try new things and new features with the Turtle graphics. It do
 
 You know a lot about programming already -- `if` statements and `for` loops and using variables to store information and getting input from users. Use all of that knowledge to help you in you drawing. Remember you can always refer to old labs for reminders on how to do things.
 
-The lab on Monday had you drawing stars using Turtle. If you want to use star(s) on your flag, you can use the code you wrote for Monday. But note if you try to fill the star with color, the middle of it will still be empty. I've written a [different version of the code to make a star](https://gitlab.msu.edu/mi-250/turtles/-/blob/solutions/star_alt.py?ref_type=heads){:target="_blank"} that does fill in the center with color, which you can use if you want.
+The lab on Tuesday had you drawing stars using Turtle. If you want to use star(s) on your flag, you can use the code you wrote for Tuesday. But note if you try to fill the star with color, the middle of it will still be empty. I've written a [different version of the code to make a star](https://gitlab.msu.edu/mi-250/turtles/-/blob/solutions/star_alt.py?ref_type=heads){:target="_blank"} that does fill in the center with color, which you can use if you want.
 
 ### Stay Organized, and Use Comments
 
