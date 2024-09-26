@@ -1,8 +1,8 @@
 ---
 parent: Week 7
 topic: 2 - Error Messages
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Learning how to read and understand error messages that you get when you are running and testing programs is an important skill to have.
