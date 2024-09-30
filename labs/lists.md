@@ -77,7 +77,7 @@ Modify `names.py` to sort the names, and print out the list of names in alphabet
 
 ### Exercise {% increment exercise55 %}: Beginning of the Alphabet
 
-With lists, you can also retrieve specific items using square brackets (`[]`) next to the name of the list.  So, to get the 2nd item from the list `stuff`, you can say `stuff[1]`. The number in the square brackets is called the *list index*. 
+With lists, you can also retrieve specific items using square brackets (`[]`) next to the name of the list.  So, to get the 2nd item from the list `groceries`, you can say `groceries[1]`. The number in the square brackets is called the *list index*. 
 
 Modify your program to print out only one name: the name that comes *first* in alphabetical order.
 
