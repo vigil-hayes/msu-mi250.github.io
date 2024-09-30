@@ -51,9 +51,11 @@ As you work on your emoji, you might notice that you have common features. For e
 
 Creating support functions for common features like this is a great way to avoid lots of copy-and-pasting of code. It also makes it easier if you want to change something later on. If you want to change the skin color, for example, you only need to change it in the one place (blank face), rather than find all the places in your code that have a skin color.
 
-## Challenge
+## Challenges
 
-If you get the basic emoji sentence working and you have time left in the studio today, try this challenge:
+If you get the basic emoji sentence working and you have time left in the studio today, try one or both of these challenges.
+
+### Dynamic sentences
 
 The emoji sentence that your program draws is "hard-coded" -- it always draws the same sentence (the same emoji in the same order) every time. Instead of hard coding a sentence, modify your program to allow the user to specify which emoji should be drawn in which order.
 
@@ -74,5 +76,9 @@ Which emoji should be next? 0
 ```
 And then it prints out the emoji sentence specified by the user.
 
+### User-defined attributes
 
+Use paramaters to allow users to change aspects of the emojis that are drawn. Maybe use a parameter for color, so the user can define what color an emoji will be. Or use a parameter so they can change the size and scale of the emoji. The basic way to do this is to ask for user input using `textinput()` and then plug those values in as parameters when you call the function. 
+
+Think creatively: what other things besides size and color might be fun for users to be able to define when they run the program?
 

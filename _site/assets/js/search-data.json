@@ -1476,10 +1476,10 @@
     "relUrl": "/studios/speak_in_emoji.html#advice"
   },"246": {
     "doc": "Studio",
-    "title": "Challenge",
-    "content": "If you get the basic emoji sentence working and you have time left in the studio today, try this challenge: . The emoji sentence that your program draws is “hard-coded” – it always draws the same sentence (the same emoji in the same order) every time. Instead of hard coding a sentence, modify your program to allow the user to specify which emoji should be drawn in which order. For example, your program could work like this: . This program has the following emoji: 1. Smiley face 2. Frowney face 3. Winking face 4. Sticking out tongue (enter 0 to stop) Which emoji should be first? 1 Which emoji should be next? 1 Which emoji should be next? 2 Which emoji should be next? 4 Which emoji should be next? 3 Which emoji should be next? 0 . And then it prints out the emoji sentence specified by the user. ",
-    "url": "/studios/speak_in_emoji.html#challenge",
-    "relUrl": "/studios/speak_in_emoji.html#challenge"
+    "title": "Challenges",
+    "content": "If you get the basic emoji sentence working and you have time left in the studio today, try one or both of these challenges. Dynamic sentences . The emoji sentence that your program draws is “hard-coded” – it always draws the same sentence (the same emoji in the same order) every time. Instead of hard coding a sentence, modify your program to allow the user to specify which emoji should be drawn in which order. For example, your program could work like this: . This program has the following emoji: 1. Smiley face 2. Frowney face 3. Winking face 4. Sticking out tongue (enter 0 to stop) Which emoji should be first? 1 Which emoji should be next? 1 Which emoji should be next? 2 Which emoji should be next? 4 Which emoji should be next? 3 Which emoji should be next? 0 . And then it prints out the emoji sentence specified by the user. User-defined attributes . Use paramaters to allow users to change aspects of the emojis that are drawn. Maybe use a parameter for color, so the user can define what color an emoji will be. Or use a parameter so they can change the size and scale of the emoji. The basic way to do this is to ask for user input using textinput() and then plug those values in as parameters when you call the function. Think creatively: what other things besides size and color might be fun for users to be able to define when they run the program? . ",
+    "url": "/studios/speak_in_emoji.html#challenges",
+    "relUrl": "/studios/speak_in_emoji.html#challenges"
   },"247": {
     "doc": "Studio",
     "title": "Studio",
