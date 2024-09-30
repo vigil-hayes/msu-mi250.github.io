@@ -84,7 +84,7 @@ Right now that program draws a single star of size 25. Modify the program so tha
 
 ### Exercise {% increment exercise5 %}: Fill the stars with color
 
-Let's add another paramater that lets you change the color of the star on the fly. You can add a second parameter to the function by putting a comma after the first one, like this:
+Let's edit the `star()` function in `sizes.py` to include a new parameter for color. You can add a second parameter to the function by putting a comma after the first one, like this:
 
 ```
 def star(size,star_color):
@@ -96,9 +96,9 @@ Now we've defined the parameter, but it won't do anything unless we call it insi
 
 ```
 fillcolor("black")
-begin_fill
+begin_fill()
 <draw shape>
-end_fill
+end_fill()
 ```
 
 The code above hardcodes the color black: that means if you put it in the function as-is, every time you call it, it will only draw a black star. Instead, we want to use the parameter `star_color` in place of `"black"`. That way the parameter can be replaced with whatever color you want when the function is called.
