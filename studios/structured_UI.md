@@ -75,7 +75,7 @@ Make sure the image file is in the same folder as the Python program that's tryi
 
 Because what this code is doing is replacing the turtle with an image, if you want to move the turtle again after placing the image, it will move the image, too! There are two ways to get around this:
 
-1. Place the image at the very end of your Turtle code (so it's the last thing you do).
+1. Place the image at the very end of your Turtle code (so it's the last thing your code does).
 
 2. Create a second turtle and use it to place the image. The [instructions for the Week 6 studio (Guestbook)](http://localhost:4000/studios/guestbook.html){:target="_blank"} include instructions for creating a second turtle. This is what you'll need to do if you want to include multiple images.
 

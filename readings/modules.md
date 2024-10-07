@@ -25,8 +25,4 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-Submit your summary+question on D2L under Quizzes before class starts on Monday.
-
-
-
-
+There is no class on Tuesday this week due to fall break. Submit your summary+question on D2L under Quizzes before class starts on Thursday.

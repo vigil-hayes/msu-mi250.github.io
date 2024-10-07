@@ -10,7 +10,7 @@ visible: false
 
 Dictionaries store data based on key/value pairs. They are similar to lists, but differently structured. In a list, values are stored in order: 0, 1, 2, etc. In a dictionary, values are stored by name. The name is called the 'key' of the dictionary.
 
-To create a dictionary, we use the curly braces: `{}`.  Everything between the curly braces is part of the dictionary. We can create dictionaries in python like this:
+To create a dictionary, we use the curly braces: `{}`.  Everything between the curly braces is part of the dictionary. We can create dictionaries in Python like this:
 
 ```
 my_dictionary = {
