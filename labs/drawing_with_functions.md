@@ -2,8 +2,8 @@
 parent: Week 7
 topic: Drawing with Functions
 git: https://gitlab.msu.edu/mi-250/drawing-functions
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 ## Using Functions
