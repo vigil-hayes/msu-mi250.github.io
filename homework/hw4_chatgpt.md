@@ -71,7 +71,7 @@ Include the prompt you used and a screenshot of ChatGPT's results (as much as yo
 
 Ask ChatGPT to draw an MSU Spartan logo using Python's Turtle library. You may phrase the prompt however you wish. 
 
-What kinds of things do you think you could reasonably ask ChatGPT to use Turtle for? Would you personally want to use ChatGPT to create Turtle drawings for you?
+Are the results what you expected? Why or why not? What kinds of things do you think you could reasonably ask ChatGPT to use Turtle for? Would you personally want to use ChatGPT to create Turtle drawings for you?
 
 Include the prompt you used and a screenshot of the resulting Turtle drawing in your assignment. 
 
