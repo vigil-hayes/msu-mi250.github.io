@@ -47,7 +47,7 @@ Use one of the above methods to import the card functions in `card_functions.py`
 
 Run `cards.py` to make sure your module works. It should do exactly the same thing it did before you put the functions into the `card_functions` module.
 
-*Note:* It's best practice in Python (and many other programming languages) to separate words in the names of variables, functions, files, or anything else you're naming with underscores: `_`. Python sometimes has trouble with hyphens (`-`) because they're used for math (minus sign), but never has trouble with underscores.
+*Note:* It's best practice in Python (and many other programming languages) to separate words in the names of variables, functions, files, or anything else you're naming with underscores: `_`. Python sometimes has trouble with hyphens (`-`) in names because they're also used for math (minus sign), but never has trouble with underscores.
 
 ### Exercise {% increment exercise88 %}: Add another function
 
