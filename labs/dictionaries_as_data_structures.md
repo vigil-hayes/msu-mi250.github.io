@@ -84,7 +84,7 @@ Name, major, and favorite food are great, but that isn't much information about 
 
 BUT instead of just editing the dictionary directly again, this time we're going to add the information using a separate line of code.
 
-The format `dictionary[key] = value` will add a new key and value to the dictionary. In this example, `dictionary`, `key`, and `value` are all generic - you'll need to replace them all with information specific to this program. 
+The format `dictionary['key'] = value` will add a new key and value to the dictionary. In this example, `dictionary`, `key`, and `value` are all generic - you'll need to replace them all with information specific to this program. 
 
 Remember the key is the word on the left of the colon (`:`), and is always represented as a string (that is, it needs to be in quotes). The value is the data on the right of the colon. You can think of the key as a variable specific to the dictionary that points to a particular piece of data - the value associated with it.
 
@@ -204,7 +204,7 @@ Add the address dictionary to `deluxe.py` (you can change the address info if yo
 
 Now that we are building more complicated dictionaries, it is sometimes useful to print out the contents of a dictionary to the terminal so we can better see what it looks like.   
 
-Modify your program to just call `print(pizza)` -- that is, to use the regular print function and passing it the dictionary. This gives you the information, but it is hard to read.
+Modify your program to just call `print(deluxe_pizza)` -- that is, to use the regular print function and passing it the dictionary. This gives you the information, but it is hard to read.
 
 Another, clearer way to do this is called "pretty printing". This tries to format the dictionary in a way that is easier for humans to read. We can use the `pprint` library to pretty print.
 
@@ -217,6 +217,7 @@ Modify your `deluxe.py` program to pretty print the entire dictionary your pizza
 
 We don't normally do this in code that is intended for other people to use. But pretty printing a dictionary is a great way for us to see what the dictionary looks like, and is a useful tool for writing (or reading!) code that uses dictionaries.
 
+*Note:* `pprint` only really works well with dictionaries - it's designed to show how a dictionary is formatted. If you try using `pprint` on other things, you might get some unexpected results.
 
 ## Thinking about structured data
 
