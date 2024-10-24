@@ -39,7 +39,7 @@ In addition to different symbols, can you change the board up to make it more in
 
 ### Use code you've written before
 
-You've done a lot of programming already in this class. Use that! If you've already written code to draw a smiley face for a previous lab or studio, then go find that code and modify it. If you've already written code to ask for user input, go look it up and use it. There is no reason to write things from scratch when you've already written a lot of code. Some of the code from [Monday's lab](https://mi250.dev/labs/practicing_functions.md) will probably be very helpful for this studio.
+You've done a lot of programming already in this class. Use that! If you've already written code to draw a smiley face for a previous lab or studio, then go find that code and modify it. If you've already written code to ask for user input, go look it up and use it. There is no reason to write things from scratch when you've already written a lot of code. Some of the code from [Tuesday's lab](https://mi250.dev/labs/practicing_functions.md) will probably be very helpful for this studio.
 
 ### Test each function as you go
 
