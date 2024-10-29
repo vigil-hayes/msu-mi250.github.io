@@ -2,8 +2,8 @@
 parent: Week 10
 topic: Practicing Functions
 git: https://gitlab.msu.edu/mi-250/more-functions
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 {% capture _ %}{% increment exercise8 %}{% endcapture %}
@@ -81,7 +81,7 @@ Let's combine the last 3 exercises to see if we can get Python to draw a checker
 
 Let's take a detour from our board game. The program `rainbow.py` is designed to draw a rainbow. However, it currently only draws a weird orange box with a red stripe on top. 
 
-It needs you to implement the function is `next_color()`. This function is interesting. It takes one parameter -- the current color -- and then figures out what the next color should be. That next color is then returned from the function. This is really similar to the `next_color` function from the previous exercise. Except this time, it needs to needs to handle more than just back-and-forth.
+It needs you to implement the function is `next_color()`. This function is interesting. It takes one parameter -- the current color -- and then figures out what the next color should be. That next color is then returned from the function. This is really similar to the `next_color` function from the previous exercise. Except this time, it needs to handle more than just back-and-forth.
 
 Finish writing this function. Once you finish writing this function, the program should draw a rainbow on the screen.
 
@@ -114,7 +114,7 @@ Let's take our checkerboard for example. Say we want to put a checker piece on o
 
 ### Exercise {% increment exercise8 %}: Draw a Circle on a square
 
-Go back to `board_full.py`. When you run it, the turtle stopped at the upper-left square of our checkerboard. Add a new function called `draw_piece` that draws a red circle on that square. It should take no parameters and should draw a piece on whatever square the turtle
+Go back to `board_full.py`. When you run it, the turtle stopped at the upper-left square of our checkerboard. Add a new function called `draw_piece` that draws a green circle on that square. It should take no parameters and should draw a piece on whatever square the turtle
 currently is on.
 
 *Hint*: The whole checkerboard is `400` pixels across, and there are `8` squares acrosss. So each square is `400/8` pixels. You don't need to do the math; the program can do it for you. Just specify `400/8` to get the right size.
