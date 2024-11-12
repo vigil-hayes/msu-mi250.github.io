@@ -138,8 +138,10 @@ Please complete at least one challenge before leaving for the day. It is up to y
 
 Also in the git repository for this week is the Eliza program that you ran the very first week of the semester. Do this same code reading exercise on that program: for each line of the program, put a comment next to it describing what that line does and how it works. Pay particular attention to the `responses` variable. What is stored in that variable? It is a list. But a list of what? How does that work? How does it get used?
 
-### Challenge 2: Last week's studio
+### Challenge 2: Revisit an old studio
 
 If you and your partner were in different studio groups last week, have one person bring up the code for their group's studio and have the other person read the code and try to figure out what it's doing. The person who *didn't* work on that group's studio last week should be driving. Figure out as much as you can without running the code first.
 
 If you were in the same studio group, or didn't attend last week, find a studio that only one of you worked on.
+
+As you figure out what each piece of code is doing, add comments to it. If you would like to make improvements to the studio while you're attempting to figure out what the code does, that's fine, too!
