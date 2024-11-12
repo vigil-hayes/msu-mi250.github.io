@@ -27,15 +27,15 @@ pip3 install requests
 
 `requests` is a library that makes it easy to access APIs that are available through the web with Python.
 
-### Exercise {% increment exercise %}: Who is on the International Space Station?
+### Exercise {% increment exercise %}: Who is on a space station right now?
 
-There is an API available on http://api.open-notify.org/ that provides a lot of interesting information from NASA, including things like the current position of the International Space Station (the ISS). We're going to use it today to find out which astronauts are currently on the ISS.
+There is an API available on http://api.open-notify.org/ that provides a lot of interesting information from NASA, including things like the current position of the International Space Station (the ISS) or Tiangong (the Chinese space station). We're going to use it today to find out which astronauts are currently stationed in space.
 
 To get that, we will use the `astros.json` endpoint. This endpoint will return a JSON file with the astronauts' names. Endpoints for this API are URLs that contain the data. If you use the full URL (http://api.open-notify.org/astros.json) in a browser, it will show you the information in JSON format.
 
-Use the requests library to retrieve the list of current astronauts on the International Space Station and print out what the API returns.
+Use the requests library to retrieve the list of current astronauts who are stationed in space and print out what the API returns.
 
-Start by looking at the file `iss.py` in the lab repository. First, make sure to include `import requests` at the top of your program so you can use the requests functions.
+Start by looking at the file `space.py` in the lab repository. First, make sure to include `import requests` at the top of your program so you can use the requests functions.
 
 Next, let's query the API. To do this, you can use the `requests.get()` function. The URL for the endpoint you want to query is the parameter for the function. If we want to get a list of astronauts, then we will want to use the `astros.json` endpoint. Let's save the results of the query to a variable called `people`, like this:
 
@@ -117,6 +117,10 @@ Jessica Meir
 for person in info['people']:
 ```
 then `person` represents each item in the list. In the data, the `people` key is connected to a list of dictionaries: therefore, in this for loop, `person` represents a dictionary. You can use dictionary syntax (`dict['key']`) to target the key called `name` in each dictionary.
+
+<!-- ### Exercise {% increment exercise %}: Number of people on each space station
+
+There are currently two space stations orbiting Earth: the ISS (International Space Station) and the Tiangong space station. Notice that `info` contains not only the astronaut's names, but also which space station they're on. For this exercise, print out the number of people on each space station. -->
 
 ## API Requests with Parameters
 
@@ -231,9 +235,9 @@ For today's lab, we are going to access the free API at The Movie Database (TMDB
 
 ### Exercise {% increment exercise %}: Sign up for TMDB, Create a new app, and retrieve the access key.
 
-In order to be able to access TMDB's API, you need to have a TMDB account. If you do not already have a TMDB account, go to <https://www.themoviedb.org/signup> and sign up for an account now. You will need to verify your email address before you can move forward. Only one member of your pair needs to do this (you can both do it if you want, but you'll only need one key).
+In order to be able to access TMDB's API, you need to have a TMDB account. If you do not already have a TMDB account, go to <https://www.themoviedb.org/signup>{:target="_blank"} and sign up for an account now. You will need to verify your email address before you can move forward. Only one member of your pair needs to do this (you can both do it if you want, but you'll only need one key).
 
-To access all of the TMDB developer features, use their developer portal: <https://developers.themoviedb.org/3/getting-started/introduction>.
+To access all of the TMDB developer features, use their developer portal: <https://developers.themoviedb.org/3/getting-started/introduction>{:target="_blank"}.
 
 Once you have signed in to TMDB, you will see a profile icon next to the search icon in the upper right hand corner. Click on that profile icon and it will bring up a menu. Choose "Settings". On the settings page, there is an option on the left called "API". Click that. You will see a list of all "Apps" that you have created. Most likely, there won't be any in the list - yet! For an API, an App is a program that you are writing that needs permission to access the API. As a developer, you can create more than one app (if you want). Click on "Create" to create a new app for the program we are writing for this lab, and then choose the "Developer" option.
 
