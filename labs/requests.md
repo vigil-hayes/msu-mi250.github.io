@@ -118,7 +118,7 @@ for person in info['people']:
 ```
 then `person` represents each item in the list. In the data, the `people` key is connected to a list of dictionaries: therefore, in this for loop, `person` represents a dictionary. You can use dictionary syntax (`dict['key']`) to target the key called `name` in each dictionary.
 
-<!-- ### Exercise {% increment exercise %}: Number of people on each space station
+<!-- ### Exercise increment exercise : Number of people on each space station
 
 There are currently two space stations orbiting Earth: the ISS (International Space Station) and the Tiangong space station. Notice that `info` contains not only the astronaut's names, but also which space station they're on. For this exercise, print out the number of people on each space station. -->
 
