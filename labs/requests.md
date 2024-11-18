@@ -23,9 +23,12 @@ We are going to begin by using a simple API that just gives us some current info
 ```
 pip3 install requests
 ```
-(Note: if you are using VIsual Studio Code to run your code, you'll need to install `requests` through the terminal in VS Code.)
 
 `requests` is a library that makes it easy to access APIs that are available through the web with Python.
+
+*NOTE:* If you are using Visual Studio Code to run your code, you'll need to install `requests` through the terminal inside of VS Code.
+
+*NOTE 2:* pip3 is the package manage for Python that allows you to install Python packages that don't come already pre-installed with Python. You should have it already available to use. One common issue that can prevent you from installing `requests` is if your version of pip3 is too old. If you get an error saying the install won't work, try updating pip3 by running this command: `pip3 install --upgrade pip`
 
 ### Exercise {% increment exercise %}: Who is on a space station right now?
 
