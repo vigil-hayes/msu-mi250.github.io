@@ -10,7 +10,7 @@ For all of this week, we will be going back to the beginning of this class. The 
 
 You may use any of the code you wrote for that studio, or any other code you've written or used during the semester. But don't use the same story you wrote before: write something new for this studio.
 
-**Important:** This entire week is a studio. You'll be working in groups of 2-3 people as usual, but you will be continuing this same project on Wednesday with the same group. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: **8pm on Wednesday, April 24**. (Reminder: there is no final exam for this class.)
+**Important:** This entire week is a studio. You'll be working in groups of 2-3 people as usual, but you will be continuing this same project on Thursday with the same group. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: **12pm on Thursday, December 12**. (Reminder: there is no final exam for this class.)
 
 ## Grading and Rubric 
 
@@ -33,7 +33,7 @@ The remaining 30% of the grade is for going beyond the minimum and making an int
 *Creativity*
 * Tells an interesting story
 * Story has an interesting setting / millieu
-* Turtle interface that looks  interesting 
+* Turtle interface that looks interesting 
 * Turtle interface that adds to the story
 * Other, unanticipated creative strengths
 
@@ -46,7 +46,7 @@ The remaining 30% of the grade is for going beyond the minimum and making an int
 
 Each of these can be awarded 0-15 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 5%. If it is good, then 10%, and if it is really great, then 15%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your group’s strengths.
 
-You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Jack and Caitlin as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
+You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Caitlin as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
 
 ## Advice
 
@@ -100,7 +100,7 @@ Everyone in the group should be working on something, but you don't all have to 
 
 ### Comment your code
 
-Remember you'll be coming back to this project on Wednesday. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
+Remember you'll be coming back to this project on Thursday. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
 
 ## Ideas for being creative
 
