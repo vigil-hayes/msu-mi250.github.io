@@ -2,8 +2,8 @@
 parent: Week 14
 topic: Practice Reading Code
 git: https://gitlab.msu.edu/mi-250/reading-code
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 You have spent almost all of the lab and studio sessions writing code for this class. Writing code is relatively straightforward -- you enter code into the text editor, you run the code, see if it does what you want it to, and then keep editing it until it does. One aspect of this is that you don't always have to really understand what the code is doing -- sometimes you get lucky and it just works.
