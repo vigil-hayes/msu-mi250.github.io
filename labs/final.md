@@ -10,7 +10,7 @@ For all of this week, we will be going back to the beginning of this class. The 
 
 You may use any of the code you wrote for that studio, or any other code you've written or used during the semester. But don't use the same story you wrote before: write something new for this studio.
 
-**Important:** This entire week is a studio. You'll be working in groups of 2-3 people as usual, but you will be continuing this same project on Thursday with the same group. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: **12pm on Thursday, December 12**. (Reminder: there is no final exam for this class.)
+**Important:** This entire week is a studio. You'll be working in groups of 2-3 people as usual, but you will be continuing this same project on Thursday with the same group. You'll have class today and on Thursday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: **12pm on Thursday, December 12**. (Reminder: there is no final exam for this class.)
 
 ## Grading and Rubric 
 
