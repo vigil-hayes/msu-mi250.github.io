@@ -26,3 +26,13 @@ If you're not sure what kind of project you might want to work on, here are some
 * [Corey Schafer has an excellent set of YouTube videos about various Python topics](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
 
 There are tons and tons of other resources out there - books, websites, etc - Google is your friend here. But really the best way to learn is to work on a project and create programs that actually do something. You can read all you want, but the way you actually learn how to code is through practicing it. So take the time to practice!
+
+## More courses
+
+The MI department has a number of programming-specific courses, mostly focused on web design and game design. Here are a few that I recommend as next steps:
+
+* MI 231 - Game and Interactive Media Development
+* MI 320 - Reasoning with Data
+* MI 349 - Web Design and Development
+
+These courses are all offered at least once every year.
