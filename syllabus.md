@@ -50,7 +50,7 @@ All course materials can be found on:
 * D2L ([d2l.msu.edu](https://d2l.msu.edu){:target="_blank"})
 * Gitlab ([gitlab.msu.edu](https://gitlab.msu.edu){:target="_blank"}) 
 
-You will not be required to purchase any software for this course. The course will be using the Python programming language, Git, and related tools, all of which are open source and/or freely available. You do not need to install anything ahead of time – we will be doing all of that work in class. 
+You will not be required to purchase any software for this course. The course will be using the Python programming language, Git, and related tools, all of which are open source and/or freely available. You do not need to install anything ahead of time – we will be doing all of that work in class.
 
 ### In-class technology usage
 
