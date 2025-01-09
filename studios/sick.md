@@ -1,9 +1,9 @@
 ---
 parent: Week 11
 topic: <i>NO CLASS - sick</i>
-nav_exclude: false
-visible: true
-published: true
+nav_exclude: true
+visible: false
+published: false
 ---
 
 Class is cancelled for today; the instructor is sick.

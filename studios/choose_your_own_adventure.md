@@ -1,15 +1,15 @@
 ---
-parent: Week 2
+parent: Week 3
 topic: Choose Your Own Adventure
 nav_exclude: false
 visible: true
 ---
 
-<!-- change "Tuesday" to "last week" for spring semester-->
+<!-- change "Tuesday" to "last week" for spring semester; reverse for fall semester-->
 
 The goal for today's studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. 
 
-Be creative! There's a small choose your own adventure program in the code from Tuesday's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Tuesday might be useful to start with.
+Be creative! There's a small choose your own adventure program in the code from last week's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Tuesday might be useful to start with.
 
 You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can't work alone.
 
@@ -23,14 +23,16 @@ You should work in small groups on this studio. Groups of 2-3 people. Work toget
 
 Some groups like to start out by writing the story in Google Docs or by mapping out the story paths on paper. That's fine. When you're writing the code, make sure to switch drivers regularly so everyone gets a chance to work on the program! 
 
-<!-- ### Use Git
+### Use Git
 
-Remember you can share code using Git and Gitlab. Git is easiest to use when only one person is writing code at any given time; if multiple people are working on the same file, you will run into Git conflicts, which are sometimes hard to resolve. 
+For studios, one person in your group will need to create a **new** Git repository and share it with the rest of the group (and Caitlin and Shiyu).
 
-I would recommend approaching it like this:
+Note that Git is easiest to use when only one person is writing code at any given time; if multiple people are working on the same file, you will run into Git conflicts, which are sometimes hard to resolve. 
+
+I would recommend approaching it by having one person drive (write code) at a time, and switching off every so often.
 
 First driver:
-1. use `git clone` or `git pull` to get the most up to date project onto their computer
+1. use `git clone` (first time) or `git pull` (every time after the first time) to get the most up to date project onto their computer
 2. write code
 3. use `git add`, `git commit`, and `git push` to save code to the group's Gitlab repository
 
@@ -61,7 +63,7 @@ This also means that you don't need to have the whole story written before you s
 
 ### Use code you've already worked with
 
-You already did a bit with conditionals (if, else, and elif) in Tuesday's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program will be particularly helpful for you to look at.
+You already did a bit with conditionals (if, else, and elif) in last week's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program will be particularly helpful for you to look at.
 
 ### Submit on D2L and Gitlab
 
@@ -71,4 +73,4 @@ When you are done, please submit screenshots of your code working (that is, of t
 
 Also submit your Python program (your .py file that contains your code) on D2L. Again, only one person in the group needs to submit this.
 
-<!-- Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Jack. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios. -->
+Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Shiyu. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.

@@ -23,10 +23,10 @@ Summaries should also be brief! Your summary should be at least 3 sentences and 
 
 ## Question
 
-Normally, there won't be a question prompt. But since this is the first week we want to know what specific questions you have about the course.
+Normally, there won't be a question prompt. But since this is the first week I want to know what specific questions you have about the course.
 
 **Question prompt:** After reading the syllabus, what is a question or concern you have about this class?
 
 ## Turn in
 
-Turn in your summary + question by going to D2L -> Quizzes. This is Week 1. Please turn it in **before class starts on Thursday, August 29**. Caitlin will read them all before class starts and answer the most pressing questions at the beginning of class.
+Turn in your summary + question by going to D2L -> Quizzes. This is Week 1. Please turn it in **before class starts on Wednesday, January 15**. Caitlin will read them all before class starts and answer the most pressing questions at the beginning of class.

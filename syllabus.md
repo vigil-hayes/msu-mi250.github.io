@@ -18,7 +18,7 @@ nav_order: 2
 
 ## Spring 2025 Time and Location
 
-Mondays and Wednesdays, 3pm-4:50pm  
+Mondays and Wednesdays, 3:00pm-4:50pm  
 Holden Hall C131  
 Synchronous, in person – no hybrid options available
 
