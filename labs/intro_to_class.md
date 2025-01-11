@@ -1,6 +1,7 @@
 ---
 parent: Week 1
 topic: Intro to Class
+git: None
 nav_exclude: false
 visible: true
 ---

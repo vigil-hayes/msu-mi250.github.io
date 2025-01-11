@@ -1,26 +1,26 @@
 ---
 parent: Final Week
 topic: Adventure Engine (continued)
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
-We will be continuing to work on our [Choose Your Own Adventure engine and story]({% link labs/final.md %}). Please keep working on it today with the **same group** you had on Tuesday.
+We will be continuing to work on our [Choose Your Own Adventure engine and story]({% link labs/final.md %}). Please keep working on it today with the **same group** you had on Monday.
 
-As you work, think about the code you wrote on Tuesday. Does it still make sense? Is there anything you wish you had done differently so it would be easier to work with today?
+As you work, think about the code you wrote on Monday. Does it still make sense? Is there anything you wish you had done differently so it would be easier to work with today?
 
-Also, think about *scope*: how much can you get done? You worked for about 2 hours on Tuesday, and you've got another 2 hours or so to work today. How much did you get done on Tuesday? What do you still have left to do? Do you think you'll reasonably be able to complete that work by the end of class today? If you don't have much left, you might want to expand your scope and add some addtional features or story elements. If you have too much left, you'll need to prioritize and maybe cut some of the features or story elements you were planning.
+Also, think about *scope*: how much can you get done? You worked for about 2 hours on Monday, and you've got another 2 hours or so to work today. How much did you get done on Monday? What do you still have left to do? Do you think you'll reasonably be able to complete that work by the end of class today? If you don't have much left, you might want to expand your scope and add some addtional features or story elements. If you have too much left, you'll need to prioritize and maybe cut some of the features or story elements you were planning.
 
-Remember if you don't complete the project in class, you will still have time to complete it next week. **The project is due at the end of the finals period for this class: 12pm on Thursday, December 12th.**
+Remember if you don't complete the project in class, you will still have time to complete it next week. **The project is due at the end of the finals period for this class: 5pm on Wednesday, April 30th.**
 
 ## Grading and rubric
 
-This was also in the instructions for Tuesday, but here it is again.
+This was also in the instructions for Monday, but here it is again.
 
 In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade
 as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
 
-The grade for your final project is 15% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
+The grade for your final project is 10% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
 
 *Basic necessities* (aka the “Minimum Viable Product”) (70% of grade; 10% each)
 * Program runs (with minimal effort)

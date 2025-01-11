@@ -1,10 +1,11 @@
 ---
 parent: Week 9
 topic: Hangman
-nav_exclude: false
-visible: true
-published: true
+nav_exclude: true
+visible: false
 ---
+
+<!-- Note: this studio was not used in the fall. -->
 
 For the studio today, you are going to make a [hangman game](https://en.wikipedia.org/wiki/Hangman_(game)). The game works like this:
 

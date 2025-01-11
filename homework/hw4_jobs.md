@@ -1,8 +1,8 @@
 ---
 parent: Week 11
 topic: 4 - Jobs
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 This is a short research and writing assignment. The purpose of this assignment is for you to reflect on how programming might fit into your future.

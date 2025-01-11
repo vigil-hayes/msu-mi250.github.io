@@ -1,8 +1,8 @@
 ---
 parent: Week 7
 topic: Speak in Emoji
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Emoji are graphical representations of ideas and concepts -- basically, they are pictograms. It is possible to convey complex concepts and ideas using nothing but emoji. Smiley face emoji are particularly interesting because they often convey emotions better than words do. Emoji are especially powerful when you put one after the other to form emoji "sentences".

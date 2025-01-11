@@ -1,8 +1,8 @@
 ---
 parent: Week 8
 topic: Structured User Interface
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Imagine a post on social media, such as a Twitter (now X) post or an Instagram post. The post itself is actually a complex object that has a lot of information -- who posted it, the text content of the post, an optional picture, hashtags, the date and time when it was posted, etc. Each post on a given platform has the same structure, and is displayed the same way. But the content of each post -- the data that makes up the post -- is different.

@@ -2,8 +2,8 @@
 parent: Week 4
 topic: Counting and Loops 
 git: https://gitlab.msu.edu/mi-250/counting-and-loops
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork this week's GitLab project (linked above). Only one person needs to create a forked project. Once forked, add your partner to the project (and Caitlin and Shiyu), and then clone the repository onto your computer. Check out the [Git reference]({% link reference/using_git.md %}) for a reminder on how to do this.
