@@ -3,11 +3,9 @@ topic: Variables, Flow
 parent: Week 2
 ---
 
-In class this week we'll be practicing using variables, and controlling the flow of programs. The readings below will help you learn about the concepts, which we'll practice in class. Don't worry if you don't understand everything yet - it will start to make more sense once you get a chance to practice.
+In class this week we'll be practicing using variables and controlling the flow of programs using `if` and `else`. The readings below will help you learn about the concepts, which we'll practice in class. Don't worry if you don't understand everything yet - it will start to make more sense once you get a chance to practice.
 
 ## Readings
-
-This week, the readings cover initially how to get Python to do some things, including using it as a calculator and getting it to output things. To understand the concepts, read these online book chapters:
 
 * [Think Python: The Way of the Program](http://greenteapress.com/thinkpython2/html/thinkpython2002.html){:target="_blank"}
 * [Think Python: Variables, Expressions, and Statements](http://greenteapress.com/thinkpython2/html/thinkpython2003.html){:target="_blank"}
@@ -38,8 +36,8 @@ Your question this week, and for most future weeks, can be one of three "types" 
 
 After reading the material, come up with one question. Caitlin will read through the questions before class starts and answer the most interesting ones at the beginning of class.
 
-**NOTE:** You do have to ask a question for it to count. "I have no questions" is not a question. If you can't think of a question, think of a connection instead.
+**NOTE:** You do have to ask a question to get credit. "I have no questions" is not a question. If you can't think of a question, think of a connection instead.
 
-Submit your summary+question on D2L under Quizzes before class starts on Tuesday.
+There is no class on Monday this week due to MLK Jr. Day. Submit your summary+question on D2L under Quizzes before class starts on Wednesday.
 
 
