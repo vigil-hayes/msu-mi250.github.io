@@ -33,15 +33,17 @@ The goal of this lab is to get everything set up to run your first Python progra
 
 For this section, the driver will do everything on their computer first with the other person acting as navigator. Later on in the lab you'll switch places. Remember you'll figure things out faster by working together!
 
+And remember that Shiyu and Caitlin are here to help - don't be afraid to raise your hand if you get stuck!
+
 ### Install Python
 
 Python is a programming language, but is interpreted, which means that there is a separate program that reads the program that you write and "runs" it by interpreting it as instructions. That is, it is a program that runs other programs.
 
-The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.12.X on it. Click the button to download the program, and run the installer program. That will install the current version of the Python interpreter on your computer. 
+The first thing we need to do is go install Python. Go to the main Python website at <https://www.python.org>. On that page, hover over the "Download" menu and you should see a button with Python 3.13.X on it. Click the button to download the program, and run the installer program. That will install the current version of the Python interpreter on your computer. 
 
-**Important for Windows:** While running the installer, be sure to click the "Add python to the PATH" checkbox.
+**Important for Windows:** While running the installer, be sure to click the "Add python to the PATH" checkbox on the first screen.
 
-If you already have Python installed on your computer, make sure you have the current version (3.12.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
+If you already have Python installed on your computer, make sure you have the current version (3.13.X). If the version of Python you have installed is not the current version, then run the installer and it should replace the old version of Python with the current version.
 
 ### Use Command Line
 
@@ -49,8 +51,7 @@ Next, we want to make sure that Python is installed, and that it is installed co
 
 #### If you have Windows
 
-In Windows, we are going to use the "PowerShell" command line interface. This comes built in to all recent versions of
-Windows. To access this, click on the search bar and type in "powershell", and that should find it. Run it.
+In Windows, we are going to use the "PowerShell" command line interface. This comes built in to all recent versions of Windows. To access this, click on the search bar and type in "powershell", and that should find it. Run it.
 
 It should open up a window with a bunch of white text at the top on a blue or black background. You'll see a prompt with a blinking cursor in front of it, like this:
 
@@ -61,7 +62,7 @@ PS C:\Users\geier>
 The first thing we are going to do is to verify that we have python installed correctly. To do that, simply type `python` where the cursor is and hit enter. If it works, you should see something like this:
 
 ```
-Python 3.12.5 (tags/v3.11.5:cce6ba9, Aug 26 2024, 19:29:22) [MSC v.1936 64 bit (AMD64)] on win32
+Python 3.13.1 (tags/v3.13.1:cce6ba9, Dec 3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
@@ -83,14 +84,14 @@ On a Mac, we will use the Terminal app. Terminal gives us a command line that we
 Terminal should open up a window with a bunch of text in it, and a prompt with a blinking cursor next to it. It might look like this:
 
 ```
-Last login: Mon Aug 28 24 16:57:43 on ttys000
+Last login: Wed Jan 8 25 16:57:43 on ttys000
 geier-Macbook-Pro:~ geier$
 ```
 
 If you type, it should appear next to the prompt. Type the command `python3` and hit enter. If it works, then you should see something like this appear:
 
 ```
-Python 3.12.5 (default, Aug 26 2024, 11:08:38)
+Python 3.13.1 (default, Dec 4 2024, 11:08:38)
 [Clang 12.0.0 (clang-1200.0.26.2)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -277,14 +278,15 @@ In normal labs after this week, we won't be repeating steps on both people's com
 
 At this point, both you and your partner should have Eliza.py with changes working on both of your computers. Labs every week will have one or more challenges at the end. If you finish all of the main exercises, start working on one of the challenges. If you finish one (or both!) challenges before class ends, let Caitlin know so I can check your work and answer any questions.
 
-### Challenge: Other Python programs 
+### Challenge 1: Other Python programs 
 
 Now that you've gotten your first Python program running, try to download a few more Python programs and get them running. Be sure to run them using the command line:
 
 * [Snowflake](https://github.com/raspberrypilearning/turtle-snowflakes/blob/master/code/snowflake.py){:target="_blank"} -- draws a snowflake on the screen.  (the "raw" button downloads the file)
-* [Uno](http://code.activestate.com/recipes/580811-uno-text-based/?in=lang-python){:target="_blank"} -- play the card game uno (note: not available for Mac!)
+* [Uno](http://code.activestate.com/recipes/580811-uno-text-based/?in=lang-python){:target="_blank"} -- play the card game uno (note: only works on Windows!)
+* [Caterpillar](https://github.com/Buzzpy/Python-Projects/blob/main/Caterpillar.py){:target="_blank"} -- play the game Caterpillar
 
-### Challenge: Add more responses to Eliza
+### Challenge 2: Add more responses to Eliza
 
 You don't necessarily understand how Eliza works, yet. You will later in the semester. But still, it is a good exercise to try to add additional responses to Eliza. Try to figure out how she works, and see if you can get her to respond in different ways than she does now. 
 
@@ -292,6 +294,6 @@ You don't necessarily understand how Eliza works, yet. You will later in the sem
 
 When you and your partner are done for the day, submit your work! Today you'll just need to turn in screenshots to D2L of Eliza working in command line and of the changes you made to the code. If you got to the challenges, take screenshots of those working, too. Next week you'll start turning in your code as well.
 
-If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin first.**
+If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin or Shiyu first.**
 
-If you didn't get everything done today, that's OK. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin know if you couldn't finish the main part of the lab and how far you got. I'll work with you after class or next week to make sure you have everything working.
+If you didn't get everything done today, that's okay. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin or Shiyu know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class or next week to make sure you have everything working.
