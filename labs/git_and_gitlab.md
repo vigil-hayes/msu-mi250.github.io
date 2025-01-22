@@ -24,7 +24,7 @@ The first thing you will do is to **fork** the project. Forking a project means 
 
 **IMPORTANT:** only one person in your pair should do this step each week. Usually this will be whoever's driving first. You only need one copy of the project between the two of you.
 
-To do this, look for the "fork" button on the top right of the project page and click it. It will ask you for a 'namespace': there should be only one option, with your name. Click on that to start the forking process. Forking will take a moment. Once it finishes, then it will take you to the new project. The new project should look almost the same as the original -- it is a copy, after all!  The main difference is if you look at the top, instead of saying "MI-250 / Git and Gitlab", it should say your username now. If it does, then great! It worked!  If not, then ask the instructor or TA for some assistance.   
+To do this, look for the "fork" button on the top right of the project page and click it. It will ask you for a 'namespace': there should be only one option, with your name. Click on that to start the forking process. Forking will take a moment. Once it finishes, then it will take you to the new project. The new project should look almost the same as the original -- it is a copy, after all!  The main difference is if you look at the top, instead of saying "MI-250 / Git and Gitlab", it should say your username now. If it does, then great! It worked!  If not, then ask Caitlin or Shiyu for some assistance.   
 
 (Note: sometimes you may get a 404 Error page. That happens when forking is slow.  Just wait a minute and hit "refresh" and it usually fixes itself.)
 
@@ -300,6 +300,14 @@ xcode-select --install
 ```
 
 Once Homebrew is installed, make sure to run `brew install git` to finish installing Git.
+
+If you're still getting errors after doing all these steps, you may have to do what's called added Homebrew to PATH - that is, pointing your computer to where Homebrew is installed so you can use its functions. Do that by running this command in Terminal:
+
+```
+echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+```
+
+Then try running `brew install git` again.
 
 *Alternate option for Mac*: If you absolutely can't get any of the above options to work, you can also install Git using the binary installer option on the Git for Mac downloads page. This will give you a much older version of Git (from 2021), but it will work for most things we do in this class.
 
