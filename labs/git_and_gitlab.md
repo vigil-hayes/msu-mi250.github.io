@@ -91,7 +91,7 @@ Once you're on the Preferences page, open up the sidebar menu on the left again 
 On the Access Tokens page, create a new Personal Access Token. Steps:
 1. Click the "Add new token" button near the top left of the page.
 2. Type in your MSU NetID in the "Token Name" field. 
-3. Choose an expiration date that is after the class ends - like December 20, 2024.  
+3. Choose an expiration date that is after the class ends - like May 5, 2025.  
 4. **Important:** click the "write_repository" checkbox. If you don't, your token won't let you access the files inside your repositories.
 5. Click the "Create personal access token" button. The webpage will reload, and near the top, it will show a "personal access token" which is basically a randomly generated password for you to use.
 6. **Save this access token!!** You will need to use it shortly. I recommend copy and pasting it into your notes or into a Google doc - somewhere where you can find it later.
