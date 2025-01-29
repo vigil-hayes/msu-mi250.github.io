@@ -1,8 +1,8 @@
 ---
 parent: Week 3
 topic: Choose Your Own Adventure
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 <!-- change "Tuesday" to "last week" for spring semester; reverse for fall semester-->
