@@ -787,7 +787,7 @@
   },"131": {
     "doc": "Homework",
     "title": "Turn in",
-    "content": "Turn your assignment in as a Word doc or a PDF on D2L under Assignments -&gt; Google Search and Programming. This assignment is due before the start of the studio in Week 4. Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus. ",
+    "content": "Turn your assignment in as a Word doc or a PDF on D2L under Assignments -&gt; Google Search and Programming. This assignment is due at the end of the day on Wednesday in Week 4. Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus. ",
     "url": "/homework/hw1_google.html#turn-in",
     "relUrl": "/homework/hw1_google.html#turn-in"
   },"132": {
@@ -805,13 +805,13 @@
   },"134": {
     "doc": "Homework",
     "title": "Turn in",
-    "content": "Turn your assignment in as a Word doc or a PDF on D2L under Assignments -&gt; Understanding Error Messages. This assignment is due before the start of the studio in Week 7. Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus. ",
+    "content": "Turn your assignment in as a Word doc or a PDF on D2L under Assignments -&gt; Understanding Error Messages. This assignment is due at the end of the day on Wednesday in Week 7. Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus. ",
     "url": "/homework/hw2_errors.html#turn-in",
     "relUrl": "/homework/hw2_errors.html#turn-in"
   },"135": {
     "doc": "Homework",
     "title": "Extra tips and resources",
-    "content": "As already mentioned, Google (or the search engine of your choise) is one of the best resources for looking up error messages. Here are a couple of other helpful resources: . | Common Python runtime errors beginners find | Python Errors and Built-in Exceptions | . Note that text editors like Visual Studio Code will also highlight issues that will cause errors, usually in red or yellow. That can help you spot and fix issues before you run the program. It can also be helpful to look at the syntax highlighting - that is, the different colors text editors use to represent different parts of the code. For examples, VS Code always shows strings in Python files as orange text. If you know a line of text is supposed to be a string but it’s not all in orange, that’s a sign that there’s something wrong that needs fixing - like a missing quote mark (“) at the beginning or end of the string. VS Code and some other text editors will also sometimes show symbols and other visual indicators that there’s an error in the code. Sometimes it will look like a squiggly underline, like how Word shows spelling or grammar errors. Other times it will be a red arrow in front the line numbers. When you encounter an error when running a program, look for these kinds of indicators in your text editor. ",
+    "content": "As already mentioned, Google (or the search engine of your choice) is one of the best resources for looking up error messages. Here are a couple of other helpful resources: . | Common Python runtime errors beginners find | Python Errors and Built-in Exceptions | . Note that text editors like Visual Studio Code will also highlight issues that will cause errors, usually in red or yellow. That can help you spot and fix issues before you run the program. It can also be helpful to look at the syntax highlighting - that is, the different colors text editors use to represent different parts of the code. For examples, VS Code always shows strings in Python files as orange text. If you know a line of text is supposed to be a string but it’s not all in orange, that’s a sign that there’s something wrong that needs fixing - like a missing quote mark (“) at the beginning or end of the string. VS Code and some other text editors will also sometimes show symbols and other visual indicators that there’s an error in the code. Sometimes it will look like a squiggly underline, like how Word shows spelling or grammar errors. Other times it will be a red arrow in front the line numbers. When you encounter an error when running a program, look for these kinds of indicators in your text editor. ",
     "url": "/homework/hw2_errors.html#extra-tips-and-resources",
     "relUrl": "/homework/hw2_errors.html#extra-tips-and-resources"
   },"136": {

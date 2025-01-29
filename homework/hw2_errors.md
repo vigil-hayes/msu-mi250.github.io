@@ -98,13 +98,13 @@ TypeError: 'str' object cannot be interpreted as an integer
 
 ## Turn in
 
-Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Understanding Error Messages. This assignment is due before the start of the studio in Week 7.
+Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Understanding Error Messages. This assignment is due at the end of the day on Wednesday in Week 7.
 
 Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus.
 
 ## Extra tips and resources
 
-As already mentioned, Google (or the search engine of your choise) is one of the best resources for looking up error messages. Here are a couple of other helpful resources:
+As already mentioned, Google (or the search engine of your choice) is one of the best resources for looking up error messages. Here are a couple of other helpful resources:
 
 * [Common Python runtime errors beginners find](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find/){:target="_blank"}
 * [Python Errors and Built-in Exceptions](https://www.toppr.com/guides/python-guide/tutorials/python-files/python-errors-and-built-in-exceptions/){:target="_blank"}

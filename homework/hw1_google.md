@@ -61,6 +61,6 @@ Include two screenshots: one of the search results for the last search you did, 
 
 ## Turn in
 
-Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Google Search and Programming. This assignment is due before the start of the studio in Week 4.
+Turn your assignment in as a Word doc or a PDF on D2L under Assignments -> Google Search and Programming. This assignment is due at the end of the day on Wednesday in Week 4.
 
 Grades will be based on following the instructions and making an honest effort. If you describe your findings for each exercise particularly well, that will earn you a check plus.
