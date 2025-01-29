@@ -9,7 +9,7 @@ visible: true
 
 The goal for today's studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. 
 
-Be creative! There's a small choose your own adventure program in the code from last week's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Tuesday might be useful to start with.
+Be creative! There's a small choose your own adventure program in the code from last week's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code Lab 2 might be useful to start with.
 
 You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can't work alone.
 
@@ -38,7 +38,7 @@ First driver:
 
 Switch drivers, second driver does the same as above, and so on.
 
-If you get stuck with Git, here's a [Git reference]({% link reference/using_git.md %}) that may be helpful. We can also help you anytime. Remember all of your code needs to be in Gitlab at the end of class - that's how you will turn your code in from now on! -->
+If you get stuck with Git, here's a [Git reference]({% link reference/using_git.md %}) that may be helpful. We can also help you anytime. Remember all of your code needs to be in Gitlab at the end of class - that's how you will turn your code in from now on!
 
 ### Choosing a story
 
@@ -48,8 +48,7 @@ The easiest place to start is to tell that story. Then think about different pla
 
 ### Diagram
 
-Once you've got an idea for a story, I'd recommend creating a diagram. Put major events in circles on a piece of paper,
-and then draw a line between them to signify order. Figure out what kinds of choices can be made, and add other outcomes as additional circles. It will really help to have a diagram that you can refer back to as you work on the programming.
+Once you've got an idea for a story, I'd recommend creating a diagram. Put major events in circles on a piece of paper, and then draw a line between them to signify order. Figure out what kinds of choices can be made, and add other outcomes as additional circles. It will really help to have a diagram that you can refer back to as you work on the programming.
 
 Here is a very [simple example](https://creately.com/diagram/example/i7nxnlyt/Choose+Your+Own+Adventure+Decision+Tree) of a diagram.
 
@@ -63,7 +62,7 @@ This also means that you don't need to have the whole story written before you s
 
 ### Use code you've already worked with
 
-You already did a bit with conditionals (if, else, and elif) in last week's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program will be particularly helpful for you to look at.
+You already did a bit with conditionals (if, else, and elif) in last week's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program from Lab 2 will be particularly helpful for you to look at.
 
 ### Submit on D2L and Gitlab
 
@@ -71,6 +70,6 @@ Your studio is finished when the class is over - no sooner! You can always conti
 
 When you are done, please submit screenshots of your code working (that is, of the program running in Powershell or Terminal) on D2L under Assignments. At least one person in the group needs to submit a screenshot. 
 
-Also submit your Python program (your .py file that contains your code) on D2L. Again, only one person in the group needs to submit this.
+<!--Also submit your Python program (your .py file that contains your code) on D2L. Again, only one person in the group needs to submit this.-->
 
 Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Shiyu. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.
