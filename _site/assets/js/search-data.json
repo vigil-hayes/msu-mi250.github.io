@@ -103,7 +103,7 @@
   },"17": {
     "doc": "Studio",
     "title": "Studio",
-    "content": "The goal for today’s studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. Be creative! There’s a small choose your own adventure program in the code from last week’s lab using the Avengers. You don’t have to write a story about the Avengers; your story can be about anything. But the code Lab 2 might be useful to start with. You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can’t work alone. ",
+    "content": "The goal for today’s studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. Be creative! There’s a small choose your own adventure program in the code from last week’s lab using the Avengers. You don’t have to write a story about the Avengers; your story can be about anything. But the code from Lab 2 might be useful to start with. You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can’t work alone. ",
     "url": "/studios/choose_your_own_adventure.html",
     "relUrl": "/studios/choose_your_own_adventure.html"
   },"18": {
@@ -337,7 +337,7 @@
   },"56": {
     "doc": "Readings",
     "title": "Question",
-    "content": "As per usual, your question can be one of three types: . | Confusion: what didn’t you understand in the readings? | Curiousity: what do you want to know more about? | Connection: how does this topic connect to your own experiences? | . Submit your summary+question on D2L under Quizzes before class starts on Tuesday. ",
+    "content": "As per usual, your question can be one of three types: . | Confusion: what didn’t you understand in the readings? | Curiousity: what do you want to know more about? | Connection: how does this topic connect to your own experiences? | . Submit your summary+question on D2L under Quizzes before class starts on Monday. ",
     "url": "/readings/drawing.html#question",
     "relUrl": "/readings/drawing.html#question"
   },"57": {
