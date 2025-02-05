@@ -27,7 +27,7 @@ Flags are not easy to design. Flags have a lot of symbolism in them.  Figure out
 
 Try to design your flag based on good flag design principles. Here is a pamphlet from the North American Vexillography Association that describes their 5 principles for good flag design, with examples: <https://nava.org/digital-library/design/GFBF_English.pdf>
 
-Also think about what's easy and hard about using Turtle to draw things, based on your experience with the lab on Tuesday. It's harder to draw a flower with Turtle than to draw a circle or a square. 
+Also think about what's easy and hard about using Turtle to draw things, based on your experience with this week's lab. It's harder to draw a flower with Turtle than to draw a circle or a square. 
 
 It might help to draw out ideas on paper or using the whiteboard first.
 
@@ -59,7 +59,7 @@ Push yourself to try new things and new features with the Turtle graphics. It do
 
 You know a lot about programming already -- `if` statements and `for` loops and using variables to store information and getting input from users. Use all of that knowledge to help you in you drawing. Remember you can always refer to old labs for reminders on how to do things.
 
-The lab on Tuesday had you drawing stars using Turtle. If you want to use star(s) on your flag, you can use the code you wrote for Tuesday. But note if you try to fill the star with color, the middle of it will still be empty. I've written a [different version of the code to make a star](https://gitlab.msu.edu/mi-250/turtles/-/blob/solutions/star_alt.py?ref_type=heads){:target="_blank"} that does fill in the center with color, which you can use if you want.
+The lab on Monday had you drawing stars using Turtle. If you want to use star(s) on your flag, you can use the code you wrote for Monday. But note if you try to fill the star with color, the middle of it will still be empty. I've written a [different version of the code to make a star](https://gitlab.msu.edu/mi-250/turtles/-/blob/solutions/star_alt.py?ref_type=heads){:target="_blank"} that does fill in the center with color, which you can use if you want.
 
 ### Stay Organized, and Use Comments
 

@@ -109,7 +109,7 @@ As already mentioned, Google (or the search engine of your choice) is one of the
 * [Common Python runtime errors beginners find](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find/){:target="_blank"}
 * [Python Errors and Built-in Exceptions](https://www.toppr.com/guides/python-guide/tutorials/python-files/python-errors-and-built-in-exceptions/){:target="_blank"}
 
-Note that text editors like Visual Studio Code will also highlight issues that will cause errors, usually in red or yellow. That can help you spot and fix issues before you run the program.
+Note that text editors like Visual Studio Code will also highlight issues that will cause errors, usually in yellow or red. That can help you spot and fix issues before you run the program.
 
 It can also be helpful to look at the syntax highlighting - that is, the different colors text editors use to represent different parts of the code. For examples, VS Code always shows strings in Python files as orange text. If you know a line of text is supposed to be a string but it's not all in orange, that's a sign that there's something wrong that needs fixing - like a missing quote mark (") at the beginning or end of the string.
 
