@@ -114,7 +114,7 @@ Modify your coin flipping program to count how many times heads comes up, and th
 *Hint*: You can use a counter to do this (which is sometimes known as an "accumulator"). You create a variable, and then set it to zero as a place to start. Then, each time through a loop, you add 1 to it. It looks something like this:
 ```
 counter = 0
-while looping:
+for i in range(20):
 	counter = counter + 1
 print(counter)
 ```
