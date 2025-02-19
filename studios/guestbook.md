@@ -1,8 +1,8 @@
 ---
 parent: Week 6
 topic: Guestbook
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 For this week, your goal is to make a digital guestbook. Traditionally, a [guestbook](https://en.wikipedia.org/wiki/Guestbook) is a physical book left near the entrance for an event (like a wedding or funeral) or a place (like a museum). Guests can sign their name and maybe leave a message, and the guestbook acts as a record of who was there.
@@ -52,6 +52,10 @@ write("Please enter your full name", font=("Helvetica", 12, "italic"))
 ```
 
 There is a Python program [here](https://gitlab.msu.edu/mi-250/random-lists/-/snippets/143) that will give you a list of all the fonts on your computer. Another trick is to open up Microsoft Word and look at the fonts Word lets you use - if there is no cloud icon next to the name of the font in Word's font list, that means it's already installed on your computer.
+
+### Use interesting colors
+
+There are also loads of colors you can use in Turtle. Note that Turtle has a number of pre-programmed colors, (like "red" and "black"), but can also be adapted to use HTML hexcodes (like `#000000` for black). See exercise 12 in [the Turtle lab]({% link labs/turtle.md %}) for a couple of ways to find colors you can use with Turtle.
 
 ### Use randomness
 
