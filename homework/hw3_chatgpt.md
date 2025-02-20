@@ -77,10 +77,10 @@ Include the prompt you used and a screenshot of the resulting Turtle drawing in 
 
 ## Using ChatGPT in class
 
-You've already been using resources like Google, Reddit, StackOverflow, etc. in class to help you with your code. A few of you have already been using ChatGPT as well. ChatGPT is another tool in your toolbox - you will not be marked down in this class for using it.
+You've already been using resources like Google, Reddit, StackOverflow, etc. in class to help you with your code. A few of you have already been using ChatGPT or similar as well. ChatGPT is another tool in your toolbox - you will not be marked down in this class for using it.
 
 BUT. Like with any code you get off the Internet, you'll need to try and understand what ChatGPT is giving you before you can incorporate it into the code you are writing. For any code you use from any source, whether it be Google or StackOverflow or ChatGPT, I highly recommend taking the time to add comments to the code. Writing down what the code is doing (or what you think it's doing) in human-readable terms can help you to understand better how it's working.
 
 ## Turn in
 
-Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment is due before the start of the studio in Week 9.
+Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Using ChatGPT for Programming. This assignment at the end of the day on Wednesday in Week 9.
