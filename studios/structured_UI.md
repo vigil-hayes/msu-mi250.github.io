@@ -60,7 +60,7 @@ It's very common to have different sets of data that you use to test to make sur
 
 ### Import images into Turtle
 
-Turtle allows you to import existing images into the Turtle drawing window, so long as those images are in .gif format. You can convert most images to .gif using Paint (Windows) or Preview (Mac). Open the image, and then go to File > Save As and choose GIF under Format. Note that Turtle won't display the animation in animated gifs.
+Turtle allows you to import existing images into the Turtle drawing window, so long as those images are in .gif format. You can convert most images to .gif using Paint (Windows) or Preview (Mac). Open the image, and then go to File > Save As and choose GIF under Format. There are also a lot of online tools that will do this for you. Note that Turtle won't display the animation in animated gifs.
 
 Social media platforms do work behind the scenes to make sure all of the images that display in posts display at the same size. You might want to change the size of the images you use to specific pixel dimensions -- like make all images 150x150 pixels -- so that you can plan your post design around those specific dimensions. It's harder to plan consistent designs when the design elements aren't consistent.
 
