@@ -1,6 +1,6 @@
 ---
 parent: Week 9
-topic: Organizing Your Program (lab)
+topic: Organizing Your Program
 git: https://gitlab.msu.edu/mi-250/organizing-code
 nav_exclude: true
 visible: false

@@ -9,7 +9,7 @@ visible: false
 
 For the studio today, you are going to make a [hangman game](https://en.wikipedia.org/wiki/Hangman_(game)). The game works like this:
 
-The game chooses a secret word, and displays a number of blanks indicating how many letters that word has. The player then has to guess the letters in the word. If the player guesses a letter correctly, the game fills in the letter in all places in that word that it appears.   If the player guesses a letter that is not in the word, then the game draws the next line in a stick figure (drawn with Turtle). The player wins if she or he guesses all of the letters in the word before the stick figure is completed. The player loses if they guess incorrectly so many times that the stick figure is fully drawn.
+The game chooses a secret word, and displays a number of blanks indicating how many letters that word has. The player then has to guess the letters in the word. If the player guesses a letter correctly, the game fills in the letter in all places in that word that it appears. If the player guesses a letter that is not in the word, then the game draws the next line in a stick figure (drawn with Turtle). The player wins if she or he guesses all of the letters in the word before the stick figure is completed. The player loses if they guess incorrectly so many times that the stick figure is fully drawn.
 
 As per usual, work in groups of 2-3 and store your code in Gitlab.
 
@@ -24,7 +24,7 @@ The traditional hangman game uses a stick figure in a noose. That's pretty morbi
 * *can be split up into pieces so that each piece can be drawn separately to make up parts of the whole.* The stick figure traditionally used in hangman has 6-7 pieces that can each be drawn separately. Having fewer pieces makes the game harder; more pieces makes the game easier.
 * *uses color smartly (or sparingly).* Remember if you want to fill a shape with color, you have to draw the entire shape first. That means if you have a drawing you want to use but it uses a color fill, you might not be able to use color when you split up the drawing into pieces. You can either plan to fill the color in at the end, or not use color, or only use an outline color (`pen_color()`).
 
-### Use functions structure your program
+### Use functions to structure your program
 
 The program you write for this will likely have many pieces: the piece that takes user input and checks if a letter is in the word or not and the various pieces that draw different things in Turtle at different times. 
 
@@ -38,7 +38,7 @@ You don't have to use modules for this, but it would be a good chance to practic
 
 ### Use multiple turtles
 
-In [last week's studio]({% link studios/structured_UI.md %}), there were instructions for making a second turtle. This feature of turtle might be helpful here, too! You could, for example, use one turtle to draw the image and another to write out the correctly guessed letters. Note you can make as many turtles as you want. 
+In [the guestbook studio a few weeks ago]({% link studios/guestbook.md %}), there were instructions for making a second turtle. This feature of turtle might be helpful here, too! You could, for example, use one turtle to draw the image and another to write out the correctly guessed letters. Note you can make as many turtles as you want. 
 
 ## If you get stuck
 
