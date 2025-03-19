@@ -1,8 +1,8 @@
 ---
 parent: Week 9
 topic: Hangman
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 <!-- Note: this studio was not used in the fall. -->
