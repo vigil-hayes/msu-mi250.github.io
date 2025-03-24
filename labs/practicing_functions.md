@@ -2,8 +2,8 @@
 parent: Week 10
 topic: Practicing Functions
 git: https://gitlab.msu.edu/mi-250/more-functions
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 {% capture _ %}{% increment exercise8 %}{% endcapture %}
