@@ -28,10 +28,6 @@ Read through the code and make sure you understand what it's doing. Run the prog
 Code is much easier to read and work with when it is organized into functions. Functions are also really useful for repeating code. A large part of refactoring is figuring out how to write functions so that you aren't repeating yourself, and so the code is easier to read.
 
 Ideally, you will most *most* of your code into functions, and have a relatively short 'main' section that just calls the appropriate functions in the right order. It might also make sense to put all of your functions in a module.
-<!-- 
-### Use files to store data
-
-One way to approach refactoring is to think about the data you're working with in the program and where the most efficient way to store that data would be. If you're working on a studio that uses *content* - like text-based data that comprises a story - it might make sense to save that data into files and then use Python to read the files in order to make use of the data. You can also [write text to a file](https://www.geeksforgeeks.org/writing-to-file-in-python/#), which might be useful for storing user input, for example. -->
 
 ### Look for opportunities to refactor
 
