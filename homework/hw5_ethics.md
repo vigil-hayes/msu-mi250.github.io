@@ -18,10 +18,11 @@ Choose one of the articles below to read. If you would prefer to find a differen
 * [Closed Captioning Not Provided: Why the new era of streaming TV is making life hard on deaf viewers](https://slate.com/culture/2012/07/closed-captioning-lawsuit-netflix-faces-legal-charges-for-not-complying-with-ada-requirements.html){:target="_blank"}
 * [EA: Loot boxes actually “surprise mechanics” that are “ethical and fun”](https://arstechnica.com/gaming/2019/06/ea-loot-boxes-actually-surprise-mechanics-that-are-ethical-and-fun/){:target="_blank"}
 * [Parents sue TikTok after 7 kids die from profitable Blackout Challenge videos](https://arstechnica.com/tech-policy/2022/07/parents-sue-tiktok-after-7-kids-die-from-profitable-blackout-challenge-videos/){:target="_blank"}
+* [Duolingo cuts workers as it relies more on AI](https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/){:target="_blank"}
 * [Behind E-Books, Libraries Find Restrictions and High Costs](https://www.govtech.com/biz/data/behind-e-books-libraries-find-restrictions-and-high-costs){:target="_blank"}
 * [‘There is no standard’: investigation finds AI algorithms objectify women’s bodies](https://www.theguardian.com/technology/2023/feb/08/biased-ai-algorithms-racy-women-bodies){:target="_blank"}
+* [23andMe bankruptcy underscores health privacy gaps](https://www.axios.com/2025/03/25/23andme-bankruptcy-hipaa-privacy){:target="_blank"}
 * [The trouble with Roblox, the video game empire built on child labour](https://www.theguardian.com/games/2022/jan/09/the-trouble-with-roblox-the-video-game-empire-built-on-child-labour){:target="_blank"}
-* [An abused wife took on Tesla over tracking tech. She lost.](https://www.reuters.com/technology/an-abused-wife-took-tesla-over-tracking-tech-she-lost-2023-12-19/){:target="_blank"}
 * [Pokewalking while black: Pokemon GO and America's 'e-quality' of life](https://www.opendemocracy.net/en/digitaliberties/pok-walking-while-black-pok-mon-go-and-america-s-e-q/){:target="_blank"}
 
 Next, write a 2-3 paragraph reflection about the article you've chosen to read. Your reflection should contain:
@@ -36,7 +37,7 @@ Note: these are hard questions to answer, and there's no right answer. Don't fee
 
 ## Turn in
 
-Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Ethics and Programming. This assignment is due before the start of the studio in Week 13.
+Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Ethics and Programming. This assignment at the end of the day on Wednesday in Week 13.
 
 ## Additional reading
 

@@ -21,4 +21,4 @@ Next, write a 2-3 paragraph reflection about the job posting you found:
 
 ## Turn in
 
-Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment is due before the start of the studio in Week 11.
+Turn in your reflection in on D2L either as a Word doc or a PDF under Assignments -> Jobs and Programming. This assignment at the end of the day on Wednesday in Week 11.

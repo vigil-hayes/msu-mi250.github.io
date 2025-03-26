@@ -32,4 +32,4 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-There is no class on Tuesday this week because Tuesday is election day! If you are eligible to vote, please take the time to go do so if you haven't already. Submit your summary+question on D2L under Quizzes before class starts on Thursday.
+Submit your summary+question on D2L under Quizzes before class starts on Monday.
