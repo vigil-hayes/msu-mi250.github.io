@@ -1,8 +1,8 @@
 ---
 parent: Week 11
 topic: Refactor Old Studio
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Your goal today is *refactoring*. The task for today is to go back to one of the previous studios that you did, read through the code, and then re-write the code. Your goal in re-writing the code is to make it easier to read, easier to understand, more reusable, and to work better. You don't need to change what the program does if you don't want to. Instead, focus on understanding what the code is doing (writing comments can help) and on figuring out how to make the code clearer and more efficient.
