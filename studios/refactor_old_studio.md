@@ -29,6 +29,12 @@ Code is much easier to read and work with when it is organized into functions. F
 
 Ideally, you will most *most* of your code into functions, and have a relatively short 'main' section that just calls the appropriate functions in the right order. It might also make sense to put all of your functions in a module.
 
+### Separate your code from your content
+
+Spoilers: one of the requirements for the final project is to separate your code (the script, or the .py file that contains the code you run) from the content (the data and/or drawings that the program uses as it's running). The goal of doing this is to keep the script file as clean and clear as possible, which can make the script file both easier to read and easier to debug.
+
+We practiced using modules in Week 9 - this is one way you can separate your code form your content. You can, for example, put Turtle drawings into functions and move those functions into modules. You can also put variables that hold data in modules. I would suggest practicing moving drawings and variables into modules on at least one studio, as practice for the final project.
+
 ### Look for opportunities to refactor
 
 Look for a couple of things to identify opportunities for refactoring:
