@@ -9,7 +9,7 @@ There are no readings for this week.  However, I would still like you to think a
 
 For this week's summary, think back over the class. What have you learned? Do you feel somewhat more confident with programming and with computers than you did before? Do you feel like you could talk with other programmers about the work they do? What skills do you think you understand pretty well? What skills do you feel like you still need to learn? 
 
-You've learned a lot over the course of the semester. One thing that might help you to see how far you've come is to look at the code you wrote for the labs and studios early in the semester. You probably understand some of that code better now than you did then. Try to remember what things you found hard to do in September and October. Are those things easier now?
+You've learned a lot over the course of the semester. One thing that might help you to see how far you've come is to look at the code you wrote for the labs and studios early in the semester. You probably understand some of that code better now than you did then. Try to remember what things you found hard to do in January and February. Are those things easier now?
 
 *Prompt:* Summarize what you feel like you've learned in this course.
 
@@ -17,7 +17,7 @@ You've learned a lot over the course of the semester. One thing that might help 
 
 For the question part of the course, think about how you might use these skills in the future. How do you think you might use the skills you learned in your future courses?  Or in your future career?  Or in your future life?  Are you already using the skills from this course in interesting and valuable ways?
 
-As usual, submit your summary and question before class starts on Tuesday.
+As usual, submit your summary and question before class starts on Monday.
 
 ## Going Forward
 
