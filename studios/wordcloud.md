@@ -9,11 +9,11 @@ A [word cloud](https://en.wikipedia.org/wiki/Tag_cloud) is a way of visualizing 
 
 Here's an example word cloud:
 
-![Word Cloud](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/State_of_the_union_word_clouds.png/1024px-State_of_the_union_word_clouds.png)
+![State of the Union word cloud](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/State_of_the_union_word_clouds.png/1024px-State_of_the_union_word_clouds.png)
 
-And another showing the world population by country:
+And another showing popular keywords relating to learning analytics:
 
-![Population by Country](https://upload.wikimedia.org/wikipedia/commons/e/ec/Word_population_tagcloud_2011.png)
+![Learning analytics word cloud](https://upload.wikimedia.org/wikipedia/commons/2/2a/ELI-LA-Word-Cloud-2-900x600.jpg)
 
 Your goal today is to write a program that reads in a *text* file, calculates how often each word appears in that file, and then finds an intersting way to display the most common words in the file on the screen using Turtle graphics. Try to make sure your program works with different kinds of input files.
 
