@@ -11,7 +11,7 @@ As you work, think about the code you wrote on Monday. Does it still make sense?
 
 Also, think about *scope*: how much can you get done? You worked for about 2 hours on Monday, and you've got another 2 hours or so to work today. How much did you get done on Monday? What do you still have left to do? Do you think you'll reasonably be able to complete that work by the end of class today? If you don't have much left, you might want to expand your scope and add some addtional features or story elements. If you have too much left, you'll need to prioritize and maybe cut some of the features or story elements you were planning.
 
-Remember if you don't complete the project in class, you will still have time to complete it next week. **The project is due at the end of the finals period for this class: 5pm on Wednesday, April 30th.**
+Remember if you don't complete the project in class, you will still have time to complete it next week. **The project is due at the end of the finals period for this class: 5pm on Wednesday, April 30th (a week from today).**
 
 ## Grading and rubric
 
