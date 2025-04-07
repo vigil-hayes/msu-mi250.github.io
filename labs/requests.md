@@ -135,11 +135,13 @@ Requests can be more specific than just asking for a URL. You can add parameters
 
 You can add parameters to a `requests.get()` call by putting them into a dictionary and then passing that dictionary as a second parameter:
 ```
-parameter = {"rel_rhy": "stuff"}
+parameter = {"rel_rhy": "stuff"}    # replace "stuff" with a different word
 rhyming = requests.get(datamuse, parameter)
 ```
 
-The file `rhyme.py` in the lab has the Datamuse API endpoint. Create a dictionary with one item in it -- `rel_rhy` as the key, and your last name as the value. Then call the API, and print out what it returns.  Printing out the raw JSON is fine; don't convert it to Python or parse it yet.
+The file `rhyme.py` in the lab has the Datamuse API endpoint. Create a dictionary with one item in it -- `rel_rhy` as the key, and a word of your choice (a word you want to get rhymes for) as the value. Then call the API, and print out what it returns.  Printing out the raw JSON is fine; don't convert it to Python or parse it yet.
+
+Try getting rhymes for a few different words - some will have more rhymes than others. You can use proper names, long words, uncommon words, whatever you want. Note that if the API can't find any rhymes for the word you use, it will not return anything!
 
 *Hint*: You'll need to remember to `import requests` to use the requests library.
 
@@ -159,9 +161,9 @@ Also look at how the data is organized. In this case, the words are in descendin
 
 ### Exercise {% increment exercise %}: Print out the rhymes
 
-The API returns the a complicated JSON object. You already converted the JSON to a Python data structure using `json.loads()` in the last exercise. Now then print out all of the words that rhyme with your last name. Only print out the words: no brackets or scores or anything else in the dictionary.
+The API returns the a complicated JSON object. You already converted the JSON to a Python data structure using `json.loads()` in the last exercise. Now then print out all of the words that rhyme with the word you chose. Only print out the words: no brackets or scores or anything else in the dictionary.
 
-For example, if I want to rhyme the word 'time', I could run the program and get:
+For example, if I want to rhyme the word 'time', I could run the program and it would print out:
 
 ```
 paradigm
@@ -244,7 +246,7 @@ To access all of the TMDB developer features, use their developer portal: <https
 
 Once you have signed in to TMDB, you will see a profile icon next to the search icon in the upper right hand corner. Click on that profile icon and it will bring up a menu. Choose "Settings". On the settings page, there is an option on the left called "API". Click that. You will see a list of all "Apps" that you have created. Most likely, there won't be any in the list - yet! For an API, an App is a program that you are writing that needs permission to access the API. As a developer, you can create more than one app (if you want). Click on "Create" to create a new app for the program we are writing for this lab, and then choose the "Developer" option.
 
-Accept the terms of service, and then TMDB will then present you with a form about that app that asks you for a lot of information. Fill it the form -- give your app a name, provide a description, etc. You can use this website (<http://mi250.dev>) for the required website. Make it a personal app.  
+Accept the terms of service, and then TMDB will then present you with a form about that app that asks you for a lot of information. Fill it the form -- give your app a name, provide a description, etc. You can use this website (<http://mi250.dev>) for the required website and Holden Hall for the address and phone number (234 Wilson Rd, East Lansing, MI 48825; phone number: +15173535912). Make it a personal app.  
 
 Once you create the app, you will be taken to the App page that shows the information you just submitted. On that page you should see the API key and the access token. These keys identify which app you are using, so TMDB (the company) can tell which program's API access is being used. Copy and paste the API key into the appropriate place at the top of `movies.py`.
 
