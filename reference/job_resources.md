@@ -7,7 +7,13 @@ nav_order: 7
 has_children: false
 ---
 
-[Summary of jobs from HW#3 (FS24)](https://docs.google.com/document/d/11nfas3xLJAg1ETqgcRIOPe3gRrfR3js6OT1o-oqYUwE/edit?usp=sharing){:target="_blank"} 
+## Different kinds of job fields and job titles where programming is relevant
+
+I've put together a [summary of jobs from HW#4 (SS25)](https://docs.google.com/document/d/1PnyiY__17tx6EriC_Oq4mxgOnDl8APEmuiuRR8tlcMk/edit?usp=sharing){:target="_blank"} which will give you some idea of the types of jobs your classmates are looking for, many of which are programming-focused or involve working closely with programmers, web technologies, data, software, etc.
+
+Summaries from previous semesters: [FS24](https://docs.google.com/document/d/11nfas3xLJAg1ETqgcRIOPe3gRrfR3js6OT1o-oqYUwE/edit?usp=sharing){:target="_blank"}, [SS24](https://docs.google.com/document/d/1GHHIh0F3d3_AxABrg-l6YYkNOhykxLaXGnEW57ZKiuk/edit?usp=drive_link){:target="_blank"} 
+
+I'd recommend looking through these as a way to figure out what kinds of jobs titles to search for when you are job hunting.
 
 ## Where to find jobs
 
@@ -31,13 +37,13 @@ Many of these systems have features that allow you to save specific searches and
 
 * [Ann Arbor Spark](https://annarborusa.org/jobs/job-board/) - southwest Michigan-focused job board that's also very tech focused; they also have events in Ann Arbor regularly
 * [State of Michigan Department of Technology, Management, and Budget careers](https://www.michigan.gov/dtmb/about/career) - state government-focused job board that's tech heavy
-* MSU IT frequently posts new jobs on [MSU Careers](https://careers.msu.edu) and on HandShake. Their news page also has announcements: for example, [from October 16, 2024](https://tech.msu.edu/news/2024/10/were-hiring/)
+* MSU IT frequently posts new jobs on [MSU Careers](https://careers.msu.edu) and on HandShake. Their news page also has announcements every few months: for example, [from December 19, 2024](https://tech.msu.edu/news/2024/12/were-hiring/)
 
 ### Follow companies
 
-Big tech companies like Microsoft, Apple, Google, and Amazon all have their own job boards. Many smaller companies and organizations also post new jobs on their websites. If there's a particular company or organization you'd like to work for, keep tabs on their website or social media profiles for job postings.
+Big tech companies like Microsoft, Apple, Google, and Amazon all have their own job boards. Many smaller companies and organizations also post new jobs on their company websites. If there's a particular company or organization you'd like to work for, keep tabs on their website or social media for job postings.
 
-Companies also post jobs on LinkedIn a lot. It can be really helpful to look for jobs at specific companies on LinkedIn because then you can also search for employees of that company and see what kinds of job titles people there have and what kinds of work experience those people have.
+Companies also post jobs on LinkedIn a lot. It can be really helpful to look for jobs at specific companies on LinkedIn because then you can also search for employees of that company and see what kinds of job titles people there have and what kinds of work experience those people have. If you have MSU listed on your own LinkedIn profile, LinkedIn will also tell you if any MSU alums work at those companies - a lot of alums are open to being contacted through LinkedIn by current students who want to ask questions about the kind of work they do.
 
 ### Job/career fairs
 
