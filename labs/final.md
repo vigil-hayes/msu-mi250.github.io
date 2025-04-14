@@ -17,7 +17,7 @@ You may use any of the code you wrote for that studio, or any other code you've 
 In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade
 as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
 
-The grade for your final project is 15% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
+The grade for your final project is 10% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
 
 *Basic necessities* (aka the “Minimum Viable Product”) (70% of grade; 10% each)
 * Program runs (with minimal effort)

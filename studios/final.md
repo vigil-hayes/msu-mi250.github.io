@@ -17,8 +17,7 @@ Remember if you don't complete the project in class, you will still have time to
 
 This was also in the instructions for Monday, but here it is again.
 
-In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade
-as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
+In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
 
 The grade for your final project is 10% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
 
