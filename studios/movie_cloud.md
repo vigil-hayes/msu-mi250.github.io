@@ -48,3 +48,13 @@ You've got a movie that you are representing visually. Another way of thinking o
 Make sure your program can draw a nice looking cloud first before adding the feature that allows the user to specify which movie they want the cloud to be drawn for. That is, hard code a movie into your program and make sure it works with that movie before trying it with different movies.
 
 If you're in a group of 3, it might make sense for 1-2 people to work on the user input portion while the others work on drawing the cloud
+
+## Challenges
+
+### Make a different kind of visual display
+
+Word clouds are just one way to display information visually. What are other ways you can use Turtle to display movie information? You could, for example, do something similar to the [structured UI studio]({% link studios/structured_UI.md %}) and make a flexible display for a specific movie (like a movie poster). Or you could list the most popular movies an actor has been in and draw different symbols or emojis next to the movie title based on the movie's popularity score. What other ways could you display the data? Be creative!
+
+### Try something other than Turtle
+
+There are lots of Python library out there for doing visual data displays. For example, matplotlib is a library for making data visualizations, like charts and graphs. PyQt is a library for creating graphical user interfaces for programs which can, for example, be used to collect input from users. There are also libraries that can generate word clouds for you. Pick a library and experiment with it. (Note: it can help if you have some idea of what you want to do first, and then find a library that supports that.)
