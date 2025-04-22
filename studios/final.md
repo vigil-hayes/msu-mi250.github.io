@@ -27,7 +27,7 @@ The grade for your final project is 10% of your overall grade for the class. Eac
 * Program is interactive and gives the user multiple paths to follow (those choices matter for the story)
 * Logic of program separated from content somehow
 * Option to quit the program exists
-* Code is stored in Gitlab
+* Code is stored in Gitlab (with run instructions in the read.me - see below)
 * Screenshots of final, working program in D2L (or in Gitlab)
 
 The remaining 30% of the grade is for going beyond the minimum and making an interesting choose-your-own-adventure program. This can be done through creativity, through programming, or through a combination of both:
@@ -49,6 +49,11 @@ The remaining 30% of the grade is for going beyond the minimum and making an int
 Each of these can be awarded 0-15 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 5%. If it is good, then 10%, and if it is really great, then 15%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your group’s strengths.
 
 You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Caitlin as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
+
+**IMPORTANT** Please also include instructions on how to run your program in the read.me file in your repository! Your read.me should include:  
+* which file in your repository is the main program file that will run your program 
+* a list of any Python libraries you've used that need to be installed separately 
+* anything else that might be important for us to know when we run your program
 
 ## Collaboration outside of class
 
