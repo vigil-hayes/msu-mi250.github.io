@@ -1,8 +1,8 @@
 ---
 parent: Final Week
 topic: Adventure Engine (continued)
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 We will be continuing to work on our [Choose Your Own Adventure engine and story]({% link labs/final.md %}). Please keep working on it today with the **same group** you had on Monday.
@@ -50,7 +50,7 @@ Each of these can be awarded 0-15 percentage points based on how good / interest
 
 You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Caitlin as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
 
-**IMPORTANT** Please also include instructions on how to run your program in the read.me file in your repository! Your read.me should include:  
+**IMPORTANT:** Please also include instructions on how to run your program in the read.me file in your repository! Your read.me should include:  
 * which file in your repository is the main program file that will run your program 
 * a list of any Python libraries you've used that need to be installed separately 
 * anything else that might be important for us to know when we run your program
