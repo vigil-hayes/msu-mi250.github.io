@@ -112,5 +112,6 @@ For example, to link to the drawing with functions lab, you would do:
 
     A link to the [Drawing with Functions]({% link labs/drawing_with_functions.md %}) lab
 
-
+## Credit
+The resources in this repository were originally developed and designed by Rick Wash (UW-Madison) and Caitlin Geier (MSU). Materials were forked by Morgan Vigil-Hayes in June 2025.
 
