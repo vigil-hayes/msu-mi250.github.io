@@ -17,13 +17,13 @@ For this week, please read and/or watch:
 * [Why Should We Teach Programming?](https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/)
 
 <!--
-Additionally, get started with a communications tool that is really commonly used among programmers: **Slack**.
-* [Sign up for the MI 250 Slack](https://join.slack.com/t/mi-250/signup)
-* Read [Slack 101](https://slack.com/resources/slack-101)
+Additionally, get started with a communications tool that is really commonly used among programmers: **Discord**.
+* [Sign up for the MI 250 Discord](https://join.slack.com/t/mi-250/signup)
+* Read [Beginner's Guide to Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord)
 -->
 
-After reading and/or watching the week's assignment, you need to write up what I am calling a "Summary + Question".
-This has two parts (obviously :):
+After reading and/or watching the week's assignment, you need to write up what I am calling a "Summary + Question + Quiz".
+This has three parts (obviously :):
 
 #### Summary
 Sometimes, you will be asked to do an "open summary", where you summarize what you understand about the concept of the
@@ -57,6 +57,10 @@ other aspect of your life or some other interesting thing in the world.
 
 After reading the material, come up with one question; it can be of any of these three types.
 
-The question+summary can be submitted on D2L
+#### Quiz
+
+Third, you will take a very short, multiple choice quiz so I can understand how well you understand the material before class. This week, the multiple choice questions will be about the readings. Starting next week, quiz questions might include programming concepts from the prior week and from the reading. 
+
+The question+summary+quiz can be submitted on D2L
 
 

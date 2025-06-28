@@ -34,10 +34,8 @@ Your question this week, and for most future weeks, can be one of three "types" 
 * A *curiosity* question: what would you like to learn more about? The readings and/or videos may have gotten you to think about something else that is related, but not really discussed in the material that you don't understand; that is, it got you to be curious about something else. This is a great chance to express that curiousity.  
 * A *connection* might not be a question; instead, it is an example that applies the concept that your are learning to some other aspect of your life or some other interesting thing in the world. 
 
-After reading the material, come up with one question. Caitlin will read through the questions before class starts and answer the most interesting ones at the beginning of class.
+After reading the material, come up with one question. Morgan will read through the questions before class starts and answer the most interesting ones at the beginning of class.
 
 **NOTE:** You do have to ask a question to get credit. "I have no questions" is not a question. If you can't think of a question, think of a connection instead.
-
-There is no class on Monday this week due to MLK Jr. Day. Submit your summary+question on D2L under Quizzes before class starts on Wednesday.
 
 
