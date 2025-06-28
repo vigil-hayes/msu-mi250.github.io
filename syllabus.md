@@ -80,7 +80,7 @@ In studios: students can choose who they work with and can work in groups no sma
 
 Every week students will be asked to read or watch a few articles and videos about programming and to submit a “Summary + Question” on D2L which is due before the first class of that week (usually Tuesday). These are under Quizzes on D2L and are labeled by week and are graded based on the check/check-plus/check-minus rubric. This should take you between 30 minutes and 1 hour each week.
 
-All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<https://mi250.dev/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the summary+questions.
+All readings and videos are available for free and are linked on the readings page for each week (found in the Topics/Readings column on [the course schedule](<http://mi250.info/schedule.html>)). You will not be required to purchase any textbooks or other materials to complete the summary+questions.
 
 **Summary:** one paragraph max (at least 3 sentences). These will always be guided summaries rather than just repeating facts. There will be a prompt on the readings page for each week which will usually ask you to explain what you’ve learned in your own words and to apply it to your own experiences. If your summary is too short or too long, or doesn’t answer the prompt, you may be marked down for it.
 
