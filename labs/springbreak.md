@@ -1,8 +1,8 @@
 ---
 parent: Spring Break
 topic: <i>NO CLASS</i>
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 published: true
 ---
 

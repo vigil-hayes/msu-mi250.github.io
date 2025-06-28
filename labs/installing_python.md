@@ -3,8 +3,8 @@ parent: Week 1
 topic: Getting Started with Python
 git: https://gitlab.msu.edu/mi-250/getting-started
 layout: studio
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Today we will start with our first programming lab. We'll be getting Python set up and getting your computer ready for writing code, then we'll practice working with code a bit.

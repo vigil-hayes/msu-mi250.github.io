@@ -15,9 +15,9 @@ Everyone can learn to program. Everyone. And understanding more about how comput
 
 This course is offered through the Department of Media and Information at Michigan State University.
 
-## Spring 2025
+## Fall 2025
 
-Class meets on Mondays and Wednesdays at 3:00pm-4:50pm in Holden Hall, room C131. 
+Class meets on Tuesdays and Thursdays at 10:20pm-12:10pm in Holden Hall, room C131. 
 
 Course content can be found on this site and on Gitlab. D2L is used for turning in assignments and keeping track of grades.
 

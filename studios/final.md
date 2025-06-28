@@ -1,8 +1,8 @@
 ---
 parent: Final Week
 topic: Adventure Engine (continued)
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 We will be continuing to work on our [Choose Your Own Adventure engine and story]({% link labs/final.md %}). Please keep working on it today with the **same group** you had on Monday.

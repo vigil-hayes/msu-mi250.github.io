@@ -2,8 +2,8 @@
 parent: Week 1
 topic: Intro to Class
 git: None
-nav_exclude: false
-visible: true
+nav_exclude: true
+visible: false
 ---
 
 Today is an introduction to the course and a discussion of what programming is. We'll do a short "lab" today that will get you familiar with the format for the course.
