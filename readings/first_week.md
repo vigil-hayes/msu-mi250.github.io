@@ -10,6 +10,8 @@ visible: true
 * [Syllabus]({% link syllabus.md %})
 * [What is Computer Programming?](https://news.codecademy.com/what-is-computer-programming/)
 * [Why Should We Teach Programming?](https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/)
+* [In-Depth: The Costs and Benefits of Pair Programming](https://medium.com/the-liberators/in-depth-the-costs-and-benefits-of-pair-programming-b4b54b27c6ff)
+* [_Optional:_ Why kids still need to learn to code in the age of AI][(https://www.raspberrypi.org/blog/why-kids-still-need-to-learn-to-code-in-the-age-of-ai/)
 
 ## Summary
 

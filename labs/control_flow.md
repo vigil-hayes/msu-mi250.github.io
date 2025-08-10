@@ -169,7 +169,7 @@ Black Widow was also hanging out with the rest of her team. Let's add her in to 
 
 ## Challenges
 
-If you and your partner finish all of the exercises before the end of class, try at least one of the challenges below. Check in with Caitlin or Shiyu once you've attempted at least one. If you've completed at least one challenge and there's still time left in class, you can leave early (for labs only). Remember to turn in your work on D2L first!
+If you and your partner finish all of the exercises before the end of class, try at least one of the challenges below. Check in with Morgan or Shiyu once you've attempted at least one. If you've completed at least one challenge and there's still time left in class, you can leave early (for labs only). Remember to turn in your work on D2L first!
 
 ### Challenge 1: Two-part Mad-libs
 

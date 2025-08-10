@@ -3,8 +3,8 @@ parent: Week 1
 topic: Getting Started with Python
 git: https://gitlab.msu.edu/mi-250/getting-started
 layout: studio
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 Today we will start with our first programming lab. We'll be getting Python set up and getting your computer ready for writing code, then we'll practice working with code a bit.
@@ -33,7 +33,7 @@ The goal of this lab is to get everything set up to run your first Python progra
 
 For this section, the driver will do everything on their computer first with the other person acting as navigator. Later on in the lab you'll switch places. Remember you'll figure things out faster by working together!
 
-And remember that Shiyu and Caitlin are here to help - don't be afraid to raise your hand if you get stuck!
+And remember that Shiyu and Morgan are here to help - don't be afraid to raise your hand if you get stuck!
 
 ### Install Python
 
@@ -85,7 +85,7 @@ Terminal should open up a window with a bunch of text in it, and a prompt with a
 
 ```
 Last login: Wed Jan 8 25 16:57:43 on ttys000
-geier-Macbook-Pro:~ geier$
+vigilhay-Macbook-Pro:~ geier$
 ```
 
 If you type, it should appear next to the prompt. Type the command `python3` and hit enter. If it works, then you should see something like this appear:
@@ -276,7 +276,7 @@ In normal labs after this week, we won't be repeating steps on both people's com
 
 ## Extra Challenges
 
-At this point, both you and your partner should have Eliza.py with changes working on both of your computers. Labs every week will have one or more challenges at the end. If you finish all of the main exercises, start working on one of the challenges. If you finish one (or both!) challenges before class ends, let Caitlin know so I can check your work and answer any questions.
+At this point, both you and your partner should have Eliza.py with changes working on both of your computers. Labs every week will have one or more challenges at the end. If you finish all of the main exercises, start working on one of the challenges. If you finish one (or both!) challenges before class ends, let Morgan know so I can check your work and answer any questions.
 
 ### Challenge 1: Other Python programs 
 
@@ -294,6 +294,6 @@ You don't necessarily understand how Eliza works, yet. You will later in the sem
 
 When you and your partner are done for the day, submit your work! Today you'll just need to turn in screenshots to D2L of Eliza working in command line and of the changes you made to the code. If you got to the challenges, take screenshots of those working, too. Next week you'll start turning in your code as well.
 
-If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Caitlin or Shiyu first.**
+If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Morgan or Shiyu first.**
 
-If you didn't get everything done today, that's okay. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Caitlin or Shiyu know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class or next week to make sure you have everything working.
+If you didn't get everything done today, that's okay. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Morgan or Shiyu know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class or next week to make sure you have everything working.

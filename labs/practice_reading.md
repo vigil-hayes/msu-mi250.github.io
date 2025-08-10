@@ -35,7 +35,7 @@ print("Done looping!")                         # Print message AFTER loop is bro
 
 ## Guidelines for this lab
 
-**Check in with Caitlin or Shiyu**: Every two to three exercises, before you move on to the next one, ask Caitlin or Shiyu to come over and look at your comments to make sure that they aren't missing anything. This is important; often we will ask you questions that reveal that you might not have fully understood the program. You might understand overall what the program does, but may not understand exactly what each line of code does. The goal of today's exercises is to dig into the code so that you understand exactly how it's working.
+**Check in with Morgan or Shiyu**: Every two to three exercises, before you move on to the next one, ask Morgan or Shiyu to come over and look at your comments to make sure that they aren't missing anything. This is important; often we will ask you questions that reveal that you might not have fully understood the program. You might understand overall what the program does, but may not understand exactly what each line of code does. The goal of today's exercises is to dig into the code so that you understand exactly how it's working.
 
 **Write a "purpose" comment**: At the top of each program, write a comment that explains, at a high level, what the program is doing.
 
@@ -45,7 +45,7 @@ print("Done looping!")                         # Print message AFTER loop is bro
 
 **Use print**: After the timer goes off, if you are still trying to figure out what the program does, a good way to do this is to use `print()`.  Add `print()` statements to the program and run it again to print out the contents of variables (or lists or dictionaries) so you can see what is stored in them. This will help you think about what the program does and how it works.
 
-**Use the tools and resources available to you**: You and your partner should try to use what you remember from the class to figure out what the code is doing on your own first, but if you get stuck, there are a lot of tools and resources available to you. Ask your partner, or another pair sitting at your table. Check the Python documentation, or the Turtle documentation. Google it. Use ChatGPT. Ask Caitlin or Shiyu.
+**Use the tools and resources available to you**: You and your partner should try to use what you remember from the class to figure out what the code is doing on your own first, but if you get stuck, there are a lot of tools and resources available to you. Ask your partner, or another pair sitting at your table. Check the Python documentation, or the Turtle documentation. Google it. Use ChatGPT. Ask Morgan or Shiyu.
 
 ### Exercise 1
 
@@ -73,7 +73,7 @@ After your timer goes off, you are allowed to run the program to see what it doe
 
 ## Check in
 
-At this point, ask Caitlin or Shiyu to check your comments for exercises 1 through 3 before moving on. Switch drivers if you haven't already.
+At this point, ask Morgan or Shiyu to check your comments for exercises 1 through 3 before moving on. Switch drivers if you haven't already.
 
 ### Exercise 4 
 
@@ -102,7 +102,7 @@ After your timer goes off, you are allowed to run the program to see what it doe
 
 ## Check in
 
-At this point, ask Caitlin or Shiyu to check your comments for exercises 4 through 6 before moving on. Now is a good time to switch drivers again.
+At this point, ask Morgan or Shiyu to check your comments for exercises 4 through 6 before moving on. Now is a good time to switch drivers again.
 
 ### Exercise 7
 
@@ -124,7 +124,7 @@ After your timer goes off, you are allowed to run the program to see what it doe
 
 ## Check in
 
-At this point, ask Caitlin or Shiyu to check your comments for exercises 7 and 8 before you try a challenge.
+At this point, ask Morgan or Shiyu to check your comments for exercises 7 and 8 before you try a challenge.
 
 ---
 
@@ -132,7 +132,7 @@ Don't forget to add, commit, and push all of your comments to your git repositor
 
 ## Challenges
 
-Please complete at least one challenge before leaving for the day. It is up to you which one you do. Ask Caitlin or Shiyu to come over and see the results of your challenge before you leave.
+Please complete at least one challenge before leaving for the day. It is up to you which one you do. Ask Morgan or Shiyu to come over and see the results of your challenge before you leave.
 
 ### Challenge 1: Eliza
 

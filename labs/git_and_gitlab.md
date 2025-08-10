@@ -24,13 +24,13 @@ The first thing you will do is to **fork** the project. Forking a project means 
 
 **IMPORTANT:** only one person in your pair should do this step each week. Usually this will be whoever's driving first. You only need one copy of the project between the two of you.
 
-To do this, look for the "fork" button on the top right of the project page and click it. It will ask you for a 'namespace': there should be only one option, with your name. Click on that to start the forking process. Forking will take a moment. Once it finishes, then it will take you to the new project. The new project should look almost the same as the original -- it is a copy, after all!  The main difference is if you look at the top, instead of saying "MI-250 / Git and Gitlab", it should say your username now. If it does, then great! It worked!  If not, then ask Caitlin or Shiyu for some assistance.   
+To do this, look for the "fork" button on the top right of the project page and click it. It will ask you for a 'namespace': there should be only one option, with your name. Click on that to start the forking process. Forking will take a moment. Once it finishes, then it will take you to the new project. The new project should look almost the same as the original -- it is a copy, after all!  The main difference is if you look at the top, instead of saying "MI-250 / Git and Gitlab", it should say your username now. If it does, then great! It worked!  If not, then ask Morgan or Shiyu for some assistance.   
 
 (Note: sometimes you may get a 404 Error page. That happens when forking is slow.  Just wait a minute and hit "refresh" and it usually fixes itself.)
 
 ### Give other people access to the new project
 
-The first thing you should do after forking a project is to give your partner, Caitlin, and Shiyu access to the project. In the menu on the left, find "Manage" and then go to "Members". This is the page where you can give other people access. Click on the blue "Invite Members" button on the top right. A window will pop up. Search for your partner in the "username or email address" box -- the easiest way is to search for their MSU NetID. Also search for and add Caitlin (geierac) and Shiyu (xiangsh2). Then change the "role permission" to "Maintainer" -- the highest level of permissions. You don't need to add an expiration date. When you're done, click the "Invite" button at the bottom of the window. The three people you added (your partner, Caitlin, and Shiyu) should show up in the member list.
+The first thing you should do after forking a project is to give your partner, Morgan, and Shiyu access to the project. In the menu on the left, find "Manage" and then go to "Members". This is the page where you can give other people access. Click on the blue "Invite Members" button on the top right. A window will pop up. Search for your partner in the "username or email address" box -- the easiest way is to search for their MSU NetID. Also search for and add Morgan (vigilhay) and Shiyu (xiangsh2). Then change the "role permission" to "Maintainer" -- the highest level of permissions. You don't need to add an expiration date. When you're done, click the "Invite" button at the bottom of the window. The three people you added (your partner, Morgan, and Shiyu) should show up in the member list.
 
 ### Make sure your partner can access your forked project
 
@@ -75,8 +75,8 @@ Once you've got Git installed, open up a command line window (Powershell on Wind
 The first thing you need to do to set up Git is to tell it who your are. Use the following two commands to tell it who you are, **substituting your name and email address for mine**:
 
 ```
-git config --global user.name "Caitlin Geier"
-git config --global user.email "geierac@msu.edu"
+git config --global user.name "Morgan Geier"
+git config --global user.email "vigilhay@msu.edu"
 ```
 Be sure to keep the quotation marks. You should only need to do this step once on your computer. After that, it will remember who you are.
 
@@ -126,7 +126,7 @@ Next, we will use a Git command in command line to clone the project. By default
 The command to use Git to clone a project onto your computer is `git clone` to clone the project. In command line, type in `git clone ` and then paste in the HTTPS link that you copied from the Gitlab website. It should look something like this:
 
 ```
-git clone https://gitlab.msu.edu/geierac/git-and-gitlab.git
+git clone https://gitlab.msu.edu/vigilhay/git-and-gitlab.git
 ```
 
 **Important:** Make sure your username is in the URL that you paste in! If it's not (if it says mi250 instead), that means you're in the wrong repository.
@@ -139,7 +139,7 @@ Once the repository has downloaded, you will get a prompt on the command line ag
 
 ## Make a change to a file on your computer and "push" it to Gitlab
 
-Next, let's make a change.  Open up the file `README.md` in your text editor. Right now, it has my name (Caitlin Geier) in there as the author. That's no longer accurate, though -- this is YOUR repository now! Change the name to your name.
+Next, let's make a change.  Open up the file `README.md` in your text editor. Right now, it has my name (Morgan Geier) in there as the author. That's no longer accurate, though -- this is YOUR repository now! Change the name to your name.
 
 ### Add, Commit and Push the change
 
@@ -280,7 +280,7 @@ In `bottles.py`, `beverage` is a variable that is replaced with something else. 
 
 ## Turning in your work
 
-Take screenshots of your code working in command line, as per usual, and upload them to D2L under Assignments. If you got all of your changes up in your GitLab repository, you've already turned in your code for today! This is how you'll turn your code in every class from now own. Make sure Caitlin and Shiyu are both added as members to your repository (see [Give other people access to the new project](#give-other-people-access-to-the-new-project))
+Take screenshots of your code working in command line, as per usual, and upload them to D2L under Assignments. If you got all of your changes up in your GitLab repository, you've already turned in your code for today! This is how you'll turn your code in every class from now own. Make sure Morgan and Shiyu are both added as members to your repository (see [Give other people access to the new project](#give-other-people-access-to-the-new-project))
 
 
 # Troubleshooting 
@@ -346,7 +346,7 @@ If multiple people are making changes to a repository at the same time, sometime
 * Always use `git pull` before you start working on a file to make sure you have the most updated version.
 * When you're done working on a file, always add, commit, and push your code to Gitlab.
 
-Don't worry if you run into a conflict; Caitlin and Shiyu are always around to help you resolve them! 
+Don't worry if you run into a conflict; Morgan and Shiyu are always around to help you resolve them! 
 
 ## Git reference
 

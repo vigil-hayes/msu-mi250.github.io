@@ -22,7 +22,7 @@ It's okay if it always prints out the flash cards in the same order every time. 
 
 ## Git
 
-Store your project in a Git repository on the [MSU GitLab](https://gitlab.msu.edu). You'll need to make a new repository for you and your group - it's easiest to do this first, before you start writing any code. Only one person in the group needs to create a repository; once it's shared, everyone else in the group will have access to it. Remember to add Caitlin (geierac) and Shiyu (xiangsh2) as members along with your groupmates. See the [Using Git in the Reference section]({% link reference/using_git.md %}) for a refresher.
+Store your project in a Git repository on the [MSU GitLab](https://gitlab.msu.edu). You'll need to make a new repository for you and your group - it's easiest to do this first, before you start writing any code. Only one person in the group needs to create a repository; once it's shared, everyone else in the group will have access to it. Remember to add Morgan (vigilhay) and Shiyu (xiangsh2) as members along with your groupmates. See the [Using Git in the Reference section]({% link reference/using_git.md %}) for a refresher.
 
 ## Advice
 

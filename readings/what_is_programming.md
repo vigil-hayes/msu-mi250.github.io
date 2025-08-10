@@ -2,8 +2,8 @@
 topic: What is programming?
 parent: Week 1
 nav_exclude: true
-visible: false
-published: false
+visible: true
+published: true
 ---
 
 This week, we get starting with our first steps toward programming.  
@@ -18,7 +18,7 @@ For this week, please read and/or watch:
 
 <!--
 Additionally, get started with a communications tool that is really commonly used among programmers: **Discord**.
-* [Sign up for the MI 250 Discord](https://join.slack.com/t/mi-250/signup)
+* [Sign up for the MI 250 Discord](https://discord.gg/pzeezscVEu)
 * Read [Beginner's Guide to Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord)
 -->
 

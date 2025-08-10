@@ -46,7 +46,7 @@ The remaining 30% of the grade is for going beyond the minimum and making an int
 
 Each of these can be awarded 0-15 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 5%. If it is good, then 10%, and if it is really great, then 15%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your group’s strengths.
 
-You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Caitlin as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
+You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Morgan as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
 
 ## Advice
 

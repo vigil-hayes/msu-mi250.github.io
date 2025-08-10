@@ -59,4 +59,4 @@ Refactoring is a gread opportunity to make minor changes to improve the user exp
 
 ### How much more can you do?
 
-If you think you've done enough refactoring with a studio, call for help from either Shiyu or Caitlin and talk us through the changes you made. If we don't have additional ideas, then you can move on and work on refactoring another studio.
+If you think you've done enough refactoring with a studio, call for help from either Shiyu or Morgan and talk us through the changes you made. If we don't have additional ideas, then you can move on and work on refactoring another studio.

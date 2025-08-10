@@ -25,7 +25,7 @@ Some groups like to start out by writing the story in Google Docs or by mapping 
 
 ### Use Git
 
-For studios, one person in your group will need to create a **new** Git repository and share it with the rest of the group (and Caitlin and Shiyu).
+For studios, one person in your group will need to create a **new** Git repository and share it with the rest of the group (and Morgan and Shiyu).
 
 Note that Git is easiest to use when only one person is writing code at any given time; if multiple people are working on the same file, you will run into Git conflicts, which are sometimes hard to resolve. 
 
@@ -72,4 +72,4 @@ When you are done, please submit screenshots of your code working (that is, of t
 
 <!--Also submit your Python program (your .py file that contains your code) on D2L. Again, only one person in the group needs to submit this.-->
 
-Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Caitlin and Shiyu. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.
+Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Morgan and Shiyu. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.
