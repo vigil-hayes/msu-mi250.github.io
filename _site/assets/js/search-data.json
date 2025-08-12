@@ -83,8 +83,8 @@
     
     "relUrl": "/week/8.html"
   },"12": {
-    "doc": "Week 9)",
-    "title": "Week 9)",
+    "doc": "Week 9",
+    "title": "Week 9",
     "content": " ",
     "url": "/week/9.html",
     
@@ -1338,7 +1338,7 @@
   },"191": {
     "doc": "Readings",
     "title": "Readings",
-    "content": "The readings for this week cover three topics. First, we will learn a bit more about strings and about the print() function, which outputs strings. We’ve been using both in class already. Second, we’ll learn about two kinds of loops – while loops and for loops. And third, we’ll learn a bit about using random numbers in Python. Strings and Print() . | Automate the Boring Stuff, Chapter 6: Manipulating Strings – Stop reading at “Project: Password Locker” | The print() function in Python – Stop reading at “Printing Custom Data Types” | . Loops . | Loops in Python | Learn Python: Loops - practice. Note the exercise at the end uses lists, which we won’t cover in class for a couple weeks. | . Randomness . | Random Numbers in Python | . ",
+    "content": "The readings for this week cover three topics. First, we will learn a bit more about strings and about the print() function, which outputs strings. We’ve been using both in class already. Second, we’ll learn about two kinds of loops – while loops and for loops. And third, we’ll learn a bit about using random numbers in Python. Strings and Print() . | Automate the Boring Stuff, Chapter 6: Manipulating Strings – Stop reading at “Project: Password Locker” | The print() function in Python – Stop reading at “Printing Custom Data Types” | . Loops . | Loops in Python | Learn Python: Loops - practice. Note the exercise at the end uses lists, which we won’t cover in class for a couple weeks. | . Randomness . | Random Numbers in Python | . Optional: Recursion . For those of you who are more computationally curious, a topic that is related to loops is recursion. Recursion is conceptually elegant; the idea is that a function calls itself over and over on incrementally modified data until it reaches some sort of base state. It’s something CS and math folks might wax poetically about (myself included! Sorry!). However, it comes with some interesting drawbacks. This reading is totally optional and solely for the curious student’s edification. It may inspire you, though, as you get closer to your final project… . | Recursion in Python: An Introduction | . ",
     "url": "/readings/loops.html",
     
     "relUrl": "/readings/loops.html"
@@ -1737,7 +1737,7 @@
   },"248": {
     "doc": "Schedule",
     "title": "Course Schedule",
-    "content": "| Week | Topic / Readings | Lab | Studio | Homework | . | 1 (Aug 26 / 28)) | Course Introduction | Intro to Class | Getting Started with Python | | . | 2 (Sept 2 / 4 ) | Variables, Flow | | | | . | 3 (Sep 9 / 11) | Version Control | | | | . | 4 (Sep 16 / 18) | Loops and Variables | | | | . | 5 (Sep 23 / 25) | Drawing | | | | . | 6 (Sep 30 / Oct 1) | Lists and Randomness | | | | . | 7 (Oct 7 / 9) | Functions | | | | . | 8 (Oct 14 / 16) | Dictionaries | | | | . | 9 (Oct 23) Fall Break; no class Oct 21 | | | | | . | 10 (Oct 28 / 30) | Revisiting Functions | | | | . | 11 (Nov 4 / Nov 6) | Reading Code | | | | . | 12 (Nov 11 / 13) | Files | | | | . | Break (Nov 25 / 27) | Thanksgiving Break | | | | . | 13 (Nov 18 / 20) | APIs | | | | . | 15 (Dec 2 / 4) | Reflection | | | | . ",
+    "content": "| Week | Topic / Readings | Lab | Studio | Homework | . | 1 (Aug 26 / 28)) | Course Introduction | Intro to Class | Getting Started with Python | | . | 2 (Sept 2 / 4 ) | Variables, Flow | | | | . | 3 (Sep 9 / 11) | Version Control | | | | . | 4 (Sep 16 / 18) | Loops and Variables | | | | . | 5 (Sep 23 / 25) | Drawing | | | | . | 6 (Sep 30 / Oct 1) | Lists and Randomness | | | | . | 7 (Oct 7 / 9) | Functions | | | | . | 8 (Oct 14 / 16) | Dictionaries | | | | . | 9 (Oct 23) Fall Break; no class Oct 21 | Modules | | | | . | 10 (Oct 28 / 30) | Revisiting Functions | | | | . | 11 (Nov 4 / Nov 6) | Reading Code | | | | . | 12 (Nov 11 / 13) | Files | | | | . | Break (Nov 25 / 27) | Thanksgiving Break | | | | . | 13 (Nov 18 / 20) | APIs | | | | . | 15 (Dec 2 / 4) | Reflection | | | | . ",
     "url": "/schedule.html#course-schedule",
     
     "relUrl": "/schedule.html#course-schedule"
