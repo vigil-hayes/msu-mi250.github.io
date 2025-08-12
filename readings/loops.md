@@ -20,6 +20,11 @@ The readings for this week cover three topics.  First, we will learn a bit more 
 
 * [Random Numbers in Python](https://www.geeksforgeeks.org/random-numbers-in-python/#){:target="_blank"}
 
+### _Optional: Recursion_
+For those of you who are more computationally curious, a topic that is related to loops is recursion. Recursion is conceptually elegant; the idea is that a function calls itself over and over on incrementally modified data until it reaches some sort of base state. It's something CS and math folks might wax poetically about (myself included! Sorry!). However, it comes with some interesting drawbacks. This reading is totally optional and solely for the curious student's edification. It may inspire you, though, as you get closer to your final project...
+
+* [Recursion in Python: An Introduction](https://realpython.com/python-recursion/){:target="_blank"}
+
 ## Summary
 
 For the summary this week, focus on loops and randomness. Think about similar things you have encountered before.
@@ -33,6 +38,6 @@ As per usual, your question can be one of three types:
 * *Curiousity*: what do you want to know more about?
 * *Connection*: how does this topic connect to your own experiences?
 
-Submit your summary+question on D2L under Quizzes before class starts on Monday.
+Submit your summary+question on D2L under Quizzes before class starts on Thursday.
 
 
