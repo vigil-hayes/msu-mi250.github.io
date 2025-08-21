@@ -26,12 +26,11 @@ Synchronous, in person – no hybrid options available
 
 *Instructor:* Morgan Vigil-Hayes 
 *Email:* [vigilhay@msu.edu](mailto:vigilhay@msu.edu?subject=MI250%Question)  
-*Office hours:* In-person or virtually, Thursdays, 12:30-1:30pm or by appointment (please email to schedule appointment)
-*Office:* Room TBD, Communication Arts and Sciences building
+*Office hours:* In-person or [virtually](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Njk0ZDI5NTEtNjAxNC00MmRiLWE2YjAtY2UyNmZmNWFjMzM0%40thread.v2/0?context=%7b%22Tid%22%3a%2222177130-642f-41d9-9211-74237ad5687d%22%2c%22Oid%22%3a%22f2a76951-da74-481d-8c28-4dc240786f6a%22%7d), Thursdays, 12:30-1:30pm or by appointment (please email to schedule appointment)
+*Office:* Room 424, Communication Arts and Sciences building
 
-*Course assistant:* TBD
-*Email:* [XX](mailto:XX@msu.edu?subject=MI250&%Question)  
-*Office hours:* By appointment, virtually - email or talk to after class to find a time
+*Course assistant:* Shiyu Xiang
+*Email:* [xiangsh2@msu.edu](mailto:xiangsh@msu.edu?subject=MI250&%Question)  
 
 ## Course Description
 
@@ -206,9 +205,9 @@ A rubric for the final project will be released at the beginning of the final we
 
 ## Communication Policies
 
-Dr. Vigil-Hayes and TBD are happy to respond to student questions after class, or via email. Dr. Vigil-Hayes and TBD are also happy to meet with students on Zoom - email either of us to set up a time to meet. If you have questions about anything course-related, please get in touch!
+Dr. Vigil-Hayes and Shiyu are happy to respond to student questions after class, or via email. Dr. Vigil-Hayes is also happy to meet with students on Zoom/Teams - email her to set up a time to meet. If you have questions about anything course-related, please get in touch!
 
-Email policy: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended.
+**Email policy**: we will respond to email within 24 hours on weekdays, or within 72 hours on weekends. Don’t expect us to see any email sent before or during class until after class has ended. Please include the string "MI250" in the subject line of emails--otherwise, Dr. Vigil-Hayes is likely to lose them in her inbox.
 
 ### Announcements
 
