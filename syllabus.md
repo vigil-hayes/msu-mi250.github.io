@@ -156,7 +156,7 @@ Homework is also graded using the check/check-plus/check-minus system. Grades ar
 
 The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
 
-Final projects are due at the end of the final exam period: 12pm Thursday, December 11, 2025. **There is no final exam for this class.**
+Final projects are due at the end of the final exam period: 12pm Thursday, December 11, 2025.
 
 ### Final Exam
 
