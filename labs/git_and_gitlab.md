@@ -2,8 +2,8 @@
 parent: Week 3
 topic: Git and GitLab
 git: https://gitlab.msu.edu/mi-250/git-and-gitlab
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 In this week's readings, you read about version control and Git. A Git repository is a specific, named collection of files that usually make up a single program. You've already used git repositories in this class - all of the files for last week's lab were stored in a git repository, which you accessed through the Gitlab website.
@@ -75,7 +75,7 @@ Once you've got Git installed, open up a command line window (Powershell on Wind
 The first thing you need to do to set up Git is to tell it who your are. Use the following two commands to tell it who you are, **substituting your name and email address for mine**:
 
 ```
-git config --global user.name "Morgan Geier"
+git config --global user.name "Morgan Vigil-Hayes"
 git config --global user.email "vigilhay@msu.edu"
 ```
 Be sure to keep the quotation marks. You should only need to do this step once on your computer. After that, it will remember who you are.
@@ -139,7 +139,7 @@ Once the repository has downloaded, you will get a prompt on the command line ag
 
 ## Make a change to a file on your computer and "push" it to Gitlab
 
-Next, let's make a change.  Open up the file `README.md` in your text editor. Right now, it has my name (Morgan Geier) in there as the author. That's no longer accurate, though -- this is YOUR repository now! Change the name to your name.
+Next, let's make a change.  Open up the file `README.md` in your text editor. Right now, it has Caitin Geier  in there as the author. That's no longer accurate, though -- this is YOUR repository now! Change the name to your name.
 
 ### Add, Commit and Push the change
 
