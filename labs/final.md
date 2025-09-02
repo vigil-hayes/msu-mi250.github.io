@@ -6,7 +6,7 @@ nav_exclude: true
 visible: false
 ---
 
-For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.
+For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure_pt1.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.
 
 You may use any of the code you wrote for that studio, or any other code you've written or used during the semester. But don't use the same story you wrote before: write something new for this studio.
 

@@ -1,17 +1,15 @@
 ---
-parent: Week 3
+parent: Week 2
 topic: Choose Your Own Adventure
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
-
-<!-- change "Tuesday" to "last week" for spring semester; reverse for fall semester-->
 
 The goal for today's studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. 
 
-Be creative! There's a small choose your own adventure program in the code from last week's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Lab 2 might be useful to start with.
+Be creative! There's a small choose your own adventure program in the code from Tuesday's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Lab 2 might be useful to start with.
 
-You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but you can't work alone.
+You must work in a small group on this project. Form a group of 2-3 people and work together on this project. Who you work with is up to you, but **you can't work alone.**
 
 ## Advice
 
@@ -23,28 +21,16 @@ You should work in small groups on this studio. Groups of 2-3 people. Work toget
 
 Some groups like to start out by writing the story in Google Docs or by mapping out the story paths on paper. That's fine. When you're writing the code, make sure to switch drivers regularly so everyone gets a chance to work on the program! 
 
-### Use Git
-
-For studios, one person in your group will need to create a **new** Git repository and share it with the rest of the group (and Morgan and Shiyu).
-
-Note that Git is easiest to use when only one person is writing code at any given time; if multiple people are working on the same file, you will run into Git conflicts, which are sometimes hard to resolve. 
-
-I would recommend approaching it by having one person drive (write code) at a time, and switching off every so often.
-
-First driver:
-1. use `git clone` (first time) or `git pull` (every time after the first time) to get the most up to date project onto their computer
-2. write code
-3. use `git add`, `git commit`, and `git push` to save code to the group's Gitlab repository
-
-Switch drivers, second driver does the same as above, and so on.
-
-If you get stuck with Git, here's a [Git reference]({% link reference/using_git.md %}) that may be helpful. We can also help you anytime. Remember all of your code needs to be in Gitlab at the end of class - that's how you will turn your code in from now on!
 
 ### Choosing a story
 
 If you are good at coming up with stories, then you don't need this advice. If you aren't awesome at it, then the easiest way to start is to start with an existing story and set of characters.  Pick a story that you already know a lot about to start with, and begin there. It could be from a movie, a book, a game, a TV show, a fairy tale, or real life. It could be a true story, or it could be made up.
 
 The easiest place to start is to tell that story. Then think about different places where people in the story could have made different choices, and things would have turned out differently.  Those are great places to ask the user to make a choice. You'll also have to write the alternative outcomes / stories.
+
+In my research, I work with community stakeholders to create location-based interactive narratives. You can use [some of the resources we have used in workshops](https://docs.google.com/document/d/1dCes_Ln4KJNyFD8_GLU9_PyblyaeXzTCJohpf9p4Imc/edit?usp=sharing) to help prompt stories as well.
+
+Finally, I would be fine (and very curious!) if you decide to use an LLM (like ChatGPT or Claude) to help prompt you into creating a story. If you go this route, please upload your transcript and be prepared for me to pepper you with so many questions because I am enthusiastically curious about what the experience was like.
 
 ### Diagram
 
@@ -54,6 +40,8 @@ Here is a very [simple example](https://creately.com/diagram/example/i7nxnlyt/Ch
 
 It is perfectly OK to use pencil and paper. It is also OK to find a computer program to draw the diagram, and then share your screen as you do that. It is up to you what tools you want to use, and how you use them. I think you will find that using external tools (like pencil and paper) is a very important part of computer programming.
 
+Again: In my research, I work with community stakeholders to create location-based interactive narratives. You can use [some of the resources we have used in workshops](https://docs.google.com/document/d/1dCes_Ln4KJNyFD8_GLU9_PyblyaeXzTCJohpf9p4Imc/edit?usp=sharing) to help represent stories as a flow chart using story beats as well.
+
 ### Start simple, then expand
 
 Don't try to do everything at once. Start with as simple of a story as you can, and then build from there. For example, the first thing you should do is probably just have it print out a single story block, and then end. Get that working first. Then write your first choice -- get the coding working for a single choice, that prints out something silly, but different based on the choice the user made. Once that works correctly when you run it, then you can replace the silly text with the actual story you want to be telling. And then you can add more choices. But don't move on add anything new until everything you've already written works correctly. Keep testing small bits of the program as you go!
@@ -62,14 +50,15 @@ This also means that you don't need to have the whole story written before you s
 
 ### Use code you've already worked with
 
-You already did a bit with conditionals (if, else, and elif) in last week's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program from Lab 2 will be particularly helpful for you to look at.
+You already did a bit with conditionals (if, else, and elif) in this week's lab. You can always use code from labs as a model to build your own code. For today's studio, the `avengers.py` program from Lab 2 will be particularly helpful for you to look at.
 
-### Submit on D2L and Gitlab
+### Submit on D2L
 
 Your studio is finished when the class is over - no sooner! You can always continue to add to the story or improve your code.
 
-When you are done, please submit screenshots of your code working (that is, of the program running in Powershell or Terminal) on D2L under Assignments. At least one person in the group needs to submit a screenshot. 
+When you are done, please submit screenshots of your code working (that is, of the program running in Powershell or Terminal) on D2L under Assignments. Every member of your group needs to submit a screenshot. 
+
+Also submit your Python program (your .py file that contains your code) on D2L.
 
 <!--Also submit your Python program (your .py file that contains your code) on D2L. Again, only one person in the group needs to submit this.-->
 
-Also make sure all of your most recent code is in Gitlab, and that your Gitlab repository is shared with Morgan and Shiyu. This is how you will turn in your code for every studio. See the [Git reference]({% link reference/using_git.md %}) if you need pointers on using Git for studios.
