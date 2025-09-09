@@ -1,8 +1,8 @@
 ---
 parent: Week 5
-topic: Country Flag (extra credit - snow day!)
-nav_exclude: true
-visible: false
+topic: Country Flag
+nav_exclude: false
+visible: true
 ---
 
 **SNOW DAY** - Class is cancelled today, February 12, due to snow. You have the OPTION to do today's studio on your own OR in a group of 2-3, for extra credit. You have until Monday, February 17 at noon to do the studio - please try to spend at least 90 minutes on it. Turn it in as you normally would - with your code in a Gitlab repository, shared with Morgan and Shiyu, and your screenshots in D2L. If you end up working with one or more classmates, make sure each person turns in a screenshot of the code running on their computer so that we can keep track of who worked on the studio.
