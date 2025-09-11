@@ -351,3 +351,10 @@ Don't worry if you run into a conflict; Morgan and Shiyu are always around to he
 ## Git reference
 
 I've put together a quick reference for Git on this site: [Using Git]({% link reference/using_git.md %})
+
+## Troubleshooting space issues on Mac OS X
+If you tried to install xcode command line tools and it did not let you install because of lack of space, you will need to (surprise) free up space.
+
+Some useful immediate resources for how to do this can be [found here](https://support.apple.com/guide/mac-help/optimize-storage-space-sysp4ee93ca4/mac).
+
+I also suggest purchasing an external hard drive to expand your local storage so you can store large media files on the external drive. Similarly, you can transition files to be stored on the cloud through services like Dropbox or One Drive.

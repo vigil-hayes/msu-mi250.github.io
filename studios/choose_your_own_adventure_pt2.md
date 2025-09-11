@@ -56,6 +56,9 @@ Browse through your classmates' projects and pick one that you think would be fu
 ### Set up GitLab password for HTTPS
 On GitLab, you might be prompted by a yellow banner that if you are using SSO (Okta) you need to set a password. I suggest setting a password that you can remember or copy easily from a key ring. You need to have this set up before you can proceed to cloning the repository.
 
+### Fork the repository on GitLab
+On GitLab, you will fork the project you chose because your intent is to contribute your changes back to it AND you probably are not a collaborator on the repository. This will allow you to create a fork of the project that you are a collaborator on and then you can make a pull request in the future if you wish to contribute your changes.
+
 ### Clone the repository with `git`
 Some of you may already have `git` installed. Git is the underlying open source software utility that GitLab (and GitHub) uses to manage software version control. It is a powerful tool for collaboration and developing software. 
 
@@ -100,7 +103,7 @@ Receiving objects: 100% (9/9), 4.28 KiB | 1.43 MiB/s, done.
 Now you have the project cloned! This means that not only do you have a local copy of the project from the GitLab repository, but you also have all the metadata necessary to contribute your changes back to the project on GitLab.
 
 ### Modify the Adventure
-Now that the Driver has the project cloned, go ahead and start thinking about how you want to modify it. Do you want to add branches? Add a new character? Something else? 
+Now that the Driver has the project cloned, go ahead and start thinking about how you want to modify it. Do you want to add branches? Add a new character? Something else? **DO NOT START CODING YET!***
 
 My suggestion is to first run and play the adventure and then walk through the code to understand how it works. Then spend some time brainstorming how you want to change it. 
 
@@ -160,6 +163,7 @@ Now, if you go to the web browser to look for the project you modified on GitLab
 2. Under the title of the project, you will see a button that has three circles connected by lines and it will say `main`.If you click on that button, you should see a list of branches for the project--including the one you just created and pushed!
 
 ### Challenge 1
+Add your teamm members as collaborators to your project.
 Have other members on your team serve as Driver and clone the project you just created a branch for. Have them create their own branch from main by following the previous steps in the lab OR have them continue contributing to your modified branch by running the following command after running `git clone`:
 
 ```
