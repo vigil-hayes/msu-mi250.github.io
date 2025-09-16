@@ -10,6 +10,20 @@ For this lab, we are going to use a Git repository like we did for last week. Th
 
 {% capture _ %}{% increment exercise3 %}{% endcapture %}
 
+**Remember to designate a Driver and a Navigator before you begin.** 
+
+You may decided to alternate between Driver and Navigator from one exercise to the next; if you do that, you may need to use some coordinated `git` actions:
+
+1. Fork the repository at the top of this lab to *one of your accounts*--ONLY one of you should fork.
+2. The person who forked should add their teammate(s) as collaborators on the repository by sharing with them
+3. Clone a local copy of the fork to each of your computers
+4. After completing an exercise on the Driver's computer, you should:
+    a. Add the changed file with `git add`
+    b. Commit your changes with `git commit -m "<commit-message>"`
+    c. Push your changes to the main branch on the remote with `git push origin`
+    d. The person who was the Navigator should now run `git pull` on their computer. They will now have the most updated version of the code from the previous exercise.
+5. You should repeat Step 4 after every exercise or before switching between Driver and Navigator.
+
 ## Counting in a loop
 
 ### Exercise {% increment exercise3 %}: Count
