@@ -1,8 +1,8 @@
 ---
 parent: Week 6
 topic: Guestbook
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 For this week, your goal is to make a digital guestbook. Traditionally, a [guestbook](https://en.wikipedia.org/wiki/Guestbook) is a physical book left near the entrance for an event (like a wedding or funeral) or a place (like a museum). Guests can sign their name and maybe leave a message, and the guestbook acts as a record of who was there.
