@@ -6,32 +6,36 @@ nav_exclude: true
 visible: false
 ---
 
+**This is an individual project.**
+
 For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure_pt1.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.
 
 You may use any of the code you wrote for that studio, or any other code you've written or used during the semester. But don't use the same story you wrote before: write something new for this studio.
 
-**Important:** This entire week is a studio. You'll be working in groups of 2-3 people as usual, but you will be continuing this same project on Wednesday with the same group. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your group's project will be due at the end of the final period for this class: **5pm on Wednesday, April 30**. (Reminder: there is no final exam for this class.)
+**Important:** This entire week is a studio and you will be working on your own on your own project. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your project will be due at the end of the final period for this class: **12pm on Thursday, December 11**. (Reminder: there is a final multiple choice exam that will be on D2L, but you do not need to be in class to take this exam.)
 
 ## Grading and Rubric 
 
 In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade
 as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
 
-The grade for your final project is 10% of your overall grade for the class. Each student in the group will receive the same grade for the project. Here is a rubric will we use to determine your grade for the project:
+The grade for your final project is 10% of your overall grade for the class. Here is a rubric will we use to determine your grade for the project:/project
 
-*Basic necessities* (aka the “Minimum Viable Product”) (70% of grade; 10% each)
-* Program runs (with minimal effort)
-* Content exists; the program tells a story
+
+*Basic necessities* (aka the “Minimum Viable Product”) (80% of grade; 10% each)
+* Program runs (with minimal effort and no run-time errors)
+* Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4.
 * Program is interactive and gives the user multiple paths to follow (those choices matter for the story)
 * Logic of program separated from content somehow
 * Option to quit the program exists
 * Code is stored in Gitlab
 * Screenshots of final, working program in D2L (or in Gitlab)
+* README file that explains the what the code does and how it is organized and structured. The README includes an author statement about how you sought to enhance the story by intentionally infusing programming concepts from class. 
 
-The remaining 30% of the grade is for going beyond the minimum and making an interesting choose-your-own-adventure program. This can be done through creativity, through programming, or through a combination of both:
+The remaining 20% of the grade is for going beyond the minimum and making an interesting choose-your-own-adventure program. This can be done through creativity, through programming, or through a combination of both:
 
 *Creativity*
-* Tells an interesting story
+* Tells an interesting and cohesive story.
 * Story has an interesting setting / millieu
 * Turtle interface that looks interesting 
 * Turtle interface that adds to the story
@@ -39,12 +43,14 @@ The remaining 30% of the grade is for going beyond the minimum and making an int
 
 *Programming*
 * The program is well commented and easy to read
-* The code and content is well organized
+* The code and content is well organized; it would be easy for someone else to fork the project and contribute without additional explanation from you
 * Uses interesting programming / logic to tell the story
 * Uses complex-but-not-unnecessarily-complex code/logic (e.g. dictionaries / files)
 * Other, unanticipated programming strengths
 
-Each of these can be awarded 0-15 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 5%. If it is good, then 10%, and if it is really great, then 15%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your group’s strengths.
+
+
+Each of these can be awarded 0-10 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 2%. If it is good, then 8%, and if it is really great, then 10%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your strengths. 
 
 You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Morgan as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
 
@@ -52,7 +58,7 @@ You will turn your project in the same way as you have been all semester - put t
 
 There are many ways to approach this project and you have a lot of tools as your disposal to make something really interesting. Remember you can use any of the code you've written all semester; it might be useful to go back to some of the old labs and studios and see if there's anything you might want to use in your program.
 
-In my experience, every group's program for this project is very different. There's no right or wrong way to do things. Write the program in whatever way makes the most sense to you. The advice below is based on my experience, but you can do things differently if you want.
+In my experience, every program for this project is very different. There's no right or wrong way to do things. Write the program in whatever way makes the most sense to you. The advice below is based on my experience, but you can do things differently if you want.
 
 ### Refer to previous labs and studios
 
@@ -94,13 +100,10 @@ You can use Turtle in lots of ways for this program. You could have the entire s
 
 It's up to you how much or how little Turtle code you want to write for this project. But creating illustrations in Turtle can go a long way towards making your story more interesting and immersive.
 
-### Coordinate your work as a group
-
-Everyone in the group should be working on something, but you don't all have to be working on the same thing. Maybe one person is workong on Turtle illustrations, while another is writing the story and another is working on the engine (the logic of the program.) Or maybe you all write the story together in Google docs, and then split up the coding tasks after the story is written. It's up to you how you want to do this, but try to split it out so that each person is contributing something at all times, and check in with your groupmates frequently.
 
 ### Comment your code
 
-Remember you'll be coming back to this project on Wednesday. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
+Remember you'll be coming back to this project repeatedly over time. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
 
 ## Ideas for being creative
 
