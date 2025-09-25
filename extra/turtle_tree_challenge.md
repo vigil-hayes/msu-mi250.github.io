@@ -1,13 +1,13 @@
 ---
-title: Turtle Tree Drawing Challenge
+title: Tree Drawing
 nav_exclude: false
 visible: true
 parent: Extra
-nav_order: 3
+nav_order: 1
 has_children: false
 ---
 
-## Introduction
+# Turtle Tree Drawing Challenge
 In this challenge, you'll create beautiful tree structures using Python's turtle graphics! You'll start by drawing simple branching patterns and work your way up to creating realistic-looking trees with random variations.
 
 **What you'll learn:**

@@ -1,5 +1,5 @@
 ---
-title: Extra Exercises
+title: Extra
 layout: home
 has_children: True
 nav_order: 5
