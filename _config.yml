@@ -77,3 +77,12 @@ defaults:
       layout: reference
       has_children: false
       has_toc: false
+
+  -
+    scope:
+      path: "extra"
+      type: "pages"
+    values:
+      layout: extra
+      has_children: false
+      has_toc: false
