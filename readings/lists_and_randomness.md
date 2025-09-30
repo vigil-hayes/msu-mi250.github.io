@@ -17,18 +17,6 @@ This week we're learning about lists and revisiting the random module, which we 
 * [Random Numbers in Python](https://www.geeksforgeeks.org/random-numbers-in-python/#){:target="_blank"} - this reading might look familiar. Does it make more sense this time around?
 * [Python random module](https://www.javatpoint.com/python-random-module){:target="_blank"}
 
-## Readings & Extra Exercises for Loops
-Some of you mentioned that you would like some extra exercises and reading related to nested loops. 
-
-## Extra Exercises for Turtle
-If you found turtle to be helpful for your understanding, you might enjoy trying some additional exercises.
-
-Here are some common exercises: 
-* [Computer Science Cafe Turtle Exercises](https://www.computersciencecafe.com/turtle-challenges.html)
-* [Oxford Turtle Self-Teaching Exercises](https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf)
-
-
-One extra challenging exercise would be to use turtle to draw more complex algorithms and data structures. For example, watch [this video](https://www.youtube.com/watch?v=mAz46Z5curo) to see how turtle is used to visualize data structures. Try this extra challenging exercise for creating trees.
 
 ## Summary
 
@@ -45,3 +33,6 @@ As per usual, your question can be one of three types:
 
 Submit your summary+question on D2L under Quizzes before the first class of the week.
 
+
+# Extra Practice
+Some of you noted it would be helpful to have some extra space to practice on your own or in addition to what we do in course. I created a new page called [Extra]({%link extra.md%}) that has several exercises for you to try out. I will try to note which concepts are explored for each set of "extra" exercises.
