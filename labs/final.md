@@ -2,8 +2,8 @@
 parent: Final Week
 topic: Adventure Engine
 git: None
-nav_exclude: true
-visible: false
+nav_exclude: false
+visible: true
 ---
 
 **This is an individual project.**
@@ -12,7 +12,7 @@ For all of this week, we will be going back to the beginning of this class. The 
 
 You may use any of the code you wrote for that studio, or any other code you've written or used during the semester. But don't use the same story you wrote before: write something new for this studio.
 
-**Important:** This entire week is a studio and you will be working on your own on your own project. You'll have class today and on Wednesday to work on the project, and can finish it in that time if you wish. You can also choose to work on it during finals week. Your project will be due at the end of the final period for this class: **12pm on Thursday, December 11**. (Reminder: there is a final multiple choice exam that will be on D2L, but you do not need to be in class to take this exam.)
+**Important:** This entire week is a studio and you will be working on your own on your own project. You'll have at least one period of class to work on the project, but you will probably need time outside of class to make this as complex as it needs to be to earn full marks. You can also choose to work on it during finals week. Your project will be due at the end of the final period for this class: **12pm on Thursday, December 11**. (Reminder: there is a final multiple choice exam that will be on D2L, but you do not need to be in class to take this exam.)
 
 ## Grading and Rubric 
 
@@ -26,7 +26,7 @@ The grade for your final project is 10% of your overall grade for the class. Her
 * Program runs (with minimal effort and no run-time errors)
 * Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4.
 * Program is interactive and gives the user multiple paths to follow (those choices matter for the story)
-* Logic of program separated from content somehow
+* Logic of program separated from content using functions and modularity
 * Option to quit the program exists
 * Code is stored in Gitlab
 * Screenshots of final, working program in D2L (or in Gitlab)
@@ -39,20 +39,30 @@ The remaining 20% of the grade is for going beyond the minimum and making an int
 * Story has an interesting setting / millieu
 * Turtle interface that looks interesting 
 * Turtle interface that adds to the story
-* Other, unanticipated creative strengths
+* Other, unanticipated creative strengths. 
 
 *Programming*
 * The program is well commented and easy to read
 * The code and content is well organized; it would be easy for someone else to fork the project and contribute without additional explanation from you
 * Uses interesting programming / logic to tell the story
 * Uses complex-but-not-unnecessarily-complex code/logic (e.g. dictionaries / files)
-* Other, unanticipated programming strengths
+* Other, unanticipated programming strengths. For instance, do you use loops or recursion in an interesting way? Did you write entire modular libraries to support reuse of common logic? 
 
 
 
-Each of these can be awarded 0-10 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 2%. If it is good, then 8%, and if it is really great, then 10%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your strengths. 
+Each of these categories can be awarded 0-10 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 2%. If it is good, then 8%, and if it is really great, then 10%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your strengths. 
 
-You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu and Morgan as *maintainers* on your GitLab repo, or else we won't be able to grade your project!
+You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu (xiangsh2) and Dr. Vigil-Hayes (vigilhay) as *Maintainers* on your GitLab repo, or else we won't be able to grade your project!
+
+
+## README Requirements
+One of the few specifications in this project (besides the fact that it needs to be on GitLab and accessible to the isntructor and course assistant) is a README.
+
+You README **MUST**:
+
+* Include an overview of the what the program is supposed to do (1 short paragraph is fine!).
+* Include a header section called "To Run" (use `## To Run`) that includes step by step directions for how to start the program, how to navigate in the program, how to quit the program.
+* Include a header section called "Code Overview" (use `## Code Overview`). In this section, you should provide an overview of each module that you include and what logic that module is responsible for.  
 
 ## Advice
 
@@ -105,6 +115,10 @@ It's up to you how much or how little Turtle code you want to write for this pro
 
 Remember you'll be coming back to this project repeatedly over time. Add comments to your code to explain what it's doing and how - this will help you pick up the project much faster when you continue working on it later.
 
+### Commit often
+
+Make commits often--as soon as you complete a chunk of work that runs. Make sure you are pushing your changes to GitLab regularly, too. 
+
 ## Ideas for being creative
 
 These are all ideas that can help you make your story creative and interactive. You don't have to use any of them if you don't want to: they're here to help you think about what you might be able to do.
@@ -118,3 +132,12 @@ These are all ideas that can help you make your story creative and interactive. 
 *Use randomness:* A lot of role playing games (video or otherwise) use a choose your own adventure type logic - what happens next in the game is determined by what you choose to do. A lot of RPGs also include some element of randomness: if you choose to attack, you roll a 20-sided die and anything you roll that's above a 5 will be a hit. And then another random number might be used to determine how much damage your hit did.
 
 *Draw an info panel:* Sometimes it can be nice for the user to see what paths they've chosen, or what their status is in the came. You could draw an info panel in Turtle that keeps track of the user's previous choices and displays them. Or maybe the info panel shows what items are in the user's inventory, or the amount of health they have. 
+
+*Get user feedback:* Have friends play your story and give you feedback on the creativity and interestingness. For those of you interested in UI/UX design, this is a great way to practice user-centered design.
+
+## Ideas for strong code
+One of the best ways to make your code better is to have others play with it and test it.
+
+*Ask friends to test:* Having someone who is not familiar with this project test it out as a user can give you a lot of insight into bugs, common input/user interface challenges. 
+
+*Ask a peer to do a code walk through:* **If you choose this option, please provide credit in your README to the peer who did a walkthrough with you.** Ask someone from this class to walk through your code and give you feedback on readability and style.   
