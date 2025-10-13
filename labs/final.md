@@ -7,6 +7,7 @@ visible: true
 ---
 
 **This is an individual project.**
+_While you will have time to work on this in class during the Final Week, I strongly recommend working on this much earlier--starting to think about it in Week 8 or 9 would not be a bad idea!. That way, when you come to class during the Final Week, you at least have some concepts of what you want to work on implementing in code._
 
 For all of this week, we will be going back to the beginning of this class. The very first studio assignment was to make a ["Choose Your Own Adventure" story]({% link studios/choose_your_own_adventure_pt1.md %}) -- a program that tells an interactive story where the user gets to make meaningful choices that affect the progression of the story. This week, we are going to do that again -- but this time, you will be using all the skills you've learned throughout the semester to make the program more fun and interesting.
 
