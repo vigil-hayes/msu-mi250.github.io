@@ -12,6 +12,8 @@ Dictionaries are another data structure in Python. We've used variables, which c
 * [Think Python: Chapter 11](http://greenteapress.com/thinkpython2/html/thinkpython2012.html){:target="_blank"} -- skim up to "11.6 Memos"
 * [Learn Python: Dictionaries](https://www.learnpython.org/en/Dictionaries){:target="_blank"} -- practice
 
+Now that you have encountered more about lists and dictionaries, this is a useful piece to read about [when to use lists or dictionaries](https://www.designgurus.io/answers/detail/in-python-when-to-use-a-dictionary-list-or-set).
+
 ## Summary
 
 For this week's summary, think about what you already know about other ways of storing data in Python, like variables and lists. Think about how dictionaries are different from those structures.

@@ -39,15 +39,15 @@ It's a pain to add each word to the dictionary one by one. Luckily, we're using 
 
 Right now, the phrase "Baby, I'm just gonna shake, shake, shake, shake, shake" is a string, and we've been breaking it up into individual words and adding them to the dictionary manually. Python has a function for breaking up strings into a list of words. We can then use a `for` loop to add each word to the dictionary. 
 
-Create a **new program** called `word_count.py`. Paste the phrase "Baby, I'm just gonna shake, shake, shake, shake, shake" into the new program and save it to a variable.
+Create a **new program** called `word_count.py`. Paste the phrase "Guess who's back?" into the new program and save it to a variable.
 
 Now let's break up this phrase -- which is a string -- into individual words. In Python, we can do this with the `split()` function, which separates out each word and returns a list of words. So if I have a string called `s`:
 ```
-s = "I shake it off"
+s = "Shady's back"
 ```
 and I run `s.split()`, then the list it returns will look ike this:
 ```
-["I", "shake", "it", "off"]
+["Shady's", "back"]
 ```
 
 Do this on the phrase in your program, and print out the resulting list.
@@ -75,7 +75,7 @@ Remember: every time the `for` loop above is run, the variable `item` represents
 Your `for` loop should now add each new word as keys to your `words` dictionary, with a default value of 0. Print out the dictionary when you're done. It should look like this:
 
 ```
-{'Baby,': 0, "I'm": 0, 'just': 0, 'gonna': 0, 'shake,': 0, 'shake': 0}
+{'Guess,': 0, "who's": 0, 'back?': 0}
 ```
 
 ### Exercise {% increment exercise11 %}: Count words using the dictionary
