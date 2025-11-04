@@ -24,6 +24,7 @@ If you're not sure what kind of project you might want to work on, here are some
 * Reddit, particularly the subreddit [r/learnpython](https://www.reddit.com/r/learnpython/) - this is a great place to ask questions / get advice
 * [roadmap.sh](https://roadmap.sh/) - really solid resource for learning all sorts of things about programming. There is a [Python-specific roadmap](https://roadmap.sh/python) here as well.
 * [Corey Schafer has an excellent set of YouTube videos about various Python topics](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+* [Hitchhiker's Guide to Python is really helpful for questions about style and best practice.](https://docs.python-guide.org/writing/structure/)
 
 There are tons and tons of other resources out there - books, websites, etc - Google is your friend here. But really the best way to learn is to work on a project and create programs that actually do something. You can read all you want, but the way you actually learn how to code is through practicing it. So take the time to practice!
 

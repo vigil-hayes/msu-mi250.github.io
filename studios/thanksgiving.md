@@ -1,9 +1,9 @@
 ---
-parent: Week 14
-topic: <i>NO CLASS - Thanksgiving</i>
+parent: Thanksgiving
+topic: Thanksgiving Break
+nav_exclude: false
 visible: true
 published: true
-nav_exclude: true
 ---
 
-Thanksgiving break at MSU in 2025 is November 27-28 (Thursday and Friday). Enjoy your break!
+Thanksgiving Break at MSU is 11/27 and 11/28 (Thursday and Friday). Enjoy your break, eat good food, spend time with people and animals and places you love!
