@@ -14,7 +14,7 @@ another file.
 
 ### Exercise 1: Print out a file's contents
 
-If you look in the repository, there is a file there called "wordcount.py". It contains the beginning of a program.
+If you look in the repository, there is a file there called "filecount.py". It contains the beginning of a program.
 Right now it just opens a file and reads it one line and prints it out.
 
 Notice that it uses the `with()` command.   With allows you to open a file, and then everything in the with block --
