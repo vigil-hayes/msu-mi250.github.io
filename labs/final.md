@@ -55,6 +55,24 @@ Each of these categories can be awarded 0-10 percentage points based on how good
 
 You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu (xiangsh2) and Dr. Vigil-Hayes (vigilhay) as *Maintainers* on your GitLab repo, or else we won't be able to grade your project!
 
+## Note on third party APIs
+Third party APIs (e.g., requests) are not required for this project. However, if you would like to use a third party API (not turtle or standard Python libraries), you **MUST** do the following:
+
+* Ensure that you are using the API only for implementing creative features that go above and beyond the requirements. I do not want you to use a third party API to implement the functionality of a choose-your-own-adventure, such as handling user input, managing choices and story state, handling inventory items, or managing story variables and control-flow. The intent of this assignment is to evaluate _how well you do this on your own_ so that I can understand your ability to write new code and functionality to solve a problem. If you have any questions or doubts, please contact me first. This is definitely a situation where you need to ask for permission, not forgiveness. When I examine your code and decide you used a third party API in a way that replaces your own original work at implementing the functionality, your grade will likely be severely impacted.
+
+* Use Python virtual environments and pip to make it easy for me to install the third party API. In class we discussed creating a Python virtual environment using the following in the Terminal/PowerShell from your GitLab directory for this project:
+
+`python3 -m venv /path/to/venv`
+
+and then activating that environment using the instructions for your [platform and shell combo](https://docs.python.org/3/library/venv.html#how-venvs-work). 
+
+Once you have tested and finalized your code, you will want to freeze your Python virtual environment. To do this, run this in the Terminal/PowerShell from your GitLab directory for this project:
+
+`pip3 freeze > requirements.txt`
+
+You will then make sure to add, commit, and push requirements.txt to your project repository on GitLab so that I can access it.
+
+_As a note, I will be running and grading your code from my device, which runs Mac OS 15.6.1 and uses the Apple M4 chip. If you use a third party API, you need to make sure that I will not have any issues running or installing the third party packages._
 
 ## README Requirements
 One of the few specifications in this project (besides the fact that it needs to be on GitLab and accessible to the isntructor and course assistant) is a README.
