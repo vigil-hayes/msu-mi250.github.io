@@ -166,15 +166,13 @@ Throughout the semester (every 2 to 3 weeks), students will be asked to complete
 Homework assignment schedule:
 
 | # | Topic | Due |
-| HW 1 | Google Search | Week 4 |
-| HW 2 | Error Messages | Week 7 |
-| HW 3 | ChatGPT | Week 9 |
+| HW 1 | Error Messages | Week 4 |
+| HW 2 | Searching | Week 7 |
+| HW 3 | Vibe Coding | Week 9 |
 | HW 4 | Jobs | Week 11 |
 | HW 5 | Ethics | Week 13 |
 
 All homework assignments will be due on Wednesdays before the start of class. Instructions for each assignment will be on the course website and will be available at least 2 weeks before the due date. You'll turn the assignments in on D2L. Each assignment will likely take 1-2 hours to complete.
-
-You will be required to complete 4 homework assignments throughout the semester. If you complete all 5, the assignment with the lowest grade will be counted as extra credit (between 1.75% and 2.5% added on top of your final grade).
 
 Homework is also graded using the check/check-plus/check-minus system. Grades are based on: 
 * Thoroughness (did you follow all of the instructions / do all of the tasks?)
@@ -184,7 +182,7 @@ Homework is also graded using the check/check-plus/check-minus system. Grades ar
 
 The final project is a long-form studio done with a group starting the last week of the semester. Unlike a normal studio, students will be expected to work on the same project over multiple class periods (the full last week of class will be devoted to this project) and also outside of class if the project can’t be completed during class.
 
-Final projects are due April 26, 2026 at 11:59pm.
+**Final projects are due April 26, 2026 at 11:59pm.**
 
 ### Turning in work
 
@@ -198,13 +196,14 @@ This course does have an honors option for students in the honors college. If yo
 
 Grades in this class are mostly based on attending class and making an honest effort to engage with the material, both in and outside of class. The final project is the only work in which students will be graded on the programming skills they’ve developed over the semester. Grades are broken down in this way:
 
-| Summary + question + quiz | 13% |
-| Labs (in class) | 12% |
-| Studios (in class + outside class) | |
-| Code walk (at least once per semester) | 5% |
-| Random code quality check | 5% |
-| Homework | 10% |
-| Final project | 10% |
+| Summary + question + quiz (14 SQQs @ 1 point) | 14% |
+| Labs (13 labs in class @ 1 point) | 13% |
+| Studios (11 studio class sessions @ 1 point) | 11% |
+| Studio Project Management Plans (11 studio PMPs @ 2 points) | 22% |
+| Code walk (once per semester @ 6 points) | 6% |
+| Random code quality check (two code checks @ 5 points)| 10% |
+| Homework (5 homeworks @ 0.8 points) | 4% |
+| Final project (20 points) | 20% |
 
 Grades will be input on D2L and are calculated continuously – you will always know where your grade stands for the class by looking at D2L. Most all grades (except for the final project) are based on a check / check plus / check minus rubric:
 
@@ -253,11 +252,11 @@ That said, life happens. **The 4 lowest grades for in class activities (labs and
 
 **IF there are extenuating circumstances that require you to be absent beyond the 4 built-in absences, please talk to me ASAP and we will try to figure out if continuing the course or withdrawing are more appropriate options for you. A major portion of your grade is based on attendance and participation in pair programming and code walks in class. It is very challenging to accomodate your way around those requirements for the class.**
 
-### Late Homework
+### Late Work
+As a general rule, I do not accept late work. You have plenty of opportunity to review the schedule and plan. However, if you have documented extenuating circumstances, please communicate with Dr. Vigil-Hayes ASAP.
 
-Late summary+questions will not be accepted except in extenuating circumstances with documentaiton and prior permission from the professor.
 
-Late homework will not be accepted except in extenuating circumstances (see below) OR by prior arrangement with the instructor.
+Late final projects will not be graded in any circumstance. You have plenty of time to submit a link to your final project repository. Failure to do so reflects a serious lack of accountability. 
 
 ### Illness
 
