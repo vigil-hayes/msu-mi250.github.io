@@ -1,6 +1,6 @@
 ---
 topic: Files 
-parent: Week 12
+parent: Week 10
 ---
 
 This week we're dealing with files. Files are one way to make data persistent - to store data separately from the program, which the program can then access. Files can also be a useful way to separate content (data) from the workings of the program (code).

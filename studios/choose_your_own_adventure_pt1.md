@@ -1,5 +1,5 @@
 ---
-parent: Week 2
+parent: Week 3
 topic: Choose Your Own Adventure
 nav_exclude: false
 visible: true

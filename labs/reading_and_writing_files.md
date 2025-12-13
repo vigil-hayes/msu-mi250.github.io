@@ -1,5 +1,5 @@
 ---
-parent: Week 12
+parent: Week 10
 topic: Reading and Writing Files
 git: https://gitlab.msu.edu/mi-250/working-with-files
 nav_exclude: false
