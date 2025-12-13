@@ -33,7 +33,7 @@ The goal of this lab is to get everything set up to run your first Python progra
 
 For this section, the driver will do everything on their computer first with the other person acting as navigator. Later on in the lab you'll switch places. Remember you'll figure things out faster by working together!
 
-And remember that Shiyu and Morgan are here to help - don't be afraid to raise your hand if you get stuck!
+And remember that Jay and Morgan are here to help - don't be afraid to raise your hand if you get stuck!
 
 ### Install Python
 
@@ -210,6 +210,13 @@ You are welcome to install any other text editor you like. If you have a text ed
 
 All of the options above are free to use. There are many others, including some specifically for Python, but not all of them are free and some get very complicated. I encourage you to experiment and find one that YOU like. Programming is a form of art, and each artist has their own preferences for tools.
 
+### Set up a Project Management Plan
+An important part of this course is learning how to apply Project Management skills to software projects. 
+
+At this point you will navigate to the [Project Management Plan template for this course on GitLab.](https://gitlab.msu.edu/mi-250/mi250-pmp-resources/)
+
+**PAUSE HERE BEFORE PROCEEDING** We will do the next steps all together, including an overview of how PMP works in this class. 
+
 ### Look at the Eliza program's code
 
 You downloaded the `eliza.py` program earlier in this lab.  Our next goal is to edit this file. Go to the text editor that you choose, and open the eliza.py file from whatever folder you downloaded it to (probably downloads).
@@ -223,6 +230,9 @@ The second section is labeled "list of inputs and possible responses", and has a
 The last section calls itself the "code that asks for user input and prints out a response". This is a series of commands -- think of them like the instructions you wrote to make pizzas earlier this week. It prints out information, then asks the user to type something in, and then chooses a response based on what was typed.
 
 Right now, the way Eliza works is that the computer looks for specific words in what the user types: words like "hello", "mother", or "I feel", which the program calls prompts. Then, when it sees one of these prompts, it looks at the list of possible responses below the prompt, and picks one randomly to print out. So if the user enters "hello", then it will randomly pick one of the 3 responses below it and print it out.
+
+### Think about how you would structure a PMP
+Read the instructions below and consider how you might structure a PMP. We will do this in class together!
 
 ### Make a change to the code
 
@@ -294,6 +304,7 @@ You don't necessarily understand how Eliza works, yet. You will later in the sem
 
 When you and your partner are done for the day, submit your work! Today you'll just need to turn in screenshots to D2L of Eliza working in command line and of the changes you made to the code. If you got to the challenges, take screenshots of those working, too. Next week you'll start turning in your code as well.
 
-If you and your partner both finished everything and submitted your work before the end of class, you can leave early! **Make sure you check in with Morgan or Shiyu first.**
 
-If you didn't get everything done today, that's okay. Sometimes you won't be able to finish the entire lab, and that's fine. For today, since we were installing stuff you'll be using for the rest of the semester, let Morgan or Shiyu know if you couldn't finish the main part of the lab and how far you got. We'll work with you after class or next week to make sure you have everything working.
+If you didn't get everything done today, that's okay. Sometimes you won't be able to finish the entire lab in class, but you will have a full week to complete the code outside of class. 
+
+For this particular lab/studio, you absolutely need to have Python working, so if you cannot get those steps complete, please make sure you communicate with Dr. Vigil-Hayes and the TA.
