@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 For the studio today, you are going to make a [game of Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe). You should draw an initial board (two vertical lines and two horizontal lines). Then ask each of the two players where they would like to move when it's their turn. Draw one symbol (say, an X) for player 1, and a different symbol (like an O) for player 2. Let the players continue until the whole board is full, or until the players decide someone has won.
 
 That's all of the instructions. Form a group (of 2 to 3 people) and write a tic-tac-toe program. Have fun with it!

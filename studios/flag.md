@@ -5,6 +5,7 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
 
 Today we are going to practice [Vexillography](https://en.wikipedia.org/wiki/Vexillography) -- the art of designing flags!
 

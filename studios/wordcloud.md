@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 A [word cloud](https://en.wikipedia.org/wiki/Tag_cloud) is a way of visualizing text -- it shows how frequently different words are used by varying the size of the text. Words that have a larger font size appear more frequently than words that are smaller. If you have some text -- like a song, a speech, or a document -- you can use the word cloud to see approximately what that text is about and what kinds of things are being talked about.  
 
 Here's an example word cloud:

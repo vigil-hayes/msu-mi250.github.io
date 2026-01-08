@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 For this week, your goal is to make a digital guestbook. Traditionally, a [guestbook](https://en.wikipedia.org/wiki/Guestbook) is a physical book left near the entrance for an event (like a wedding or funeral) or a place (like a museum). Guests can sign their name and maybe leave a message, and the guestbook acts as a record of who was there.
 
 Your goal is to create a digital guestbook. Imagine it being left running so people can enter their names and possibly leave a message. There should be a way to view all of the previous guests, as well as a way for the user to add themself as a guest. Whether people can leave a message along with their name is up to you, as is whether they can add additional information.

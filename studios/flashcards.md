@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 Research on how people learn has suggested that when learning facts, one of the most important things to do is to periodically "retrieve" the information from your memory. That is, if you occasionally remember those facts and use them in some way, then you are more likely to remember them long-term. One of the keys is to remember the fact, not just recognize it. That is, it has to come from your brain, and not from something else like notes or a book or a web page. Doing this remembering [periodically and over time](https://en.wikipedia.org/wiki/Spaced_repetition){:target="_blank"} helps you remember facts long-term.
 
 A common way to memorize a bunch of facts at once is to use *Flash Cards*. [Flash cards](https://www.wikihow.com/Write-Flash-Cards){:target="_blank"} used to be physical note cards with a prompt on one side ("What is 2 + 3?") and an answer on the other ("5"). You use them by reading the prompt and trying to remember the answer. Once you remember the answer, then you can flip the card over and check if your answer was right. Flash cards are also nice because you can measure progress: you can count the number you get right, and tell whether you are remembering more or less than in the past. Now, instead of physical note cards, most people use flashcard apps on their computer, phone, or tablet to accomplish the same goal.

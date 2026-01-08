@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 Imagine a post on social media, such as a Twitter (now X) post or an Instagram post. The post itself is actually a complex object that has a lot of information -- who posted it, the text content of the post, an optional picture, hashtags, the date and time when it was posted, etc. Each post on a given platform has the same structure, and is displayed the same way. But the content of each post -- the data that makes up the post -- is different.
 
 Dictionaries work really well for structured objects like social media posts. For today's studio, you'll be designing your own social media post format with a UI (user interface) for displaying the post.

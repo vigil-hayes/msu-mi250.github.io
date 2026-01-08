@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 Emoji are graphical representations of ideas and concepts -- basically, they are pictograms. It is possible to convey complex concepts and ideas using nothing but emoji. Smiley face emoji are particularly interesting because they often convey emotions better than words do. Emoji are especially powerful when you put one after the other to form emoji "sentences".
 
 Your goal for today is to write a set of functions that draw emoji using Turtle. Each function should draw one emoji. Then use those functions to draw out an emoji "sentence" on the screen that conveys some complex feeling or idea.

@@ -5,6 +5,12 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
+## Note on PMP
+The PMP for this studio will require you to think about how you are modifying existing code. Consider this as you develop the Program Organization & Design section.
+
+## Studio Overview
 Your goal today is *refactoring*. The task for today is to go back to one of the previous studios that you did, read through the code, and then re-write the code. Your goal in re-writing the code is to make it easier to read, easier to understand, more reusable, and to work better. You don't need to change what the program does if you don't want to. Instead, focus on understanding what the code is doing (writing comments can help) and on figuring out how to make the code clearer and more efficient.
 
 If you would like to use this opportunity to finish a previous studio that you didn't get a chance to finish earlier in the semester, that's fine, too. If you have a specific studio in mind that you'd like to refactor, it might be helpful to work with the same group you worked with for that studio - but it's not necessary. You can also work on refactoring someone else's studio. If you're working on a version of a studio that you didn't originally contribute to, make sure to spend extra time reading the code and understanding what it's doing. If you did contribute to the code but someone else in your group did not, make sure to spend some time explaining to your groupmate(s) what the code is doing.

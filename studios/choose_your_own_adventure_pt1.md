@@ -5,6 +5,8 @@ nav_exclude: false
 visible: true
 ---
 
+_Project Management Plan (PMP) due BEFORE in-class studio:_ [PMP Resources](https://gitlab.msu.edu/mi-250/mi250-pmp-resources)
+
 The goal for today's studio is to write an interactive Choose Your Own Adventure story. In these types of stories, the reader gets to choose what happens next in the story based on a set series of choices. When you run the program, it should show the beginning of the story, ask the user to make a choice from a few choices that you give them, and then continue the story based on that choice. And so on. If I run the program again, it will start in the same place, but if I make different choices, the story should go in a different direction. 
 
 Be creative! There's a small choose your own adventure program in the code from Tuesday's lab using the Avengers. You don't have to write a story about the Avengers; your story can be about anything. But the code from Lab 2 might be useful to start with.
