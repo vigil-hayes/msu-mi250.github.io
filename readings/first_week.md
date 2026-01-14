@@ -31,4 +31,4 @@ Normally, there won't be a question prompt. But since this is the first week I w
 
 ## Turn in
 
-Turn in your summary + question by going to D2L -> Quizzes. This is Week 1. Please turn it in **before class starts on Thursday, August 28**. Morgan will read them all before class starts and answer the most pressing questions at the beginning of class.
+Turn in your summary + question by going to D2L -> Quizzes. This is Week 1. Please turn it in **by the end of day on Monday**. Morgan will read them all before class starts and answer the most pressing questions at the beginning of class.

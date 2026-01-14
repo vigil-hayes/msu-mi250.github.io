@@ -29,8 +29,11 @@ Synchronous, in person – no hybrid options available
 *Office hours:* In-person or [virtually](https://msu.zoom.us/j/97277606172), Wednesdays, 1:00-2:00pm or by appointment (please email to schedule appointment). If you join on Zoom, you will be directed to a waiting room initially. 
 *Office:* Room 424, Communication Arts and Sciences building
 
+
 *Teaching assistant:* Huajie "Jay" Cao
 *Email:* [caohuaji@msu.edu](mailto:caohuaji@msu.edu?subject=MI250&%Question)  
+*Office hours:* In-person or virtually, Tuesdays, 1-2:30pm. If you join on Zoom, you should use this [link](https://msu.zoom.us/j/97965871446?from=addon) with the **passcode: 013966**.
+*Office:* Lab 22, basement of the Communication Arts and Sciences building 
 
 ## Course Description
 
