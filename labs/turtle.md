@@ -8,9 +8,8 @@ visible: true
 
 ***
 For those of you with MacBooks with M1 or M2 chips, you will likely need to update your version of Python to at least Python 3.13.7 (or whatever the latest stable version is). It only takes about 5 minutes. [Install from here.](https://www.python.org/downloads/). Be sure to pay attention to the instructions for how to run the command that adds the updated version to your PATH. If you do not update, there are issues with getting the Turtle canvas to work reliably.
-***
 
-For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Morgan (vigilhay) and Shiyu (xiangsh2) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this. Remember: only one person in your pair needs to fork the repository.
+For this lab, we are going to use a Git repository like we did for last week. The first thing you should do is fork the turtles repository (link above), add your partner, Morgan (vigilhay) and Jay (caohuaji) to the repository, and then clone the repository onto your computer. Refer to the [Git reference]({% link reference/using_git.md %}) if you've forgotten how to do this. Remember: only one person in your pair needs to fork the repository.
 
 For this lab, we will be working with Turtle Graphics all day. There are a LOT of commands you can use for Turtle, and you don't have to memorize them all. Instead, you can refer to the documentation:
 
