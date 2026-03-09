@@ -6,8 +6,7 @@ nav_exclude: false
 visible: true
 ---
 
-***
-More instructions to come in Week 9
+You will work with a group of one or two other people to implement a non-trivial choose your own adventure story/game. You have grown so much in what you can do since Week 3 and I want to see those skills show up in your final project. 
 
 ## Grading and Rubric 
 
@@ -19,22 +18,22 @@ The grade for your final project is 10% of your overall grade for the class. Her
 
 *Basic necessities* (aka the “Minimum Viable Product”) (80% of grade; 10% each)
 * Program runs (with minimal effort and no run-time errors)
-* Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4.
-* Program is interactive and gives the user multiple paths to follow (those choices matter for the story)
+* Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4 and minimum tree width of 3.
+* Program is interactive and gives the user multiple paths to follow (those choices matter for the story).
 * Logic of program separated from content using functions and modularity
 * Option to quit the program exists
-* Code is stored in Gitlab
+* Code is stored in Gitlab and has a complete PMP
 * Screenshots of final, working program in D2L (or in Gitlab)
 * README file that explains the what the code does and how it is organized and structured. The README includes an author statement about how you sought to enhance the story by intentionally infusing programming concepts from class. 
 
 The remaining 20% of the grade is for going beyond the minimum and making an interesting choose-your-own-adventure program. This can be done through creativity, through programming, or through a combination of both:
 
 *Creativity*
-* Tells an interesting and cohesive story.
-* Story has an interesting setting / millieu
-* Turtle interface that looks interesting 
-* Turtle interface that adds to the story
-* Other, unanticipated creative strengths. 
+* Tells an interesting and cohesive story. The graders should have fun playing your story/game.
+* Story has an interesting setting / millieu.
+* Turtle interface that looks interesting.
+* Turtle interface that adds to the story.
+* Other, unanticipated creative strengths.  
 
 *Programming*
 * The program is well commented and easy to read
@@ -71,11 +70,10 @@ _As a note, I will be running and grading your code from my device, which runs M
 ## README Requirements
 One of the few specifications in this project (besides the fact that it needs to be on GitLab and accessible to the isntructor and course assistant) is a README.
 
-You README **MUST**:
+Your README **MUST**:
 
 * Include an overview of the what the program is supposed to do (1 short paragraph is fine!).
 * Include a header section called "To Run" (use `## To Run`) that includes step by step directions for how to start the program, how to navigate in the program, how to quit the program.
-* Include a header section called "Code Overview" (use `## Code Overview`). In this section, you should provide an overview of each module that you include and what logic that module is responsible for.  
 
 ## Advice
 
