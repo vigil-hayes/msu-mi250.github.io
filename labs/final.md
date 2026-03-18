@@ -18,7 +18,7 @@ The grade for your final project is 10% of your overall grade for the class. Her
 
 *Basic necessities* (aka the “Minimum Viable Product”) (80% of grade; 10% each)
 * Program runs (with minimal effort and no run-time errors)
-* Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4 and minimum tree width of 3.
+* Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4 and minimum tree width of 3--but note that these are _minimums_. If you meet these minimums, but your story is not interesting, you will not necessarily receive full points. 
 * Program is interactive and gives the user multiple paths to follow (those choices matter for the story).
 * Logic of program separated from content using functions and modularity
 * Option to quit the program exists
@@ -51,7 +51,7 @@ You will turn your project in the same way as you have been all semester - put t
 ## Note on third party APIs
 Third party APIs (e.g., requests) are not required for this project. However, if you would like to use a third party API (not turtle or standard Python libraries), you **MUST** do the following:
 
-* Ensure that you are using the API only for implementing creative features that go above and beyond the requirements. I do not want you to use a third party API to implement the functionality of a choose-your-own-adventure, such as handling user input, managing choices and story state, handling inventory items, or managing story variables and control-flow. The intent of this assignment is to evaluate _how well you do this on your own_ so that I can understand your ability to write new code and functionality to solve a problem. If you have any questions or doubts, please contact me first. This is definitely a situation where you need to ask for permission, not forgiveness. When I examine your code and decide you used a third party API in a way that replaces your own original work at implementing the functionality, your grade will likely be severely impacted.
+* Ensure that you are using the API only for implementing creative features that go above and beyond the requirements. I do not want you to use a third party API to implement the functionality of a choose-your-own adventure, such as handling user input, managing choices and story state, handling inventory items, or managing story variables and control-flow. The intent of this assignment is to evaluate _how well you do this on your own_ so that I can understand your ability to write new code and functionality to solve a problem. If you have any questions or doubts, please contact me first. This is definitely a situation where you need to ask for permission, not forgiveness. When I examine your code and decide you used a third party API in a way that replaces your own original work at implementing the functionality, your grade will likely be severely impacted.
 
 * Use Python virtual environments and pip to make it easy for me to install the third party API. In class we discussed creating a Python virtual environment using the following in the Terminal/PowerShell from your GitLab directory for this project:
 
@@ -66,6 +66,10 @@ Once you have tested and finalized your code, you will want to freeze your Pytho
 You will then make sure to add, commit, and push requirements.txt to your project repository on GitLab so that I can access it.
 
 _As a note, I will be running and grading your code from my device, which runs Mac OS 15.6.1 and uses the Apple M4 chip. If you use a third party API, you need to make sure that I will not have any issues running or installing the third party packages._
+
+### Some pre-approved third-party APIs
+
+- [PyGame mixer Sound](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound) This is a great library for adding sound if you would like to try that. Note that you are only pre-approved to use the mixer class for audio from the PyGame package.
 
 ## README Requirements
 One of the few specifications in this project (besides the fact that it needs to be on GitLab and accessible to the isntructor and course assistant) is a README.
@@ -152,3 +156,6 @@ One of the best ways to make your code better is to have others play with it and
 *Ask friends to test:* Having someone who is not familiar with this project test it out as a user can give you a lot of insight into bugs, common input/user interface challenges. 
 
 *Ask a peer to do a code walk through:* **If you choose this option, please provide credit in your README to the peer who did a walkthrough with you.** Ask someone from this class to walk through your code and give you feedback on readability and style.   
+
+## General Inspiration
+I compiled a list of very well-done choose-you-own adventure style games/stories for you to look at to give some inspiration. You can find these in the reference section of the course website.
