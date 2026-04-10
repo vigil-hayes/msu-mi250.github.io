@@ -13,10 +13,10 @@ You will work with a group of one or two other people to implement a non-trivial
 In addition to the normal check, check plus, check minus grades for participating in class this week, this project will receive a grade
 as the final project for the class. This grade is based on how well the program works and how interesting / creative the program is. This class has not only taught you how to program, but also emphasized how programming is a useful tool for expressing creativity.
 
-The grade for your final project is 10% of your overall grade for the class. Here is a rubric will we use to determine your grade for the project:/project
+The grade for your final project is 20% of your overall grade for the class. Here is a rubric will we use to determine your grade for the project:
 
 
-*Basic necessities* (aka the “Minimum Viable Product”) (80% of grade; 10% each)
+*Basic necessities* (aka the “Minimum Viable Product”) (80% of grade)
 * Program runs (with minimal effort and no run-time errors)
 * Content exists; the program tells a story that is sufficiently complex to be interesting. Minimum tree depth of 4 and minimum tree width of 3--but note that these are _minimums_. If you meet these minimums, but your story is not interesting, you will not necessarily receive full points. 
 * Program is interactive and gives the user multiple paths to follow (those choices matter for the story).
@@ -46,7 +46,17 @@ The remaining 20% of the grade is for going beyond the minimum and making an int
 
 Each of these categories can be awarded 0-10 percentage points based on how good / interesting it is. Maximum grade is 100%. Generally, if one of these things is there, it is worth 2%. If it is good, then 8%, and if it is really great, then 10%. Plan to incorprate at least 2 things which go beyond the minimum, and play to your strengths. 
 
-You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Shiyu (xiangsh2) and Dr. Vigil-Hayes (vigilhay) as *Maintainers* on your GitLab repo, or else we won't be able to grade your project!
+You will turn your project in the same way as you have been all semester - put the code in Gitlab, and turn in screenshots on D2L. Make sure to add both Jay (caohuaji) and Dr. Vigil-Hayes (vigilhay) as *Maintainers* on your GitLab repo, or else we won't be able to grade your project!
+
+## Note on PMP
+The key to a complete PMP is to really nail down your specific objectives. A good rule of thumb is that every push to the repository should map to one specific objective. I would guess that a to be in the right neighborhood of correct scope, your project should require around 30 specific objectives.
+
+Once you have the specific objectives, you can map all of these to success criteria. How do you know that you have successfully completed each specific objective? Again--this will likely turn into a huge table. If you want, you can use Google Sheets or something to keep track of the objectives and how you will evaluate success and then add insert a PNG screenshot of the sheet into the pmp.md file. 
+
+Each specific objective should also map to an Issue in the GitLab Issue tracking system and you should be using the Issue board to allocate and coordinate tasks amongst team members. Since this is the first big project that you are doing that may really require this type of coordination, please feel free to ask questions in class or during office hours about the logistics of Issue tracking.
+
+### Mutual accountability is a side benefit of GitLab Issue Tracking
+One of the great things about GitLab and Issue tracking is that I can see the entirety of the history of your project--including who from your team is making substantial commits and pushes and who is responsible for different issues and how long it's taking them to complete issues. If for some reason a member of your team is not pulling their weight, I (and your team) will be able to see this **very easily**  if your team is using Issue tracking. 
 
 ## Note on third party APIs
 Third party APIs (e.g., requests) are not required for this project. However, if you would like to use a third party API (not turtle or standard Python libraries), you **MUST** do the following:
@@ -78,6 +88,7 @@ Your README **MUST**:
 
 * Include an overview of the what the program is supposed to do (1 short paragraph is fine!).
 * Include a header section called "To Run" (use `## To Run`) that includes step by step directions for how to start the program, how to navigate in the program, how to quit the program.
+* Include attribution to any artwork, images, sounds, or other media assets you use in your code. You may also use a separate CREDITS.md file to tack this specifically if you would like.
 
 ## Advice
 
