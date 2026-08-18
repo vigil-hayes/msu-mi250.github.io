@@ -14,3 +14,4 @@ gem "jekyll", "~> 4.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "just-the-docs", "~> 0.4.0rc3"
+gem 'jemoji'
